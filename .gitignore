@@ -1,0 +1,6 @@
+
+# .gitignore
+.env
+.env.local
+*.log
+__pycache__/
