@@ -240,34 +240,34 @@ def score_buy_signal(
         trend_score -= 5
         reasons.append(f'Moderately extended above 50 SMA')
 
-    score += min(trend_score, 50)
-    details['trend_score'] = min(trend_score, 50)
+    score += min(trend_score, 40)  # Changed from 50 to 40
+    details['trend_score'] = min(trend_score, 40)
 
     # ========================================================================
-    # 2. FUNDAMENTALS (30 points) - MOST IMPORTANT FOR POSITION TRADING
+    # 2. FUNDAMENTALS (40 points) - Equal weight with technical
     # ========================================================================
     fundamental_score = 0
 
     if fundamentals:
-        # A) Growth trends (15 points) - LINEAR based on actual YoY %
+        # A) Growth trends (20 points) - LINEAR based on actual YoY %
         # Get actual growth rates if available (None = missing data)
         revenue_yoy = fundamentals.get('revenue_yoy_change')  # None or float
         eps_yoy = fundamentals.get('eps_yoy_change')  # None or float
 
-        # Revenue component (7.5 pts) - Linear from -20% to +40%
-        # Formula: ((revenue_yoy + 20) / 60) * 7.5, capped at 7.5
+        # Revenue component (10 pts) - Linear from -20% to +40%
+        # Formula: ((revenue_yoy + 20) / 60) * 10, capped at 10
         if revenue_yoy is not None:
-            revenue_score = min(7.5, max(0, ((revenue_yoy + 20) / 60.0) * 7.5))
+            revenue_score = min(10, max(0, ((revenue_yoy + 20) / 60.0) * 10))
         else:
-            revenue_score = 3.75  # Neutral if missing (50% of max)
+            revenue_score = 5  # Neutral if missing (50% of max)
         fundamental_score += revenue_score
 
-        # EPS component (7.5 pts) - Linear from -20% to +60%
-        # Formula: ((eps_yoy + 20) / 80) * 7.5, capped at 7.5
+        # EPS component (10 pts) - Linear from -20% to +60%
+        # Formula: ((eps_yoy + 20) / 80) * 10, capped at 10
         if eps_yoy is not None:
-            eps_score = min(7.5, max(0, ((eps_yoy + 20) / 80.0) * 7.5))
+            eps_score = min(10, max(0, ((eps_yoy + 20) / 80.0) * 10))
         else:
-            eps_score = 3.75  # Neutral if missing (50% of max)
+            eps_score = 5  # Neutral if missing (50% of max)
         fundamental_score += eps_score
 
         # Describe the growth (handle None values)
@@ -314,14 +314,14 @@ def score_buy_signal(
             fundamental_score += inventory_score
             # Don't add to reasons - many companies don't have inventory
 
-        # C) Profit margins expansion (5 points bonus)
+        # C) Profit margins expansion (10 points bonus)
         # TODO: Add when margin data available
-        fundamental_score += 5  # Placeholder - assume neutral
+        fundamental_score += 10  # Placeholder - assume neutral
 
         details['fundamental_score'] = fundamental_score
     else:
         # No fundamentals available - neutral score
-        fundamental_score = 15  # Half of 30
+        fundamental_score = 20  # Half of 40
         reasons.append('No fundamental data available')
         details['fundamental_score'] = fundamental_score
 
@@ -386,43 +386,18 @@ def score_buy_signal(
     score += volume_score
 
     # ========================================================================
-    # 4. RELATIVE STRENGTH (10 points) - GRADUAL SLOPE
+    # 4. RELATIVE STRENGTH - REMOVED (redundant with technical trend)
     # ========================================================================
-    rs_score = 0
+    # RS is highly correlated with trend structure (SMAs, breakouts, etc)
+    # Removing to avoid double-counting technical strength
+    # Still calculate for informational purposes but don't score it
 
-    # Check if RS series has valid data
     if len(rs_series) >= 20 and not rs_series.isna().all():
-        # Use 20-day RS slope for swing trading
         rs_slope = calculate_rs_slope(rs_series, 20)
-
-        # LINEAR scoring - Formula: ((rs_slope + 1.0) / 5.0) * 10, range 0-10
-        # -1.0 slope = 0 pts (underperforming badly)
-        # 0 slope = 2.5 pts (matching market exactly)
-        # 2.0 slope = 7.5 pts (strong outperformance)
-        # 4.0+ slope = 10 pts (exceptional)
-        rs_score = min(10, max(0, ((rs_slope + 1.0) / 5.0) * 10))
-
-        if rs_slope >= 3.0:
-            reasons.append(f'Excellent RS: {rs_slope:.2f} (strong outperformance)')
-        elif rs_slope >= 1.5:
-            reasons.append(f'Strong RS: {rs_slope:.2f}')
-        elif rs_slope >= 0.5:
-            reasons.append(f'Good RS: {rs_slope:.2f}')
-        elif rs_slope >= 0:
-            reasons.append(f'Moderate RS: {rs_slope:.2f}')
-        elif rs_slope >= -0.5:
-            reasons.append(f'Weak RS: {rs_slope:.2f} (slight underperformance)')
-        else:
-            reasons.append(f'⚠ Negative RS: {rs_slope:.2f} (underperforming SPY)')
-
         details['rs_slope'] = round(rs_slope, 3)
-        details['rs_score'] = round(rs_score, 2)
+        # Don't add to score - just track for reference
     else:
-        rs_score = 5  # Neutral if insufficient data
-        details['rs_score'] = rs_score
-        reasons.append('RS data insufficient')
-
-    score += rs_score
+        details['rs_slope'] = None
 
     # ========================================================================
     # 5. STOP LOSS CALCULATION (not scored, but critical for risk mgmt)
@@ -532,8 +507,8 @@ def score_buy_signal(
     score += entry_score
     details['entry_score'] = round(entry_score, 2)
 
-    # Final score (now out of 110 with new components)
-    final_score = max(0, min(score, 110))
+    # Final score (out of 100: 40 technical + 40 fundamental + 10 volume + 5 R/R + 5 entry)
+    final_score = max(0, min(score, 100))
 
     # Determine if this is a valid buy signal (>= 60)
     is_buy = final_score >= 60

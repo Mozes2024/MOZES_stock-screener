@@ -80,7 +80,7 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
     if buy_signals:
         for i, signal in enumerate(buy_signals[:50], 1):
             output.append(f"\n{'#'*80}")
-            output.append(f"BUY #{i}: {signal['ticker']} | Score: {signal['score']}/110")
+            output.append(f"BUY #{i}: {signal['ticker']} | Score: {signal['score']}/100")
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']}")
             output.append(f"Entry Quality: {signal.get('entry_quality', 'Unknown')}")
