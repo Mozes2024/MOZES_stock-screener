@@ -55,7 +55,12 @@ def fetch_quarterly_financials(ticker: str) -> Dict[str, any]:
             if len(revenues) >= 2:
                 latest_rev = revenues.iloc[-1]
                 prev_rev = revenues.iloc[-2]
-                result['revenue_qoq_change'] = ((latest_rev - prev_rev) / prev_rev * 100) if prev_rev != 0 else 0
+                # Check for NaN values - treat as missing data
+                import math
+                if not math.isnan(latest_rev) and not math.isnan(prev_rev) and prev_rev != 0 and latest_rev != 0:
+                    result['revenue_qoq_change'] = ((latest_rev - prev_rev) / prev_rev * 100)
+                else:
+                    result['revenue_qoq_change'] = None
 
             if len(revenues) >= 5:
                 latest_rev = revenues.iloc[-1]
@@ -81,10 +86,12 @@ def fetch_quarterly_financials(ticker: str) -> Dict[str, any]:
             if len(eps_values) >= 2:
                 latest_eps = eps_values.iloc[-1]
                 prev_eps = eps_values.iloc[-2]
-                if prev_eps != 0:
+                # Check for NaN values - treat as missing data
+                import math
+                if not math.isnan(latest_eps) and not math.isnan(prev_eps) and prev_eps != 0 and latest_eps != 0:
                     result['eps_qoq_change'] = ((latest_eps - prev_eps) / abs(prev_eps) * 100)
                 else:
-                    result['eps_qoq_change'] = 0
+                    result['eps_qoq_change'] = None
 
             if len(eps_values) >= 5:
                 latest_eps = eps_values.iloc[-1]
@@ -171,20 +178,22 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
 
     # Revenue analysis with QoQ trend
     yoy = quarterly_data.get('revenue_yoy_change')
-    qoq = quarterly_data.get('revenue_qoq_change', 0)
+    qoq = quarterly_data.get('revenue_qoq_change')
 
     # Get quarterly revenue values for trend
     qrev = quarterly_data.get('quarterly_revenue', {})
 
     if yoy is not None:
+        # Handle QoQ being None (missing data)
+        qoq_str = f"{qoq:+.1f}%" if qoq is not None else "N/A"
         if yoy > 20:
-            snapshot += f"✓ Revenue: ACCELERATING strongly (YoY: +{yoy:.1f}%, QoQ: +{qoq:.1f}%)\n"
+            snapshot += f"✓ Revenue: ACCELERATING strongly (YoY: +{yoy:.1f}%, QoQ: {qoq_str})\n"
         elif yoy > 10:
-            snapshot += f"✓ Revenue: Growing well (YoY: +{yoy:.1f}%, QoQ: +{qoq:.1f}%)\n"
+            snapshot += f"✓ Revenue: Growing well (YoY: +{yoy:.1f}%, QoQ: {qoq_str})\n"
         elif yoy > 0:
-            snapshot += f"• Revenue: Modest growth (YoY: +{yoy:.1f}%, QoQ: +{qoq:.1f}%)\n"
+            snapshot += f"• Revenue: Modest growth (YoY: +{yoy:.1f}%, QoQ: {qoq_str})\n"
         else:
-            snapshot += f"✗ Revenue: DETERIORATING (YoY: {yoy:.1f}%, QoQ: {qoq:.1f}%)\n"
+            snapshot += f"✗ Revenue: DETERIORATING (YoY: {yoy:.1f}%, QoQ: {qoq_str})\n"
     else:
         snapshot += "• Revenue: Data not available\n"
 
@@ -208,20 +217,22 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
 
     # EPS analysis with QoQ trend
     eps_yoy = quarterly_data.get('eps_yoy_change')
-    eps_qoq = quarterly_data.get('eps_qoq_change', 0)
+    eps_qoq = quarterly_data.get('eps_qoq_change')
 
     # Get quarterly EPS values for trend
     qeps = quarterly_data.get('quarterly_eps', {})
 
     if eps_yoy is not None:
+        # Handle QoQ being None (missing data)
+        eps_qoq_str = f"{eps_qoq:+.1f}%" if eps_qoq is not None else "N/A"
         if eps_yoy > 25:
-            snapshot += f"✓ EPS: STRONG growth (YoY: +{eps_yoy:.1f}%, QoQ: +{eps_qoq:.1f}%)\n"
+            snapshot += f"✓ EPS: STRONG growth (YoY: +{eps_yoy:.1f}%, QoQ: {eps_qoq_str})\n"
         elif eps_yoy > 10:
-            snapshot += f"✓ EPS: Growing (YoY: +{eps_yoy:.1f}%, QoQ: +{eps_qoq:.1f}%)\n"
+            snapshot += f"✓ EPS: Growing (YoY: +{eps_yoy:.1f}%, QoQ: {eps_qoq_str})\n"
         elif eps_yoy > 0:
-            snapshot += f"• EPS: Slight growth (YoY: +{eps_yoy:.1f}%, QoQ: +{eps_qoq:.1f}%)\n"
+            snapshot += f"• EPS: Slight growth (YoY: +{eps_yoy:.1f}%, QoQ: {eps_qoq_str})\n"
         else:
-            snapshot += f"✗ EPS: DECLINING (YoY: {eps_yoy:.1f}%, QoQ: {eps_qoq:.1f}%)\n"
+            snapshot += f"✗ EPS: DECLINING (YoY: {eps_yoy:.1f}%, QoQ: {eps_qoq_str})\n"
     else:
         snapshot += "• EPS: Data not available\n"
 
