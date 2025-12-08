@@ -84,6 +84,10 @@ class OptimizedBatchProcessor:
         self.rate_limit_lock = threading.Lock()
         self.last_request_time = 0.0
 
+        # Error tracking by type
+        self.error_types = {}  # {error_type: count}
+        self.error_examples = {}  # {error_type: example_ticker}
+
         logger.info(f"OptimizedBatchProcessor initialized")
         logger.info(f"Workers: {max_workers}, Delay: {rate_limit_delay}s")
         logger.info(f"Effective rate: ~{effective_tps:.1f} TPS")
@@ -251,9 +255,22 @@ class OptimizedBatchProcessor:
             self.consecutive_errors += 1
             self.last_error_time = time.time()
 
+            # Track error type
+            error_type = type(e).__name__
+            error_msg = str(e)
+
+            if error_type not in self.error_types:
+                self.error_types[error_type] = 0
+                self.error_examples[error_type] = (ticker, error_msg)
+
+            self.error_types[error_type] += 1
+
+            # Log first occurrence of each error type
+            if self.error_types[error_type] == 1:
+                logger.error(f"[NEW ERROR TYPE] {error_type} on {ticker}: {error_msg}")
+
             # Check if it's a rate limit error
-            error_msg = str(e).lower()
-            if '429' in error_msg or 'rate limit' in error_msg or 'too many requests' in error_msg:
+            if '429' in error_msg.lower() or 'rate limit' in error_msg.lower() or 'too many requests' in error_msg.lower():
                 logger.warning(f"Rate limit hit on {ticker}: {e}")
 
                 # Adaptive backoff - increase delay
@@ -392,6 +409,18 @@ class OptimizedBatchProcessor:
         logger.info(f"Analyzed: {len(all_analyses)} stocks")
         logger.info(f"Actual rate: {actual_rate:.2f} TPS")
         logger.info(f"Error rate: {self.error_count / max(self.total_requests, 1) * 100:.1f}%")
+
+        # Log error breakdown
+        if self.error_types:
+            logger.info("-"*60)
+            logger.info("ERROR BREAKDOWN:")
+            sorted_errors = sorted(self.error_types.items(), key=lambda x: x[1], reverse=True)
+            for error_type, count in sorted_errors:
+                pct = (count / self.error_count * 100) if self.error_count > 0 else 0
+                example_ticker, example_msg = self.error_examples[error_type]
+                logger.info(f"  {error_type}: {count} ({pct:.1f}%)")
+                logger.info(f"    Example: {example_ticker} - {example_msg[:100]}")
+
         logger.info("="*60)
 
         return {
