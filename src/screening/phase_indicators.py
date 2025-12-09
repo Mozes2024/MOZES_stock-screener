@@ -83,6 +83,21 @@ def calculate_relative_strength(stock_prices: pd.Series, spy_prices: pd.Series,
     if len(stock_prices) == 0 or len(spy_prices) == 0:
         return pd.Series([np.nan] * len(stock_prices), index=stock_prices.index)
 
+    # Normalize indexes to timezone-naive to avoid comparison errors
+    # yfinance sometimes returns timezone-aware data (America/New_York) and sometimes naive
+    stock_index = stock_prices.index
+    spy_index = spy_prices.index
+
+    if hasattr(stock_index, 'tz') and stock_index.tz is not None:
+        stock_index = stock_index.tz_localize(None)
+        stock_prices = stock_prices.copy()
+        stock_prices.index = stock_index
+
+    if hasattr(spy_index, 'tz') and spy_index.tz is not None:
+        spy_index = spy_index.tz_localize(None)
+        spy_prices = spy_prices.copy()
+        spy_prices.index = spy_index
+
     # Align the series by DATE (not position) - stocks and SPY trade on same days
     # Use reindex to align SPY to stock dates, then forward fill any gaps
     spy_aligned = spy_prices.reindex(stock_prices.index, method='ffill')
