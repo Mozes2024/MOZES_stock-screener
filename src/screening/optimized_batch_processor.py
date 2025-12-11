@@ -22,7 +22,7 @@ import yfinance as yf
 from src.data.fetcher import YahooFinanceFetcher
 from src.data.fundamentals_fetcher import fetch_quarterly_financials, analyze_fundamentals_for_signal
 from src.data.git_storage_fetcher import GitStorageFetcher
-from ..screening.phase_indicators import classify_phase, calculate_relative_strength
+from ..screening.phase_indicators import classify_phase, calculate_relative_strength, detect_vcp_pattern
 
 logging.basicConfig(
     level=logging.INFO,
@@ -281,6 +281,12 @@ class OptimizedBatchProcessor:
                 period=63
             )
 
+            # VCP pattern detection (only for Phase 1/2 - base building or breakout)
+            vcp_data = {}
+            if phase in [1, 2]:
+                vcp_data = detect_vcp_pattern(price_data, current_price, phase_info)
+                logger.debug(f"{ticker}: VCP analysis - {vcp_data.get('pattern_details', 'N/A')}")
+
             # Fundamentals (only for Phase 1/2)
             quarterly_data = {}
             fundamental_analysis = {}
@@ -300,6 +306,7 @@ class OptimizedBatchProcessor:
                 'avg_volume': avg_volume,
                 'phase_info': phase_info,
                 'rs_series': rs_series,
+                'vcp_data': vcp_data,  # Added VCP analysis
                 'quarterly_data': quarterly_data,
                 'fundamental_analysis': fundamental_analysis
             }

@@ -162,6 +162,25 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
                     vol_emoji = "🔴"  # Low volume
                 output.append(f"{vol_emoji} Volume: {vol_ratio:.1f}x")
 
+            # VCP pattern details if detected
+            vcp_data = details.get('vcp_data')
+            if vcp_data:
+                vcp_quality = vcp_data.get('quality', 0)
+                contractions = vcp_data.get('contractions', 0)
+                pattern = vcp_data.get('pattern', 'N/A')
+
+                if vcp_quality >= 80:
+                    vcp_emoji = "⭐"  # Exceptional VCP
+                elif vcp_quality >= 60:
+                    vcp_emoji = "🟢"  # Good VCP
+                elif vcp_quality >= 50:
+                    vcp_emoji = "🟡"  # Marginal VCP
+                else:
+                    vcp_emoji = "🟡"  # Partial pattern
+
+                if vcp_quality >= 50:
+                    output.append(f"{vcp_emoji} VCP: {pattern} (quality: {vcp_quality:.0f}/100)")
+
             output.append("\nKey Reasons:")
             for reason in signal['reasons'][:7]:  # Show 7 instead of 5
                 output.append(f"  • {reason}")
@@ -355,7 +374,8 @@ def main():
                         current_price=analysis['current_price'],
                         phase_info=analysis['phase_info'],
                         rs_series=analysis['rs_series'],
-                        fundamentals=analysis.get('quarterly_data')  # Pass raw quarterly data, not analyzed
+                        fundamentals=analysis.get('quarterly_data'),  # Pass raw quarterly data, not analyzed
+                        vcp_data=analysis.get('vcp_data')  # Added VCP data
                     )
                     if signal['is_buy']:
                         # Use FMP for enhanced snapshot if requested and available

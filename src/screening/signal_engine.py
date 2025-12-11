@@ -99,19 +99,21 @@ def score_buy_signal(
     current_price: float,
     phase_info: Dict,
     rs_series: pd.Series,
-    fundamentals: Optional[Dict] = None
+    fundamentals: Optional[Dict] = None,
+    vcp_data: Optional[Dict] = None
 ) -> Dict[str, any]:
     """Score a buy signal for swing/position trading (NOT day trading).
 
     Based on Weinstein/O'Neil/Minervini Stage 2 methodology with gradual scoring.
 
-    Scoring Components (0-110):
+    Scoring Components (0-115):
     - Trend structure/Stage quality: 40 points
     - Fundamentals: 40 points (growth, margins, inventory)
     - Relative Strength: 10 points (market-relative performance)
     - Volume behavior: 10 points (directional context matters!)
     - Risk/Reward: 5 points
     - Entry quality: 5 points
+    - VCP pattern bonus: +5 points (if valid VCP detected)
 
     Threshold: >= 70 for signals
 
@@ -122,6 +124,7 @@ def score_buy_signal(
         phase_info: Phase classification
         rs_series: Relative strength series
         fundamentals: Optional fundamental analysis
+        vcp_data: Optional VCP pattern analysis
 
     Returns:
         Dict with buy signal score and details
@@ -214,11 +217,17 @@ def score_buy_signal(
     # At this point, we're guaranteed to be in Phase 2 (checked above)
     # Minervini only buys confirmed Stage 2 stocks
 
-    # B) Breakout detection (10 points)
-    breakout_info = detect_breakout(price_data, current_price, phase_info)
+    # B) Breakout detection (10 points) - Enhanced with VCP
+    breakout_info = detect_breakout(price_data, current_price, phase_info, vcp_data)
     if breakout_info['is_breakout']:
         trend_score += 10
-        reasons.append(f"Breakout: {breakout_info['breakout_type']}")
+        breakout_type = breakout_info['breakout_type']
+        volume_confirmed = breakout_info.get('volume_confirmed', False)
+
+        if volume_confirmed:
+            reasons.append(f"🟢 {breakout_type} (volume confirmed)")
+        else:
+            reasons.append(f"🟡 {breakout_type} (low volume)")
         details['breakout'] = breakout_info
 
     # C) Over-extension check (10 points penalty)
@@ -233,59 +242,98 @@ def score_buy_signal(
     details['trend_score'] = min(trend_score, 40)
 
     # ========================================================================
-    # 2. FUNDAMENTALS (40 points) - Equal weight with technical
+    # 2. FUNDAMENTALS (40 points) - EQUAL WEIGHT REVENUE & EPS
+    # Revenue Growth: 15 pts (requires 3Q of >5% QoQ for max score)
+    # EPS Growth: 15 pts (equal importance to revenue)
+    # Inventory: 10 pts (demand indicator)
     # ========================================================================
     fundamental_score = 0
 
     if fundamentals:
-        # A) Growth trends (20 points) - LINEAR based on actual YoY %
-        # Get actual growth rates if available (None = missing data)
-        revenue_yoy = fundamentals.get('revenue_yoy_change')  # None or float
+        # A) Growth trends (30 points total) - EQUAL WEIGHT
+        # Revenue and EPS are equally important (15 pts each)
+
+        # Get quarterly revenue data for trend analysis
+        quarterly_revenue = fundamentals.get('quarterly_revenue', {})
         revenue_qoq = fundamentals.get('revenue_qoq_change')  # None or float
+        revenue_yoy = fundamentals.get('revenue_yoy_change')  # None or float
         eps_yoy = fundamentals.get('eps_yoy_change')  # None or float
 
-        # Revenue component (10 pts) - Linear from -20% to +40%
-        # Formula: ((revenue_yoy + 20) / 60) * 10, capped at 10
-        if revenue_yoy is not None:
-            revenue_score = min(10, max(0, ((revenue_yoy + 20) / 60.0) * 10))
+        # Calculate 3-quarter revenue trend using LINEAR SCORING
+        revenue_trend_score = 0
+
+        if quarterly_revenue and len(quarterly_revenue) >= 4:
+            # Get last 4 quarters of revenue (sorted by date)
+            import pandas as pd
+            rev_series = pd.Series(quarterly_revenue).sort_index()
+
+            if len(rev_series) >= 4:
+                # Calculate QoQ changes for last 3 quarters
+                q1_growth = ((rev_series.iloc[-1] - rev_series.iloc[-2]) / rev_series.iloc[-2] * 100) if rev_series.iloc[-2] != 0 else 0
+                q2_growth = ((rev_series.iloc[-2] - rev_series.iloc[-3]) / rev_series.iloc[-3] * 100) if rev_series.iloc[-3] != 0 else 0
+                q3_growth = ((rev_series.iloc[-3] - rev_series.iloc[-4]) / rev_series.iloc[-4] * 100) if rev_series.iloc[-4] != 0 else 0
+
+                # Calculate average QoQ growth across 3 quarters
+                avg_qoq_growth = (q1_growth + q2_growth + q3_growth) / 3.0
+
+                # LINEAR SCALE: Map avg QoQ growth to 0-15 points
+                # 0% or negative → 0 pts (no growth = no points)
+                # +5% avg → 7.5 pts (your minimum threshold for good)
+                # +10% avg → 15 pts (excellent - capped at max)
+                # Formula: (avg_qoq / 10) * 15, capped at 0-15
+                # Only positive growth gets points
+                if avg_qoq_growth <= 0:
+                    revenue_trend_score = 0
+                else:
+                    revenue_trend_score = min(15, (avg_qoq_growth / 10.0) * 15)
+
+                # Add strong penalty if latest quarter is declining >2%
+                if q1_growth < -2:
+                    fundamental_score -= 15  # Penalty for recent decline
+                    reasons.append(f'🔴 Revenue: Recent decline {q1_growth:.1f}% QoQ (3Q avg: {avg_qoq_growth:.1f}%, PENALTY)')
+                # Color-code based on average and show progression
+                elif avg_qoq_growth >= 5:
+                    reasons.append(f'🟢 Revenue: 3Q avg {avg_qoq_growth:.1f}% QoQ ({q3_growth:.1f}% → {q2_growth:.1f}% → {q1_growth:.1f}%)')
+                elif avg_qoq_growth >= 0:
+                    reasons.append(f'🟡 Revenue: 3Q avg {avg_qoq_growth:.1f}% QoQ ({q3_growth:.1f}% → {q2_growth:.1f}% → {q1_growth:.1f}%)')
+                else:
+                    reasons.append(f'🔴 Revenue: 3Q avg {avg_qoq_growth:.1f}% QoQ ({q3_growth:.1f}% → {q2_growth:.1f}% → {q1_growth:.1f}%)')
         else:
-            revenue_score = 5  # Neutral if missing (50% of max)
-        fundamental_score += revenue_score
-
-        # Check for sequential revenue decline (QoQ) - STRONG PENALTY
-        # If revenue declined >2% from previous quarter, apply 15 point penalty
-        revenue_declining = False
-        if revenue_qoq is not None and revenue_qoq < -2:
-            revenue_declining = True
-            fundamental_score -= 15  # Strong penalty (reduces buy signal strength)
-            reasons.append(f'⚠️ Revenue declining {revenue_qoq:.1f}% QoQ (strong penalty)')
-
-        # EPS component (10 pts) - Linear from -20% to +60%
-        # Formula: ((eps_yoy + 20) / 80) * 10, capped at 10
-        if eps_yoy is not None:
-            eps_score = min(10, max(0, ((eps_yoy + 20) / 80.0) * 10))
-        else:
-            eps_score = 5  # Neutral if missing (50% of max)
-        fundamental_score += eps_score
-
-        # Describe the growth (handle None values)
-        if revenue_yoy is not None and eps_yoy is not None:
-            if revenue_yoy > 25 and eps_yoy > 40:
-                reasons.append(f'✓ Accelerating growth (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
-            elif revenue_yoy > 10 and eps_yoy > 15:
-                reasons.append(f'Strong growth (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
-            elif revenue_yoy > 0 and eps_yoy > 0:
-                reasons.append(f'Positive growth (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
-            elif revenue_yoy > -5 and eps_yoy > -5:
-                reasons.append(f'Growth stalling (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
+            # No quarterly data - use YoY if available
+            if revenue_yoy is not None and revenue_yoy != 0:
+                # Same logic: 0% or negative = 0 pts, +20% YoY = 15 pts (max)
+                if revenue_yoy <= 0:
+                    revenue_trend_score = 0
+                    reasons.append(f'🔴 Revenue: {revenue_yoy:.0f}% YoY declining (no QoQ data)')
+                else:
+                    revenue_trend_score = min(15, (revenue_yoy / 20.0) * 15)
+                    if revenue_yoy >= 10:
+                        reasons.append(f'🟢 Revenue: {revenue_yoy:.0f}% YoY (no QoQ data)')
+                    else:
+                        reasons.append(f'🟡 Revenue: {revenue_yoy:.0f}% YoY (no QoQ data)')
             else:
-                reasons.append(f'⚠ Declining (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
-        elif revenue_yoy is not None:
-            reasons.append(f'Revenue trend: {revenue_yoy:+.0f}% YoY (EPS data missing)')
-        elif eps_yoy is not None:
-            reasons.append(f'EPS trend: {eps_yoy:+.0f}% YoY (Revenue data missing)')
+                revenue_trend_score = 0  # No data = 0 points
+                reasons.append('🔴 Revenue data unavailable')
+
+        fundamental_score += revenue_trend_score
+
+        # EPS component (15 pts) - Equal importance to revenue
+        # Formula: ((eps_yoy + 20) / 80) * 15, capped at 15
+        # -20% EPS → 0 pts, 0% → 3.75 pts, +20% → 7.5 pts, +60% → 15 pts (max)
+        if eps_yoy is not None and eps_yoy != 0:
+            eps_score = min(15, max(0, ((eps_yoy + 20) / 80.0) * 15))
+
+            if eps_yoy >= 50:
+                reasons.append(f'🟢 EPS: +{eps_yoy:.0f}% YoY (strong earnings)')
+            elif eps_yoy >= 20:
+                reasons.append(f'🟢 EPS: +{eps_yoy:.0f}% YoY')
+            elif eps_yoy >= 0:
+                reasons.append(f'🟡 EPS: +{eps_yoy:.0f}% YoY')
+            else:
+                reasons.append(f'🔴 EPS: {eps_yoy:.0f}% YoY')
         else:
-            reasons.append('Growth data unavailable (neutral score)')
+            eps_score = 7.5  # Neutral if missing (half of 15)
+        fundamental_score += eps_score
 
         # B) Inventory signal (10 points) - LINEAR based on actual QoQ %
         inv_qoq_change = fundamentals.get('inventory_qoq_change')  # None or float
@@ -478,36 +526,58 @@ def score_buy_signal(
     details['rr_score'] = round(rr_score, 2)
 
     # ========================================================================
-    # 7. ENTRY QUALITY (5 points) - Don't chase extended moves!
+    # 7. ENTRY QUALITY (5 points) - Minervini Pivot Point Methodology
     # ========================================================================
+    # Minervini's ideal entry is the PIVOT POINT - a breakout from a proper base
+    # near 52-week highs on expanding volume, NOT just pullbacks to 50 SMA
     entry_score = 0
 
-    # A) Not over-extended from 50 SMA (3 pts)
-    # Formula: max(0, 3 - (distance_50 / 10) * 3), range 0-3
-    # 0% from 50 SMA = 3 pts (at support)
-    # 10%+ from 50 SMA = 0 pts (extended)
-    extension_score = max(0, 3 - (max(0, distance_50) / 10.0) * 3)
-    entry_score += extension_score
+    # Calculate proximity to 52-week high (key Minervini metric)
+    # phase_info contains 'week_52_high' from phase classification
+    week_52_high = phase_info.get('week_52_high', current_price)
+    distance_from_52w_high = ((current_price - week_52_high) / week_52_high * 100) if week_52_high > 0 else -100
 
-    # B) Near logical entry point (2 pts) - LINEAR
     if phase == 2:
-        # Stage 2: Best entry near 50 SMA (0-5% above) = 2 pts, scaling down to 15% = 0 pts
-        # Formula: max(0, 2 - (distance_50 / 15) * 2), range 0-2
-        # 0% above 50 SMA = 2 pts (ideal pullback to support)
-        # 5% above 50 SMA = 1.33 pts (still good)
-        # 10% above 50 SMA = 0.67 pts (getting extended)
-        # 15%+ above 50 SMA = 0 pts (too extended)
-        proximity_score = max(0, 2 - (max(0, distance_50) / 15.0) * 2)
-        entry_score += proximity_score
+        # Stage 2 uptrend - score based on PIVOT POINT criteria
+        # Minervini's rule: Within 25% of 52-week high is ideal
+        # The CLOSER to 52-week high, the BETTER (indicates leadership)
 
-        if distance_50 <= 3:
-            reasons.append(f'✓ Excellent entry zone: {distance_50:.1f}% above 50 SMA (near support)')
-        elif distance_50 <= 7:
-            reasons.append(f'Good entry zone: {distance_50:.1f}% above 50 SMA')
-        elif distance_50 <= 12:
-            reasons.append(f'Moderate entry: {distance_50:.1f}% above 50 SMA (getting extended)')
+        # Primary factor: Proximity to 52-week high (3 pts)
+        if distance_from_52w_high >= -5:
+            # At or near 52-week high (ideal pivot breakout zone)
+            high_proximity_score = 3
+            reasons.append(f'🟢 At 52W high: {abs(distance_from_52w_high):.1f}% from high (pivot zone)')
+        elif distance_from_52w_high >= -15:
+            # Within 15% of high (good - near pivot zone)
+            # Linear from 3 pts (at -5%) to 2 pts (at -15%)
+            high_proximity_score = 3 - ((abs(distance_from_52w_high) - 5) / 10.0) * 1
+            reasons.append(f'🟢 Near 52W high: {abs(distance_from_52w_high):.1f}% from high')
+        elif distance_from_52w_high >= -25:
+            # Within 25% of high (acceptable - Minervini's threshold)
+            # Linear from 2 pts (at -15%) to 1 pt (at -25%)
+            high_proximity_score = 2 - ((abs(distance_from_52w_high) - 15) / 10.0) * 1
+            reasons.append(f'🟡 Within 25% of 52W high: {abs(distance_from_52w_high):.1f}% from high')
         else:
-            reasons.append(f'⚠ Extended entry: {distance_50:.1f}% above 50 SMA (wait for pullback)')
+            # More than 25% below high (lagging, not leading)
+            high_proximity_score = 0
+            reasons.append(f'🔴 Far from 52W high: {abs(distance_from_52w_high):.1f}% below (not a leader)')
+
+        entry_score += high_proximity_score
+
+        # Secondary factor: Distance from 50 SMA (2 pts)
+        # Must be ABOVE 50 SMA, but distance less critical for pivot breakouts
+        if distance_50 > 0 and distance_50 <= 20:
+            # Above 50 SMA and not overextended (good)
+            # Linear from 2 pts (at 0%) to 1 pt (at 20%)
+            sma_score = 2 - (distance_50 / 20.0) * 1
+        elif distance_50 > 20:
+            # More than 20% above 50 SMA (getting extended)
+            sma_score = max(0, 1 - ((distance_50 - 20) / 15.0) * 1)
+        else:
+            # Below 50 SMA (not in proper Stage 2)
+            sma_score = 0
+
+        entry_score += sma_score
     else:  # Phase 1
         # Stage 1: Best entry near breakout zone (-3% to +5% from 50 SMA) = 2 pts
         # Formula: max(0, 2 - abs(distance_50 - 1) / 5 * 2), range 0-2
@@ -532,8 +602,52 @@ def score_buy_signal(
     score += entry_score
     details['entry_score'] = round(entry_score, 2)
 
-    # Final score (out of 100: 40 technical + 40 fundamental + 10 volume + 5 R/R + 5 entry)
-    final_score = max(0, min(score, 100))
+    # ========================================================================
+    # 8. VCP PATTERN BONUS (5 points) - Minervini's VCP Methodology
+    # ========================================================================
+    # Valid VCP patterns get bonus points as they indicate institutional accumulation
+    # and high-probability setup formation
+    vcp_bonus = 0
+
+    if vcp_data and vcp_data.get('is_vcp'):
+        # VCP detected - award bonus based on quality
+        vcp_quality = vcp_data.get('vcp_quality', 0)
+
+        if vcp_quality >= 80:
+            # Exceptional VCP (80-100 quality)
+            vcp_bonus = 5
+            reasons.append(f"⭐ VCP pattern: {vcp_data.get('pattern_details', 'N/A')} (quality: {vcp_quality:.0f}/100)")
+        elif vcp_quality >= 60:
+            # Good VCP (60-80 quality)
+            vcp_bonus = 3
+            reasons.append(f"🟢 VCP pattern: {vcp_data.get('pattern_details', 'N/A')} (quality: {vcp_quality:.0f}/100)")
+        else:
+            # Marginal VCP (50-60 quality)
+            vcp_bonus = 1
+            reasons.append(f"🟡 VCP pattern: {vcp_data.get('pattern_details', 'N/A')} (quality: {vcp_quality:.0f}/100)")
+
+        details['vcp_data'] = {
+            'quality': vcp_quality,
+            'contractions': vcp_data.get('contraction_count', 0),
+            'pattern': vcp_data.get('pattern_details', ''),
+            'base_length_weeks': vcp_data.get('base_length_weeks', 0),
+            'volume_ratio': vcp_data.get('breakout_volume_ratio', 0),
+            'quality_factors': vcp_data.get('quality_factors', [])
+        }
+    elif vcp_data and vcp_data.get('contraction_count', 0) > 0:
+        # VCP not valid but some contractions detected
+        reasons.append(f"🟡 Partial pattern: {vcp_data.get('pattern_details', 'N/A')}")
+        details['vcp_data'] = {
+            'quality': vcp_data.get('vcp_quality', 0),
+            'contractions': vcp_data.get('contraction_count', 0),
+            'pattern': vcp_data.get('pattern_details', '')
+        }
+
+    score += vcp_bonus
+    details['vcp_bonus'] = round(vcp_bonus, 2)
+
+    # Final score (out of 105: 40 technical + 40 fundamental + 10 RS + 10 volume + 5 R/R + 5 entry + 5 VCP)
+    final_score = max(0, min(score, 105))
 
     # Determine if this is a valid buy signal (>= 60)
     is_buy = final_score >= 60
@@ -551,7 +665,7 @@ def score_buy_signal(
         'breakout_price': breakout_info.get('breakout_level') if breakout_info['is_breakout'] else None,
         'stop_loss': round(stop_loss, 2) if stop_loss else None,
         'risk_reward_ratio': details.get('risk_reward_ratio', 0),
-        'entry_quality': 'Good' if entry_score >= 4 else 'Extended' if entry_score >= 2 else 'Poor',
+        'entry_quality': 'Good' if entry_score >= 3 else 'Extended' if entry_score >= 1.5 else 'Poor',
         'reasons': reasons,
         'details': details
     }

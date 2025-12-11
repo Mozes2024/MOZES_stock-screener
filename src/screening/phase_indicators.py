@@ -573,14 +573,246 @@ def validate_minervini_trend_template(
     }
 
 
-def detect_breakout(price_data: pd.DataFrame, current_price: float,
-                     phase_info: Dict) -> Dict[str, any]:
-    """Detect if a breakout is occurring.
+def detect_vcp_pattern(price_data: pd.DataFrame, current_price: float,
+                        phase_info: Dict, min_contractions: int = 2,
+                        max_contractions: int = 6) -> Dict[str, any]:
+    """Detect Minervini's Volatility Contraction Pattern (VCP).
+
+    A VCP is characterized by:
+    1. A series of 2-6 progressively tighter consolidations (pullbacks)
+    2. Each pullback is smaller than the previous (volatility contraction)
+    3. Volume dries up during each pullback (accumulation)
+    4. Base forms over 3-65 weeks typically
+    5. Stock should be within 25% of 52-week high
+    6. Breakout occurs on expanding volume (50-100%+ above average)
 
     Args:
         price_data: DataFrame with OHLCV data
         current_price: Current price
         phase_info: Phase classification info
+        min_contractions: Minimum number of contractions (default 2)
+        max_contractions: Maximum number of contractions (default 6)
+
+    Returns:
+        Dict with VCP analysis:
+        - is_vcp: bool
+        - vcp_quality: 0-100 score
+        - contractions: List of contraction details
+        - base_length_weeks: int
+        - breakout_volume_ratio: float
+        - pattern_details: str
+    """
+    if len(price_data) < 60:  # Need at least 3 months of data
+        return {
+            'is_vcp': False,
+            'vcp_quality': 0,
+            'contractions': [],
+            'base_length_weeks': 0,
+            'breakout_volume_ratio': 0.0,
+            'pattern_details': 'Insufficient data'
+        }
+
+    close = price_data['Close']
+    high = price_data['High']
+    low = price_data['Low']
+    volume = price_data.get('Volume', pd.Series([]))
+
+    # 1. Find pullbacks/contractions in the base
+    # Look back up to 65 weeks (325 days) for base formation
+    lookback = min(len(price_data), 325)
+    base_data = price_data.tail(lookback)
+
+    # Find local peaks and troughs (swing highs and lows)
+    contractions = []
+    window = 10  # 10-day window for peak/trough detection
+
+    base_high_prices = base_data['High'].rolling(window=window, center=True).max()
+    base_low_prices = base_data['Low'].rolling(window=window, center=True).min()
+
+    # Identify peaks (swing highs) where high == rolling max
+    peaks = []
+    for i in range(window, len(base_data) - window):
+        if base_data['High'].iloc[i] == base_high_prices.iloc[i]:
+            # Check if it's a true peak (higher than neighbors)
+            if (base_data['High'].iloc[i] > base_data['High'].iloc[i-5:i].max() and
+                base_data['High'].iloc[i] > base_data['High'].iloc[i+1:i+6].max()):
+                peaks.append({
+                    'index': i,
+                    'date': base_data.index[i],
+                    'price': base_data['High'].iloc[i]
+                })
+
+    # Identify troughs (swing lows) where low == rolling min
+    troughs = []
+    for i in range(window, len(base_data) - window):
+        if base_data['Low'].iloc[i] == base_low_prices.iloc[i]:
+            # Check if it's a true trough (lower than neighbors)
+            if (base_data['Low'].iloc[i] < base_data['Low'].iloc[i-5:i].min() and
+                base_data['Low'].iloc[i] < base_data['Low'].iloc[i+1:i+6].min()):
+                troughs.append({
+                    'index': i,
+                    'date': base_data.index[i],
+                    'price': base_data['Low'].iloc[i]
+                })
+
+    # 2. Measure contraction sizes (peak to trough drawdowns)
+    if len(peaks) >= 2 and len(troughs) >= 2:
+        # Match peaks with their subsequent troughs
+        for i, peak in enumerate(peaks[:-1]):  # Skip last peak if incomplete
+            # Find trough after this peak
+            matching_troughs = [t for t in troughs if t['index'] > peak['index']]
+            if matching_troughs:
+                trough = matching_troughs[0]
+
+                # Calculate drawdown percentage
+                drawdown_pct = ((peak['price'] - trough['price']) / peak['price']) * 100
+
+                # Calculate volume during contraction
+                contraction_start_idx = peak['index']
+                contraction_end_idx = trough['index']
+
+                if len(volume) > 0:
+                    avg_volume_before = volume.iloc[:contraction_start_idx].tail(20).mean()
+                    avg_volume_during = volume.iloc[contraction_start_idx:contraction_end_idx].mean()
+                    volume_ratio = avg_volume_during / avg_volume_before if avg_volume_before > 0 else 1.0
+                else:
+                    volume_ratio = 1.0
+
+                # Calculate duration safely
+                try:
+                    duration_days = (trough['date'] - peak['date']).days
+                except (AttributeError, TypeError):
+                    duration_days = 0
+
+                contractions.append({
+                    'number': len(contractions) + 1,
+                    'peak_date': peak['date'],
+                    'trough_date': trough['date'],
+                    'peak_price': peak['price'],
+                    'trough_price': trough['price'],
+                    'drawdown_pct': round(drawdown_pct, 2),
+                    'volume_ratio': round(volume_ratio, 2),
+                    'duration_days': duration_days
+                })
+
+    # 3. Check for volatility contraction (each pullback smaller than previous)
+    is_contracting = False
+    contraction_quality = 0
+
+    if len(contractions) >= min_contractions:
+        # Check if drawdowns are progressively smaller
+        contracting_count = 0
+        for i in range(1, len(contractions)):
+            if contractions[i]['drawdown_pct'] < contractions[i-1]['drawdown_pct']:
+                contracting_count += 1
+
+        # Quality: percentage of contractions that are smaller than previous
+        if len(contractions) > 1:
+            contraction_quality = (contracting_count / (len(contractions) - 1)) * 100
+            is_contracting = contraction_quality >= 50  # At least 50% should be contracting
+
+    # 4. Check volume behavior (should decrease during pullbacks)
+    volume_quality = 0
+    if len(contractions) >= 2:
+        drying_volume_count = sum(1 for c in contractions if c['volume_ratio'] < 1.0)
+        volume_quality = (drying_volume_count / len(contractions)) * 100
+
+    # 5. Calculate base length in weeks
+    if len(contractions) > 0:
+        base_start = contractions[0]['peak_date']
+        base_end = base_data.index[-1]
+        try:
+            base_length_days = (base_end - base_start).days
+            base_length_weeks = base_length_days / 7
+        except (AttributeError, TypeError):
+            base_length_weeks = 0
+    else:
+        base_length_weeks = 0
+
+    # 6. Check breakout volume (current volume vs average)
+    if len(volume) > 20:
+        avg_volume_20d = volume.iloc[-21:-1].mean()
+        current_volume = volume.iloc[-1]
+        breakout_volume_ratio = current_volume / avg_volume_20d if avg_volume_20d > 0 else 1.0
+    else:
+        breakout_volume_ratio = 1.0
+
+    # 7. Check proximity to 52-week high
+    week_52_high = phase_info.get('week_52_high', current_price)
+    distance_from_52w_high = ((week_52_high - current_price) / week_52_high * 100) if week_52_high > 0 else 100
+    near_52w_high = distance_from_52w_high <= 25
+
+    # 8. Calculate overall VCP quality score (0-100)
+    vcp_quality = 0
+    quality_factors = []
+
+    # Factor 1: Number of contractions (20 pts)
+    if len(contractions) >= min_contractions and len(contractions) <= max_contractions:
+        contraction_score = min(20, (len(contractions) / max_contractions) * 20)
+        vcp_quality += contraction_score
+        quality_factors.append(f"{len(contractions)} contractions ({contraction_score:.0f} pts)")
+
+    # Factor 2: Volatility contraction quality (30 pts)
+    vcp_quality += (contraction_quality / 100) * 30
+    quality_factors.append(f"{contraction_quality:.0f}% tightening ({(contraction_quality / 100) * 30:.0f} pts)")
+
+    # Factor 3: Volume drying up (20 pts)
+    vcp_quality += (volume_quality / 100) * 20
+    quality_factors.append(f"{volume_quality:.0f}% volume drying ({(volume_quality / 100) * 20:.0f} pts)")
+
+    # Factor 4: Base length appropriate (10 pts)
+    if 3 <= base_length_weeks <= 65:
+        vcp_quality += 10
+        quality_factors.append(f"{base_length_weeks:.0f}w base (10 pts)")
+
+    # Factor 5: Near 52-week high (20 pts)
+    if near_52w_high:
+        high_proximity_score = max(0, 20 - (distance_from_52w_high / 25 * 20))
+        vcp_quality += high_proximity_score
+        quality_factors.append(f"{distance_from_52w_high:.1f}% from 52W high ({high_proximity_score:.0f} pts)")
+
+    # Determine if this is a valid VCP
+    is_vcp = (
+        len(contractions) >= min_contractions and
+        len(contractions) <= max_contractions and
+        is_contracting and
+        vcp_quality >= 50  # Minimum 50/100 quality score
+    )
+
+    # Build pattern description
+    if len(contractions) >= min_contractions:
+        contraction_sizes = [f"{c['drawdown_pct']:.1f}%" for c in contractions[-4:]]  # Show last 4
+        pattern_details = f"{len(contractions)} contractions: {' → '.join(contraction_sizes)}"
+    else:
+        pattern_details = f"Only {len(contractions)} contraction(s) detected (need {min_contractions}+)"
+
+    return {
+        'is_vcp': is_vcp,
+        'vcp_quality': round(vcp_quality, 1),
+        'contractions': contractions,
+        'contraction_count': len(contractions),
+        'contraction_quality': round(contraction_quality, 1),
+        'volume_quality': round(volume_quality, 1),
+        'base_length_weeks': round(base_length_weeks, 1),
+        'breakout_volume_ratio': round(breakout_volume_ratio, 2),
+        'near_52w_high': near_52w_high,
+        'distance_from_52w_high_pct': round(distance_from_52w_high, 1),
+        'pattern_details': pattern_details,
+        'quality_factors': quality_factors
+    }
+
+
+def detect_breakout(price_data: pd.DataFrame, current_price: float,
+                     phase_info: Dict, vcp_data: Optional[Dict] = None) -> Dict[str, any]:
+    """Detect if a breakout is occurring.
+
+    Enhanced to include VCP breakout validation with volume confirmation.
+
+    Args:
+        price_data: DataFrame with OHLCV data
+        current_price: Current price
+        phase_info: Phase classification info
+        vcp_data: Optional VCP analysis data
 
     Returns:
         Dict with breakout info
@@ -589,10 +821,12 @@ def detect_breakout(price_data: pd.DataFrame, current_price: float,
         return {
             'is_breakout': False,
             'breakout_level': None,
-            'breakout_type': None
+            'breakout_type': None,
+            'volume_confirmed': False
         }
 
     close = price_data['Close']
+    volume = price_data.get('Volume', pd.Series([]))
 
     # Find resistance levels
     base_high = find_base_high(close, 60)
@@ -603,20 +837,38 @@ def detect_breakout(price_data: pd.DataFrame, current_price: float,
     breakout_type = None
     is_breakout = False
 
+    # Check volume confirmation (Minervini requires 50-100%+ above average)
+    volume_confirmed = False
+    if len(volume) > 20:
+        avg_volume_20d = volume.iloc[-21:-1].mean()
+        current_volume = volume.iloc[-1]
+        volume_ratio = current_volume / avg_volume_20d if avg_volume_20d > 0 else 1.0
+        volume_confirmed = volume_ratio >= 1.5  # 50%+ above average
+
+    # Check VCP breakout (highest priority)
+    if vcp_data and vcp_data.get('is_vcp'):
+        # VCP breakout: price breaking above the most recent peak
+        if len(vcp_data.get('contractions', [])) > 0:
+            last_peak = vcp_data['contractions'][-1]['peak_price']
+            if current_price > last_peak:
+                is_breakout = True
+                breakout_level = last_peak
+                breakout_type = f'VCP Breakout ({vcp_data["contraction_count"]} contractions)'
+
     # Check breakout above base high
-    if base_high and current_price > base_high:
+    if not is_breakout and base_high and current_price > base_high:
         is_breakout = True
         breakout_level = base_high
         breakout_type = 'Base Breakout'
 
     # Check breakout above pivot
-    elif pivot_high and current_price > pivot_high and pivot_high < base_high:
+    elif not is_breakout and pivot_high and current_price > pivot_high and pivot_high < base_high:
         is_breakout = True
         breakout_level = pivot_high
         breakout_type = 'Pivot Breakout'
 
     # Check breakout above 50 SMA
-    elif sma_50 and current_price > sma_50:
+    elif not is_breakout and sma_50 and current_price > sma_50:
         # Only count if recently crossed
         if close.iloc[-2] < sma_50 < current_price:
             is_breakout = True
@@ -626,5 +878,7 @@ def detect_breakout(price_data: pd.DataFrame, current_price: float,
     return {
         'is_breakout': is_breakout,
         'breakout_level': round(breakout_level, 2) if breakout_level else None,
-        'breakout_type': breakout_type
+        'breakout_type': breakout_type,
+        'volume_confirmed': volume_confirmed,
+        'volume_ratio': round(volume_ratio, 2) if len(volume) > 20 else 1.0
     }
