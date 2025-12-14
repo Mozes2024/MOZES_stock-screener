@@ -1,38 +1,41 @@
 name: Run Stock Screener Daily
 
-# 1. מתי להפעיל את הפעולה (Trigger)
+# 1. מתי להפעיל את הפעולה
 on:
-  # הפעלה אוטומטית: כל יום בשעה 13:00 (UTC).
-  # זה שווה ערך ל-16:00 שעון ישראל ברוב השנה.
+  # הפעלה אוטומטית: כל יום בשעה 16:00 שעון ישראל (13:00 UTC)
   schedule:
     - cron: '0 13 * * *'
-  # מאפשר לך להפעיל את זה ידנית בלחיצת כפתור דרך לשונית Actions
+  # מאפשר הפעלה ידנית דרך כפתור
   workflow_dispatch:
 
-# הגדרת המשימות (Jobs)
+# הגדרת המשימות
 jobs:
   run-screener:
-    # 2. בחירת השרת: שימוש במכונה וירטואלית מבוססת לינוקס
+    # 2. השרת שעליו ירוץ הקוד
     runs-on: ubuntu-latest
     
-    # שלבי הביצוע (Steps)
+    # שלבי הביצוע
     steps:
     
-    # שלב א': שכפול הקוד (משיכת הקבצים מהמאגר שלך לשרת הזמני של GitHub)
+    # שלב א': שכפול הקוד
     - name: Checkout repository code
       uses: actions/checkout@v4
       
-    # שלב ב': הגדרת סביבת פייתון (המנוע שיריץ את הסקריפט)
-    - name: Set up Python 3.10
+    # שלב ב': הגדרת סביבת פייתון
+    - name: Set up Python 3.12 
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.12'
         
-    # שלב ג': התקנת התלויות (הספריות הנוספות שהפרויקט צריך)
+    # שלב ג': התקנת התלויות
     - name: Install dependencies
       run: pip install -r requirements.txt
-        
-    # שלב ד': הרצת הסקריפט בפועל
-    - name: Execute Screener and Trading Logic
-      run: python run.py
-      # אין צורך להוסיף את החלק של 'env' מכיוון שבחרת לדלג על הסודות של Robinhood.
+
+    # שלב ד': הרצת הסקריפט עם המסננים שלך!
+    - name: Execute Screener with Custom Filters
+      run: |
+        python run_optimized_scan.py \
+          --min-price 10.0 \
+          --min-volume 500000 \
+          --workers 3 \
+          --delay 0.5
