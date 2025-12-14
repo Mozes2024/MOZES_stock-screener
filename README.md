@@ -1,3 +1,24 @@
+
+
+
+
+ # **תקציר מנהלים: מנוע סריקת מניות ממוטב (Optimized Stock Screener)
+**הסקריפט run_optimized_scan.py הוא מערכת ניתוח כמותית שנועדה לסרוק אלפי מניות בשוק האמריקאי, תוך שימוש במודל ניתוח טכני ופונדמנטלי חזק (ככל הנראה בהשראת עקרונות קנזלים - CAN SLIM). מטרתו היא לזהות מניות שנמצאות בשלבי עלייה חזקים ומציגות סימני מומנטום, איכות ופריצה, תוך התחשבות בבריאות השוק הכללית.
+
+הסקריפט מחשב ומנתח נתונים קריטיים עבור כל מניה:מדדמהות הניתוחחשיבותPhase Analysisקביעת השלב המחזורי של המניה (1, 2, 3 או 4) לפי המודל של Stan Weinstein (יצירת מגמה).מניה חייבת להיות בשלב 1 או 2 כדי לקבל ציון קנייה.RS (Relative Strength) מדד מומנטום שמשווה את ביצועי המניה ל-SPY/שוק הכללי.מדד מרכזי לזיהוי מניות ש"מכות את השוק" (מומנטום חזק).VCP (Volatility Contraction Pattern) ניתוח דפוסי ירידה בתנודתיות המחיר, המעיד על הצטברות לקראת פריצה (ככל הנראה בהשראת Mark Minervini).ציון איכות נוסף לפריצות מאומתות.R/R Ratio (Risk/Reward) חישוב יחס הסיכון-סיכוי של עסקת הקנייה המומלצת.קביעת איכות העסקה; מועדף יחס של 2:1 ומעלה.Fundamental Snapshotבדיקת נתוני יסוד (כגון רווחים, הכנסות) כמדד לאיכות החברה (תוך שימוש ב-FMP אם הוגדר).מוסיף ציון איכות לאיתות קנייה
+
+הסקריפט מייצר דו"ח טקסט מקיף המודפס ללוג של GitHub Actions, ועתה גם נשמר כ-Artifact להורדה. הדו"ח כולל:
+
+סטטיסטיקות סריקה: מספר המניות שנסרקו, שיעור השגיאה, וזמן העיבוד.
+ניתוח שוק: ניתוח מגמת ה-SPY ובריאות השוק (min_phase2_pct).
+
+ה TOP BUY SIGNALS: רשימה ממוינת של מניות בציון גבוה (מעל 85), כולל מחיר פריצה, רמת Stop Loss, יחס R/R מומלץ, וסיבות מפתח לסיגנל.
+
+ה TOP SELL SIGNALS: רשימה של מניות בסיכון (שלב 3 או 4) שייתכן ודורשות מכירה..
+
+
+
+
 # Intelligent Stock Screener
 
 > **A production-grade systematic trading system for identifying high-probability stock setups using phase-based technical analysis, relative strength momentum, and smart fundamental screening.**
@@ -884,12 +905,11 @@ The author is not responsible for any financial losses incurred using this syste
 
 ---
 
-## Contact
+## CREDIT
 
 **Ryan Hamby**
-Email: ryanhamby22@gmail.com
-LinkedIn: [linkedin.com/in/ryanhamby](https://linkedin.com/in/ryanhamby)
-
+ 
+ 
 For Robinhood employees reviewing this project: I'm happy to discuss the technical architecture, design decisions, and potential applications for institutional trading systems. Feel free to reach out!
 
 ---
