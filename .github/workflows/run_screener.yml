@@ -14,6 +14,10 @@ jobs:
     # 2. השרת שעליו ירוץ הקוד
     runs-on: ubuntu-latest
     
+    # הגדרת הרשאות - חובה עבור שמירת Cache (שלב 6)
+    permissions:
+      contents: write
+      
     # שלבי הביצוע
     steps:
     
@@ -21,17 +25,26 @@ jobs:
     - name: Checkout repository code
       uses: actions/checkout@v4
       
-    # שלב ב': הגדרת סביבת פייתון
+    # 🟢 שלב ב': סינכרון אוטומטי עם המאגר המקורי (UPSTREAM) - חדש
+    - name: Auto-Sync with Upstream Repository
+      uses: a-h/sync-repo-action@v1.1
+      with:
+        target_repo: 'RyanJHamby/stock-screener'
+        target_branch: 'main'
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        source_branch: 'main'
+        
+    # שלב ג': הגדרת סביבת פייתון (היה שלב ב')
     - name: Set up Python 3.12 
       uses: actions/setup-python@v5
       with:
         python-version: '3.12'
         
-    # שלב ג': התקנת התלויות
+    # שלב ד': התקנת התלויות (היה שלב ג')
     - name: Install dependencies
       run: pip install -r requirements.txt
 
-    # שלב ד': הרצת הסקריפט עם המסננים שלך!
+    # שלב ה': הרצת הסקריפט עם המסננים שלך! (היה שלב ד')
     - name: Execute Screener with Custom Filters
       run: |
         python run_optimized_scan.py \
@@ -40,10 +53,19 @@ jobs:
           --workers 3 \
           --delay 0.5
 
-    # שלב ה': שמירת הקובץ כ-Artifact
+    # שלב ו': שמירת הקובץ כ-Artifact (היה שלב ה')
     - name: Upload Scan Report as Artifact
       uses: actions/upload-artifact@v4
       with:
         name: Stock_Screener_Report
         path: ./data/daily_scans/latest_optimized_scan.txt
         retention-days: 90
+        
+    # 🟢 שלב ז': שמירת קבצי ה-Cache והנתונים למאגר (Commit to Data) - חדש
+    - name: Save Fundamentals and Price Cache to Repository
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "chore: update fundamental and price cache files"
+        branch: main
+        commit_options: '--no-verify --allow-empty'
+        file_pattern: data/**
