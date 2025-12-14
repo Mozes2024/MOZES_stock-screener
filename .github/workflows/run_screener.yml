@@ -39,3 +39,11 @@ jobs:
           --min-volume 500000 \
           --workers 3 \
           --delay 0.5
+
+
+- name: Upload Scan Report as Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Stock_Screener_Report
+        path: ./data/daily_scans/latest_optimized_scan.txt
+        retention-days: 90
