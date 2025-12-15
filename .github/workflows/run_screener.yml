@@ -25,15 +25,7 @@ jobs:
     - name: Checkout repository code
       uses: actions/checkout@v4
       
-    # 🟢 שלב ב': סינכרון אוטומטי עם המאגר המקורי (UPSTREAM) - (מתוקן)
-      - name: Auto-Sync with Upstream Repository
-      uses: repo-sync/github-sync@v2
-      with:
-        source: 'RyanJHamby/stock-screener'
-        destination: 'main'
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        sync_tags: 'false'
-        
+         
     # שלב ג': הגדרת סביבת פייתון
     - name: Set up Python 3.12 
       uses: actions/setup-python@v5
