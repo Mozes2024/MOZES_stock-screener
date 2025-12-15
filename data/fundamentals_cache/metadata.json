@@ -7446,5 +7446,45 @@
   "WSO": {
     "last_updated": "2025-12-12T14:00:55.929707",
     "in_earnings_season": false
+  },
+  "CAG": {
+    "last_updated": "2025-12-15T12:30:49.765159",
+    "in_earnings_season": false
+  },
+  "CAKE": {
+    "last_updated": "2025-12-15T12:30:52.687272",
+    "in_earnings_season": false
+  },
+  "CL": {
+    "last_updated": "2025-12-15T12:33:07.951122",
+    "in_earnings_season": false
+  },
+  "CMG": {
+    "last_updated": "2025-12-15T12:33:38.708849",
+    "in_earnings_season": false
+  },
+  "FPI": {
+    "last_updated": "2025-12-15T12:43:24.795336",
+    "in_earnings_season": false
+  },
+  "GLPI": {
+    "last_updated": "2025-12-15T12:45:24.851398",
+    "in_earnings_season": false
+  },
+  "NWSA": {
+    "last_updated": "2025-12-15T13:01:31.853828",
+    "in_earnings_season": false
+  },
+  "PM": {
+    "last_updated": "2025-12-15T13:05:36.962451",
+    "in_earnings_season": false
+  },
+  "REFI": {
+    "last_updated": "2025-12-15T13:08:13.873931",
+    "in_earnings_season": false
+  },
+  "TNET": {
+    "last_updated": "2025-12-15T13:17:13.163068",
+    "in_earnings_season": false
   }
 }
