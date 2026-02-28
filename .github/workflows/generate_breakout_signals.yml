@@ -90,3 +90,23 @@ jobs:
           path: breakout_signals.json
           if-no-files-found: warn
           retention-days: 30
+
+      # ── Trigger SP500-Quant-Ranker ────────────────────────────────
+      # שולח repository_dispatch לריפו של ה-Ranker.
+      # ה-Ranker כבר יודע למשוך את breakout_signals.json עם curl.
+      # דרוש: secret בשם RANKER_PAT עם הרשאת repo על ריפו ה-Ranker.
+      - name: Trigger SP500-Quant-Ranker pipeline
+        if: success()
+        run: |
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.RANKER_PAT }}" \
+            https://api.github.com/repos/Mozes2024/SP500-Quant-Ranker_2026/dispatches \
+            -d '{"event_type":"breakout_signals_ready","client_payload":{"scan_date":"${{ steps.date.outputs.date }}"}}')
+
+          if [ "$HTTP_STATUS" = "204" ]; then
+            echo "✅ Triggered SP500-Quant-Ranker (HTTP $HTTP_STATUS)"
+          else
+            echo "⚠️ Dispatch returned HTTP $HTTP_STATUS — check RANKER_PAT secret"
+          fi
