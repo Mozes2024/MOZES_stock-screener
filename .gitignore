@@ -1,11 +1,12 @@
-
 # .gitignore
 .env
 .env.local
 *.log
 __pycache__/
 
-# Ignore all data/* except fundamentals_cache
+# Ignore all data/* except fundamentals_cache and daily_scans
 data/*
 !data/fundamentals_cache/
 !data/fundamentals_cache/**
+!data/daily_scans/
+!data/daily_scans/**
