@@ -89,7 +89,7 @@ jobs:
           # Conservative mode to avoid rate limits
           # --git-storage flag enables Git-based fundamental storage
           # --save-structured saves pickle + JSON for downstream breakout signal generator
-          python run_optimized_scan.py --conservative --git-storage --save-structured
+          python run_optimized_scan.py --git-storage --save-structured
 
       - name: Verify structured output
         if: always()
