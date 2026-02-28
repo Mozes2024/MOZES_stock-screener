@@ -105,7 +105,9 @@ def run(args) -> bool:
     # ── 1. Fetch universe ───────────────────────────────────────────────────
     logger.info("Fetching stock universe…")
     fetcher = USStockUniverseFetcher()
-    tickers = fetcher.get_us_stocks(max_stocks=args.max_stocks or None)
+    tickers = fetcher.fetch_universe()
+    if args.max_stocks:
+        tickers = tickers[:args.max_stocks]
     logger.info(f"Universe: {len(tickers):,} tickers")
 
     # ── 2. Run batch scan ───────────────────────────────────────────────────
