@@ -1,0 +1,117 @@
+name: Generate Breakout Signals (SP500 feed)
+# ─────────────────────────────────────────────────────────────────────────────
+# STANDALONE ADDITION — this workflow does NOT modify any existing MOZES file.
+#
+# Purpose:
+#   Generate breakout_signals.json and commit it to the MOZES repo so that
+#   SP500-Quant-Ranker_2026 can fetch it from:
+#     https://raw.githubusercontent.com/Mozes2024/MOZES_stock-screener/main/breakout_signals.json
+#
+# Trigger:
+#   • Runs ~90 minutes AFTER the main Daily Screening (cron "0 12 * * 1-5")
+#     so that the fundamental cache it relies on is already fresh.
+#   • Can also be triggered manually via workflow_dispatch.
+# ─────────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    # Weekdays at 13:45 UTC  (main screen runs at 12:00 UTC, takes ~60-90 min)
+    - cron: '45 13 * * 1-5'
+
+  workflow_dispatch:
+    inputs:
+      conservative:
+        description: 'Use conservative (slower) rate-limit mode'
+        required: false
+        type: boolean
+        default: true
+      min_score:
+        description: 'Minimum signal score to include (default 60)'
+        required: false
+        type: string
+        default: '60'
+
+jobs:
+  generate-breakout-signals:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # needed to commit breakout_signals.json
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Generate breakout_signals.json
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          CONSERVATIVE_FLAG=""
+          if [ "${{ github.event.inputs.conservative || 'true' }}" = "true" ]; then
+            CONSERVATIVE_FLAG="--conservative"
+          fi
+
+          MIN_SCORE="${{ github.event.inputs.min_score || '60' }}"
+
+          echo "Running breakout signal generator…"
+          echo "  conservative: $CONSERVATIVE_FLAG"
+          echo "  min-score   : $MIN_SCORE"
+
+          python generate_breakout_signals_for_sp500.py \
+            --output breakout_signals.json \
+            --min-score "$MIN_SCORE" \
+            $CONSERVATIVE_FLAG
+
+      - name: Verify output
+        run: |
+          if [ -f "breakout_signals.json" ]; then
+            COUNT=$(python3 -c "import json; d=json.load(open('breakout_signals.json')); print(d.get('top_signals_count', 0))")
+            REGIME=$(python3 -c "import json; d=json.load(open('breakout_signals.json')); print(d.get('market_regime','?'))")
+            echo "✅  breakout_signals.json generated: ${COUNT} signals | regime: ${REGIME}"
+          else
+            echo "❌  breakout_signals.json was NOT created — failing"
+            exit 1
+          fi
+
+      - name: Commit and push breakout_signals.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git pull --rebase --autostash origin main
+
+          git add breakout_signals.json
+
+          if git diff --staged --quiet; then
+            echo "No changes in breakout_signals.json — nothing to commit"
+          else
+            git commit -m "📡 Update breakout_signals.json - ${{ steps.date.outputs.date }}"
+            git push || (sleep 5 && git push)
+            echo "✅  Pushed breakout_signals.json to main"
+          fi
+
+      - name: Upload as artifact (debugging / audit trail)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: breakout-signals-${{ steps.date.outputs.date }}
+          path: breakout_signals.json
+          if-no-files-found: warn
+          retention-days: 30
