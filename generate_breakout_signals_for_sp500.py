@@ -100,6 +100,7 @@ def run(args) -> bool:
     logger.info(f"  Output  : {output_path}")
     logger.info(f"  Min score: {min_score}")
     logger.info(f"  Workers : {workers}")
+    logger.info(f"  Git cache: {args.git_storage}")
     logger.info("=" * 60)
 
     # ── 1. Fetch universe ───────────────────────────────────────────────────
@@ -111,7 +112,12 @@ def run(args) -> bool:
     logger.info(f"Universe: {len(tickers):,} tickers")
 
     # ── 2. Run batch scan ───────────────────────────────────────────────────
-    processor = OptimizedBatchProcessor(max_workers=workers)
+    use_cache = args.git_storage
+    processor = OptimizedBatchProcessor(max_workers=workers, use_git_storage=use_cache)
+    if use_cache:
+        logger.info("  Cache mode : Git-based fundamentals cache (data/fundamentals_cache/)")
+    else:
+        logger.info("  Cache mode : Fresh fetch from Yahoo Finance (no cache)")
     results   = processor.process_batch_parallel(
         tickers,
         min_price=args.min_price,
@@ -213,6 +219,14 @@ def main():
     parser.add_argument(
         "--max-stocks", type=int, default=None,
         help="Cap the universe size (useful for testing)"
+    )
+    parser.add_argument(
+        "--git-storage", action="store_true", default=True,
+        help="Use Git-based fundamentals cache (default: True). Disable with --no-git-storage."
+    )
+    parser.add_argument(
+        "--no-git-storage", dest="git_storage", action="store_false",
+        help="Disable Git-based cache — fetch all fundamentals fresh from Yahoo."
     )
 
     args = parser.parse_args()
