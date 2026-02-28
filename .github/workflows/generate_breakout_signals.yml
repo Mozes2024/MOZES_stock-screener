@@ -1,12 +1,12 @@
 name: Generate Breakout Signals (SP500 feed)
 # ─────────────────────────────────────────────────────────────────────────────
 # ARCHITECTURE (v2 — fast path):
-#   Step 1 → daily_screening_git_storage.yml (12:00 UTC)
+#   Step 1 → daily_screening_git_storage.yml (10:00 UTC)
 #            Scans full US market, saves structured output:
 #              data/daily_scans/latest_structured_scan.pkl
 #              data/daily_scans/latest_structured_scan.json
 #
-#   Step 2 → THIS workflow (12:45 UTC)
+#   Step 2 → THIS workflow (triggered automatically when Step 1 completes)
 #            Reads the pickle (~2-3 seconds), filters to buy-signal quality,
 #            formats breakout_signals.json, triggers SP500-Quant-Ranker.
 #
@@ -14,9 +14,10 @@ name: Generate Breakout Signals (SP500 feed)
 # ─────────────────────────────────────────────────────────────────────────────
 
 on:
-  schedule:
-    - cron: '45 12 * * 1-5'   # 12:45 UTC — runs ~45min after daily_screening (12:00 UTC)
-                               # daily_screening saves the pickle; this reads from it.
+  workflow_run:
+    workflows: ["Daily Stock Screening (Git-Based Storage)"]
+    types:
+      - completed
 
   workflow_dispatch:            # כפתור הרצה ידנית ב-GitHub
     inputs:
@@ -37,6 +38,9 @@ on:
 jobs:
   generate-breakout-signals:
     runs-on: ubuntu-latest
+
+    # Skip if daily screening failed (only relevant for workflow_run trigger)
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
 
     permissions:
       contents: write
