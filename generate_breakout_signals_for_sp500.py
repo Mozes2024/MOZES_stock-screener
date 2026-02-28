@@ -262,8 +262,8 @@ def main():
     )
     # ── Fallback-only flags (used when pickle is unavailable) ────────────────
     parser.add_argument("--conservative", action="store_true", help="Fallback: use 3 workers")
-    parser.add_argument("--min-price", type=float, default=5.0, help="Fallback: min stock price")
-    parser.add_argument("--min-volume", type=int, default=100_000, help="Fallback: min avg daily volume")
+    parser.add_argument("--min-price", type=float, default=10.0, help="Fallback: min stock price")
+    parser.add_argument("--min-volume", type=int, default=350_000, help="Fallback: min avg daily volume")
     parser.add_argument("--max-stocks", type=int, default=None, help="Fallback: cap universe size")
     parser.add_argument("--git-storage", action="store_true", default=True, help="Fallback: use Git cache")
     parser.add_argument("--no-git-storage", dest="git_storage", action="store_false", help="Fallback: disable Git cache")
