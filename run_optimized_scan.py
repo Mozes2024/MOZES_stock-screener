@@ -340,8 +340,8 @@ def main():
     parser.add_argument('--resume', action='store_true', help='Resume from progress')
     parser.add_argument('--clear-progress', action='store_true', help='Clear progress')
     parser.add_argument('--test-mode', action='store_true', help='Test with 100 stocks')
-    parser.add_argument('--min-price', type=float, default=5.0, help='Min price')
-    parser.add_argument('--min-volume', type=int, default=100000, help='Min volume')
+    parser.add_argument('--min-price', type=float, default=10.0, help='Min price')
+    parser.add_argument('--min-volume', type=int, default=350000, help='Min volume')
     parser.add_argument('--use-fmp', action='store_true', help='Use FMP for enhanced fundamentals on buy signals')
     parser.add_argument('--git-storage', action='store_true', help='Use Git-based storage for fundamentals (recommended)')
     parser.add_argument('--save-structured', action='store_true',
