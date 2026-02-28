@@ -79,6 +79,7 @@ jobs:
           echo "  - Fresh price data for all stocks (1 year history)"
           echo "  - Smart fundamental refresh (earnings-aware)"
           echo "  - Cached fundamentals: $CACHED_STOCKS stocks"
+          echo "  - Structured output: ENABLED (for breakout signal generator)"
           echo ""
 
           # Create output directories
@@ -87,7 +88,26 @@ jobs:
 
           # Conservative mode to avoid rate limits
           # --git-storage flag enables Git-based fundamental storage
-          python run_optimized_scan.py --conservative --git-storage
+          # --save-structured saves pickle + JSON for downstream breakout signal generator
+          python run_optimized_scan.py --conservative --git-storage --save-structured
+
+      - name: Verify structured output
+        if: always()
+        run: |
+          echo "=== Structured Scan Output ==="
+          if [ -f "data/daily_scans/latest_structured_scan.pkl" ]; then
+            PKL_SIZE=$(du -h data/daily_scans/latest_structured_scan.pkl | cut -f1)
+            echo "✅ Pickle: $PKL_SIZE"
+          else
+            echo "⚠️ No pickle file generated"
+          fi
+
+          if [ -f "data/daily_scans/latest_structured_scan.json" ]; then
+            echo "✅ JSON summary:"
+            cat data/daily_scans/latest_structured_scan.json
+          else
+            echo "⚠️ No JSON summary generated"
+          fi
 
       - name: Show fundamental refresh stats
         if: always()
@@ -120,7 +140,7 @@ jobs:
             echo "No metadata file found"
           fi
 
-      - name: Commit updated fundamental cache
+      - name: Commit updated fundamental cache + structured scan
         id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -129,18 +149,22 @@ jobs:
           # Add fundamental cache directory
           git add data/fundamentals_cache/
 
+          # Add structured scan outputs (consumed by breakout signal generator)
+          git add data/daily_scans/latest_structured_scan.pkl || true
+          git add data/daily_scans/latest_structured_scan.json || true
+
           # Check if there are changes
           if git diff --staged --quiet; then
-            echo "No fundamental cache changes to commit"
+            echo "No changes to commit"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             CHANGED_FILES=$(git diff --staged --name-only | wc -l)
-            echo "Committing $CHANGED_FILES updated fundamental files"
-            git commit -m "chore: update fundamental cache ($CHANGED_FILES stocks) - ${{ steps.date.outputs.date }}"
+            echo "Committing $CHANGED_FILES updated files"
+            git commit -m "chore: update fundamental cache + structured scan ($CHANGED_FILES files) - ${{ steps.date.outputs.date }}"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Push changes  # ← תוקן: מחליף את ad-m/github-push-action שגרם לconflict
+      - name: Push changes
         if: steps.commit.outputs.has_changes == 'true'
         run: |
           git pull --rebase --autostash origin main

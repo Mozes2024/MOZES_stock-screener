@@ -1,19 +1,22 @@
 name: Generate Breakout Signals (SP500 feed)
 # ─────────────────────────────────────────────────────────────────────────────
-# ARCHITECTURE:
+# ARCHITECTURE (v2 — fast path):
 #   Step 1 → daily_screening_git_storage.yml (12:00 UTC)
-#            Scans full US market, builds fundamentals cache in data/fundamentals_cache/
+#            Scans full US market, saves structured output:
+#              data/daily_scans/latest_structured_scan.pkl
+#              data/daily_scans/latest_structured_scan.json
 #
 #   Step 2 → THIS workflow (12:45 UTC)
-#            Reads from cache (no fresh Yahoo calls for fundamentals)
-#            Filters to buy-signal quality, formats breakout_signals.json
-#            Triggers SP500-Quant-Ranker via repository_dispatch
+#            Reads the pickle (~2-3 seconds), filters to buy-signal quality,
+#            formats breakout_signals.json, triggers SP500-Quant-Ranker.
+#
+#   FALLBACK: If pickle is missing/stale, falls back to full scan (~20-25 min).
 # ─────────────────────────────────────────────────────────────────────────────
 
 on:
   schedule:
     - cron: '45 12 * * 1-5'   # 12:45 UTC — runs ~45min after daily_screening (12:00 UTC)
-                               # daily_screening builds the Git cache; this reads from it.
+                               # daily_screening saves the pickle; this reads from it.
 
   workflow_dispatch:            # כפתור הרצה ידנית ב-GitHub
     inputs:
@@ -21,10 +24,15 @@ on:
         description: 'Minimum signal score (default 60)'
         required: false
         default: '60'
-      conservative:
-        description: 'Conservative mode (slower, safer)'
+      force_scan:
+        description: 'Force full scan (ignore pickle)'
         required: false
-        default: 'true'
+        type: boolean
+        default: false
+      max_age:
+        description: 'Max pickle age in hours (default 6)'
+        required: false
+        default: '6'
 
 jobs:
   generate-breakout-signals:
@@ -36,6 +44,29 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Check for structured scan data
+        id: check-pickle
+        run: |
+          if [ -f "data/daily_scans/latest_structured_scan.pkl" ]; then
+            PKL_SIZE=$(du -h data/daily_scans/latest_structured_scan.pkl | cut -f1)
+            PKL_AGE=$(python3 -c "
+          import os, time
+          age_h = (time.time() - os.path.getmtime('data/daily_scans/latest_structured_scan.pkl')) / 3600
+          print(f'{age_h:.1f}')
+          ")
+            echo "✅ Pickle found: $PKL_SIZE, age: ${PKL_AGE}h"
+            echo "has_pickle=true" >> $GITHUB_OUTPUT
+
+            # Show summary if JSON exists
+            if [ -f "data/daily_scans/latest_structured_scan.json" ]; then
+              echo "Summary:"
+              cat data/daily_scans/latest_structured_scan.json
+            fi
+          else
+            echo "⚠️ No pickle — will fallback to full scan"
+            echo "has_pickle=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -57,15 +88,16 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: |
           MIN_SCORE="${{ github.event.inputs.min_score || '60' }}"
-          CONSERVATIVE="${{ github.event.inputs.conservative || 'true' }}"
+          MAX_AGE="${{ github.event.inputs.max_age || '6' }}"
+          FORCE_SCAN="${{ github.event.inputs.force_scan || 'false' }}"
 
-          FLAGS="--min-score $MIN_SCORE"
-          if [ "$CONSERVATIVE" = "true" ]; then
-            FLAGS="$FLAGS --conservative"
+          FLAGS="--min-score $MIN_SCORE --max-age $MAX_AGE"
+          if [ "$FORCE_SCAN" = "true" ]; then
+            FLAGS="$FLAGS --force-scan"
           fi
 
-          echo "Running: python generate_breakout_signals_for_sp500.py $FLAGS --git-storage"
-          python generate_breakout_signals_for_sp500.py $FLAGS --git-storage
+          echo "Running: python generate_breakout_signals_for_sp500.py $FLAGS"
+          python generate_breakout_signals_for_sp500.py $FLAGS
 
       - name: Verify output
         run: |
