@@ -14,10 +14,13 @@ Usage:
     python run_optimized_scan.py
     python run_optimized_scan.py --workers 10  # Faster but riskier
     python run_optimized_scan.py --conservative  # Slower but safer (3 workers)
+    python run_optimized_scan.py --conservative --git-storage --save-structured
 """
 
 import argparse
+import json
 import logging
+import pickle
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -27,6 +30,7 @@ from src.screening.optimized_batch_processor import OptimizedBatchProcessor
 from src.screening.benchmark import (
     analyze_spy_trend,
     calculate_market_breadth,
+    classify_market_regime,
     format_benchmark_summary,
     should_generate_signals
 )
@@ -38,6 +42,53 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+
+def save_structured_data(results, buy_signals, sell_signals, spy_analysis, breadth, output_dir="./data/daily_scans"):
+    """Save structured scan data as pickle for downstream consumers (e.g. breakout signal generator).
+
+    This avoids a second full market scan — downstream scripts can simply load
+    the pickle and filter/format as needed.
+
+    Saves:
+      - data/daily_scans/latest_structured_scan.pkl  (full data with DataFrames)
+      - data/daily_scans/latest_structured_scan.json  (lightweight metadata + buy signals only)
+    """
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+
+    # ── 1. Pickle: full data including DataFrames & Series ───────────────────
+    pickle_path = Path(output_dir) / "latest_structured_scan.pkl"
+    pickle_payload = {
+        "scan_date": datetime.utcnow().strftime("%Y-%m-%d"),
+        "generated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"),
+        "results": results,                # includes 'analyses', 'phase_results', stats
+        "buy_signals": buy_signals,         # scored & sorted
+        "sell_signals": sell_signals,       # scored & sorted
+        "spy_analysis": spy_analysis,
+        "breadth": breadth,
+    }
+    with open(pickle_path, "wb") as f:
+        pickle.dump(pickle_payload, f, protocol=pickle.HIGHEST_PROTOCOL)
+    logger.info(f"Structured pickle saved: {pickle_path} ({pickle_path.stat().st_size / 1024:.0f} KB)")
+
+    # ── 2. JSON: lightweight summary (no DataFrames) for quick inspection ────
+    market_regime = classify_market_regime(spy_analysis, breadth)
+    json_path = Path(output_dir) / "latest_structured_scan.json"
+    json_payload = {
+        "scan_date": datetime.utcnow().strftime("%Y-%m-%d"),
+        "generated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"),
+        "market_regime": market_regime,
+        "total_analyzed": results.get("total_analyzed", 0),
+        "total_processed": results.get("total_processed", 0),
+        "phase2_pct": breadth.get("phase_2_pct", 0),
+        "buy_signals_count": len(buy_signals),
+        "sell_signals_count": len(sell_signals),
+        "processing_time_minutes": round(results.get("processing_time_seconds", 0) / 60, 1),
+        "note": "Full data available in latest_structured_scan.pkl",
+    }
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(json_payload, f, indent=2, ensure_ascii=False)
+    logger.info(f"Structured JSON summary saved: {json_path}")
 
 
 def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, output_dir="./data/daily_scans"):
@@ -293,6 +344,8 @@ def main():
     parser.add_argument('--min-volume', type=int, default=100000, help='Min volume')
     parser.add_argument('--use-fmp', action='store_true', help='Use FMP for enhanced fundamentals on buy signals')
     parser.add_argument('--git-storage', action='store_true', help='Use Git-based storage for fundamentals (recommended)')
+    parser.add_argument('--save-structured', action='store_true',
+                        help='Save structured scan data (pickle + JSON) for downstream consumers like breakout signal generator')
 
     args = parser.parse_args()
 
@@ -412,8 +465,12 @@ def main():
 
         sell_signals = sorted(sell_signals, key=lambda x: x['score'], reverse=True)
 
-        # Report
+        # Report (text)
         save_report(results, buy_signals, sell_signals, spy_analysis, breadth)
+
+        # ── NEW: Structured data for downstream consumers ────────────────
+        if args.save_structured:
+            save_structured_data(results, buy_signals, sell_signals, spy_analysis, breadth)
 
         # Show FMP usage if enabled
         if args.use_fmp:
@@ -433,6 +490,8 @@ def main():
         logger.info(f"Actual TPS: {results['actual_tps']:.2f}")
         logger.info(f"Buy signals: {len(buy_signals)}")
         logger.info(f"Sell signals: {len(sell_signals)}")
+        if args.save_structured:
+            logger.info("Structured data: data/daily_scans/latest_structured_scan.pkl")
         logger.info("="*60)
 
     except KeyboardInterrupt:
