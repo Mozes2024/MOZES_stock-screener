@@ -1,11 +1,11 @@
 {
   "scan_date": "2026-02-28",
-  "generated": "2026-02-28 14:03:07",
-  "converted_at": "2026-02-28 14:03 UTC",
+  "generated": "2026-02-28 16:51:24",
+  "converted_at": "2026-02-28 16:51 UTC",
   "market_regime": "RISK-ON (Weak) / Mixed",
-  "total_buy_signals": 420,
-  "phase2_pct": 38.4,
-  "top_signals_count": 420,
+  "total_buy_signals": 364,
+  "phase2_pct": 38.3,
+  "top_signals_count": 364,
   "top_signals": [
     {
       "rank": 1,
@@ -331,6 +331,29 @@
     },
     {
       "rank": 15,
+      "ticker": "SNDX",
+      "breakout_score": 108.2,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 20.62,
+      "risk": 1.09,
+      "reward": 6.52,
+      "risk_reward": 5.98,
+      "rs": -0.046,
+      "breakout_price": 20.83,
+      "has_vcp": true,
+      "vcp_quality": 73.1,
+      "vcp_desc": "2 contractions: 13.7% → 12.7%",
+      "reasons": [
+        "Good Stage 2: 4.2% above 50 SMA",
+        "SMAs rising strongly (50:0.123, 200:0.264)",
+        "50 SMA Breakout (volume confirmed)",
+        "Revenue: 3Q avg 90.4% QoQ (161.0% → 89.4% → 20.8%)",
+        "EPS: +29% YoY"
+      ]
+    },
+    {
+      "rank": 16,
       "ticker": "JNJ",
       "breakout_score": 108.1,
       "phase": 2,
@@ -353,7 +376,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "ticker": "TPB",
       "breakout_score": 107.8,
       "phase": 2,
@@ -376,7 +399,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "ticker": "ADI",
       "breakout_score": 107.7,
       "phase": 2,
@@ -399,7 +422,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 19,
       "ticker": "BTSG",
       "breakout_score": 107.1,
       "phase": 2,
@@ -422,7 +445,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "ticker": "TSM",
       "breakout_score": 107.1,
       "phase": 2,
@@ -445,7 +468,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 21,
       "ticker": "CTRI",
       "breakout_score": 107.0,
       "phase": 2,
@@ -468,7 +491,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 22,
       "ticker": "GMED",
       "breakout_score": 107.0,
       "phase": 2,
@@ -491,7 +514,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "ticker": "AAPL",
       "breakout_score": 106.2,
       "phase": 2,
@@ -514,7 +537,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 24,
       "ticker": "TXT",
       "breakout_score": 105.9,
       "phase": 2,
@@ -537,7 +560,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 25,
       "ticker": "OHI",
       "breakout_score": 105.6,
       "phase": 2,
@@ -560,7 +583,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 26,
       "ticker": "MSGS",
       "breakout_score": 105.5,
       "phase": 2,
@@ -583,7 +606,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 27,
       "ticker": "BMY",
       "breakout_score": 105.2,
       "phase": 2,
@@ -606,7 +629,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 28,
       "ticker": "MOV",
       "breakout_score": 105.2,
       "phase": 2,
@@ -629,7 +652,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 29,
       "ticker": "CWEN",
       "breakout_score": 104.9,
       "phase": 2,
@@ -652,7 +675,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "ticker": "PROF",
       "breakout_score": 104.8,
       "phase": 2,
@@ -675,7 +698,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 31,
       "ticker": "MTRN",
       "breakout_score": 104.6,
       "phase": 2,
@@ -698,7 +721,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 32,
       "ticker": "CAH",
       "breakout_score": 104.1,
       "phase": 2,
@@ -721,7 +744,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 33,
       "ticker": "JBL",
       "breakout_score": 103.7,
       "phase": 2,
@@ -744,7 +767,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 34,
       "ticker": "GE",
       "breakout_score": 103.5,
       "phase": 2,
@@ -767,7 +790,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 35,
       "ticker": "SEPN",
       "breakout_score": 103.5,
       "phase": 2,
@@ -790,7 +813,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 36,
       "ticker": "ABX",
       "breakout_score": 103.4,
       "phase": 2,
@@ -813,7 +836,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 37,
       "ticker": "AZZ",
       "breakout_score": 103.4,
       "phase": 2,
@@ -836,7 +859,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "ticker": "MTSI",
       "breakout_score": 103.2,
       "phase": 2,
@@ -859,7 +882,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 39,
       "ticker": "NDSN",
       "breakout_score": 103.2,
       "phase": 2,
@@ -879,29 +902,6 @@
         "Revenue: 3Q avg 7.0% QoQ (11.0% → 8.6% → 1.4%)",
         "EPS: +27% YoY",
         "Inventory neutral (-3.1% QoQ)"
-      ]
-    },
-    {
-      "rank": 39,
-      "ticker": "SNDX",
-      "breakout_score": 103.2,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 20.62,
-      "risk": 1.09,
-      "reward": 6.52,
-      "risk_reward": 5.98,
-      "rs": -0.046,
-      "breakout_price": 20.83,
-      "has_vcp": true,
-      "vcp_quality": 73.1,
-      "vcp_desc": "2 contractions: 13.7% → 12.7%",
-      "reasons": [
-        "Good Stage 2: 4.2% above 50 SMA",
-        "SMAs rising strongly (50:0.123, 200:0.264)",
-        "50 SMA Breakout (volume confirmed)",
-        "Revenue: 3Q avg 90.4% QoQ (161.0% → 89.4% → 20.8%)",
-        "EPS: +29% YoY"
       ]
     },
     {
@@ -2792,6 +2792,29 @@
     },
     {
       "rank": 122,
+      "ticker": "HSAI",
+      "breakout_score": 94.8,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 25.27,
+      "risk": 1.68,
+      "reward": 8.11,
+      "risk_reward": 4.83,
+      "rs": 0.858,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Good Stage 2: 5.6% above 50 SMA",
+        "SMAs rising strongly (50:0.602, 200:0.232)",
+        "Revenue: 3Q avg 6.7% QoQ (-27.0% → 34.5% → 12.6%)",
+        "EPS: +431% YoY (strong earnings)",
+        "Inventory building (7.3% QoQ)"
+      ]
+    },
+    {
+      "rank": 123,
       "ticker": "ADTN",
       "breakout_score": 94.5,
       "phase": 2,
@@ -2814,7 +2837,7 @@
       ]
     },
     {
-      "rank": 123,
+      "rank": 124,
       "ticker": "GKOS",
       "breakout_score": 94.5,
       "phase": 2,
@@ -2837,7 +2860,7 @@
       ]
     },
     {
-      "rank": 124,
+      "rank": 125,
       "ticker": "REG",
       "breakout_score": 94.4,
       "phase": 2,
@@ -2860,7 +2883,7 @@
       ]
     },
     {
-      "rank": 125,
+      "rank": 126,
       "ticker": "PEN",
       "breakout_score": 94.3,
       "phase": 2,
@@ -2883,7 +2906,7 @@
       ]
     },
     {
-      "rank": 126,
+      "rank": 127,
       "ticker": "AME",
       "breakout_score": 94.1,
       "phase": 2,
@@ -2906,7 +2929,7 @@
       ]
     },
     {
-      "rank": 127,
+      "rank": 128,
       "ticker": "SNDK",
       "breakout_score": 94.1,
       "phase": 2,
@@ -2929,7 +2952,7 @@
       ]
     },
     {
-      "rank": 128,
+      "rank": 129,
       "ticker": "FOLD",
       "breakout_score": 94.0,
       "phase": 2,
@@ -2952,7 +2975,7 @@
       ]
     },
     {
-      "rank": 129,
+      "rank": 130,
       "ticker": "REX",
       "breakout_score": 94.0,
       "phase": 2,
@@ -2975,7 +2998,7 @@
       ]
     },
     {
-      "rank": 130,
+      "rank": 131,
       "ticker": "GFS",
       "breakout_score": 93.9,
       "phase": 2,
@@ -2998,7 +3021,7 @@
       ]
     },
     {
-      "rank": 131,
+      "rank": 132,
       "ticker": "OSIS",
       "breakout_score": 93.9,
       "phase": 2,
@@ -3021,7 +3044,7 @@
       ]
     },
     {
-      "rank": 132,
+      "rank": 133,
       "ticker": "MIRM",
       "breakout_score": 93.8,
       "phase": 2,
@@ -3044,7 +3067,7 @@
       ]
     },
     {
-      "rank": 133,
+      "rank": 134,
       "ticker": "OSK",
       "breakout_score": 93.6,
       "phase": 2,
@@ -3067,7 +3090,7 @@
       ]
     },
     {
-      "rank": 134,
+      "rank": 135,
       "ticker": "GGG",
       "breakout_score": 93.4,
       "phase": 2,
@@ -3090,7 +3113,7 @@
       ]
     },
     {
-      "rank": 135,
+      "rank": 136,
       "ticker": "VRT",
       "breakout_score": 93.4,
       "phase": 2,
@@ -3113,7 +3136,7 @@
       ]
     },
     {
-      "rank": 136,
+      "rank": 137,
       "ticker": "MNST",
       "breakout_score": 93.3,
       "phase": 2,
@@ -3136,7 +3159,7 @@
       ]
     },
     {
-      "rank": 137,
+      "rank": 138,
       "ticker": "OKE",
       "breakout_score": 93.0,
       "phase": 2,
@@ -3159,7 +3182,7 @@
       ]
     },
     {
-      "rank": 138,
+      "rank": 139,
       "ticker": "APG",
       "breakout_score": 92.9,
       "phase": 2,
@@ -3182,7 +3205,7 @@
       ]
     },
     {
-      "rank": 139,
+      "rank": 140,
       "ticker": "MNRO",
       "breakout_score": 92.9,
       "phase": 2,
@@ -3205,7 +3228,7 @@
       ]
     },
     {
-      "rank": 140,
+      "rank": 141,
       "ticker": "SLAB",
       "breakout_score": 92.9,
       "phase": 2,
@@ -3228,7 +3251,7 @@
       ]
     },
     {
-      "rank": 141,
+      "rank": 142,
       "ticker": "MAC",
       "breakout_score": 92.8,
       "phase": 2,
@@ -3251,7 +3274,7 @@
       ]
     },
     {
-      "rank": 142,
+      "rank": 143,
       "ticker": "SWBI",
       "breakout_score": 92.8,
       "phase": 2,
@@ -3274,7 +3297,7 @@
       ]
     },
     {
-      "rank": 143,
+      "rank": 144,
       "ticker": "TIGO",
       "breakout_score": 92.8,
       "phase": 2,
@@ -3297,7 +3320,7 @@
       ]
     },
     {
-      "rank": 144,
+      "rank": 145,
       "ticker": "BWA",
       "breakout_score": 92.4,
       "phase": 2,
@@ -3320,7 +3343,7 @@
       ]
     },
     {
-      "rank": 145,
+      "rank": 146,
       "ticker": "PL",
       "breakout_score": 92.2,
       "phase": 2,
@@ -3343,7 +3366,7 @@
       ]
     },
     {
-      "rank": 146,
+      "rank": 147,
       "ticker": "NATL",
       "breakout_score": 92.0,
       "phase": 2,
@@ -3366,7 +3389,7 @@
       ]
     },
     {
-      "rank": 147,
+      "rank": 148,
       "ticker": "SBRA",
       "breakout_score": 92.0,
       "phase": 2,
@@ -3389,7 +3412,7 @@
       ]
     },
     {
-      "rank": 148,
+      "rank": 149,
       "ticker": "IBP",
       "breakout_score": 91.9,
       "phase": 2,
@@ -3412,7 +3435,7 @@
       ]
     },
     {
-      "rank": 149,
+      "rank": 150,
       "ticker": "OUT",
       "breakout_score": 91.9,
       "phase": 2,
@@ -3435,7 +3458,7 @@
       ]
     },
     {
-      "rank": 150,
+      "rank": 151,
       "ticker": "BE",
       "breakout_score": 91.8,
       "phase": 2,
@@ -3458,7 +3481,7 @@
       ]
     },
     {
-      "rank": 151,
+      "rank": 152,
       "ticker": "FDX",
       "breakout_score": 91.8,
       "phase": 2,
@@ -3481,7 +3504,7 @@
       ]
     },
     {
-      "rank": 152,
+      "rank": 153,
       "ticker": "TWI",
       "breakout_score": 91.8,
       "phase": 2,
@@ -3504,7 +3527,7 @@
       ]
     },
     {
-      "rank": 153,
+      "rank": 154,
       "ticker": "VZ",
       "breakout_score": 91.5,
       "phase": 2,
@@ -3527,7 +3550,7 @@
       ]
     },
     {
-      "rank": 154,
+      "rank": 155,
       "ticker": "ADC",
       "breakout_score": 91.4,
       "phase": 2,
@@ -3550,7 +3573,7 @@
       ]
     },
     {
-      "rank": 155,
+      "rank": 156,
       "ticker": "REGN",
       "breakout_score": 91.4,
       "phase": 2,
@@ -3573,7 +3596,7 @@
       ]
     },
     {
-      "rank": 156,
+      "rank": 157,
       "ticker": "ATO",
       "breakout_score": 91.2,
       "phase": 2,
@@ -3596,7 +3619,7 @@
       ]
     },
     {
-      "rank": 157,
+      "rank": 158,
       "ticker": "LSCC",
       "breakout_score": 91.2,
       "phase": 2,
@@ -3619,7 +3642,7 @@
       ]
     },
     {
-      "rank": 158,
+      "rank": 159,
       "ticker": "ALGM",
       "breakout_score": 91.1,
       "phase": 2,
@@ -3642,7 +3665,7 @@
       ]
     },
     {
-      "rank": 159,
+      "rank": 160,
       "ticker": "GVA",
       "breakout_score": 91.0,
       "phase": 2,
@@ -3665,7 +3688,7 @@
       ]
     },
     {
-      "rank": 160,
+      "rank": 161,
       "ticker": "KLIC",
       "breakout_score": 90.8,
       "phase": 2,
@@ -3688,7 +3711,7 @@
       ]
     },
     {
-      "rank": 161,
+      "rank": 162,
       "ticker": "ARKO",
       "breakout_score": 90.7,
       "phase": 2,
@@ -3711,7 +3734,7 @@
       ]
     },
     {
-      "rank": 162,
+      "rank": 163,
       "ticker": "AVT",
       "breakout_score": 90.7,
       "phase": 2,
@@ -3734,7 +3757,7 @@
       ]
     },
     {
-      "rank": 163,
+      "rank": 164,
       "ticker": "FHTX",
       "breakout_score": 90.6,
       "phase": 2,
@@ -3757,7 +3780,7 @@
       ]
     },
     {
-      "rank": 164,
+      "rank": 165,
       "ticker": "APEI",
       "breakout_score": 90.5,
       "phase": 2,
@@ -3780,7 +3803,7 @@
       ]
     },
     {
-      "rank": 165,
+      "rank": 166,
       "ticker": "OII",
       "breakout_score": 90.4,
       "phase": 2,
@@ -3803,7 +3826,7 @@
       ]
     },
     {
-      "rank": 166,
+      "rank": 167,
       "ticker": "E",
       "breakout_score": 90.3,
       "phase": 2,
@@ -3826,7 +3849,7 @@
       ]
     },
     {
-      "rank": 167,
+      "rank": 168,
       "ticker": "RFIL",
       "breakout_score": 90.3,
       "phase": 2,
@@ -3849,7 +3872,7 @@
       ]
     },
     {
-      "rank": 168,
+      "rank": 169,
       "ticker": "GTY",
       "breakout_score": 90.1,
       "phase": 2,
@@ -3872,7 +3895,7 @@
       ]
     },
     {
-      "rank": 169,
+      "rank": 170,
       "ticker": "RNAM",
       "breakout_score": 90.1,
       "phase": 2,
@@ -3895,7 +3918,7 @@
       ]
     },
     {
-      "rank": 170,
+      "rank": 171,
       "ticker": "CTRA",
       "breakout_score": 90.0,
       "phase": 2,
@@ -3918,7 +3941,7 @@
       ]
     },
     {
-      "rank": 171,
+      "rank": 172,
       "ticker": "MAMA",
       "breakout_score": 90.0,
       "phase": 2,
@@ -3941,7 +3964,7 @@
       ]
     },
     {
-      "rank": 172,
+      "rank": 173,
       "ticker": "RGLD",
       "breakout_score": 90.0,
       "phase": 2,
@@ -3964,7 +3987,7 @@
       ]
     },
     {
-      "rank": 173,
+      "rank": 174,
       "ticker": "HAL",
       "breakout_score": 89.9,
       "phase": 2,
@@ -3987,7 +4010,7 @@
       ]
     },
     {
-      "rank": 174,
+      "rank": 175,
       "ticker": "LPG",
       "breakout_score": 89.9,
       "phase": 2,
@@ -4010,7 +4033,7 @@
       ]
     },
     {
-      "rank": 175,
+      "rank": 176,
       "ticker": "BKV",
       "breakout_score": 89.8,
       "phase": 2,
@@ -4033,7 +4056,7 @@
       ]
     },
     {
-      "rank": 176,
+      "rank": 177,
       "ticker": "UNF",
       "breakout_score": 89.8,
       "phase": 2,
@@ -4056,7 +4079,7 @@
       ]
     },
     {
-      "rank": 177,
+      "rank": 178,
       "ticker": "CCS",
       "breakout_score": 89.7,
       "phase": 2,
@@ -4079,7 +4102,7 @@
       ]
     },
     {
-      "rank": 178,
+      "rank": 179,
       "ticker": "RTX",
       "breakout_score": 89.7,
       "phase": 2,
@@ -4102,7 +4125,7 @@
       ]
     },
     {
-      "rank": 179,
+      "rank": 180,
       "ticker": "VSH",
       "breakout_score": 89.7,
       "phase": 2,
@@ -4125,7 +4148,7 @@
       ]
     },
     {
-      "rank": 180,
+      "rank": 181,
       "ticker": "BELFB",
       "breakout_score": 89.6,
       "phase": 2,
@@ -4148,7 +4171,7 @@
       ]
     },
     {
-      "rank": 181,
+      "rank": 182,
       "ticker": "GD",
       "breakout_score": 89.6,
       "phase": 2,
@@ -4171,7 +4194,7 @@
       ]
     },
     {
-      "rank": 182,
+      "rank": 183,
       "ticker": "BCPC",
       "breakout_score": 89.5,
       "phase": 2,
@@ -4194,7 +4217,7 @@
       ]
     },
     {
-      "rank": 183,
+      "rank": 184,
       "ticker": "EBF",
       "breakout_score": 89.4,
       "phase": 2,
@@ -4217,7 +4240,7 @@
       ]
     },
     {
-      "rank": 184,
+      "rank": 185,
       "ticker": "SYY",
       "breakout_score": 89.4,
       "phase": 2,
@@ -4240,7 +4263,7 @@
       ]
     },
     {
-      "rank": 185,
+      "rank": 186,
       "ticker": "ITT",
       "breakout_score": 89.3,
       "phase": 2,
@@ -4263,7 +4286,7 @@
       ]
     },
     {
-      "rank": 186,
+      "rank": 187,
       "ticker": "SIF",
       "breakout_score": 89.2,
       "phase": 2,
@@ -4286,7 +4309,7 @@
       ]
     },
     {
-      "rank": 187,
+      "rank": 188,
       "ticker": "DCO",
       "breakout_score": 89.0,
       "phase": 2,
@@ -4309,7 +4332,7 @@
       ]
     },
     {
-      "rank": 188,
+      "rank": 189,
       "ticker": "MCHP",
       "breakout_score": 89.0,
       "phase": 2,
@@ -4332,7 +4355,7 @@
       ]
     },
     {
-      "rank": 189,
+      "rank": 190,
       "ticker": "MFA",
       "breakout_score": 89.0,
       "phase": 2,
@@ -4355,7 +4378,7 @@
       ]
     },
     {
-      "rank": 190,
+      "rank": 191,
       "ticker": "GIII",
       "breakout_score": 88.9,
       "phase": 2,
@@ -4378,7 +4401,7 @@
       ]
     },
     {
-      "rank": 191,
+      "rank": 192,
       "ticker": "DLX",
       "breakout_score": 88.8,
       "phase": 2,
@@ -4401,7 +4424,7 @@
       ]
     },
     {
-      "rank": 192,
+      "rank": 193,
       "ticker": "FTAI",
       "breakout_score": 88.5,
       "phase": 2,
@@ -4424,7 +4447,7 @@
       ]
     },
     {
-      "rank": 193,
+      "rank": 194,
       "ticker": "EMBJ",
       "breakout_score": 88.2,
       "phase": 2,
@@ -4447,7 +4470,7 @@
       ]
     },
     {
-      "rank": 194,
+      "rank": 195,
       "ticker": "AMRX",
       "breakout_score": 88.0,
       "phase": 2,
@@ -4470,7 +4493,7 @@
       ]
     },
     {
-      "rank": 195,
+      "rank": 196,
       "ticker": "CMI",
       "breakout_score": 88.0,
       "phase": 2,
@@ -4493,7 +4516,7 @@
       ]
     },
     {
-      "rank": 196,
+      "rank": 197,
       "ticker": "IPI",
       "breakout_score": 88.0,
       "phase": 2,
@@ -4516,7 +4539,7 @@
       ]
     },
     {
-      "rank": 197,
+      "rank": 198,
       "ticker": "WTS",
       "breakout_score": 87.9,
       "phase": 2,
@@ -4539,7 +4562,7 @@
       ]
     },
     {
-      "rank": 198,
+      "rank": 199,
       "ticker": "BIP",
       "breakout_score": 87.7,
       "phase": 2,
@@ -4562,7 +4585,7 @@
       ]
     },
     {
-      "rank": 199,
+      "rank": 200,
       "ticker": "INVX",
       "breakout_score": 87.7,
       "phase": 2,
@@ -4585,7 +4608,7 @@
       ]
     },
     {
-      "rank": 200,
+      "rank": 201,
       "ticker": "MGM",
       "breakout_score": 87.7,
       "phase": 2,
@@ -4608,7 +4631,7 @@
       ]
     },
     {
-      "rank": 201,
+      "rank": 202,
       "ticker": "RYAM",
       "breakout_score": 87.7,
       "phase": 2,
@@ -4631,7 +4654,7 @@
       ]
     },
     {
-      "rank": 202,
+      "rank": 203,
       "ticker": "CTVA",
       "breakout_score": 87.6,
       "phase": 2,
@@ -4654,7 +4677,7 @@
       ]
     },
     {
-      "rank": 203,
+      "rank": 204,
       "ticker": "XP",
       "breakout_score": 87.6,
       "phase": 2,
@@ -4677,7 +4700,7 @@
       ]
     },
     {
-      "rank": 204,
+      "rank": 205,
       "ticker": "LQDT",
       "breakout_score": 87.5,
       "phase": 2,
@@ -4700,7 +4723,7 @@
       ]
     },
     {
-      "rank": 205,
+      "rank": 206,
       "ticker": "PAHC",
       "breakout_score": 87.5,
       "phase": 2,
@@ -4723,7 +4746,7 @@
       ]
     },
     {
-      "rank": 206,
+      "rank": 207,
       "ticker": "CRS",
       "breakout_score": 87.4,
       "phase": 2,
@@ -4746,7 +4769,7 @@
       ]
     },
     {
-      "rank": 207,
+      "rank": 208,
       "ticker": "MSM",
       "breakout_score": 87.4,
       "phase": 2,
@@ -4769,7 +4792,7 @@
       ]
     },
     {
-      "rank": 208,
+      "rank": 209,
       "ticker": "O",
       "breakout_score": 87.4,
       "phase": 2,
@@ -4792,7 +4815,7 @@
       ]
     },
     {
-      "rank": 209,
+      "rank": 210,
       "ticker": "ROG",
       "breakout_score": 87.4,
       "phase": 2,
@@ -4815,7 +4838,7 @@
       ]
     },
     {
-      "rank": 210,
+      "rank": 211,
       "ticker": "TNK",
       "breakout_score": 87.3,
       "phase": 2,
@@ -4838,7 +4861,7 @@
       ]
     },
     {
-      "rank": 211,
+      "rank": 212,
       "ticker": "WMB",
       "breakout_score": 87.2,
       "phase": 2,
@@ -4861,7 +4884,7 @@
       ]
     },
     {
-      "rank": 212,
+      "rank": 213,
       "ticker": "MRCY",
       "breakout_score": 87.1,
       "phase": 2,
@@ -4884,7 +4907,7 @@
       ]
     },
     {
-      "rank": 213,
+      "rank": 214,
       "ticker": "EHAB",
       "breakout_score": 86.9,
       "phase": 2,
@@ -4907,7 +4930,7 @@
       ]
     },
     {
-      "rank": 214,
+      "rank": 215,
       "ticker": "DXPE",
       "breakout_score": 86.8,
       "phase": 2,
@@ -4930,7 +4953,7 @@
       ]
     },
     {
-      "rank": 215,
+      "rank": 216,
       "ticker": "CL",
       "breakout_score": 86.7,
       "phase": 2,
@@ -4953,7 +4976,7 @@
       ]
     },
     {
-      "rank": 216,
+      "rank": 217,
       "ticker": "HSIC",
       "breakout_score": 86.7,
       "phase": 2,
@@ -4976,7 +4999,7 @@
       ]
     },
     {
-      "rank": 217,
+      "rank": 218,
       "ticker": "BEN",
       "breakout_score": 86.5,
       "phase": 2,
@@ -4999,7 +5022,7 @@
       ]
     },
     {
-      "rank": 218,
+      "rank": 219,
       "ticker": "CC",
       "breakout_score": 86.4,
       "phase": 2,
@@ -5022,7 +5045,7 @@
       ]
     },
     {
-      "rank": 219,
+      "rank": 220,
       "ticker": "ECVT",
       "breakout_score": 86.4,
       "phase": 2,
@@ -5045,7 +5068,7 @@
       ]
     },
     {
-      "rank": 220,
+      "rank": 221,
       "ticker": "SNCY",
       "breakout_score": 86.4,
       "phase": 2,
@@ -5068,7 +5091,7 @@
       ]
     },
     {
-      "rank": 221,
+      "rank": 222,
       "ticker": "ALSN",
       "breakout_score": 86.3,
       "phase": 2,
@@ -5091,7 +5114,7 @@
       ]
     },
     {
-      "rank": 222,
+      "rank": 223,
       "ticker": "DERM",
       "breakout_score": 86.2,
       "phase": 2,
@@ -5114,7 +5137,7 @@
       ]
     },
     {
-      "rank": 223,
+      "rank": 224,
       "ticker": "TRS",
       "breakout_score": 86.1,
       "phase": 2,
@@ -5137,7 +5160,7 @@
       ]
     },
     {
-      "rank": 224,
+      "rank": 225,
       "ticker": "MOD",
       "breakout_score": 86.0,
       "phase": 2,
@@ -5160,7 +5183,7 @@
       ]
     },
     {
-      "rank": 225,
+      "rank": 226,
       "ticker": "CTOS",
       "breakout_score": 85.9,
       "phase": 2,
@@ -5183,7 +5206,7 @@
       ]
     },
     {
-      "rank": 226,
+      "rank": 227,
       "ticker": "RIO",
       "breakout_score": 85.6,
       "phase": 2,
@@ -5206,7 +5229,7 @@
       ]
     },
     {
-      "rank": 227,
+      "rank": 228,
       "ticker": "BMO",
       "breakout_score": 85.5,
       "phase": 2,
@@ -5229,7 +5252,7 @@
       ]
     },
     {
-      "rank": 228,
+      "rank": 229,
       "ticker": "IESC",
       "breakout_score": 85.4,
       "phase": 2,
@@ -5252,7 +5275,7 @@
       ]
     },
     {
-      "rank": 229,
+      "rank": 230,
       "ticker": "CURB",
       "breakout_score": 85.3,
       "phase": 2,
@@ -5275,7 +5298,7 @@
       ]
     },
     {
-      "rank": 230,
+      "rank": 231,
       "ticker": "FLS",
       "breakout_score": 85.2,
       "phase": 2,
@@ -5298,7 +5321,7 @@
       ]
     },
     {
-      "rank": 231,
+      "rank": 232,
       "ticker": "SNA",
       "breakout_score": 85.2,
       "phase": 2,
@@ -5321,7 +5344,7 @@
       ]
     },
     {
-      "rank": 232,
+      "rank": 233,
       "ticker": "EME",
       "breakout_score": 85.1,
       "phase": 2,
@@ -5344,7 +5367,7 @@
       ]
     },
     {
-      "rank": 233,
+      "rank": 234,
       "ticker": "GOLF",
       "breakout_score": 85.1,
       "phase": 2,
@@ -5367,7 +5390,7 @@
       ]
     },
     {
-      "rank": 234,
+      "rank": 235,
       "ticker": "SUN",
       "breakout_score": 84.9,
       "phase": 2,
@@ -5390,7 +5413,7 @@
       ]
     },
     {
-      "rank": 235,
+      "rank": 236,
       "ticker": "TYG",
       "breakout_score": 84.9,
       "phase": 2,
@@ -5413,7 +5436,7 @@
       ]
     },
     {
-      "rank": 236,
+      "rank": 237,
       "ticker": "BIPC",
       "breakout_score": 84.6,
       "phase": 2,
@@ -5436,7 +5459,7 @@
       ]
     },
     {
-      "rank": 237,
+      "rank": 238,
       "ticker": "AEIS",
       "breakout_score": 84.3,
       "phase": 2,
@@ -5459,7 +5482,7 @@
       ]
     },
     {
-      "rank": 238,
+      "rank": 239,
       "ticker": "PLXS",
       "breakout_score": 84.0,
       "phase": 2,
@@ -5482,7 +5505,7 @@
       ]
     },
     {
-      "rank": 239,
+      "rank": 240,
       "ticker": "INNV",
       "breakout_score": 83.9,
       "phase": 2,
@@ -5505,7 +5528,7 @@
       ]
     },
     {
-      "rank": 240,
+      "rank": 241,
       "ticker": "ORN",
       "breakout_score": 83.6,
       "phase": 2,
@@ -5528,7 +5551,7 @@
       ]
     },
     {
-      "rank": 241,
+      "rank": 242,
       "ticker": "TRMD",
       "breakout_score": 83.5,
       "phase": 2,
@@ -5551,7 +5574,7 @@
       ]
     },
     {
-      "rank": 242,
+      "rank": 243,
       "ticker": "HST",
       "breakout_score": 83.3,
       "phase": 2,
@@ -5574,7 +5597,7 @@
       ]
     },
     {
-      "rank": 243,
+      "rank": 244,
       "ticker": "VTRS",
       "breakout_score": 83.3,
       "phase": 2,
@@ -5597,7 +5620,7 @@
       ]
     },
     {
-      "rank": 244,
+      "rank": 245,
       "ticker": "APA",
       "breakout_score": 83.2,
       "phase": 2,
@@ -5620,7 +5643,7 @@
       ]
     },
     {
-      "rank": 245,
+      "rank": 246,
       "ticker": "MEC",
       "breakout_score": 83.2,
       "phase": 2,
@@ -5643,7 +5666,7 @@
       ]
     },
     {
-      "rank": 246,
+      "rank": 247,
       "ticker": "DOV",
       "breakout_score": 83.1,
       "phase": 2,
@@ -5666,7 +5689,7 @@
       ]
     },
     {
-      "rank": 247,
+      "rank": 248,
       "ticker": "UMC",
       "breakout_score": 83.1,
       "phase": 2,
@@ -5689,7 +5712,7 @@
       ]
     },
     {
-      "rank": 248,
+      "rank": 249,
       "ticker": "JCI",
       "breakout_score": 83.0,
       "phase": 2,
@@ -5712,7 +5735,7 @@
       ]
     },
     {
-      "rank": 249,
+      "rank": 250,
       "ticker": "KEX",
       "breakout_score": 83.0,
       "phase": 2,
@@ -5735,7 +5758,7 @@
       ]
     },
     {
-      "rank": 250,
+      "rank": 251,
       "ticker": "MO",
       "breakout_score": 82.8,
       "phase": 2,
@@ -5758,7 +5781,7 @@
       ]
     },
     {
-      "rank": 251,
+      "rank": 252,
       "ticker": "HUBB",
       "breakout_score": 82.7,
       "phase": 2,
@@ -5781,7 +5804,7 @@
       ]
     },
     {
-      "rank": 252,
+      "rank": 253,
       "ticker": "VSCO",
       "breakout_score": 82.6,
       "phase": 2,
@@ -5804,7 +5827,7 @@
       ]
     },
     {
-      "rank": 253,
+      "rank": 254,
       "ticker": "PPL",
       "breakout_score": 82.5,
       "phase": 2,
@@ -5827,7 +5850,7 @@
       ]
     },
     {
-      "rank": 254,
+      "rank": 255,
       "ticker": "UNFI",
       "breakout_score": 82.3,
       "phase": 2,
@@ -5850,7 +5873,7 @@
       ]
     },
     {
-      "rank": 255,
+      "rank": 256,
       "ticker": "MEOH",
       "breakout_score": 82.2,
       "phase": 2,
@@ -5873,7 +5896,7 @@
       ]
     },
     {
-      "rank": 256,
+      "rank": 257,
       "ticker": "MITK",
       "breakout_score": 82.2,
       "phase": 2,
@@ -5896,7 +5919,7 @@
       ]
     },
     {
-      "rank": 257,
+      "rank": 258,
       "ticker": "ASTE",
       "breakout_score": 82.1,
       "phase": 2,
@@ -5919,7 +5942,7 @@
       ]
     },
     {
-      "rank": 258,
+      "rank": 259,
       "ticker": "NWN",
       "breakout_score": 82.1,
       "phase": 2,
@@ -5942,7 +5965,7 @@
       ]
     },
     {
-      "rank": 259,
+      "rank": 260,
       "ticker": "OXY",
       "breakout_score": 82.1,
       "phase": 2,
@@ -5965,7 +5988,7 @@
       ]
     },
     {
-      "rank": 260,
+      "rank": 261,
       "ticker": "MHO",
       "breakout_score": 82.0,
       "phase": 2,
@@ -5988,7 +6011,7 @@
       ]
     },
     {
-      "rank": 261,
+      "rank": 262,
       "ticker": "ROST",
       "breakout_score": 82.0,
       "phase": 2,
@@ -6011,7 +6034,30 @@
       ]
     },
     {
-      "rank": 262,
+      "rank": 263,
+      "ticker": "NEE",
+      "breakout_score": 81.8,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 89.53,
+      "risk": 4.24,
+      "reward": 28.11,
+      "risk_reward": 6.63,
+      "rs": 0.426,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Strong Stage 2: 10.1% above 50 SMA",
+        "SMAs rising strongly (50:0.196, 200:0.172)",
+        "No fundamental data available",
+        "Volume pattern neutral (ratio 1.04)",
+        "Strong RS: 0.426 (outperforming SPY)"
+      ]
+    },
+    {
+      "rank": 264,
       "ticker": "PHM",
       "breakout_score": 81.7,
       "phase": 2,
@@ -6034,7 +6080,7 @@
       ]
     },
     {
-      "rank": 263,
+      "rank": 265,
       "ticker": "GAP",
       "breakout_score": 81.6,
       "phase": 2,
@@ -6057,7 +6103,7 @@
       ]
     },
     {
-      "rank": 264,
+      "rank": 266,
       "ticker": "PNTG",
       "breakout_score": 81.6,
       "phase": 2,
@@ -6080,7 +6126,7 @@
       ]
     },
     {
-      "rank": 265,
+      "rank": 267,
       "ticker": "FTI",
       "breakout_score": 81.5,
       "phase": 2,
@@ -6103,7 +6149,7 @@
       ]
     },
     {
-      "rank": 266,
+      "rank": 268,
       "ticker": "FMX",
       "breakout_score": 81.3,
       "phase": 2,
@@ -6126,7 +6172,7 @@
       ]
     },
     {
-      "rank": 267,
+      "rank": 269,
       "ticker": "KBH",
       "breakout_score": 81.1,
       "phase": 2,
@@ -6149,7 +6195,7 @@
       ]
     },
     {
-      "rank": 268,
+      "rank": 270,
       "ticker": "VSEC",
       "breakout_score": 81.1,
       "phase": 2,
@@ -6172,7 +6218,7 @@
       ]
     },
     {
-      "rank": 269,
+      "rank": 271,
       "ticker": "AAOI",
       "breakout_score": 81.0,
       "phase": 2,
@@ -6195,7 +6241,7 @@
       ]
     },
     {
-      "rank": 270,
+      "rank": 272,
       "ticker": "SD",
       "breakout_score": 80.9,
       "phase": 2,
@@ -6218,7 +6264,7 @@
       ]
     },
     {
-      "rank": 271,
+      "rank": 273,
       "ticker": "RELL",
       "breakout_score": 80.8,
       "phase": 2,
@@ -6241,7 +6287,7 @@
       ]
     },
     {
-      "rank": 272,
+      "rank": 274,
       "ticker": "BGS",
       "breakout_score": 80.7,
       "phase": 2,
@@ -6264,7 +6310,7 @@
       ]
     },
     {
-      "rank": 273,
+      "rank": 275,
       "ticker": "CFLT",
       "breakout_score": 80.6,
       "phase": 2,
@@ -6287,7 +6333,7 @@
       ]
     },
     {
-      "rank": 274,
+      "rank": 276,
       "ticker": "EGP",
       "breakout_score": 80.6,
       "phase": 2,
@@ -6310,7 +6356,7 @@
       ]
     },
     {
-      "rank": 275,
+      "rank": 277,
       "ticker": "GIL",
       "breakout_score": 80.6,
       "phase": 2,
@@ -6333,7 +6379,7 @@
       ]
     },
     {
-      "rank": 276,
+      "rank": 278,
       "ticker": "TXNM",
       "breakout_score": 80.6,
       "phase": 2,
@@ -6356,7 +6402,7 @@
       ]
     },
     {
-      "rank": 277,
+      "rank": 279,
       "ticker": "WES",
       "breakout_score": 80.4,
       "phase": 2,
@@ -6379,7 +6425,7 @@
       ]
     },
     {
-      "rank": 278,
+      "rank": 280,
       "ticker": "AGNC",
       "breakout_score": 80.2,
       "phase": 2,
@@ -6402,7 +6448,7 @@
       ]
     },
     {
-      "rank": 279,
+      "rank": 281,
       "ticker": "ISSC",
       "breakout_score": 80.2,
       "phase": 2,
@@ -6425,7 +6471,7 @@
       ]
     },
     {
-      "rank": 280,
+      "rank": 282,
       "ticker": "PH",
       "breakout_score": 80.2,
       "phase": 2,
@@ -6448,7 +6494,7 @@
       ]
     },
     {
-      "rank": 281,
+      "rank": 283,
       "ticker": "PM",
       "breakout_score": 80.2,
       "phase": 2,
@@ -6471,7 +6517,7 @@
       ]
     },
     {
-      "rank": 282,
+      "rank": 284,
       "ticker": "SBUX",
       "breakout_score": 80.1,
       "phase": 2,
@@ -6494,7 +6540,7 @@
       ]
     },
     {
-      "rank": 283,
+      "rank": 285,
       "ticker": "ATRO",
       "breakout_score": 80.0,
       "phase": 2,
@@ -6517,7 +6563,7 @@
       ]
     },
     {
-      "rank": 284,
+      "rank": 286,
       "ticker": "FIVE",
       "breakout_score": 80.0,
       "phase": 2,
@@ -6540,7 +6586,7 @@
       ]
     },
     {
-      "rank": 285,
+      "rank": 287,
       "ticker": "PPG",
       "breakout_score": 80.0,
       "phase": 2,
@@ -6563,7 +6609,7 @@
       ]
     },
     {
-      "rank": 286,
+      "rank": 288,
       "ticker": "TK",
       "breakout_score": 80.0,
       "phase": 2,
@@ -6586,7 +6632,7 @@
       ]
     },
     {
-      "rank": 287,
+      "rank": 289,
       "ticker": "TRV",
       "breakout_score": 80.0,
       "phase": 2,
@@ -6609,7 +6655,7 @@
       ]
     },
     {
-      "rank": 288,
+      "rank": 290,
       "ticker": "BKH",
       "breakout_score": 79.8,
       "phase": 2,
@@ -6632,7 +6678,7 @@
       ]
     },
     {
-      "rank": 289,
+      "rank": 291,
       "ticker": "WMS",
       "breakout_score": 79.8,
       "phase": 2,
@@ -6655,7 +6701,7 @@
       ]
     },
     {
-      "rank": 290,
+      "rank": 292,
       "ticker": "CIEN",
       "breakout_score": 79.7,
       "phase": 2,
@@ -6678,7 +6724,7 @@
       ]
     },
     {
-      "rank": 291,
+      "rank": 293,
       "ticker": "HSBC",
       "breakout_score": 79.6,
       "phase": 2,
@@ -6698,52 +6744,6 @@
         "Revenue: 3Q avg 2.3% QoQ (5.9% → -0.5% → 1.4%)",
         "EPS: -18% YoY",
         "Volume heavier on up days (2.6M vs 1.9M, ratio 1.42)"
-      ]
-    },
-    {
-      "rank": 292,
-      "ticker": "NEE",
-      "breakout_score": 79.3,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 89.53,
-      "risk": 4.24,
-      "reward": 28.11,
-      "risk_reward": 6.63,
-      "rs": 0.426,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 10.1% above 50 SMA",
-        "SMAs rising strongly (50:0.196, 200:0.172)",
-        "Revenue: Recent decline -18.4% QoQ (3Q avg: 2.6%, PENALTY)",
-        "EPS: +26% YoY",
-        "Inventory neutral (-0.2% QoQ)"
-      ]
-    },
-    {
-      "rank": 293,
-      "ticker": "NEM",
-      "breakout_score": 79.3,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 117.51,
-      "risk": 12.49,
-      "reward": 38.97,
-      "risk_reward": 3.12,
-      "rs": 0.694,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 13.2% above 50 SMA",
-        "SMAs rising strongly (50:0.578, 200:0.430)",
-        "No fundamental data available",
-        "Volume pattern neutral (ratio 1.02)",
-        "Strong RS: 0.694 (outperforming SPY)"
       ]
     },
     {
@@ -8377,1294 +8377,6 @@
         "Revenue: Recent decline -4.1% QoQ (3Q avg: 3.9%, PENALTY)",
         "EPS: -8% YoY",
         "Inventory neutral (-3.1% QoQ)"
-      ]
-    },
-    {
-      "rank": 365,
-      "ticker": "CAKE",
-      "breakout_score": 69.9,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 58.3,
-      "risk": 6.48,
-      "reward": 19.44,
-      "risk_reward": 3.0,
-      "rs": 0.497,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 11.5% above 50 SMA",
-        "SMAs rising strongly (50:0.546, 200:0.118)",
-        "Revenue: Recent decline -5.1% QoQ (3Q avg: -0.4%, PENALTY)",
-        "EPS: +8% YoY",
-        "Inventory neutral (-4.5% QoQ)"
-      ]
-    },
-    {
-      "rank": 366,
-      "ticker": "DD",
-      "breakout_score": 69.8,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 48.54,
-      "risk": 1.5,
-      "reward": 15.0,
-      "risk_reward": 10.0,
-      "rs": 0.72,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 11.2% above 50 SMA",
-        "SMAs rising strongly (50:0.457, 200:0.331)",
-        "Revenue: Recent decline -160.9% QoQ (3Q avg: -53.5%, PENALTY)",
-        "EPS: -7% YoY",
-        "Inventory drawing (-36.3% QoQ - strong demand)"
-      ]
-    },
-    {
-      "rank": 367,
-      "ticker": "FFBC",
-      "breakout_score": 69.8,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 27.23,
-      "risk": 0.84,
-      "reward": 8.4,
-      "risk_reward": 10.0,
-      "rs": -0.118,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Weak Stage 2: 1.4% above 50 SMA",
-        "SMAs rising strongly (50:0.359, 200:0.146)",
-        "Revenue: 3Q avg 6.1% QoQ (13.0% → 3.4% → 2.0%)",
-        "EPS: -6% YoY",
-        "Volume heavier on down days (ratio 0.70 - distribution)"
-      ]
-    },
-    {
-      "rank": 368,
-      "ticker": "LNT",
-      "breakout_score": 69.6,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 69.15,
-      "risk": 3.19,
-      "reward": 21.72,
-      "risk_reward": 6.81,
-      "rs": 0.566,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 57.1,
-      "vcp_desc": "7 contractions (last 4): 4.2% → 5.0% → 7.2% → 2.6%",
-      "reasons": [
-        "Good Stage 2: 8.2% above 50 SMA",
-        "SMAs rising strongly (50:0.093, 200:0.079)",
-        "Revenue: Recent decline -12.1% QoQ (3Q avg: -0.3%, PENALTY)",
-        "EPS: -5% YoY",
-        "Inventory neutral (2.5% QoQ)"
-      ]
-    },
-    {
-      "rank": 369,
-      "ticker": "GTLS",
-      "breakout_score": 69.2,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 201.08,
-      "risk": 6.22,
-      "reward": 62.2,
-      "risk_reward": 10.0,
-      "rs": 0.024,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 80.8,
-      "vcp_desc": "5 contractions (last 4): 0.8% → 0.5% → 0.6% → 0.5%",
-      "reasons": [
-        "Weak Stage 2: 0.2% above 50 SMA",
-        "SMAs rising moderately",
-        "Revenue: 3Q avg 0.1% QoQ (-9.5% → 8.1% → 1.7%)",
-        "EPS: -343% YoY",
-        "Inventory neutral (3.1% QoQ)"
-      ]
-    },
-    {
-      "rank": 370,
-      "ticker": "CUK",
-      "breakout_score": 69.0,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 30.22,
-      "risk": 1.25,
-      "reward": 9.48,
-      "risk_reward": 7.58,
-      "rs": 0.04,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 3.1% above 50 SMA",
-        "SMAs rising strongly (50:0.567, 200:0.290)",
-        "Revenue: Recent decline -22.4% QoQ (3Q avg: 5.1%, PENALTY)",
-        "EPS: +35% YoY",
-        "Inventory building (6.3% QoQ)"
-      ]
-    },
-    {
-      "rank": 371,
-      "ticker": "ONTO",
-      "breakout_score": 69.0,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 203.05,
-      "risk": 12.84,
-      "reward": 64.71,
-      "risk_reward": 5.04,
-      "rs": 0.658,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 10.2% above 50 SMA",
-        "SMAs rising strongly (50:0.718, 200:0.359)",
-        "Revenue: Recent decline -14.0% QoQ (3Q avg: -5.9%, PENALTY)",
-        "EPS: -47% YoY",
-        "Inventory neutral (-4.0% QoQ)"
-      ]
-    },
-    {
-      "rank": 372,
-      "ticker": "BLBD",
-      "breakout_score": 68.9,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 55.62,
-      "risk": 2.65,
-      "reward": 17.46,
-      "risk_reward": 6.59,
-      "rs": 0.961,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 10.6% above 50 SMA",
-        "SMAs rising strongly (50:0.267, 200:0.226)",
-        "Revenue: Recent decline -18.6% QoQ (3Q avg: -1.6%, PENALTY)",
-        "EPS: +9% YoY",
-        "Inventory neutral (1.0% QoQ)"
-      ]
-    },
-    {
-      "rank": 373,
-      "ticker": "ANDE",
-      "breakout_score": 68.6,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 62.59,
-      "risk": 2.7,
-      "reward": 19.55,
-      "risk_reward": 7.24,
-      "rs": 0.047,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 8.9% above 50 SMA",
-        "SMAs rising strongly (50:0.541, 200:0.338)",
-        "Revenue: Recent decline -5.3% QoQ (3Q avg: -0.7%, PENALTY)",
-        "EPS: +50% YoY (strong earnings)",
-        "Inventory building rapidly (51.8% QoQ - demand concern)"
-      ]
-    },
-    {
-      "rank": 374,
-      "ticker": "ASH",
-      "breakout_score": 68.3,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 60.49,
-      "risk": 1.87,
-      "reward": 18.7,
-      "risk_reward": 10.0,
-      "rs": 0.1,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 26.5,
-      "vcp_desc": "Only 1 contraction(s) detected (need 2+)",
-      "reasons": [
-        "Weak Stage 2: 1.8% above 50 SMA",
-        "SMAs rising strongly (50:0.236, 200:0.118)",
-        "Revenue: Recent decline -19.1% QoQ (3Q avg: -6.5%, PENALTY)",
-        "EPS: +93% YoY (strong earnings)",
-        "Inventory neutral (-0.5% QoQ)"
-      ]
-    },
-    {
-      "rank": 375,
-      "ticker": "FDP",
-      "breakout_score": 68.2,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 39.06,
-      "risk": 3.87,
-      "reward": 12.89,
-      "risk_reward": 3.33,
-      "rs": 0.566,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 11.9% above 50 SMA",
-        "SMAs rising strongly (50:0.220, 200:0.109)",
-        "Revenue: Recent decline -13.6% QoQ (3Q avg: 0.8%, PENALTY)",
-        "EPS: -169% YoY",
-        "Inventory neutral (3.1% QoQ)"
-      ]
-    },
-    {
-      "rank": 376,
-      "ticker": "TGT",
-      "breakout_score": 68.2,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 110.38,
-      "risk": 3.41,
-      "reward": 34.1,
-      "risk_reward": 10.0,
-      "rs": 0.361,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 6.9% above 50 SMA",
-        "SMAs rising strongly (50:0.481, 200:0.122)",
-        "Revenue: 3Q avg -5.6% QoQ (-22.9% → 5.7% → 0.2%)",
-        "EPS: -18% YoY",
-        "Inventory building rapidly (15.6% QoQ - demand concern)"
-      ]
-    },
-    {
-      "rank": 377,
-      "ticker": "BIIB",
-      "breakout_score": 67.9,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 184.97,
-      "risk": 6.85,
-      "reward": 57.54,
-      "risk_reward": 8.4,
-      "rs": 0.332,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 5.7% above 50 SMA",
-        "SMAs rising strongly (50:0.158, 200:0.245)",
-        "Revenue: Recent decline -10.1% QoQ (3Q avg: -1.8%, PENALTY)",
-        "EPS: -118% YoY",
-        "Inventory neutral (-1.9% QoQ)"
-      ]
-    },
-    {
-      "rank": 378,
-      "ticker": "UCTT",
-      "breakout_score": 67.9,
-      "phase": 2,
-      "entry_quality": "Extended",
-      "stop_loss": 54.61,
-      "risk": 6.07,
-      "reward": 18.21,
-      "risk_reward": 3.0,
-      "rs": 2.234,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 43.1% above 50 SMA",
-        "SMAs rising strongly (50:1.637, 200:0.645)",
-        "Over-extended: 43.1% above 50 SMA",
-        "Revenue: 3Q avg -3.2% QoQ (-7.9% → 0.0% → -1.7%)",
-        "EPS: -380% YoY"
-      ]
-    },
-    {
-      "rank": 379,
-      "ticker": "IPX",
-      "breakout_score": 67.1,
-      "phase": 2,
-      "entry_quality": "Extended",
-      "stop_loss": 43.77,
-      "risk": 4.86,
-      "reward": 14.58,
-      "risk_reward": 3.0,
-      "rs": -0.157,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 10.3% above 50 SMA",
-        "SMAs rising strongly (50:0.492, 200:0.289)",
-        "No fundamental data available",
-        "Volume pattern neutral (ratio 1.00)",
-        "Declining RS: -0.157 (underperforming SPY)"
-      ]
-    },
-    {
-      "rank": 380,
-      "ticker": "MLM",
-      "breakout_score": 67.1,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 648.54,
-      "risk": 28.03,
-      "reward": 202.94,
-      "risk_reward": 7.24,
-      "rs": 0.15,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 26.1,
-      "vcp_desc": "Only 1 contraction(s) detected (need 2+)",
-      "reasons": [
-        "Good Stage 2: 3.3% above 50 SMA",
-        "SMAs rising strongly (50:0.191, 200:0.137)",
-        "Revenue: Recent decline -17.0% QoQ (3Q avg: 6.3%, PENALTY)",
-        "EPS: -4% YoY",
-        "Inventory neutral (4.3% QoQ)"
-      ]
-    },
-    {
-      "rank": 381,
-      "ticker": "NAT",
-      "breakout_score": 67.0,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 5.16,
-      "risk": 0.57,
-      "reward": 1.71,
-      "risk_reward": 3.0,
-      "rs": 1.557,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 39.8% above 50 SMA",
-        "SMAs rising strongly (50:0.480, 200:0.327)",
-        "Over-extended: 39.8% above 50 SMA",
-        "Revenue: 3Q avg -19.4% QoQ (-77.8% → 5.8% → 13.8%)",
-        "EPS: -125% YoY"
-      ]
-    },
-    {
-      "rank": 382,
-      "ticker": "MGY",
-      "breakout_score": 66.9,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 25.55,
-      "risk": 2.27,
-      "reward": 8.35,
-      "risk_reward": 3.68,
-      "rs": 0.426,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 15.4% above 50 SMA",
-        "SMAs rising strongly (50:0.321, 200:0.134)",
-        "Revenue: Recent decline -2.2% QoQ (3Q avg: -3.1%, PENALTY)",
-        "EPS: -16% YoY",
-        "Volume heavier on up days (2.9M vs 2.1M, ratio 1.39)"
-      ]
-    },
-    {
-      "rank": 383,
-      "ticker": "LYTS",
-      "breakout_score": 66.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 20.44,
-      "risk": 1.18,
-      "reward": 6.5,
-      "risk_reward": 5.51,
-      "rs": -0.161,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 4.7% above 50 SMA",
-        "SMAs rising strongly (50:0.386, 200:0.179)",
-        "Revenue: Recent decline -6.5% QoQ (3Q avg: 4.0%, PENALTY)",
-        "EPS: +11% YoY",
-        "Inventory neutral (4.0% QoQ)"
-      ]
-    },
-    {
-      "rank": 384,
-      "ticker": "WCC",
-      "breakout_score": 66.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 279.95,
-      "risk": 9.55,
-      "reward": 86.9,
-      "risk_reward": 9.1,
-      "rs": -0.085,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 3.3% above 50 SMA",
-        "SMAs rising strongly (50:0.251, 200:0.317)",
-        "Revenue: Recent decline -2.1% QoQ (3Q avg: 4.5%, PENALTY)",
-        "EPS: +10% YoY",
-        "Inventory neutral (-1.2% QoQ)"
-      ]
-    },
-    {
-      "rank": 385,
-      "ticker": "MCFT",
-      "breakout_score": 66.6,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 21.05,
-      "risk": 0.65,
-      "reward": 6.5,
-      "risk_reward": 10.0,
-      "rs": -0.103,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Weak Stage 2: 0.2% above 50 SMA",
-        "SMAs rising strongly (50:0.506, 200:0.180)",
-        "Revenue: 3Q avg -1.5% QoQ (4.7% → -13.2% → 4.0%)",
-        "EPS: -6% YoY",
-        "Inventory drawing (-7.3% QoQ - strong demand)"
-      ]
-    },
-    {
-      "rank": 386,
-      "ticker": "MLKN",
-      "breakout_score": 66.4,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 19.54,
-      "risk": 0.6,
-      "reward": 6.0,
-      "risk_reward": 10.0,
-      "rs": -0.005,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Weak Stage 2: 1.9% above 50 SMA",
-        "SMAs rising strongly (50:0.659, 200:0.169)",
-        "Revenue: 3Q avg 3.0% QoQ (9.8% → -0.6% → -0.1%)",
-        "EPS: -29% YoY",
-        "Inventory neutral (2.6% QoQ)"
-      ]
-    },
-    {
-      "rank": 387,
-      "ticker": "BDX",
-      "breakout_score": 66.3,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 171.19,
-      "risk": 5.29,
-      "reward": 52.9,
-      "risk_reward": 10.0,
-      "rs": 0.781,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 7.6% above 50 SMA",
-        "SMAs rising strongly (50:0.305, 200:0.099)",
-        "Revenue: Recent decline -10.8% QoQ (3Q avg: 0.2%, PENALTY)",
-        "EPS: +29% YoY",
-        "Inventory neutral (4.9% QoQ)"
-      ]
-    },
-    {
-      "rank": 388,
-      "ticker": "CSL",
-      "breakout_score": 66.1,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 382.93,
-      "risk": 11.84,
-      "reward": 118.4,
-      "risk_reward": 10.0,
-      "rs": 0.54,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 8.9% above 50 SMA",
-        "SMAs rising strongly (50:0.498, 200:0.046)",
-        "Revenue: Recent decline -16.3% QoQ (3Q avg: 3.0%, PENALTY)",
-        "EPS: -15% YoY",
-        "Inventory drawing (-7.1% QoQ - strong demand)"
-      ]
-    },
-    {
-      "rank": 389,
-      "ticker": "XPRO",
-      "breakout_score": 66.1,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 16.07,
-      "risk": 1.79,
-      "reward": 5.37,
-      "risk_reward": 3.0,
-      "rs": 0.669,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 15.6% above 50 SMA",
-        "SMAs rising strongly (50:0.344, 200:0.362)",
-        "Revenue: Recent decline -7.1% QoQ (3Q avg: -0.5%, PENALTY)",
-        "EPS: -74% YoY",
-        "Inventory neutral (-2.2% QoQ)"
-      ]
-    },
-    {
-      "rank": 390,
-      "ticker": "DBRG",
-      "breakout_score": 66.0,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 14.99,
-      "risk": 0.46,
-      "reward": 4.6,
-      "risk_reward": 10.0,
-      "rs": 0.013,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 29.5,
-      "vcp_desc": "Only 1 contraction(s) detected (need 2+)",
-      "reasons": [
-        "Weak Stage 2: 2.6% above 50 SMA",
-        "SMAs rising strongly (50:0.586, 200:0.293)",
-        "Revenue: Recent decline -83.1% QoQ (3Q avg: -78.8%, PENALTY)",
-        "EPS: +1000% YoY (strong earnings)",
-        "Volume heavier on down days (ratio 0.74 - distribution)"
-      ]
-    },
-    {
-      "rank": 391,
-      "ticker": "REPX",
-      "breakout_score": 65.9,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 26.72,
-      "risk": 2.12,
-      "reward": 8.65,
-      "risk_reward": 4.08,
-      "rs": 0.017,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 6.9% above 50 SMA",
-        "SMAs rising strongly (50:0.084, 200:0.068)",
-        "Revenue: 3Q avg 2.7% QoQ (-0.2% → -16.7% → 25.1%)",
-        "EPS: -36% YoY",
-        "Inventory building rapidly (141.6% QoQ - demand concern)"
-      ]
-    },
-    {
-      "rank": 392,
-      "ticker": "AOS",
-      "breakout_score": 65.8,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 74.63,
-      "risk": 3.37,
-      "reward": 23.42,
-      "risk_reward": 6.95,
-      "rs": 0.089,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 7.2% above 50 SMA",
-        "SMAs rising strongly (50:0.357, 200:0.100)",
-        "Revenue: Recent decline -3.2% QoQ (3Q avg: -1.7%, PENALTY)",
-        "EPS: +19% YoY",
-        "Inventory drawing (-5.5% QoQ - strong demand)"
-      ]
-    },
-    {
-      "rank": 393,
-      "ticker": "CCL",
-      "breakout_score": 65.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 30.54,
-      "risk": 1.01,
-      "reward": 9.48,
-      "risk_reward": 9.39,
-      "rs": 0.01,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Weak Stage 2: 2.3% above 50 SMA",
-        "SMAs rising strongly (50:0.429, 200:0.242)",
-        "Revenue: Recent decline -22.4% QoQ (3Q avg: 5.1%, PENALTY)",
-        "EPS: +35% YoY",
-        "Inventory building (6.3% QoQ)"
-      ]
-    },
-    {
-      "rank": 394,
-      "ticker": "KOP",
-      "breakout_score": 65.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 34.02,
-      "risk": 3.78,
-      "reward": 11.34,
-      "risk_reward": 3.0,
-      "rs": 1.072,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 24.7% above 50 SMA",
-        "SMAs rising strongly (50:0.350, 200:0.148)",
-        "Moderately extended above 50 SMA",
-        "Revenue: Recent decline -3.9% QoQ (3Q avg: 0.8%, PENALTY)",
-        "EPS: +7% YoY"
-      ]
-    },
-    {
-      "rank": 395,
-      "ticker": "MWA",
-      "breakout_score": 65.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 29.03,
-      "risk": 0.9,
-      "reward": 9.0,
-      "risk_reward": 10.0,
-      "rs": 0.525,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 11.4% above 50 SMA",
-        "SMAs rising strongly (50:0.409, 200:0.079)",
-        "Revenue: Recent decline -16.4% QoQ (3Q avg: -4.0%, PENALTY)",
-        "EPS: +23% YoY",
-        "Inventory building (14.6% QoQ)"
-      ]
-    },
-    {
-      "rank": 396,
-      "ticker": "WSM",
-      "breakout_score": 65.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 199.48,
-      "risk": 6.17,
-      "reward": 61.7,
-      "risk_reward": 10.0,
-      "rs": -0.133,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Weak Stage 2: 1.3% above 50 SMA",
-        "SMAs rising strongly (50:0.339, 200:0.168)",
-        "Revenue: 3Q avg -7.0% QoQ (-29.7% → 6.2% → 2.5%)",
-        "Inventory building (6.8% QoQ)",
-        "Volume heavier on down days (ratio 0.58 - distribution)"
-      ]
-    },
-    {
-      "rank": 397,
-      "ticker": "GBX",
-      "breakout_score": 65.5,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 54.73,
-      "risk": 1.69,
-      "reward": 16.9,
-      "risk_reward": 10.0,
-      "rs": 0.723,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 10.2% above 50 SMA",
-        "SMAs rising strongly (50:0.468, 200:0.155)",
-        "Revenue: Recent decline -7.0% QoQ (3Q avg: -2.1%, PENALTY)",
-        "EPS: -34% YoY",
-        "Inventory neutral (-1.2% QoQ)"
-      ]
-    },
-    {
-      "rank": 398,
-      "ticker": "TALO",
-      "breakout_score": 65.5,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 11.63,
-      "risk": 0.62,
-      "reward": 3.69,
-      "risk_reward": 5.95,
-      "rs": 0.215,
-      "breakout_price": 11.75,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 4.3% above 50 SMA",
-        "SMAs rising strongly (50:0.235, 200:0.283)",
-        "50 SMA Breakout (low volume)",
-        "Revenue: Recent decline -12.8% QoQ (3Q avg: -8.0%, PENALTY)",
-        "EPS: -231% YoY"
-      ]
-    },
-    {
-      "rank": 399,
-      "ticker": "SARO",
-      "breakout_score": 65.1,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 29.88,
-      "risk": 0.92,
-      "reward": 9.2,
-      "risk_reward": 10.0,
-      "rs": 0.24,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Weak Stage 2: 0.4% above 50 SMA",
-        "SMAs rising strongly (50:0.327, 200:0.074)",
-        "Revenue: Recent decline -2.0% QoQ (3Q avg: 2.1%, PENALTY)",
-        "EPS: +307% YoY (strong earnings)",
-        "Inventory building (12.3% QoQ)"
-      ]
-    },
-    {
-      "rank": 400,
-      "ticker": "RZB",
-      "breakout_score": 64.8,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 24.28,
-      "risk": 0.75,
-      "reward": 7.5,
-      "risk_reward": 10.0,
-      "rs": 0.081,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 49.9,
-      "vcp_desc": "11 contractions (last 4): 1.4% → -0.1% → 0.9% → 0.9%",
-      "reasons": [
-        "Weak Stage 2: 1.4% above 50 SMA",
-        "SMAs rising moderately",
-        "No fundamental data available",
-        "Volume heavier on up days (0.4M vs 0.0M, ratio 23.36)",
-        "Positive RS: 0.081"
-      ]
-    },
-    {
-      "rank": 401,
-      "ticker": "AVNT",
-      "breakout_score": 64.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 39.84,
-      "risk": 1.23,
-      "reward": 12.3,
-      "risk_reward": 10.0,
-      "rs": 0.763,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 12.9% above 50 SMA",
-        "SMAs rising strongly (50:0.652, 200:0.124)",
-        "Revenue: Recent decline -5.7% QoQ (3Q avg: -2.6%, PENALTY)",
-        "EPS: -65% YoY",
-        "Inventory drawing (-6.3% QoQ - strong demand)"
-      ]
-    },
-    {
-      "rank": 402,
-      "ticker": "OMC",
-      "breakout_score": 64.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 76.78,
-      "risk": 8.51,
-      "reward": 25.62,
-      "risk_reward": 3.01,
-      "rs": 1.022,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 56.0,
-      "vcp_desc": "2 contractions: 6.1% → 18.5%",
-      "reasons": [
-        "Good Stage 2: 10.0% above 50 SMA",
-        "SMAs rising moderately",
-        "Revenue: 3Q avg 15.4% QoQ (8.8% → 0.5% → 36.9%)",
-        "EPS: -278% YoY",
-        "Inventory building rapidly (68.5% QoQ - demand concern)"
-      ]
-    },
-    {
-      "rank": 403,
-      "ticker": "GEF",
-      "breakout_score": 64.6,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 70.49,
-      "risk": 2.18,
-      "reward": 21.8,
-      "risk_reward": 10.0,
-      "rs": 0.062,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Weak Stage 2: 1.0% above 50 SMA",
-        "SMAs rising strongly (50:0.292, 200:0.182)",
-        "Revenue: Recent decline -12.3% QoQ (3Q avg: -7.0%, PENALTY)",
-        "EPS: +175% YoY (strong earnings)",
-        "Inventory neutral (4.9% QoQ)"
-      ]
-    },
-    {
-      "rank": 404,
-      "ticker": "ROK",
-      "breakout_score": 64.2,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 395.23,
-      "risk": 12.22,
-      "reward": 122.2,
-      "risk_reward": 10.0,
-      "rs": -0.305,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 24.6,
-      "vcp_desc": "Only 1 contraction(s) detected (need 2+)",
-      "reasons": [
-        "Weak Stage 2: 0.4% above 50 SMA",
-        "SMAs rising moderately",
-        "Revenue: Recent decline -9.1% QoQ (3Q avg: 2.0%, PENALTY)",
-        "EPS: +67% YoY (strong earnings)",
-        "Inventory neutral (-2.3% QoQ)"
-      ]
-    },
-    {
-      "rank": 405,
-      "ticker": "DRH",
-      "breakout_score": 64.1,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 9.61,
-      "risk": 0.43,
-      "reward": 3.02,
-      "risk_reward": 7.03,
-      "rs": 0.502,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 6.4% above 50 SMA",
-        "SMAs rising strongly (50:0.229, 200:0.171)",
-        "Revenue: Recent decline -6.7% QoQ (3Q avg: 1.5%, PENALTY)",
-        "EPS: -9% YoY",
-        "Volume pattern neutral (ratio 1.06)"
-      ]
-    },
-    {
-      "rank": 406,
-      "ticker": "TDAY",
-      "breakout_score": 64.1,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 5.77,
-      "risk": 0.18,
-      "reward": 1.79,
-      "risk_reward": 9.97,
-      "rs": 0.227,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Weak Stage 2: 2.6% above 50 SMA",
-        "SMAs rising strongly (50:0.329, 200:0.302)",
-        "Revenue: Recent decline -4.1% QoQ (3Q avg: -3.3%, PENALTY)",
-        "EPS: -93% YoY",
-        "Inventory drawing (-15.8% QoQ - strong demand)"
-      ]
-    },
-    {
-      "rank": 407,
-      "ticker": "AVO",
-      "breakout_score": 64.0,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 13.76,
-      "risk": 0.43,
-      "reward": 4.3,
-      "risk_reward": 10.0,
-      "rs": 0.417,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 8.3% above 50 SMA",
-        "SMAs rising strongly (50:0.341, 200:0.155)",
-        "Revenue: Recent decline -10.8% QoQ (3Q avg: -1.0%, PENALTY)",
-        "EPS: -8% YoY",
-        "Inventory drawing (-22.1% QoQ - strong demand)"
-      ]
-    },
-    {
-      "rank": 408,
-      "ticker": "GTE",
-      "breakout_score": 63.9,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 5.44,
-      "risk": 0.6,
-      "reward": 1.8,
-      "risk_reward": 3.0,
-      "rs": 0.812,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 19.5% above 50 SMA",
-        "SMAs rising strongly (50:0.548, 200:0.153)",
-        "Revenue: Recent decline -2.1% QoQ (3Q avg: 1.0%, PENALTY)",
-        "EPS: -1525% YoY",
-        "Inventory drawing (-8.4% QoQ - strong demand)"
-      ]
-    },
-    {
-      "rank": 409,
-      "ticker": "UAMY",
-      "breakout_score": 63.9,
-      "phase": 2,
-      "entry_quality": "Poor",
-      "stop_loss": 8.05,
-      "risk": 0.89,
-      "reward": 2.67,
-      "risk_reward": 3.0,
-      "rs": 0.279,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 17.2% above 50 SMA",
-        "SMAs rising strongly (50:0.565, 200:0.402)",
-        "Revenue: Recent decline -17.3% QoQ (3Q avg: 11.6%, PENALTY)",
-        "EPS: -300% YoY",
-        "Inventory building rapidly (23.5% QoQ - demand concern)"
-      ]
-    },
-    {
-      "rank": 410,
-      "ticker": "OLN",
-      "breakout_score": 63.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 23.22,
-      "risk": 2.15,
-      "reward": 7.63,
-      "risk_reward": 3.55,
-      "rs": 0.331,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 10.2% above 50 SMA",
-        "SMAs rising strongly (50:0.367, 200:0.089)",
-        "Revenue: Recent decline -2.8% QoQ (3Q avg: 0.5%, PENALTY)",
-        "EPS: -933% YoY",
-        "Inventory drawing (-18.9% QoQ - strong demand)"
-      ]
-    },
-    {
-      "rank": 411,
-      "ticker": "NXST",
-      "breakout_score": 63.2,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 225.92,
-      "risk": 25.1,
-      "reward": 75.3,
-      "risk_reward": 3.0,
-      "rs": 0.768,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 16.5% above 50 SMA",
-        "SMAs rising strongly (50:0.393, 200:0.225)",
-        "Revenue: Recent decline -2.5% QoQ (3Q avg: -6.6%, PENALTY)",
-        "EPS: -59% YoY",
-        "Volume heavier on up days (0.5M vs 0.3M, ratio 1.52)"
-      ]
-    },
-    {
-      "rank": 412,
-      "ticker": "CINF",
-      "breakout_score": 63.1,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 159.06,
-      "risk": 4.92,
-      "reward": 49.2,
-      "risk_reward": 10.0,
-      "rs": -0.088,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 50.6,
-      "vcp_desc": "8 contractions (last 4): 4.5% → 5.6% → 5.3% → 6.7%",
-      "reasons": [
-        "Weak Stage 2: 0.3% above 50 SMA",
-        "SMAs rising weakly",
-        "Revenue: Recent decline -17.0% QoQ (3Q avg: 8.1%, PENALTY)",
-        "EPS: +68% YoY (strong earnings)",
-        "Volume heavier on down days (ratio 0.50 - distribution)"
-      ]
-    },
-    {
-      "rank": 413,
-      "ticker": "MAS",
-      "breakout_score": 62.5,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 69.47,
-      "risk": 2.15,
-      "reward": 21.5,
-      "risk_reward": 10.0,
-      "rs": 0.42,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 3.8% above 50 SMA",
-        "SMAs rising strongly (50:0.333, 200:0.109)",
-        "Revenue: Recent decline -6.5% QoQ (3Q avg: 0.3%, PENALTY)",
-        "EPS: -6% YoY",
-        "Inventory neutral (-2.1% QoQ)"
-      ]
-    },
-    {
-      "rank": 414,
-      "ticker": "CASH",
-      "breakout_score": 62.0,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 86.78,
-      "risk": 4.01,
-      "reward": 27.27,
-      "risk_reward": 6.8,
-      "rs": 0.174,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 9.7% above 50 SMA",
-        "SMAs rising strongly (50:0.514, 200:0.091)",
-        "Revenue: Recent decline -7.4% QoQ (3Q avg: -13.7%, PENALTY)",
-        "EPS: +22% YoY",
-        "Volume heavier on down days (ratio 0.60 - distribution)"
-      ]
-    },
-    {
-      "rank": 415,
-      "ticker": "RCL",
-      "breakout_score": 61.9,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 300.99,
-      "risk": 9.97,
-      "reward": 93.32,
-      "risk_reward": 9.36,
-      "rs": -0.409,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Weak Stage 2: 2.3% above 50 SMA",
-        "SMAs rising strongly (50:0.438, 200:0.190)",
-        "Revenue: Recent decline -17.1% QoQ (3Q avg: 3.2%, PENALTY)",
-        "EPS: +34% YoY",
-        "Inventory neutral (-1.9% QoQ)"
-      ]
-    },
-    {
-      "rank": 416,
-      "ticker": "WLK",
-      "breakout_score": 61.9,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 94.84,
-      "risk": 10.54,
-      "reward": 31.62,
-      "risk_reward": 3.0,
-      "rs": 0.839,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 22.2% above 50 SMA",
-        "SMAs rising strongly (50:0.778, 200:0.070)",
-        "Moderately extended above 50 SMA",
-        "Revenue: Recent decline -3.9% QoQ (3Q avg: -0.0%, PENALTY)",
-        "EPS: -830% YoY"
-      ]
-    },
-    {
-      "rank": 417,
-      "ticker": "ASLE",
-      "breakout_score": 61.5,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 7.32,
-      "risk": 0.48,
-      "reward": 2.32,
-      "risk_reward": 4.84,
-      "rs": 0.237,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 35.1,
-      "vcp_desc": "2 contractions: -0.1% → 7.6%",
-      "reasons": [
-        "Good Stage 2: 5.6% above 50 SMA",
-        "SMAs rising strongly (50:0.245, 200:0.046)",
-        "Revenue: Recent decline -33.7% QoQ (3Q avg: -0.3%, PENALTY)",
-        "EPS: -100% YoY",
-        "Inventory neutral (-0.8% QoQ)"
-      ]
-    },
-    {
-      "rank": 418,
-      "ticker": "HZO",
-      "breakout_score": 61.1,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 27.45,
-      "risk": 3.05,
-      "reward": 9.15,
-      "risk_reward": 3.0,
-      "rs": 0.019,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 11.1% above 50 SMA",
-        "SMAs rising strongly (50:0.391, 200:0.157)",
-        "Revenue: Recent decline -8.5% QoQ (3Q avg: -6.8%, PENALTY)",
-        "EPS: -147% YoY",
-        "Inventory neutral (0.1% QoQ)"
-      ]
-    },
-    {
-      "rank": 419,
-      "ticker": "TXN",
-      "breakout_score": 61.1,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 205.75,
-      "risk": 6.36,
-      "reward": 63.6,
-      "risk_reward": 10.0,
-      "rs": -0.188,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 6.3% above 50 SMA",
-        "SMAs rising strongly (50:0.526, 200:0.180)",
-        "Revenue: Recent decline -6.7% QoQ (3Q avg: 3.1%, PENALTY)",
-        "EPS: -2% YoY",
-        "Inventory neutral (-0.5% QoQ)"
-      ]
-    },
-    {
-      "rank": 420,
-      "ticker": "NXT",
-      "breakout_score": 60.5,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 101.95,
-      "risk": 3.15,
-      "reward": 31.5,
-      "risk_reward": 10.0,
-      "rs": -0.208,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Weak Stage 2: 0.7% above 50 SMA",
-        "SMAs rising strongly (50:0.591, 200:0.495)",
-        "Revenue: 3Q avg -0.4% QoQ (-6.5% → 4.7% → 0.5%)",
-        "EPS: +8% YoY",
-        "Inventory building rapidly (24.5% QoQ - demand concern)"
       ]
     }
   ]
