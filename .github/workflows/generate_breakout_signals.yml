@@ -1,8 +1,19 @@
 name: Generate Breakout Signals (SP500 feed)
+# ─────────────────────────────────────────────────────────────────────────────
+# ARCHITECTURE:
+#   Step 1 → daily_screening_git_storage.yml (12:00 UTC)
+#            Scans full US market, builds fundamentals cache in data/fundamentals_cache/
+#
+#   Step 2 → THIS workflow (12:45 UTC)
+#            Reads from cache (no fresh Yahoo calls for fundamentals)
+#            Filters to buy-signal quality, formats breakout_signals.json
+#            Triggers SP500-Quant-Ranker via repository_dispatch
+# ─────────────────────────────────────────────────────────────────────────────
 
 on:
   schedule:
-    - cron: '45 13 * * 1-5'   # 13:45 UTC = 15:45 ישראל (45 דק' אחרי סיום הסקרינינג)
+    - cron: '45 12 * * 1-5'   # 12:45 UTC — runs ~45min after daily_screening (12:00 UTC)
+                               # daily_screening builds the Git cache; this reads from it.
 
   workflow_dispatch:            # כפתור הרצה ידנית ב-GitHub
     inputs:
@@ -53,8 +64,8 @@ jobs:
             FLAGS="$FLAGS --conservative"
           fi
 
-          echo "Running: python generate_breakout_signals_for_sp500.py $FLAGS"
-          python generate_breakout_signals_for_sp500.py $FLAGS
+          echo "Running: python generate_breakout_signals_for_sp500.py $FLAGS --git-storage"
+          python generate_breakout_signals_for_sp500.py $FLAGS --git-storage
 
       - name: Verify output
         run: |
