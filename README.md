@@ -884,14 +884,6 @@ The author is not responsible for any financial losses incurred using this syste
 
 ---
 
-## Contact
-
-**Ryan Hamby**
-Email: ryanhamby22@gmail.com
-LinkedIn: [linkedin.com/in/ryanhamby](https://linkedin.com/in/ryanhamby)
-
-For Robinhood employees reviewing this project: I'm happy to discuss the technical architecture, design decisions, and potential applications for institutional trading systems. Feel free to reach out!
-
 ---
 
 *Built with Python, powered by data, driven by discipline.*
