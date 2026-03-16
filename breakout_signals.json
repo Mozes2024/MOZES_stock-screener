@@ -1,7 +1,7 @@
 {
-  "scan_date": "2026-03-14",
-  "generated": "2026-03-14 09:17:29",
-  "converted_at": "2026-03-14 09:17 UTC",
+  "scan_date": "2026-03-16",
+  "generated": "2026-03-16 11:31:38",
+  "converted_at": "2026-03-16 11:31 UTC",
   "market_regime": "TRANSITIONAL / Uncertain",
   "total_buy_signals": 217,
   "phase2_pct": 22.5,
@@ -33,7 +33,7 @@
     {
       "rank": 2,
       "ticker": "EXAS",
-      "breakout_score": 115.2,
+      "breakout_score": 115.7,
       "phase": 2,
       "entry_quality": "Good",
       "stop_loss": 100.46,
@@ -194,7 +194,7 @@
     {
       "rank": 9,
       "ticker": "OSS",
-      "breakout_score": 106.7,
+      "breakout_score": 106.6,
       "phase": 2,
       "entry_quality": "Good",
       "stop_loss": 9.24,
@@ -562,7 +562,7 @@
     {
       "rank": 25,
       "ticker": "FOLD",
-      "breakout_score": 99.9,
+      "breakout_score": 99.8,
       "phase": 2,
       "entry_quality": "Good",
       "stop_loss": 13.94,
@@ -608,7 +608,7 @@
     {
       "rank": 27,
       "ticker": "PEP",
-      "breakout_score": 99.5,
+      "breakout_score": 99.6,
       "phase": 2,
       "entry_quality": "Good",
       "stop_loss": 155.08,
@@ -630,6 +630,29 @@
     },
     {
       "rank": 28,
+      "ticker": "MAMA",
+      "breakout_score": 99.4,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 15.28,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 6.98,
+      "rs": 0.364,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Good Stage 2: 5.6% above 50 SMA",
+        "SMAs rising strongly (50:0.419, 200:0.451)",
+        "Revenue: 3Q avg 13.0% QoQ (5.0% → -0.1% → 34.3%)",
+        "Inventory building rapidly (61.0% QoQ - demand concern)",
+        "Volume heavier on up days (0.4M vs 0.3M, ratio 1.35)"
+      ]
+    },
+    {
+      "rank": 29,
       "ticker": "SON",
       "breakout_score": 99.4,
       "phase": 2,
@@ -652,7 +675,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "ticker": "FNV",
       "breakout_score": 99.3,
       "phase": 2,
@@ -672,29 +695,6 @@
         "Revenue: 3Q avg 15.7% QoQ (14.8% → 0.3% → 32.0%)",
         "EPS: +89% YoY (strong earnings)",
         "Inventory building rapidly (47.1% QoQ - demand concern)"
-      ]
-    },
-    {
-      "rank": 30,
-      "ticker": "MAMA",
-      "breakout_score": 99.3,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 15.28,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 6.98,
-      "rs": 0.364,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 5.6% above 50 SMA",
-        "SMAs rising strongly (50:0.419, 200:0.451)",
-        "Revenue: 3Q avg 13.0% QoQ (5.0% → -0.1% → 34.3%)",
-        "Inventory building rapidly (61.0% QoQ - demand concern)",
-        "Volume heavier on up days (0.4M vs 0.3M, ratio 1.33)"
       ]
     },
     {
@@ -746,7 +746,7 @@
     {
       "rank": 33,
       "ticker": "ANAB",
-      "breakout_score": 98.6,
+      "breakout_score": 98.8,
       "phase": 2,
       "entry_quality": "Good",
       "stop_loss": 58.33,
@@ -1205,6 +1205,29 @@
     },
     {
       "rank": 53,
+      "ticker": "SLAB",
+      "breakout_score": 94.2,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 196.91,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 10.0,
+      "rs": 0.037,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Strong Stage 2: 14.8% above 50 SMA",
+        "SMAs rising strongly (50:0.817, 200:0.292)",
+        "Revenue: 3Q avg 5.5% QoQ (8.5% → 6.8% → 1.1%)",
+        "EPS: +89% YoY (strong earnings)",
+        "Inventory building rapidly (16.3% QoQ - demand concern)"
+      ]
+    },
+    {
+      "rank": 54,
       "ticker": "OGE",
       "breakout_score": 94.0,
       "phase": 2,
@@ -1227,7 +1250,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 55,
       "ticker": "STRL",
       "breakout_score": 93.7,
       "phase": 2,
@@ -1250,7 +1273,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 56,
       "ticker": "EHAB",
       "breakout_score": 93.5,
       "phase": 2,
@@ -1273,32 +1296,9 @@
       ]
     },
     {
-      "rank": 56,
-      "ticker": "SLAB",
-      "breakout_score": 93.3,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 196.91,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 10.0,
-      "rs": 0.037,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 14.8% above 50 SMA",
-        "SMAs rising strongly (50:0.817, 200:0.292)",
-        "Revenue: 3Q avg 5.5% QoQ (8.5% → 6.8% → 1.1%)",
-        "EPS: +89% YoY (strong earnings)",
-        "Inventory building rapidly (16.3% QoQ - demand concern)"
-      ]
-    },
-    {
       "rank": 57,
       "ticker": "SNDX",
-      "breakout_score": 93.0,
+      "breakout_score": 92.9,
       "phase": 2,
       "entry_quality": "Good",
       "stop_loss": 21.15,
@@ -1458,29 +1458,6 @@
     },
     {
       "rank": 64,
-      "ticker": "NTCT",
-      "breakout_score": 92.0,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 28.17,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 4.96,
-      "rs": 0.313,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 56.0,
-      "vcp_desc": "4 contractions: 4.9% → 6.7% → 7.9% → 9.4%",
-      "reasons": [
-        "Good Stage 2: 5.4% above 50 SMA",
-        "SMAs rising strongly (50:0.138, 200:0.139)",
-        "Revenue: 3Q avg 7.6% QoQ (-8.9% → 17.3% → 14.5%)",
-        "EPS: +12% YoY",
-        "Inventory building (6.5% QoQ)"
-      ]
-    },
-    {
-      "rank": 65,
       "ticker": "MCK",
       "breakout_score": 91.9,
       "phase": 2,
@@ -1500,6 +1477,29 @@
         "Revenue: 3Q avg 5.4% QoQ (7.7% → 5.4% → 2.9%)",
         "EPS: +38% YoY",
         "Inventory neutral (3.6% QoQ)"
+      ]
+    },
+    {
+      "rank": 65,
+      "ticker": "NTCT",
+      "breakout_score": 91.9,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 28.17,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 4.96,
+      "rs": 0.313,
+      "breakout_price": null,
+      "has_vcp": true,
+      "vcp_quality": 56.0,
+      "vcp_desc": "4 contractions: 4.9% → 6.7% → 7.9% → 9.4%",
+      "reasons": [
+        "Good Stage 2: 5.4% above 50 SMA",
+        "SMAs rising strongly (50:0.138, 200:0.139)",
+        "Revenue: 3Q avg 7.6% QoQ (-8.9% → 17.3% → 14.5%)",
+        "EPS: +12% YoY",
+        "Inventory building (6.5% QoQ)"
       ]
     },
     {
@@ -1596,6 +1596,29 @@
     },
     {
       "rank": 70,
+      "ticker": "LNT",
+      "breakout_score": 90.9,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 70.24,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 8.55,
+      "rs": 0.221,
+      "breakout_price": null,
+      "has_vcp": true,
+      "vcp_quality": 38.4,
+      "vcp_desc": "8 contractions (last 4): 5.0% → 7.2% → 2.6% → 3.5%",
+      "reasons": [
+        "Good Stage 2: 6.6% above 50 SMA",
+        "SMAs rising strongly (50:0.205, 200:0.090)",
+        "Revenue: 3Q avg 8.9% QoQ (15.6% → -14.8% → 25.9%)",
+        "EPS: -5% YoY",
+        "Inventory neutral (1.1% QoQ)"
+      ]
+    },
+    {
+      "rank": 71,
       "ticker": "CASY",
       "breakout_score": 90.8,
       "phase": 2,
@@ -1615,29 +1638,6 @@
         "Revenue: 3Q avg 5.1% QoQ (2.3% → 14.4% → -1.3%)",
         "EPS: +14% YoY",
         "Inventory drawing (-5.6% QoQ - strong demand)"
-      ]
-    },
-    {
-      "rank": 71,
-      "ticker": "LNT",
-      "breakout_score": 90.8,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 70.24,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 8.55,
-      "rs": 0.221,
-      "breakout_price": null,
-      "has_vcp": true,
-      "vcp_quality": 38.4,
-      "vcp_desc": "8 contractions (last 4): 5.0% → 7.2% → 2.6% → 3.5%",
-      "reasons": [
-        "Good Stage 2: 6.6% above 50 SMA",
-        "SMAs rising strongly (50:0.205, 200:0.090)",
-        "Revenue: 3Q avg 8.9% QoQ (15.6% → -14.8% → 25.9%)",
-        "EPS: -5% YoY",
-        "Inventory neutral (1.1% QoQ)"
       ]
     },
     {
@@ -2033,29 +2033,6 @@
     },
     {
       "rank": 89,
-      "ticker": "EQIX",
-      "breakout_score": 87.8,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 913.69,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 5.18,
-      "rs": 0.335,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 12.3% above 50 SMA",
-        "SMAs rising strongly (50:0.500, 200:0.064)",
-        "Revenue: 3Q avg 0.8% QoQ (-1.6% → 1.4% → 2.7%)",
-        "EPS: +23% YoY",
-        "Volume pattern neutral (ratio 1.08)"
-      ]
-    },
-    {
-      "rank": 90,
       "ticker": "ECO",
       "breakout_score": 87.6,
       "phase": 2,
@@ -2078,7 +2055,7 @@
       ]
     },
     {
-      "rank": 91,
+      "rank": 90,
       "ticker": "IRM",
       "breakout_score": 87.6,
       "phase": 2,
@@ -2098,6 +2075,29 @@
         "Revenue: 3Q avg 3.6% QoQ (0.7% → 7.5% → 2.5%)",
         "EPS: +355% YoY (strong earnings)",
         "Volume pattern neutral (ratio 0.95)"
+      ]
+    },
+    {
+      "rank": 91,
+      "ticker": "EQIX",
+      "breakout_score": 87.5,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 913.69,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 5.18,
+      "rs": 0.335,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Strong Stage 2: 12.3% above 50 SMA",
+        "SMAs rising strongly (50:0.500, 200:0.064)",
+        "Revenue: 3Q avg 0.8% QoQ (-1.6% → 1.4% → 2.7%)",
+        "EPS: +23% YoY",
+        "Volume pattern neutral (ratio 1.06)"
       ]
     },
     {
@@ -2263,6 +2263,29 @@
     },
     {
       "rank": 99,
+      "ticker": "AKAM",
+      "breakout_score": 85.8,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 96.9,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 3.0,
+      "rs": 0.057,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Strong Stage 2: 10.8% above 50 SMA",
+        "SMAs rising strongly (50:0.298, 200:0.134)",
+        "Revenue: 3Q avg 1.1% QoQ (-0.5% → 2.8% → 1.1%)",
+        "EPS: +155% YoY (strong earnings)",
+        "Volume pattern neutral (ratio 1.03)"
+      ]
+    },
+    {
+      "rank": 100,
       "ticker": "MASI",
       "breakout_score": 85.8,
       "phase": 2,
@@ -2282,29 +2305,6 @@
         "Revenue: 3Q avg -12.7% QoQ (-38.1% → -0.3% → 0.2%)",
         "EPS: -1133% YoY",
         "Inventory building (6.3% QoQ)"
-      ]
-    },
-    {
-      "rank": 100,
-      "ticker": "AKAM",
-      "breakout_score": 85.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 96.9,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 3.0,
-      "rs": 0.057,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 10.8% above 50 SMA",
-        "SMAs rising strongly (50:0.298, 200:0.134)",
-        "Revenue: 3Q avg 1.1% QoQ (-0.5% → 2.8% → 1.1%)",
-        "EPS: +155% YoY (strong earnings)",
-        "Volume pattern neutral (ratio 1.03)"
       ]
     },
     {
@@ -2539,6 +2539,52 @@
     },
     {
       "rank": 111,
+      "ticker": "PRDO",
+      "breakout_score": 84.1,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 32.34,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 3.12,
+      "rs": 0.782,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Strong Stage 2: 11.3% above 50 SMA",
+        "SMAs rising strongly (50:0.292, 200:0.052)",
+        "Revenue: 3Q avg 6.7% QoQ (20.7% → -1.6% → 1.1%)",
+        "EPS: +5% YoY",
+        "Inventory building rapidly (52.4% QoQ - demand concern)"
+      ]
+    },
+    {
+      "rank": 112,
+      "ticker": "NWE",
+      "breakout_score": 84.0,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 66.37,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 10.0,
+      "rs": 0.082,
+      "breakout_price": 67.41,
+      "has_vcp": true,
+      "vcp_quality": 62.7,
+      "vcp_desc": "5 contractions (last 4): 8.0% → 2.6% → 4.3% → 6.8%",
+      "reasons": [
+        "Weak Stage 2: 1.5% above 50 SMA",
+        "SMAs rising strongly (50:0.126, 200:0.128)",
+        "50 SMA Breakout (low volume)",
+        "Revenue: 3Q avg 3.8% QoQ (24.9% → -26.6% → 12.9%)",
+        "EPS: -18% YoY"
+      ]
+    },
+    {
+      "rank": 113,
       "ticker": "OUT",
       "breakout_score": 84.0,
       "phase": 2,
@@ -2561,7 +2607,7 @@
       ]
     },
     {
-      "rank": 112,
+      "rank": 114,
       "ticker": "NATL",
       "breakout_score": 83.9,
       "phase": 2,
@@ -2581,52 +2627,6 @@
         "Revenue: 3Q avg 0.9% QoQ (-11.6% → 12.7% → 1.5%)",
         "EPS: +21% YoY",
         "Inventory neutral (-4.2% QoQ)"
-      ]
-    },
-    {
-      "rank": 113,
-      "ticker": "PRDO",
-      "breakout_score": 83.9,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 32.34,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 3.12,
-      "rs": 0.782,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 11.3% above 50 SMA",
-        "SMAs rising strongly (50:0.292, 200:0.052)",
-        "Revenue: 3Q avg 6.7% QoQ (20.7% → -1.6% → 1.1%)",
-        "EPS: +5% YoY",
-        "Inventory building rapidly (52.4% QoQ - demand concern)"
-      ]
-    },
-    {
-      "rank": 114,
-      "ticker": "NWE",
-      "breakout_score": 83.8,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 66.37,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 10.0,
-      "rs": 0.082,
-      "breakout_price": 67.41,
-      "has_vcp": true,
-      "vcp_quality": 62.7,
-      "vcp_desc": "5 contractions (last 4): 8.0% → 2.6% → 4.3% → 6.8%",
-      "reasons": [
-        "Weak Stage 2: 1.5% above 50 SMA",
-        "SMAs rising strongly (50:0.126, 200:0.128)",
-        "50 SMA Breakout (low volume)",
-        "Revenue: 3Q avg 3.8% QoQ (24.9% → -26.6% → 12.9%)",
-        "EPS: -18% YoY"
       ]
     },
     {
@@ -3183,6 +3183,29 @@
     },
     {
       "rank": 139,
+      "ticker": "VIAV",
+      "breakout_score": 79.0,
+      "phase": 2,
+      "entry_quality": "Extended",
+      "stop_loss": 26.97,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 3.0,
+      "rs": 0.875,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Strong Stage 2: 22.0% above 50 SMA",
+        "SMAs rising strongly (50:1.073, 200:0.701)",
+        "Moderately extended above 50 SMA",
+        "Revenue: 3Q avg 9.5% QoQ (2.0% → 3.0% → 23.5%)",
+        "EPS: -625% YoY"
+      ]
+    },
+    {
+      "rank": 140,
       "ticker": "KIM",
       "breakout_score": 78.9,
       "phase": 2,
@@ -3202,29 +3225,6 @@
         "Revenue: 3Q avg 0.7% QoQ (2.1% → -2.1% → 2.0%)",
         "Volume pattern neutral (ratio 1.00)",
         "Strong RS: 0.261 (outperforming SPY)"
-      ]
-    },
-    {
-      "rank": 140,
-      "ticker": "VIAV",
-      "breakout_score": 78.9,
-      "phase": 2,
-      "entry_quality": "Extended",
-      "stop_loss": 26.97,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 3.0,
-      "rs": 0.875,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 22.0% above 50 SMA",
-        "SMAs rising strongly (50:1.073, 200:0.701)",
-        "Moderately extended above 50 SMA",
-        "Revenue: 3Q avg 9.5% QoQ (2.0% → 3.0% → 23.5%)",
-        "EPS: -625% YoY"
       ]
     },
     {
@@ -3644,7 +3644,7 @@
     {
       "rank": 159,
       "ticker": "DIOD",
-      "breakout_score": 77.3,
+      "breakout_score": 77.4,
       "phase": 2,
       "entry_quality": "Good",
       "stop_loss": 60.99,
@@ -3988,29 +3988,6 @@
     },
     {
       "rank": 174,
-      "ticker": "ADEA",
-      "breakout_score": 73.4,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 20.51,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 3.0,
-      "rs": 1.357,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 17.8% above 50 SMA",
-        "SMAs rising strongly (50:0.723, 200:0.239)",
-        "Revenue: 3Q avg -8.9% QoQ (-26.4% → -2.2% → 1.9%)",
-        "EPS: -53% YoY",
-        "Volume pattern neutral (ratio 1.03)"
-      ]
-    },
-    {
-      "rank": 175,
       "ticker": "SRE",
       "breakout_score": 73.4,
       "phase": 2,
@@ -4030,6 +4007,29 @@
         "Revenue: 3Q avg -5.0% QoQ (1.2% → -21.1% → 5.0%)",
         "EPS: -88% YoY",
         "Inventory drawing (-9.6% QoQ - strong demand)"
+      ]
+    },
+    {
+      "rank": 175,
+      "ticker": "ADEA",
+      "breakout_score": 73.2,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 20.47,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 3.0,
+      "rs": 1.357,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Strong Stage 2: 17.8% above 50 SMA",
+        "SMAs rising strongly (50:0.723, 200:0.239)",
+        "Revenue: 3Q avg -8.9% QoQ (-26.4% → -2.2% → 1.9%)",
+        "EPS: -53% YoY",
+        "Volume pattern neutral (ratio 1.01)"
       ]
     },
     {
@@ -4081,7 +4081,7 @@
     {
       "rank": 178,
       "ticker": "AVT",
-      "breakout_score": 72.9,
+      "breakout_score": 72.7,
       "phase": 2,
       "entry_quality": "Good",
       "stop_loss": 57.94,
@@ -4103,29 +4103,6 @@
     },
     {
       "rank": 179,
-      "ticker": "SBRA",
-      "breakout_score": 72.7,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 19.81,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 7.64,
-      "rs": 0.258,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Good Stage 2: 6.0% above 50 SMA",
-        "SMAs rising strongly (50:0.190, 200:0.102)",
-        "Revenue: 3Q avg 1.4% QoQ (0.7% → 3.1% → 0.5%)",
-        "EPS: -31% YoY",
-        "Volume pattern neutral (ratio 0.94)"
-      ]
-    },
-    {
-      "rank": 180,
       "ticker": "CNQ",
       "breakout_score": 72.6,
       "phase": 2,
@@ -4145,6 +4122,29 @@
         "Moderately extended above 50 SMA",
         "Revenue: 3Q avg 1.8% QoQ (14.9% → -23.9% → 14.4%)",
         "EPS: -73% YoY"
+      ]
+    },
+    {
+      "rank": 180,
+      "ticker": "SBRA",
+      "breakout_score": 72.5,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 19.81,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 7.64,
+      "rs": 0.258,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Good Stage 2: 6.0% above 50 SMA",
+        "SMAs rising strongly (50:0.190, 200:0.102)",
+        "Revenue: 3Q avg 1.4% QoQ (0.7% → 3.1% → 0.5%)",
+        "EPS: -31% YoY",
+        "Volume pattern neutral (ratio 0.92)"
       ]
     },
     {
