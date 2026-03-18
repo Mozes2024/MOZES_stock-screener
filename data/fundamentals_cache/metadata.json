@@ -4544,7 +4544,7 @@
     "in_earnings_season": true
   },
   "NRIX": {
-    "last_updated": "2025-12-04T14:03:23.957618",
+    "last_updated": "2026-03-18T11:16:57.819528",
     "in_earnings_season": false
   },
   "NSC": {
@@ -8833,6 +8833,14 @@
   },
   "MNTN": {
     "last_updated": "2026-03-12T11:05:47.100948",
+    "in_earnings_season": false
+  },
+  "PENN": {
+    "last_updated": "2026-03-18T11:18:56.475994",
+    "in_earnings_season": false
+  },
+  "SNDA": {
+    "last_updated": "2026-03-18T11:23:09.029364",
     "in_earnings_season": false
   }
 }
