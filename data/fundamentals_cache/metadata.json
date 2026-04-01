@@ -876,7 +876,7 @@
     "in_earnings_season": true
   },
   "BFAM": {
-    "last_updated": "2025-12-04T13:39:11.417291",
+    "last_updated": "2026-04-01T11:07:02.972176",
     "in_earnings_season": false
   },
   "BFH": {
@@ -2496,7 +2496,7 @@
     "in_earnings_season": true
   },
   "FG": {
-    "last_updated": "2025-12-04T13:49:42.833918",
+    "last_updated": "2026-04-01T11:14:05.910893",
     "in_earnings_season": false
   },
   "FHB": {
@@ -8857,6 +8857,10 @@
   },
   "OTF": {
     "last_updated": "2026-03-31T11:20:56.895923",
+    "in_earnings_season": false
+  },
+  "CHWY": {
+    "last_updated": "2026-04-01T11:09:26.410640",
     "in_earnings_season": false
   }
 }
