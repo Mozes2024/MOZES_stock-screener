@@ -5896,7 +5896,7 @@
     "in_earnings_season": false
   },
   "SRRK": {
-    "last_updated": "2025-12-04T14:13:08.445503",
+    "last_updated": "2026-04-02T11:23:42.442869",
     "in_earnings_season": false
   },
   "SRZN": {
@@ -7328,7 +7328,7 @@
     "in_earnings_season": true
   },
   "BMI": {
-    "last_updated": "2025-12-12T13:06:56.757742",
+    "last_updated": "2026-04-02T11:01:17.546044",
     "in_earnings_season": false
   },
   "BXC": {
@@ -8861,6 +8861,14 @@
   },
   "CHWY": {
     "last_updated": "2026-04-01T11:09:26.410640",
+    "in_earnings_season": false
+  },
+  "MTRX": {
+    "last_updated": "2026-04-02T11:15:59.249670",
+    "in_earnings_season": false
+  },
+  "ROP": {
+    "last_updated": "2026-04-02T11:21:24.969820",
     "in_earnings_season": false
   }
 }
