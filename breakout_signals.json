@@ -1,11 +1,11 @@
 {
-  "scan_date": "2026-04-03",
-  "generated": "2026-04-03 11:22:17",
-  "converted_at": "2026-04-03 11:22 UTC",
+  "scan_date": "2026-04-06",
+  "generated": "2026-04-06 11:35:17",
+  "converted_at": "2026-04-06 11:35 UTC",
   "market_regime": "TRANSITIONAL / Uncertain",
-  "total_buy_signals": 238,
-  "phase2_pct": 23.1,
-  "top_signals_count": 238,
+  "total_buy_signals": 239,
+  "phase2_pct": 23.2,
+  "top_signals_count": 239,
   "top_signals": [
     {
       "rank": 1,
@@ -1573,6 +1573,29 @@
     },
     {
       "rank": 69,
+      "ticker": "LITE",
+      "breakout_score": 92.2,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 744.19,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 3.0,
+      "rs": 1.414,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Strong Stage 2: 35.8% above 50 SMA",
+        "SMAs rising strongly (50:1.252, 200:1.149)",
+        "Over-extended: 35.8% above 50 SMA",
+        "Revenue: 3Q avg 16.3% QoQ (13.1% → 11.0% → 24.7%)",
+        "EPS: +201% YoY (strong earnings)"
+      ]
+    },
+    {
+      "rank": 70,
       "ticker": "CLH",
       "breakout_score": 92.1,
       "phase": 2,
@@ -1592,29 +1615,6 @@
         "Revenue: 3Q avg 2.8% QoQ (0.1% → 8.2% → -0.0%)",
         "EPS: +4% YoY",
         "Inventory neutral (-1.6% QoQ)"
-      ]
-    },
-    {
-      "rank": 70,
-      "ticker": "LITE",
-      "breakout_score": 92.1,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 744.19,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 3.0,
-      "rs": 1.414,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 35.8% above 50 SMA",
-        "SMAs rising strongly (50:1.252, 200:1.149)",
-        "Over-extended: 35.8% above 50 SMA",
-        "Revenue: 3Q avg 16.3% QoQ (13.1% → 11.0% → 24.7%)",
-        "EPS: +201% YoY (strong earnings)"
       ]
     },
     {
@@ -4218,6 +4218,29 @@
     },
     {
       "rank": 184,
+      "ticker": "POWL",
+      "breakout_score": 75.2,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 171.52,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 4.94,
+      "rs": 0.69,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Good Stage 2: 5.4% above 50 SMA",
+        "SMAs rising strongly (50:0.662, 200:0.520)",
+        "Revenue: Recent decline -15.7% QoQ (3Q avg: -3.0%, PENALTY)",
+        "EPS: +19% YoY",
+        "Inventory neutral (0.3% QoQ)"
+      ]
+    },
+    {
+      "rank": 185,
       "ticker": "RRC",
       "breakout_score": 75.2,
       "phase": 2,
@@ -4240,7 +4263,7 @@
       ]
     },
     {
-      "rank": 185,
+      "rank": 186,
       "ticker": "MO",
       "breakout_score": 75.0,
       "phase": 2,
@@ -4263,7 +4286,7 @@
       ]
     },
     {
-      "rank": 186,
+      "rank": 187,
       "ticker": "YPF",
       "breakout_score": 75.0,
       "phase": 2,
@@ -4286,7 +4309,7 @@
       ]
     },
     {
-      "rank": 187,
+      "rank": 188,
       "ticker": "DBRG",
       "breakout_score": 74.8,
       "phase": 2,
@@ -4309,7 +4332,7 @@
       ]
     },
     {
-      "rank": 188,
+      "rank": 189,
       "ticker": "HSBC",
       "breakout_score": 74.6,
       "phase": 2,
@@ -4332,7 +4355,7 @@
       ]
     },
     {
-      "rank": 189,
+      "rank": 190,
       "ticker": "TGT",
       "breakout_score": 74.4,
       "phase": 2,
@@ -4355,7 +4378,7 @@
       ]
     },
     {
-      "rank": 190,
+      "rank": 191,
       "ticker": "UNF",
       "breakout_score": 73.9,
       "phase": 2,
@@ -4378,7 +4401,7 @@
       ]
     },
     {
-      "rank": 191,
+      "rank": 192,
       "ticker": "CENX",
       "breakout_score": 73.8,
       "phase": 2,
@@ -4401,7 +4424,7 @@
       ]
     },
     {
-      "rank": 192,
+      "rank": 193,
       "ticker": "MEOH",
       "breakout_score": 73.6,
       "phase": 2,
@@ -4424,7 +4447,7 @@
       ]
     },
     {
-      "rank": 193,
+      "rank": 194,
       "ticker": "DELL",
       "breakout_score": 73.3,
       "phase": 2,
@@ -4447,7 +4470,7 @@
       ]
     },
     {
-      "rank": 194,
+      "rank": 195,
       "ticker": "AMAT",
       "breakout_score": 73.1,
       "phase": 2,
@@ -4470,7 +4493,7 @@
       ]
     },
     {
-      "rank": 195,
+      "rank": 196,
       "ticker": "KODK",
       "breakout_score": 72.8,
       "phase": 2,
@@ -4493,7 +4516,7 @@
       ]
     },
     {
-      "rank": 196,
+      "rank": 197,
       "ticker": "KIM",
       "breakout_score": 72.5,
       "phase": 2,
@@ -4516,7 +4539,7 @@
       ]
     },
     {
-      "rank": 197,
+      "rank": 198,
       "ticker": "OGS",
       "breakout_score": 72.4,
       "phase": 2,
@@ -4539,7 +4562,7 @@
       ]
     },
     {
-      "rank": 198,
+      "rank": 199,
       "ticker": "OXY",
       "breakout_score": 72.2,
       "phase": 2,
@@ -4562,7 +4585,7 @@
       ]
     },
     {
-      "rank": 199,
+      "rank": 200,
       "ticker": "EBAY",
       "breakout_score": 72.0,
       "phase": 2,
@@ -4585,7 +4608,7 @@
       ]
     },
     {
-      "rank": 200,
+      "rank": 201,
       "ticker": "HOLX",
       "breakout_score": 72.0,
       "phase": 2,
@@ -4608,7 +4631,7 @@
       ]
     },
     {
-      "rank": 201,
+      "rank": 202,
       "ticker": "DTE",
       "breakout_score": 71.9,
       "phase": 2,
@@ -4631,7 +4654,7 @@
       ]
     },
     {
-      "rank": 202,
+      "rank": 203,
       "ticker": "AVNS",
       "breakout_score": 71.3,
       "phase": 2,
@@ -4654,7 +4677,7 @@
       ]
     },
     {
-      "rank": 203,
+      "rank": 204,
       "ticker": "AL",
       "breakout_score": 70.7,
       "phase": 2,
@@ -4677,7 +4700,7 @@
       ]
     },
     {
-      "rank": 204,
+      "rank": 205,
       "ticker": "SM",
       "breakout_score": 70.3,
       "phase": 2,
@@ -4700,7 +4723,7 @@
       ]
     },
     {
-      "rank": 205,
+      "rank": 206,
       "ticker": "TPH",
       "breakout_score": 70.3,
       "phase": 2,
@@ -4723,7 +4746,7 @@
       ]
     },
     {
-      "rank": 206,
+      "rank": 207,
       "ticker": "SPB",
       "breakout_score": 69.7,
       "phase": 2,
@@ -4746,7 +4769,7 @@
       ]
     },
     {
-      "rank": 207,
+      "rank": 208,
       "ticker": "ADEA",
       "breakout_score": 69.2,
       "phase": 2,
@@ -4769,7 +4792,7 @@
       ]
     },
     {
-      "rank": 208,
+      "rank": 209,
       "ticker": "ARMK",
       "breakout_score": 68.8,
       "phase": 2,
@@ -4792,7 +4815,7 @@
       ]
     },
     {
-      "rank": 209,
+      "rank": 210,
       "ticker": "SBRA",
       "breakout_score": 68.8,
       "phase": 2,
@@ -4815,7 +4838,7 @@
       ]
     },
     {
-      "rank": 210,
+      "rank": 211,
       "ticker": "TJX",
       "breakout_score": 68.7,
       "phase": 2,
@@ -4838,7 +4861,7 @@
       ]
     },
     {
-      "rank": 211,
+      "rank": 212,
       "ticker": "NI",
       "breakout_score": 68.5,
       "phase": 2,
@@ -4861,7 +4884,7 @@
       ]
     },
     {
-      "rank": 212,
+      "rank": 213,
       "ticker": "ONTO",
       "breakout_score": 68.3,
       "phase": 2,
@@ -4884,7 +4907,7 @@
       ]
     },
     {
-      "rank": 213,
+      "rank": 214,
       "ticker": "SEM",
       "breakout_score": 68.3,
       "phase": 2,
@@ -4907,7 +4930,7 @@
       ]
     },
     {
-      "rank": 214,
+      "rank": 215,
       "ticker": "ET",
       "breakout_score": 67.8,
       "phase": 2,
@@ -4930,7 +4953,7 @@
       ]
     },
     {
-      "rank": 215,
+      "rank": 216,
       "ticker": "JCI",
       "breakout_score": 67.6,
       "phase": 2,
@@ -4953,7 +4976,7 @@
       ]
     },
     {
-      "rank": 216,
+      "rank": 217,
       "ticker": "AGX",
       "breakout_score": 67.3,
       "phase": 2,
@@ -4976,7 +4999,7 @@
       ]
     },
     {
-      "rank": 217,
+      "rank": 218,
       "ticker": "AVO",
       "breakout_score": 67.1,
       "phase": 2,
@@ -4999,7 +5022,7 @@
       ]
     },
     {
-      "rank": 218,
+      "rank": 219,
       "ticker": "CHRD",
       "breakout_score": 67.1,
       "phase": 2,
@@ -5022,7 +5045,7 @@
       ]
     },
     {
-      "rank": 219,
+      "rank": 220,
       "ticker": "PTGX",
       "breakout_score": 67.1,
       "phase": 2,
@@ -5045,7 +5068,7 @@
       ]
     },
     {
-      "rank": 220,
+      "rank": 221,
       "ticker": "ENS",
       "breakout_score": 66.8,
       "phase": 2,
@@ -5068,7 +5091,7 @@
       ]
     },
     {
-      "rank": 221,
+      "rank": 222,
       "ticker": "HST",
       "breakout_score": 66.4,
       "phase": 2,
@@ -5091,7 +5114,7 @@
       ]
     },
     {
-      "rank": 222,
+      "rank": 223,
       "ticker": "NWN",
       "breakout_score": 66.3,
       "phase": 2,
@@ -5114,7 +5137,7 @@
       ]
     },
     {
-      "rank": 223,
+      "rank": 224,
       "ticker": "WLK",
       "breakout_score": 66.1,
       "phase": 2,
@@ -5137,7 +5160,7 @@
       ]
     },
     {
-      "rank": 224,
+      "rank": 225,
       "ticker": "APA",
       "breakout_score": 64.7,
       "phase": 2,
@@ -5160,7 +5183,7 @@
       ]
     },
     {
-      "rank": 225,
+      "rank": 226,
       "ticker": "AAOI",
       "breakout_score": 64.6,
       "phase": 2,
@@ -5183,7 +5206,7 @@
       ]
     },
     {
-      "rank": 226,
+      "rank": 227,
       "ticker": "CE",
       "breakout_score": 64.4,
       "phase": 2,
@@ -5206,7 +5229,7 @@
       ]
     },
     {
-      "rank": 227,
+      "rank": 228,
       "ticker": "FAST",
       "breakout_score": 64.2,
       "phase": 2,
@@ -5229,7 +5252,7 @@
       ]
     },
     {
-      "rank": 228,
+      "rank": 229,
       "ticker": "CF",
       "breakout_score": 64.1,
       "phase": 2,
@@ -5252,7 +5275,7 @@
       ]
     },
     {
-      "rank": 229,
+      "rank": 230,
       "ticker": "TRN",
       "breakout_score": 64.0,
       "phase": 2,
@@ -5275,7 +5298,7 @@
       ]
     },
     {
-      "rank": 230,
+      "rank": 231,
       "ticker": "ENB",
       "breakout_score": 63.5,
       "phase": 2,
@@ -5298,7 +5321,7 @@
       ]
     },
     {
-      "rank": 231,
+      "rank": 232,
       "ticker": "NN",
       "breakout_score": 63.5,
       "phase": 2,
@@ -5321,7 +5344,7 @@
       ]
     },
     {
-      "rank": 232,
+      "rank": 233,
       "ticker": "IMXI",
       "breakout_score": 63.1,
       "phase": 2,
@@ -5344,7 +5367,7 @@
       ]
     },
     {
-      "rank": 233,
+      "rank": 234,
       "ticker": "CRGY",
       "breakout_score": 62.1,
       "phase": 2,
@@ -5367,7 +5390,7 @@
       ]
     },
     {
-      "rank": 234,
+      "rank": 235,
       "ticker": "AM",
       "breakout_score": 61.8,
       "phase": 2,
@@ -5390,7 +5413,7 @@
       ]
     },
     {
-      "rank": 235,
+      "rank": 236,
       "ticker": "OVV",
       "breakout_score": 61.8,
       "phase": 2,
@@ -5413,7 +5436,7 @@
       ]
     },
     {
-      "rank": 236,
+      "rank": 237,
       "ticker": "ALSN",
       "breakout_score": 61.3,
       "phase": 2,
@@ -5436,7 +5459,7 @@
       ]
     },
     {
-      "rank": 237,
+      "rank": 238,
       "ticker": "NOG",
       "breakout_score": 61.0,
       "phase": 2,
@@ -5459,7 +5482,7 @@
       ]
     },
     {
-      "rank": 238,
+      "rank": 239,
       "ticker": "BP",
       "breakout_score": 60.5,
       "phase": 2,
