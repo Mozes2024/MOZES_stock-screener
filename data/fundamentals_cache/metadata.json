@@ -1056,7 +1056,7 @@
     "in_earnings_season": true
   },
   "BROS": {
-    "last_updated": "2025-12-04T13:40:29.026254",
+    "last_updated": "2026-04-07T11:07:11.088685",
     "in_earnings_season": false
   },
   "BRSP": {
@@ -4888,7 +4888,7 @@
     "in_earnings_season": true
   },
   "PAY": {
-    "last_updated": "2025-12-04T14:05:49.801211",
+    "last_updated": "2026-04-07T11:24:12.300795",
     "in_earnings_season": false
   },
   "PAYS": {
@@ -8877,6 +8877,22 @@
   },
   "NTNX": {
     "last_updated": "2026-04-03T11:10:05.569951",
+    "in_earnings_season": false
+  },
+  "NCNO": {
+    "last_updated": "2026-04-07T11:21:54.298204",
+    "in_earnings_season": false
+  },
+  "PYPL": {
+    "last_updated": "2026-04-07T11:25:42.345975",
+    "in_earnings_season": false
+  },
+  "SLDE": {
+    "last_updated": "2026-04-07T11:28:20.985510",
+    "in_earnings_season": false
+  },
+  "VOYG": {
+    "last_updated": "2026-04-07T11:32:31.493278",
     "in_earnings_season": false
   }
 }
