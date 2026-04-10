@@ -1160,7 +1160,7 @@
     "in_earnings_season": true
   },
   "CAL": {
-    "last_updated": "2025-12-04T13:41:14.658459",
+    "last_updated": "2026-04-10T11:06:21.527327",
     "in_earnings_season": false
   },
   "CALX": {
@@ -8897,6 +8897,10 @@
   },
   "OSPN": {
     "last_updated": "2026-04-08T11:25:04.126533",
+    "in_earnings_season": false
+  },
+  "CNNE": {
+    "last_updated": "2026-04-10T11:07:50.941199",
     "in_earnings_season": false
   }
 }
