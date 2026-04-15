@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NSP",
-    "fetch_date": "2026-04-03T11:10:00.570768",
+    "fetch_date": "2026-04-15T11:26:02.825075",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1613000000.0,
       "2025-03-31 00:00:00": 1863000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -2.76,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-03T11:10:00.571960"
+  "fetched_at": "2026-04-15T11:26:02.826588"
 }
