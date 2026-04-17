@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADSK",
-    "fetch_date": "2026-03-06T10:42:29.279548",
+    "fetch_date": "2026-04-17T11:03:03.183507",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 27.13,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-03-06T10:42:29.280842"
+  "fetched_at": "2026-04-17T11:03:03.184774"
 }
