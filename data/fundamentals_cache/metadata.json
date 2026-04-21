@@ -4562,5 +4562,113 @@
   "ZTS": {
     "last_updated": "2026-04-20T11:53:50.905910",
     "in_earnings_season": true
+  },
+  "BBWI": {
+    "last_updated": "2026-04-21T11:16:57.409233",
+    "in_earnings_season": true
+  },
+  "BV": {
+    "last_updated": "2026-04-21T11:18:25.301315",
+    "in_earnings_season": true
+  },
+  "BZH": {
+    "last_updated": "2026-04-21T11:18:35.919209",
+    "in_earnings_season": true
+  },
+  "CALX": {
+    "last_updated": "2026-04-21T11:18:43.802431",
+    "in_earnings_season": true
+  },
+  "CHYM": {
+    "last_updated": "2026-04-21T11:19:40.875318",
+    "in_earnings_season": true
+  },
+  "EXP": {
+    "last_updated": "2026-04-21T11:23:51.057519",
+    "in_earnings_season": true
+  },
+  "FWRG": {
+    "last_updated": "2026-04-21T11:25:13.453575",
+    "in_earnings_season": true
+  },
+  "GDDY": {
+    "last_updated": "2026-04-21T11:25:25.491667",
+    "in_earnings_season": true
+  },
+  "KVYO": {
+    "last_updated": "2026-04-21T11:29:44.502511",
+    "in_earnings_season": true
+  },
+  "LGIH": {
+    "last_updated": "2026-04-21T11:30:08.099067",
+    "in_earnings_season": true
+  },
+  "MELI": {
+    "last_updated": "2026-04-21T11:31:28.623070",
+    "in_earnings_season": true
+  },
+  "MOH": {
+    "last_updated": "2026-04-21T11:32:01.153522",
+    "in_earnings_season": true
+  },
+  "MTH": {
+    "last_updated": "2026-04-21T11:32:25.192394",
+    "in_earnings_season": true
+  },
+  "ORCL": {
+    "last_updated": "2026-04-21T11:34:43.333453",
+    "in_earnings_season": true
+  },
+  "OSS": {
+    "last_updated": "2026-04-21T11:34:51.228801",
+    "in_earnings_season": true
+  },
+  "PAYX": {
+    "last_updated": "2026-04-21T11:35:13.366625",
+    "in_earnings_season": true
+  },
+  "PGNY": {
+    "last_updated": "2026-04-21T11:35:38.647164",
+    "in_earnings_season": true
+  },
+  "POST": {
+    "last_updated": "2026-04-21T11:36:05.720162",
+    "in_earnings_season": true
+  },
+  "RBLX": {
+    "last_updated": "2026-04-21T11:37:03.710062",
+    "in_earnings_season": true
+  },
+  "RYAN": {
+    "last_updated": "2026-04-21T11:38:09.799488",
+    "in_earnings_season": true
+  },
+  "SLG": {
+    "last_updated": "2026-04-21T11:39:21.544011",
+    "in_earnings_season": true
+  },
+  "SONO": {
+    "last_updated": "2026-04-21T11:39:52.755581",
+    "in_earnings_season": true
+  },
+  "TMHC": {
+    "last_updated": "2026-04-21T11:41:30.810740",
+    "in_earnings_season": true
+  },
+  "TNET": {
+    "last_updated": "2026-04-21T11:41:34.363100",
+    "in_earnings_season": true
+  },
+  "URI": {
+    "last_updated": "2026-04-21T11:42:50.456441",
+    "in_earnings_season": true
+  },
+  "VCEL": {
+    "last_updated": "2026-04-21T11:43:05.392187",
+    "in_earnings_season": true
+  },
+  "VSTS": {
+    "last_updated": "2026-04-21T11:43:41.348544",
+    "in_earnings_season": true
   }
 }
