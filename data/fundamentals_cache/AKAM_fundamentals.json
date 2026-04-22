@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AKAM",
-    "fetch_date": "2026-04-15T11:07:09.040422",
+    "fetch_date": "2026-04-22T11:12:57.474887",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1019939000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 13.82,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:07:09.041860"
+  "fetched_at": "2026-04-22T11:12:57.476212"
 }

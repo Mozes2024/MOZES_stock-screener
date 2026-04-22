@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OZK",
-    "fetch_date": "2026-04-15T11:27:29.962556",
+    "fetch_date": "2026-04-22T11:33:18.360427",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 412340000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": null,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:27:29.963259"
+  "fetched_at": "2026-04-22T11:33:18.361103"
 }

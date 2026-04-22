@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AFL",
-    "fetch_date": "2026-04-15T11:06:47.939323",
+    "fetch_date": "2026-04-22T11:12:36.383357",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 5498000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -22.807017543859644,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:06:47.940137"
+  "fetched_at": "2026-04-22T11:12:36.384011"
 }

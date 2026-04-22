@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BUD",
-    "fetch_date": "2026-04-15T11:10:49.199068",
+    "fetch_date": "2026-04-22T11:16:38.955221",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 14841000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.32,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:10:49.200852"
+  "fetched_at": "2026-04-22T11:16:38.956918"
 }

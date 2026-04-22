@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NWSA",
-    "fetch_date": "2026-04-15T11:26:24.417057",
+    "fetch_date": "2026-04-22T11:32:12.679876",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2238000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.13,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:26:24.419297"
+  "fetched_at": "2026-04-22T11:32:12.681337"
 }

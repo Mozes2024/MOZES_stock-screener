@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PATK",
-    "fetch_date": "2026-04-15T11:27:39.069750",
+    "fetch_date": "2026-04-22T11:33:28.062463",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 846123000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.644,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:27:39.071595"
+  "fetched_at": "2026-04-22T11:33:28.064859"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HTO",
-    "fetch_date": "2026-04-15T11:19:54.074935",
+    "fetch_date": "2026-04-22T11:25:42.471862",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 225063000.0,
       "2024-12-31 00:00:00": 197820000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 17.07,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:19:54.076265"
+  "fetched_at": "2026-04-22T11:25:42.473188"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "THC",
-    "fetch_date": "2026-04-15T11:33:46.813021",
+    "fetch_date": "2026-04-22T11:39:33.179116",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 5072000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.063,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:33:46.814875"
+  "fetched_at": "2026-04-22T11:39:33.180827"
 }

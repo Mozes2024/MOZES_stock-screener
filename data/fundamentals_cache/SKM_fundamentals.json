@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SKM",
-    "fetch_date": "2026-04-15T11:31:43.696410",
+    "fetch_date": "2026-04-22T11:37:31.727103",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 4532118000000.0,
       "2024-12-31 00:00:00": 4511521000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.057,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:31:43.698351"
+  "fetched_at": "2026-04-22T11:37:31.728771"
 }

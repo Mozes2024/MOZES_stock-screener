@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CCOI",
-    "fetch_date": "2026-04-15T11:11:36.562358",
+    "fetch_date": "2026-04-22T11:17:25.888494",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 252291000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -4.77,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:11:36.564006"
+  "fetched_at": "2026-04-22T11:17:25.889818"
 }

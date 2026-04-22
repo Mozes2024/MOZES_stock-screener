@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WGO",
-    "fetch_date": "2026-04-15T11:36:39.305755",
+    "fetch_date": "2026-04-22T11:42:24.589559",
     "quarterly_revenue": {
       "2024-08-31 00:00:00": NaN,
       "2024-11-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:36:39.307588"
+  "fetched_at": "2026-04-22T11:42:24.591401"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MLM",
-    "fetch_date": "2026-04-15T11:24:19.589733",
+    "fetch_date": "2026-04-22T11:30:08.107891",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1631000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.703,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:24:19.591423"
+  "fetched_at": "2026-04-22T11:30:08.109590"
 }

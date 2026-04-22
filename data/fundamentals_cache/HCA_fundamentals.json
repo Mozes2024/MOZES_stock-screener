@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HCA",
-    "fetch_date": "2026-04-15T11:19:08.056987",
+    "fetch_date": "2026-04-22T11:24:56.762874",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 18285000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.085,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:19:08.058866"
+  "fetched_at": "2026-04-22T11:24:56.764717"
 }

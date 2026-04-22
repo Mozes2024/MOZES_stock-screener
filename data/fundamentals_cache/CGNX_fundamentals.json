@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CGNX",
-    "fetch_date": "2026-04-15T11:11:55.555031",
+    "fetch_date": "2026-04-22T11:17:45.015519",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 229684000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.546,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:11:55.557607"
+  "fetched_at": "2026-04-22T11:17:45.017887"
 }

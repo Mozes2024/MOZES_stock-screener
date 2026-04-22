@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CMCSA",
-    "fetch_date": "2026-04-15T11:12:27.997679",
+    "fetch_date": "2026-04-22T11:18:17.210944",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 31914000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 10.79,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:12:27.999138"
+  "fetched_at": "2026-04-22T11:18:17.212252"
 }

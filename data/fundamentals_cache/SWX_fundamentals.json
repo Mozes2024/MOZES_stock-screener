@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SWX",
-    "fetch_date": "2026-04-15T11:33:13.774323",
+    "fetch_date": "2026-04-22T11:39:00.584227",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1270137000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.195,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:33:13.776180"
+  "fetched_at": "2026-04-22T11:39:00.585863"
 }

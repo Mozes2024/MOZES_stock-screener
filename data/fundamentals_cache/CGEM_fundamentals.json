@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CGEM",
-    "fetch_date": "2026-04-15T11:11:55.088134",
+    "fetch_date": "2026-04-22T11:17:44.407922",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:11:55.089123"
+  "fetched_at": "2026-04-22T11:17:44.409243"
 }

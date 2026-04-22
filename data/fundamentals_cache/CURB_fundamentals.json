@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CURB",
-    "fetch_date": "2026-04-15T11:13:37.068454",
+    "fetch_date": "2026-04-22T11:19:26.146409",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 34923000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 18.47,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:13:37.069819"
+  "fetched_at": "2026-04-22T11:19:26.147690"
 }

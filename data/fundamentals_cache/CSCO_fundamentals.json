@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CSCO",
-    "fetch_date": "2026-04-15T11:13:22.215739",
+    "fetch_date": "2026-04-22T11:19:10.632415",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": 13991000000.0,
       "2025-04-30 00:00:00": 14149000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.255,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:13:22.217505"
+  "fetched_at": "2026-04-22T11:19:10.634021"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EQT",
-    "fetch_date": "2026-04-15T11:15:55.257781",
+    "fetch_date": "2026-04-22T11:21:44.080696",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1808270000.0,
       "2025-03-31 00:00:00": 2418769000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 41.81,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:15:55.260009"
+  "fetched_at": "2026-04-22T11:21:44.081953"
 }

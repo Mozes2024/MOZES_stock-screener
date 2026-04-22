@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GPGI",
-    "fetch_date": "2026-04-15T11:18:35.335576",
+    "fetch_date": "2026-04-22T11:24:22.709390",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 100859000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:18:35.337237"
+  "fetched_at": "2026-04-22T11:24:22.711239"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ESE",
-    "fetch_date": "2026-04-15T11:15:59.613248",
+    "fetch_date": "2026-04-22T11:21:48.614217",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 214593000.0,
       "2025-03-31 00:00:00": 265519000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.784,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:15:59.614996"
+  "fetched_at": "2026-04-22T11:21:48.615888"
 }

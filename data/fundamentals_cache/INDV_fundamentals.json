@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDV",
-    "fetch_date": "2026-04-15T11:20:37.275754",
+    "fetch_date": "2026-04-22T11:26:25.381212",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 299000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.433,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:20:37.277513"
+  "fetched_at": "2026-04-22T11:26:25.382900"
 }

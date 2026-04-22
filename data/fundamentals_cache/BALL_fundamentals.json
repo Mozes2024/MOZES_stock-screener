@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BALL",
-    "fetch_date": "2026-04-15T11:09:11.525631",
+    "fetch_date": "2026-04-22T11:15:00.802396",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2880000000.0,
       "2025-03-31 00:00:00": 3097000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.601,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:09:11.527384"
+  "fetched_at": "2026-04-22T11:15:00.804123"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TGS",
-    "fetch_date": "2026-04-15T11:33:45.065787",
+    "fetch_date": "2026-04-22T11:39:31.260565",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 411535728000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.018,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:33:45.068314"
+  "fetched_at": "2026-04-22T11:39:31.262788"
 }

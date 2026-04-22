@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BP",
-    "fetch_date": "2026-04-15T11:10:27.806922",
+    "fetch_date": "2026-04-22T11:16:17.430559",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 45752000000.0,
       "2025-03-31 00:00:00": 46905000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.475,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:10:27.809392"
+  "fetched_at": "2026-04-22T11:16:17.432249"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HP",
-    "fetch_date": "2026-04-15T11:19:39.776369",
+    "fetch_date": "2026-04-22T11:25:28.522769",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 677302000.0,
       "2025-03-31 00:00:00": 1016039000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.319,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:19:39.778308"
+  "fetched_at": "2026-04-22T11:25:28.524475"
 }

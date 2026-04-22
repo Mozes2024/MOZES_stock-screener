@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BPOP",
-    "fetch_date": "2026-04-15T11:10:28.577145",
+    "fetch_date": "2026-04-22T11:16:18.529058",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 720395000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 40.63745019920319,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:10:28.577828"
+  "fetched_at": "2026-04-22T11:16:18.529728"
 }

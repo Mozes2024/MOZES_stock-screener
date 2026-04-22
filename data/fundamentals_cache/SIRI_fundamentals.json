@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SIRI",
-    "fetch_date": "2026-04-15T11:31:39.534857",
+    "fetch_date": "2026-04-22T11:37:27.785452",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2188000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 22.71,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:31:39.536281"
+  "fetched_at": "2026-04-22T11:37:27.786759"
 }

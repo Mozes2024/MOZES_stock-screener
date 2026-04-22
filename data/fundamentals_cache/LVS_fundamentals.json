@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LVS",
-    "fetch_date": "2026-04-15T11:23:17.919265",
+    "fetch_date": "2026-04-22T11:29:06.414649",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2896000000.0,
       "2025-03-31 00:00:00": 2862000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.013,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:23:17.921206"
+  "fetched_at": "2026-04-22T11:29:06.416405"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PJT",
-    "fetch_date": "2026-04-15T11:28:14.123623",
+    "fetch_date": "2026-04-22T11:34:02.852892",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 477281000.0,
       "2025-03-31 00:00:00": 324531000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 23.61,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:28:14.125360"
+  "fetched_at": "2026-04-22T11:34:02.854146"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BIP",
-    "fetch_date": "2026-04-15T11:09:56.579747",
+    "fetch_date": "2026-04-22T11:15:45.836632",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 5444000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.092,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:09:56.581515"
+  "fetched_at": "2026-04-22T11:15:45.838317"
 }

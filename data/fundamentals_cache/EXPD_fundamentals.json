@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EXPD",
-    "fetch_date": "2026-04-15T11:16:19.074964",
+    "fetch_date": "2026-04-22T11:22:08.330617",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2954705000.0,
       "2025-03-31 00:00:00": 2666419000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 8.79,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:16:19.077145"
+  "fetched_at": "2026-04-22T11:22:08.331888"
 }

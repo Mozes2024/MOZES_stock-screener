@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MASI",
-    "fetch_date": "2026-04-15T11:23:31.234118",
+    "fetch_date": "2026-04-22T11:29:19.891997",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 600700000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.922,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:23:31.235905"
+  "fetched_at": "2026-04-22T11:29:19.893751"
 }

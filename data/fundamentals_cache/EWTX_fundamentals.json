@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EWTX",
-    "fetch_date": "2026-04-15T11:16:14.660031",
+    "fetch_date": "2026-04-22T11:22:03.574020",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:16:14.661486"
+  "fetched_at": "2026-04-22T11:22:03.574964"
 }

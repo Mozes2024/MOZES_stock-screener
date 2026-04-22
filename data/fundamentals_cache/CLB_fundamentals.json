@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CLB",
-    "fetch_date": "2026-04-15T11:12:15.119714",
+    "fetch_date": "2026-04-22T11:18:04.614411",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 129237000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.394,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:12:15.121882"
+  "fetched_at": "2026-04-22T11:18:04.616110"
 }

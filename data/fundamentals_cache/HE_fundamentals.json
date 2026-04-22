@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HE",
-    "fetch_date": "2026-04-15T11:19:15.173565",
+    "fetch_date": "2026-04-22T11:25:03.943372",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 486949000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 8.33,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:19:15.175121"
+  "fetched_at": "2026-04-22T11:25:03.944669"
 }

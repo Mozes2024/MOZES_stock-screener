@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NPKI",
-    "fetch_date": "2026-04-15T11:25:54.834339",
+    "fetch_date": "2026-04-22T11:31:43.113192",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 44207000.0,
       "2024-12-31 00:00:00": 57524000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.153,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:25:54.836205"
+  "fetched_at": "2026-04-22T11:31:43.114883"
 }

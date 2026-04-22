@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GOLD",
-    "fetch_date": "2026-04-15T11:18:28.497831",
+    "fetch_date": "2026-04-22T11:24:17.338738",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2742345000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.237,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:18:28.499837"
+  "fetched_at": "2026-04-22T11:24:17.340399"
 }

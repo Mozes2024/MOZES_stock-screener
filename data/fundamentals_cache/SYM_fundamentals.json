@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SYM",
-    "fetch_date": "2026-04-15T11:33:17.679724",
+    "fetch_date": "2026-04-22T11:39:04.425172",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 486693000.0,
       "2025-03-31 00:00:00": 549651000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.292,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:33:17.681497"
+  "fetched_at": "2026-04-22T11:39:04.426846"
 }

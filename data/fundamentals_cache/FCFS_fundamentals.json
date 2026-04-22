@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FCFS",
-    "fetch_date": "2026-04-15T11:16:34.677362",
+    "fetch_date": "2026-04-22T11:22:23.667659",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 883811000.0,
       "2025-03-31 00:00:00": 836423000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.46,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:16:34.679122"
+  "fetched_at": "2026-04-22T11:22:23.669378"
 }
