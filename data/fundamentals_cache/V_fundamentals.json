@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "V",
-    "fetch_date": "2026-04-16T11:38:55.525798",
+    "fetch_date": "2026-04-23T11:43:30.532710",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 9510000000.0,
       "2025-03-31 00:00:00": 9594000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 68.3,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T11:38:55.527301"
+  "fetched_at": "2026-04-23T11:43:30.533885"
 }

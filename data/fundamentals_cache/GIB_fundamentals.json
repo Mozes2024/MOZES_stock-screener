@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GIB",
-    "fetch_date": "2026-04-16T11:21:33.410899",
+    "fetch_date": "2026-04-23T11:26:08.727571",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 3785245000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T11:21:33.413426"
+  "fetched_at": "2026-04-23T11:26:08.729045"
 }
