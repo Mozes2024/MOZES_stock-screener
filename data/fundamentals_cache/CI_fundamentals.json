@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CI",
-    "fetch_date": "2026-04-17T11:08:38.785910",
+    "fetch_date": "2026-04-24T11:16:37.323699",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 65717000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T11:08:38.787364"
+  "fetched_at": "2026-04-24T11:16:37.325461"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LBRDK",
-    "fetch_date": "2026-04-17T11:18:49.226228",
+    "fetch_date": "2026-04-24T11:26:48.040722",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 263000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T11:18:49.227172"
+  "fetched_at": "2026-04-24T11:26:48.041744"
 }

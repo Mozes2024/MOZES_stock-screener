@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HLIT",
-    "fetch_date": "2026-04-17T11:15:56.836146",
+    "fetch_date": "2026-04-24T11:23:54.911691",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 222166000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": -0.902,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T11:15:56.837635"
+  "fetched_at": "2026-04-24T11:23:54.913494"
 }
