@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TYL",
-    "fetch_date": "2026-04-17T11:31:20.729500",
+    "fetch_date": "2026-04-27T12:17:31.323553",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 541131000.0,
       "2025-03-31 00:00:00": 565165000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 13.04,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T11:31:20.730645"
+  "fetched_at": "2026-04-27T12:17:31.324773"
 }

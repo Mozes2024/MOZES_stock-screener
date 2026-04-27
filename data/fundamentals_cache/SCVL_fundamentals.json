@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SCVL",
-    "fetch_date": "2026-04-20T11:47:16.495974",
+    "fetch_date": "2026-04-27T12:13:45.116823",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 262939000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.73,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T11:47:16.497715"
+  "fetched_at": "2026-04-27T12:13:45.118298"
 }

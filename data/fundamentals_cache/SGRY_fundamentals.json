@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SGRY",
-    "fetch_date": "2026-04-20T11:47:39.294988",
+    "fetch_date": "2026-04-27T12:14:07.588006",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 864400000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.109,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T11:47:39.296687"
+  "fetched_at": "2026-04-27T12:14:07.589501"
 }

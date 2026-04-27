@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DUOL",
-    "fetch_date": "2026-04-17T11:11:26.730622",
+    "fetch_date": "2026-04-27T11:57:38.293682",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 209550000.0,
       "2025-03-31 00:00:00": 230743000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 15.36,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T11:11:26.731860"
+  "fetched_at": "2026-04-27T11:57:38.294875"
 }
