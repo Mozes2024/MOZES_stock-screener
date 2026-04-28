@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PGNY",
-    "fetch_date": "2026-04-21T11:35:38.644475",
+    "fetch_date": "2026-04-28T12:11:55.425266",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 298431000.0,
       "2025-03-31 00:00:00": 324038000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 4.78,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-21T11:35:38.645934"
+  "fetched_at": "2026-04-28T12:11:55.426904"
 }

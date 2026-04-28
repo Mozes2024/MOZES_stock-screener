@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ETD",
-    "fetch_date": "2026-04-20T11:32:17.177255",
+    "fetch_date": "2026-04-28T11:59:52.734762",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 157260000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.947,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T11:32:17.179336"
+  "fetched_at": "2026-04-28T11:59:52.736507"
 }
