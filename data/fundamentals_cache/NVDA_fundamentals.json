@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NVDA",
-    "fetch_date": "2026-04-22T11:32:05.198963",
+    "fetch_date": "2026-04-29T12:02:40.080138",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": 39331000000.0,
       "2025-04-30 00:00:00": 44062000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.314,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:32:05.200640"
+  "fetched_at": "2026-04-29T12:02:40.082063"
 }

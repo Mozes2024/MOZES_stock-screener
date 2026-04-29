@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SEM",
-    "fetch_date": "2026-04-22T11:37:02.127500",
+    "fetch_date": "2026-04-29T12:07:35.633356",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": -122587000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 4.58,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:37:02.128807"
+  "fetched_at": "2026-04-29T12:07:35.634639"
 }

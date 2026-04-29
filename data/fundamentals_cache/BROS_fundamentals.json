@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BROS",
-    "fetch_date": "2026-04-22T11:16:26.910764",
+    "fetch_date": "2026-04-29T11:47:01.150280",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 342786000.0,
       "2025-03-31 00:00:00": 355152000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.11,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:16:26.912472"
+  "fetched_at": "2026-04-29T11:47:01.151991"
 }

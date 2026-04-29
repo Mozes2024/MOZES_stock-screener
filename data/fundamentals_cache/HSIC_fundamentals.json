@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HSIC",
-    "fetch_date": "2026-04-22T11:25:37.865858",
+    "fetch_date": "2026-04-29T11:56:12.021317",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3191000000.0,
       "2025-03-31 00:00:00": 3168000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.582,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:25:37.867527"
+  "fetched_at": "2026-04-29T11:56:12.023026"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SBGI",
-    "fetch_date": "2026-04-22T11:36:45.658257",
+    "fetch_date": "2026-04-29T12:07:19.690274",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1004000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 9.57,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:36:45.659743"
+  "fetched_at": "2026-04-29T12:07:19.691561"
 }

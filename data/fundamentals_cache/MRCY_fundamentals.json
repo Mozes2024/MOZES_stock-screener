@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MRCY",
-    "fetch_date": "2026-04-22T11:30:26.939656",
+    "fetch_date": "2026-04-29T12:01:01.236443",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 223125000.0,
       "2025-03-31 00:00:00": 211358000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.501,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:30:26.941325"
+  "fetched_at": "2026-04-29T12:01:01.238140"
 }

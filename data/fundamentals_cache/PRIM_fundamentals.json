@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRIM",
-    "fetch_date": "2026-04-22T11:34:34.991530",
+    "fetch_date": "2026-04-29T12:05:09.318164",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1741330000.0,
       "2025-03-31 00:00:00": 1648112000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 4.17,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:34:34.992791"
+  "fetched_at": "2026-04-29T12:05:09.319436"
 }

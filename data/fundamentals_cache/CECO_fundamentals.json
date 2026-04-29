@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CECO",
-    "fetch_date": "2026-04-22T11:17:34.123857",
+    "fetch_date": "2026-04-29T11:48:08.302721",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 158566000.0,
       "2025-03-31 00:00:00": 176697000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.252,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:17:34.125554"
+  "fetched_at": "2026-04-29T11:48:08.304370"
 }

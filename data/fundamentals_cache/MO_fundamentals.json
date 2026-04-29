@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MO",
-    "fetch_date": "2026-04-22T11:30:16.610013",
+    "fetch_date": "2026-04-29T12:00:50.932914",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 5106000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.211,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:30:16.611686"
+  "fetched_at": "2026-04-29T12:00:50.934573"
 }

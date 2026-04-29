@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UNFI",
-    "fetch_date": "2026-04-22T11:41:00.198250",
+    "fetch_date": "2026-04-29T12:11:33.112166",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": 8158000000.0,
       "2025-04-30 00:00:00": 8059000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.25,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:41:00.200014"
+  "fetched_at": "2026-04-29T12:11:33.114257"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TYRA",
-    "fetch_date": "2026-04-22T11:40:40.613901",
+    "fetch_date": "2026-04-29T12:11:13.476318",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 0.0,
       "2025-03-31 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:40:40.614898"
+  "fetched_at": "2026-04-29T12:11:13.477271"
 }

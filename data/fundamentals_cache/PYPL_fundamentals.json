@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PYPL",
-    "fetch_date": "2026-04-22T11:34:58.410494",
+    "fetch_date": "2026-04-29T12:05:33.375569",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 8366000000.0,
       "2025-03-31 00:00:00": 7791000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 18.34,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:34:58.411771"
+  "fetched_at": "2026-04-29T12:05:33.376856"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMAT",
-    "fetch_date": "2026-04-22T11:13:19.069932",
+    "fetch_date": "2026-04-29T11:43:53.913503",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": 7166000000.0,
       "2025-04-30 00:00:00": 7100000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.855,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:13:19.071598"
+  "fetched_at": "2026-04-29T11:43:53.915213"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AGCO",
-    "fetch_date": "2026-04-22T11:12:38.497653",
+    "fetch_date": "2026-04-29T11:43:13.391981",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2887300000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.928,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:12:38.499440"
+  "fetched_at": "2026-04-29T11:43:13.393708"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UEC",
-    "fetch_date": "2026-04-22T11:40:47.225268",
+    "fetch_date": "2026-04-29T12:11:20.044743",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 4.193,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:40:47.227032"
+  "fetched_at": "2026-04-29T12:11:20.046475"
 }

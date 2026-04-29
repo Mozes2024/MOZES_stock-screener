@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APD",
-    "fetch_date": "2026-04-22T11:13:48.330851",
+    "fetch_date": "2026-04-29T11:44:22.919046",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2931500000.0,
       "2025-03-31 00:00:00": 2916200000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.254,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:13:48.333424"
+  "fetched_at": "2026-04-29T11:44:22.920740"
 }

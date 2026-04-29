@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "YUM",
-    "fetch_date": "2026-04-22T11:43:15.646995",
+    "fetch_date": "2026-04-29T12:13:50.382647",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2362000000.0,
       "2025-03-31 00:00:00": 1787000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 29.5,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:43:15.648283"
+  "fetched_at": "2026-04-29T12:13:50.384005"
 }

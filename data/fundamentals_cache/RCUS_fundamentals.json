@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RCUS",
-    "fetch_date": "2026-04-22T11:35:27.111746",
+    "fetch_date": "2026-04-29T12:06:00.889310",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 26000000.0,
       "2025-03-31 00:00:00": 28000000.0,
@@ -23,5 +23,5 @@
     "operating_margin": -345.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:35:27.112858"
+  "fetched_at": "2026-04-29T12:06:00.890267"
 }

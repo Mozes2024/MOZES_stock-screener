@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PZZA",
-    "fetch_date": "2026-04-22T11:35:00.628174",
+    "fetch_date": "2026-04-29T12:05:35.531336",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 530770000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.069,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:35:00.629835"
+  "fetched_at": "2026-04-29T12:05:35.533033"
 }

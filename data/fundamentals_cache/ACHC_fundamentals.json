@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACHC",
-    "fetch_date": "2026-04-22T11:12:07.898168",
+    "fetch_date": "2026-04-29T11:42:43.199534",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 774238000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.007,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:12:07.899838"
+  "fetched_at": "2026-04-29T11:42:43.201247"
 }

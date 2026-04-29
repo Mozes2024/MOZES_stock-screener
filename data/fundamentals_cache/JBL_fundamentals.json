@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JBL",
-    "fetch_date": "2026-04-22T11:27:06.005873",
+    "fetch_date": "2026-04-29T11:57:40.322497",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": NaN,
       "2025-02-28 00:00:00": 6728000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.6,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:27:06.007563"
+  "fetched_at": "2026-04-29T11:57:40.324261"
 }
