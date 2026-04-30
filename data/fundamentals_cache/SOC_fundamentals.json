@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SOC",
-    "fetch_date": "2026-04-22T11:38:06.797402",
+    "fetch_date": "2026-04-30T12:08:21.125308",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 0.0,
       "2025-03-31 00:00:00": 0.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:38:06.798965"
+  "fetched_at": "2026-04-30T12:08:21.126708"
 }

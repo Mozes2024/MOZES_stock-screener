@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WAY",
-    "fetch_date": "2026-04-23T11:44:22.943825",
+    "fetch_date": "2026-04-30T12:12:27.255466",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 244102000.0,
       "2025-03-31 00:00:00": 256435000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 19.44,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-23T11:44:22.945506"
+  "fetched_at": "2026-04-30T12:12:27.256794"
 }

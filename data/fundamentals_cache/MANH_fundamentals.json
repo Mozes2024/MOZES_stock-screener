@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "MANH",
-    "fetch_date": "2026-04-23T11:31:28.030439",
+    "fetch_date": "2026-04-30T11:59:34.584153",
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": 255801000.0,
       "2025-03-31 00:00:00": 262787000.0,
       "2025-06-30 00:00:00": 272421000.0,
       "2025-09-30 00:00:00": 275795000.0,
       "2025-12-31 00:00:00": 270389000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 282215000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 4.37369863419,
+    "revenue_yoy_change": 7.393059778451749,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.85,
       "2025-06-30 00:00:00": 0.93,
       "2025-09-30 00:00:00": 0.96,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": -4.651162790697678,
     "eps_yoy_change": -3.529411764705886,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 55.13,
+    "margin_change": 0.15,
+    "operating_margin": 23.01,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-23T11:31:28.031588"
+  "fetched_at": "2026-04-30T11:59:34.585314"
 }

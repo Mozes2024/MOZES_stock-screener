@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DSGX",
-    "fetch_date": "2026-04-23T11:22:48.401960",
+    "fetch_date": "2026-04-30T11:50:53.459859",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-23T11:22:48.403456"
+  "fetched_at": "2026-04-30T11:50:53.461380"
 }
