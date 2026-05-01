@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TVTX",
-    "fetch_date": "2026-04-24T11:39:08.324249",
+    "fetch_date": "2026-05-01T11:40:09.956221",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 74787000.0,
       "2025-03-31 00:00:00": 81732000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.045,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-24T11:39:08.326076"
+  "fetched_at": "2026-05-01T11:40:09.957845"
 }

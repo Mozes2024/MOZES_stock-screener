@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EGP",
-    "fetch_date": "2026-04-24T11:19:50.439492",
+    "fetch_date": "2026-05-01T11:20:55.139257",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 174449000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.007,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-24T11:19:50.441251"
+  "fetched_at": "2026-05-01T11:20:55.140908"
 }

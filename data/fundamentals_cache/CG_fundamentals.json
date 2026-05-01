@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CG",
-    "fetch_date": "2026-04-22T11:17:43.947931",
+    "fetch_date": "2026-05-01T11:17:28.474006",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 771300000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": null,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:17:43.948612"
+  "fetched_at": "2026-05-01T11:17:28.474650"
 }

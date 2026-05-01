@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRNX",
-    "fetch_date": "2026-04-15T11:13:15.479464",
+    "fetch_date": "2026-05-01T11:18:48.615114",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 0.0,
       "2025-03-31 00:00:00": 361000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.328,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-15T11:13:15.481643"
+  "fetched_at": "2026-05-01T11:18:48.616503"
 }

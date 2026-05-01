@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMG",
-    "fetch_date": "2026-04-24T11:12:03.161152",
+    "fetch_date": "2026-05-01T11:13:07.100060",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 524300000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 17.93,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-24T11:12:03.162773"
+  "fetched_at": "2026-05-01T11:13:07.101361"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZVRA",
-    "fetch_date": "2026-04-23T11:45:38.377887",
+    "fetch_date": "2026-05-01T11:43:08.037741",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 12043000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.051,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-23T11:45:38.379566"
+  "fetched_at": "2026-05-01T11:43:08.039476"
 }
