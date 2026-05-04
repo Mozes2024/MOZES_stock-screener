@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AAL",
-    "fetch_date": "2026-04-27T11:48:45.986969",
+    "fetch_date": "2026-05-04T11:54:19.921195",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.225,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-27T11:48:45.988524"
+  "fetched_at": "2026-05-04T11:54:19.922771"
 }
