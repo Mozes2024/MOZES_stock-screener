@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VST",
-    "fetch_date": "2026-04-27T12:18:49.594212",
+    "fetch_date": "2026-05-05T11:49:17.670165",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 4037000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.222,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-27T12:18:49.595696"
+  "fetched_at": "2026-05-05T11:49:17.671636"
 }
