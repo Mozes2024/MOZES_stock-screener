@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TTWO",
-    "fetch_date": "2026-04-29T12:10:59.542884",
+    "fetch_date": "2026-05-06T12:20:53.769471",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1359800000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -2.24,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:10:59.544221"
+  "fetched_at": "2026-05-06T12:20:53.770884"
 }

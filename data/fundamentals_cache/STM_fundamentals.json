@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STM",
-    "fetch_date": "2026-04-29T12:09:14.974218",
+    "fetch_date": "2026-05-06T12:19:09.649247",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2517000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 1.025,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:09:14.975997"
+  "fetched_at": "2026-05-06T12:19:09.651867"
 }

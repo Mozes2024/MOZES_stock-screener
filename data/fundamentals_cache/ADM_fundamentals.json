@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADM",
-    "fetch_date": "2026-04-29T11:42:54.396149",
+    "fetch_date": "2026-05-06T11:52:49.965046",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 21498000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.559,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:42:54.397877"
+  "fetched_at": "2026-05-06T11:52:49.966864"
 }

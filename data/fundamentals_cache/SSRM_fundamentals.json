@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SSRM",
-    "fetch_date": "2026-04-29T12:09:05.329851",
+    "fetch_date": "2026-05-06T12:19:00.846735",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 323187000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.99,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:09:05.331516"
+  "fetched_at": "2026-05-06T12:19:00.848485"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NCNO",
-    "fetch_date": "2026-04-29T12:01:44.294928",
+    "fetch_date": "2026-05-06T12:11:38.154930",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": 141370000.0,
       "2025-04-30 00:00:00": 144137000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 1.88,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:01:44.296236"
+  "fetched_at": "2026-05-06T12:11:38.156354"
 }

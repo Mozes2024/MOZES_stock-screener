@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VCEL",
-    "fetch_date": "2026-04-28T12:19:20.983827",
+    "fetch_date": "2026-05-06T12:21:50.497424",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 75376000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.189,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-28T12:19:20.985590"
+  "fetched_at": "2026-05-06T12:21:50.499252"
 }

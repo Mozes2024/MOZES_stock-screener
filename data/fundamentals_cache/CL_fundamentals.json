@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CL",
-    "fetch_date": "2026-04-29T11:48:38.452405",
+    "fetch_date": "2026-05-06T11:58:35.503809",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 4945000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.389,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:48:38.454092"
+  "fetched_at": "2026-05-06T11:58:35.505829"
 }

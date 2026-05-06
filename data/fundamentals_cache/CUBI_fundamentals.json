@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CUBI",
-    "fetch_date": "2026-04-28T11:57:24.990684",
+    "fetch_date": "2026-05-06T11:59:55.858719",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 151416000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 579.3103448275862,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-28T11:57:24.991336"
+  "fetched_at": "2026-05-06T11:59:55.859415"
 }

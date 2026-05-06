@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HUBG",
-    "fetch_date": "2026-04-29T11:56:18.597841",
+    "fetch_date": "2026-05-06T12:06:13.864357",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 986892000.0,
       "2024-12-31 00:00:00": 973510000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 4.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:56:18.599168"
+  "fetched_at": "2026-05-06T12:06:13.865684"
 }

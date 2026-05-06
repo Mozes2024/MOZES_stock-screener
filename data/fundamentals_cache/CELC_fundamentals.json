@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CELC",
-    "fetch_date": "2026-04-29T11:48:09.172434",
+    "fetch_date": "2026-05-06T11:58:05.754349",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 0.0,
       "2025-03-31 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:48:09.173485"
+  "fetched_at": "2026-05-06T11:58:05.755326"
 }

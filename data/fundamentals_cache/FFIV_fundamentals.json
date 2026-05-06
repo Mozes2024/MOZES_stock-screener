@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "FFIV",
-    "fetch_date": "2026-04-29T11:53:08.608411",
+    "fetch_date": "2026-05-06T12:03:04.379454",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 766489000.0,
       "2025-03-31 00:00:00": 731123000.0,
       "2025-06-30 00:00:00": 780370000.0,
       "2025-09-30 00:00:00": 810090000.0,
-      "2025-12-31 00:00:00": 822465000.0
+      "2025-12-31 00:00:00": 822465000.0,
+      "2026-03-31 00:00:00": NaN
     },
-    "revenue_qoq_change": 1.5276080435507167,
-    "revenue_yoy_change": 7.302909761262066,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": 2.82,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2.48,
       "2025-06-30 00:00:00": 3.25,
       "2025-09-30 00:00:00": 3.26,
-      "2025-12-31 00:00:00": 3.1
+      "2025-12-31 00:00:00": 3.1,
+      "2026-03-31 00:00:00": 2.58
     },
-    "eps_qoq_change": -4.907975460122691,
-    "eps_yoy_change": 9.929078014184405,
-    "gross_margin": 81.55,
-    "margin_change": -0.69,
-    "operating_margin": 26.04,
+    "eps_qoq_change": -16.7741935483871,
+    "eps_yoy_change": 4.032258064516133,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 73239000.0,
@@ -32,8 +34,8 @@
       "2025-12-31 00:00:00": 79895000.0
     },
     "inventory_qoq_change": 3.45,
-    "inventory_to_sales_ratio": 0.097,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:53:08.610122"
+  "fetched_at": "2026-05-06T12:03:04.381686"
 }

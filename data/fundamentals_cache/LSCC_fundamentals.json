@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LSCC",
-    "fetch_date": "2026-04-29T11:59:33.650955",
+    "fetch_date": "2026-05-06T12:09:28.544449",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 117419000.0,
       "2025-03-31 00:00:00": 120150000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.612,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:59:33.652623"
+  "fetched_at": "2026-05-06T12:09:28.546191"
 }

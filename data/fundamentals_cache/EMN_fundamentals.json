@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EMN",
-    "fetch_date": "2026-04-29T11:52:03.173870",
+    "fetch_date": "2026-05-06T12:02:00.417511",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2245000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.004,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:52:03.175564"
+  "fetched_at": "2026-05-06T12:02:00.419300"
 }

@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "NPKI",
-    "fetch_date": "2026-04-29T12:02:17.908870",
+    "fetch_date": "2026-05-06T12:12:11.827466",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 44207000.0,
       "2024-12-31 00:00:00": 57524000.0,
       "2025-03-31 00:00:00": 64777000.0,
       "2025-06-30 00:00:00": 68233000.0,
-      "2025-12-31 00:00:00": 75195000.0
+      "2025-12-31 00:00:00": 75195000.0,
+      "2026-03-31 00:00:00": NaN
     },
-    "revenue_qoq_change": 10.20327407559392,
-    "revenue_yoy_change": 70.09749587169452,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": -2.02,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.1,
       "2025-03-31 00:00:00": 0.11,
       "2025-06-30 00:00:00": 0.1,
-      "2025-12-31 00:00:00": 0.17
+      "2025-12-31 00:00:00": 0.17,
+      "2026-03-31 00:00:00": 0.12
     },
-    "eps_qoq_change": 70.0,
-    "eps_yoy_change": 108.41584158415843,
-    "gross_margin": 37.72,
-    "margin_change": 0.81,
-    "operating_margin": 16.71,
+    "eps_qoq_change": -29.41176470588236,
+    "eps_yoy_change": 19.99999999999999,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2024-09-30 00:00:00": 14910000.0,
       "2024-12-31 00:00:00": 14659000.0,
@@ -31,8 +33,8 @@
       "2025-12-31 00:00:00": 11500000.0
     },
     "inventory_qoq_change": 3.75,
-    "inventory_to_sales_ratio": 0.153,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:02:17.910610"
+  "fetched_at": "2026-05-06T12:12:11.830128"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LNT",
-    "fetch_date": "2026-04-29T11:59:20.098788",
+    "fetch_date": "2026-05-06T12:09:15.069305",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 976000000.0,
       "2025-03-31 00:00:00": 1128000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.271,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:59:20.100510"
+  "fetched_at": "2026-05-06T12:09:15.071519"
 }

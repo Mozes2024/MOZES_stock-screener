@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CTLP",
-    "fetch_date": "2026-04-29T11:49:50.942125",
+    "fetch_date": "2026-05-06T11:59:48.489447",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 73722000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.644,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:49:50.943878"
+  "fetched_at": "2026-05-06T11:59:48.492166"
 }

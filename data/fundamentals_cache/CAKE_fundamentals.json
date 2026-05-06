@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "CAKE",
-    "fetch_date": "2026-04-29T11:47:32.158512",
+    "fetch_date": "2026-05-06T11:57:28.774992",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 920963000.0,
       "2025-03-31 00:00:00": 927197000.0,
       "2025-06-30 00:00:00": 955825000.0,
       "2025-09-30 00:00:00": 907226000.0,
-      "2025-12-31 00:00:00": 961558000.0
+      "2025-12-31 00:00:00": 961558000.0,
+      "2026-03-31 00:00:00": NaN
     },
-    "revenue_qoq_change": 5.988805435470324,
-    "revenue_yoy_change": 4.407886093143807,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": 0.83,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.67,
       "2025-06-30 00:00:00": 1.14,
       "2025-09-30 00:00:00": 0.66,
-      "2025-12-31 00:00:00": 0.6
+      "2025-12-31 00:00:00": 0.6,
+      "2026-03-31 00:00:00": 1.02
     },
-    "eps_qoq_change": -9.090909090909099,
-    "eps_yoy_change": -27.710843373493976,
-    "gross_margin": 44.58,
-    "margin_change": 1.94,
-    "operating_margin": 7.97,
+    "eps_qoq_change": 70.0,
+    "eps_yoy_change": 52.23880597014925,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 64526000.0,
@@ -32,8 +34,8 @@
       "2025-12-31 00:00:00": 53969000.0
     },
     "inventory_qoq_change": -14.89,
-    "inventory_to_sales_ratio": 0.056,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:47:32.160185"
+  "fetched_at": "2026-05-06T11:57:28.776739"
 }

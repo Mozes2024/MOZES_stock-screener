@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GIII",
-    "fetch_date": "2026-04-29T11:54:33.795219",
+    "fetch_date": "2026-05-06T12:04:29.113766",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 839535000.0,
@@ -26,7 +26,6 @@
     "margin_change": -1.59,
     "operating_margin": 2.32,
     "quarterly_inventory": {
-      "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 478086000.0,
       "2025-04-30 00:00:00": 456482000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.596,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:54:33.797320"
+  "fetched_at": "2026-05-06T12:04:29.116540"
 }

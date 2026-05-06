@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CPRX",
-    "fetch_date": "2026-04-29T11:49:27.354054",
+    "fetch_date": "2026-05-06T11:59:24.830383",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 141820000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.244,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:49:27.355751"
+  "fetched_at": "2026-05-06T11:59:24.832122"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VFC",
-    "fetch_date": "2026-04-29T12:12:03.827746",
+    "fetch_date": "2026-05-06T12:21:57.235162",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2833912000.0,
       "2025-03-31 00:00:00": 2143771000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.577,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:12:03.829496"
+  "fetched_at": "2026-05-06T12:21:57.237292"
 }

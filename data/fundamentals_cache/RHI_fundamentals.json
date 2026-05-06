@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "RHI",
-    "fetch_date": "2026-04-29T12:06:20.996952",
+    "fetch_date": "2026-05-06T12:16:16.377606",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 1382372000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1351907000.0,
       "2025-06-30 00:00:00": 1369743000.0,
       "2025-09-30 00:00:00": 1354477000.0,
       "2025-12-31 00:00:00": 1302379000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 1300179000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -0.1689216426247659,
+    "revenue_yoy_change": -3.826298702499506,
     "quarterly_eps": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": -56.624886409927,
     "eps_yoy_change": -18.57470588235295,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 36.91,
+    "margin_change": -0.68,
+    "operating_margin": 2.84,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:06:20.998232"
+  "fetched_at": "2026-05-06T12:16:16.378928"
 }

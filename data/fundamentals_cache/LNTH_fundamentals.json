@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LNTH",
-    "fetch_date": "2026-04-29T11:59:20.763589",
+    "fetch_date": "2026-05-06T12:09:15.523994",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 391110000.0,
       "2025-03-31 00:00:00": 372764000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.159,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:59:20.765346"
+  "fetched_at": "2026-05-06T12:09:15.525842"
 }

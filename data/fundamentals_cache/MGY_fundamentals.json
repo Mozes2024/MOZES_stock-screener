@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MGY",
-    "fetch_date": "2026-04-29T12:00:31.208794",
+    "fetch_date": "2026-05-06T12:10:25.545849",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 326609000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 29.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:00:31.210068"
+  "fetched_at": "2026-05-06T12:10:25.547226"
 }

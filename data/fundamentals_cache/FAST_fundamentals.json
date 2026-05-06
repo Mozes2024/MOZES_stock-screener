@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FAST",
-    "fetch_date": "2026-04-29T11:52:48.202236",
+    "fetch_date": "2026-05-06T12:02:43.995063",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1959400000.0,
       "2025-06-30 00:00:00": 2080300000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.769,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:52:48.203992"
+  "fetched_at": "2026-05-06T12:02:43.996801"
 }

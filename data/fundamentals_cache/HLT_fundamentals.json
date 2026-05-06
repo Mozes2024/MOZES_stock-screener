@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "HLT",
-    "fetch_date": "2026-04-29T11:55:52.629596",
+    "fetch_date": "2026-05-06T12:05:47.832723",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 2783000000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2695000000.0,
       "2025-06-30 00:00:00": 3137000000.0,
       "2025-09-30 00:00:00": 3120000000.0,
       "2025-12-31 00:00:00": 3087000000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 2937000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -4.8590864917395535,
+    "revenue_yoy_change": 8.979591836734693,
     "quarterly_eps": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": 30.708661417322823,
     "eps_yoy_change": 34.95934959349593,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 29.04,
+    "margin_change": 3.1,
+    "operating_margin": 23.08,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:55:52.630961"
+  "fetched_at": "2026-05-06T12:05:47.834813"
 }

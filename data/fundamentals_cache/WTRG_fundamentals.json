@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WTRG",
-    "fetch_date": "2026-04-29T12:13:23.869330",
+    "fetch_date": "2026-05-06T12:23:17.386171",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 604383000.0,
       "2025-03-31 00:00:00": 783626000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.161,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:13:23.871114"
+  "fetched_at": "2026-05-06T12:23:17.388005"
 }

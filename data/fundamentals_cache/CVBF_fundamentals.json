@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CVBF",
-    "fetch_date": "2026-04-29T11:50:03.170896",
+    "fetch_date": "2026-05-06T12:00:00.603577",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 107264000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 5.555555555555561,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:50:03.171556"
+  "fetched_at": "2026-05-06T12:00:00.604263"
 }

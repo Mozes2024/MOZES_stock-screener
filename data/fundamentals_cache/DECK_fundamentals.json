@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DECK",
-    "fetch_date": "2026-04-29T11:50:35.700562",
+    "fetch_date": "2026-05-06T12:00:33.050398",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1827165000.0,
       "2025-03-31 00:00:00": 1021780000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.324,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:50:35.702790"
+  "fetched_at": "2026-05-06T12:00:33.052131"
 }

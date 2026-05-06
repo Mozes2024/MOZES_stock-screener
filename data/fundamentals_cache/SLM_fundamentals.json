@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SLM",
-    "fetch_date": "2026-04-29T12:08:13.744498",
+    "fetch_date": "2026-05-06T12:18:08.625391",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 581014000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 10.000000000000009,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:08:13.745128"
+  "fetched_at": "2026-05-06T12:18:08.626068"
 }

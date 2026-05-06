@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TJX",
-    "fetch_date": "2026-04-29T12:10:13.037563",
+    "fetch_date": "2026-05-06T12:20:07.267711",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": 16350000000.0,
       "2025-04-30 00:00:00": 13111000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.411,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:10:13.039328"
+  "fetched_at": "2026-05-06T12:20:07.269991"
 }

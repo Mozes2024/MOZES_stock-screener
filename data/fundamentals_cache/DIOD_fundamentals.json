@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DIOD",
-    "fetch_date": "2026-04-29T11:50:49.224148",
+    "fetch_date": "2026-05-06T12:00:46.644195",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 339298000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.204,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:50:49.226129"
+  "fetched_at": "2026-05-06T12:00:46.645942"
 }

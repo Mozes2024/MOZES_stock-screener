@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCK",
-    "fetch_date": "2026-04-29T12:00:08.804269",
+    "fetch_date": "2026-05-06T12:10:03.553924",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 95294000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.255,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:00:08.806029"
+  "fetched_at": "2026-05-06T12:10:03.555951"
 }

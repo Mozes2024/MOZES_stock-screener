@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "CURB",
-    "fetch_date": "2026-04-29T11:49:59.964007",
+    "fetch_date": "2026-05-06T11:59:57.435335",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 34923000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 38695000.0,
       "2025-06-30 00:00:00": 41402000.0,
       "2025-09-30 00:00:00": 48647000.0,
       "2025-12-31 00:00:00": 54149000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 57987000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 7.087850191139264,
+    "revenue_yoy_change": 49.8565706163587,
     "quarterly_eps": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": -66.66666666666666,
     "eps_yoy_change": -70.0,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 73.99,
+    "margin_change": -3.03,
+    "operating_margin": 13.14,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:49:59.965575"
+  "fetched_at": "2026-05-06T11:59:57.436693"
 }

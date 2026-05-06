@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MSM",
-    "fetch_date": "2026-04-29T12:01:12.898836",
+    "fetch_date": "2026-05-06T12:11:06.733847",
     "quarterly_revenue": {
       "2025-02-28 00:00:00": 891717000.0,
       "2025-05-31 00:00:00": 971145000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.738,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:01:12.900510"
+  "fetched_at": "2026-05-06T12:11:06.735585"
 }

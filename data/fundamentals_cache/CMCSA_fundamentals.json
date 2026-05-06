@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "CMCSA",
-    "fetch_date": "2026-04-29T11:48:51.403189",
+    "fetch_date": "2026-05-06T11:58:48.536145",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 31914000000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 29887000000.0,
       "2025-06-30 00:00:00": 30313000000.0,
       "2025-09-30 00:00:00": 31198000000.0,
       "2025-12-31 00:00:00": 32310000000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 31457000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -2.6400495202723615,
+    "revenue_yoy_change": 5.25312008565597,
     "quarterly_eps": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": 0.0,
     "eps_yoy_change": -32.58426966292135,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 65.4,
+    "margin_change": -2.71,
+    "operating_margin": 13.14,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:48:51.404465"
+  "fetched_at": "2026-05-06T11:58:48.537689"
 }

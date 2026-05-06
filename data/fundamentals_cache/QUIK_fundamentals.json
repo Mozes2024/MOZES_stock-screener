@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "QUIK",
-    "fetch_date": "2026-04-28T12:13:10.307371",
+    "fetch_date": "2026-05-06T12:15:40.822616",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 5705000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.256,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-28T12:13:10.309118"
+  "fetched_at": "2026-05-06T12:15:40.825286"
 }

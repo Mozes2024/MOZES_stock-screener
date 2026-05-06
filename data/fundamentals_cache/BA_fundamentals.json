@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BA",
-    "fetch_date": "2026-04-29T11:45:32.585381",
+    "fetch_date": "2026-05-06T11:55:28.735536",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 19496000000.0,
       "2025-06-30 00:00:00": 22749000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 3.926,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:45:32.587070"
+  "fetched_at": "2026-05-06T11:55:28.737745"
 }

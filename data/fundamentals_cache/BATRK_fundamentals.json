@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BATRK",
-    "fetch_date": "2026-04-29T11:45:39.441136",
+    "fetch_date": "2026-05-06T11:55:35.611727",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 52118000.0,
       "2025-03-31 00:00:00": 47211000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -32.07,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:45:39.442395"
+  "fetched_at": "2026-05-06T11:55:35.613761"
 }

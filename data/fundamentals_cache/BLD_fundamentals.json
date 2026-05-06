@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLD",
-    "fetch_date": "2026-04-29T11:46:29.605609",
+    "fetch_date": "2026-05-06T11:56:26.040667",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1312206000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.34,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T11:46:29.607281"
+  "fetched_at": "2026-05-06T11:56:26.042473"
 }

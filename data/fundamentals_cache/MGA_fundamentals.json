@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MGA",
-    "fetch_date": "2026-04-29T12:00:26.328678",
+    "fetch_date": "2026-05-06T12:10:20.756355",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 10628000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.38,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:00:26.330391"
+  "fetched_at": "2026-05-06T12:10:20.759049"
 }

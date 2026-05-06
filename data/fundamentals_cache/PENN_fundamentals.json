@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "PENN",
-    "fetch_date": "2026-04-29T12:04:21.199295",
+    "fetch_date": "2026-05-06T12:14:15.622129",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 1669000000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1672500000.0,
       "2025-06-30 00:00:00": 1765000000.0,
       "2025-09-30 00:00:00": 1717300000.0,
       "2025-12-31 00:00:00": 1806200000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 1779100000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -1.500387553980733,
+    "revenue_yoy_change": 6.373692077727952,
     "quarterly_eps": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": 96.36363636363636,
     "eps_yoy_change": -102.94117647058825,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 36.07,
+    "margin_change": 2.6,
+    "operating_margin": 5.46,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:04:21.200640"
+  "fetched_at": "2026-05-06T12:14:15.623487"
 }

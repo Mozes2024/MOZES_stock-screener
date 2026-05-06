@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PPL",
-    "fetch_date": "2026-04-29T12:05:02.522821",
+    "fetch_date": "2026-05-06T12:14:56.775444",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2211000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.242,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:05:02.526246"
+  "fetched_at": "2026-05-06T12:14:56.777230"
 }
