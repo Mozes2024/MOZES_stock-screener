@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TTD",
-    "fetch_date": "2026-04-30T12:10:36.829988",
+    "fetch_date": "2026-05-07T12:20:40.810158",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 741012000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 30.33,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-30T12:10:36.831184"
+  "fetched_at": "2026-05-07T12:20:40.811490"
 }

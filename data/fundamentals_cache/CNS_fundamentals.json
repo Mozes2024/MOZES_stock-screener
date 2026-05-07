@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "CNS",
-    "fetch_date": "2026-04-30T11:48:48.393728",
+    "fetch_date": "2026-05-07T11:58:55.349856",
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": 144731000.0,
       "2025-03-31 00:00:00": 139838000.0,
       "2025-06-30 00:00:00": 142441000.0,
       "2025-09-30 00:00:00": 146826000.0,
       "2025-12-31 00:00:00": 149020000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 150946000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 1.2924439672527177,
+    "revenue_yoy_change": 7.943477452480728,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.77,
       "2025-06-30 00:00:00": 0.72,
       "2025-09-30 00:00:00": 0.81,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 20.58823529411763,
     "eps_yoy_change": 6.493506493506485,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 50.95,
+    "margin_change": 5.81,
+    "operating_margin": 36.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-30T11:48:48.394906"
+  "fetched_at": "2026-05-07T11:58:55.351231"
 }

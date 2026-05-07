@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BV",
-    "fetch_date": "2026-04-21T11:18:25.298546",
+    "fetch_date": "2026-05-07T11:57:06.226978",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 599200000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -1.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-21T11:18:25.300196"
+  "fetched_at": "2026-05-07T11:57:06.228300"
 }

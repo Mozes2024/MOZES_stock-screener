@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XOMA",
-    "fetch_date": "2026-04-30T12:13:14.324047",
+    "fetch_date": "2026-05-07T12:23:18.082648",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2342000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 152.37,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-30T12:13:14.324977"
+  "fetched_at": "2026-05-07T12:23:18.083647"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TILE",
-    "fetch_date": "2026-04-29T12:10:10.928120",
+    "fetch_date": "2026-05-07T12:19:56.021077",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 335010000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.787,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-29T12:10:10.929833"
+  "fetched_at": "2026-05-07T12:19:56.022892"
 }
