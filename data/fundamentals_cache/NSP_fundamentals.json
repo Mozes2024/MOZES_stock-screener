@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "NSP",
-    "fetch_date": "2026-05-04T12:14:16.649549",
+    "fetch_date": "2026-05-11T13:01:39.140457",
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": 1613000000.0,
       "2025-03-31 00:00:00": 1863000000.0,
       "2025-06-30 00:00:00": 1658000000.0,
       "2025-09-30 00:00:00": 1623000000.0,
       "2025-12-31 00:00:00": 1668000000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 1895000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 13.609112709832132,
+    "revenue_yoy_change": 1.7176596886741815,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1.35,
       "2025-06-30 00:00:00": -0.14,
       "2025-09-30 00:00:00": -0.53,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 200.0,
     "eps_yoy_change": -34.814814814814824,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 15.94,
+    "margin_change": 5.62,
+    "operating_margin": 3.27,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-04T12:14:16.650742"
+  "fetched_at": "2026-05-11T13:01:39.141688"
 }

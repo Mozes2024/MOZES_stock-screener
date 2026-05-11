@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CTGO",
-    "fetch_date": "2026-05-04T12:01:44.667240",
+    "fetch_date": "2026-05-11T12:49:09.114902",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-04T12:01:44.668656"
+  "fetched_at": "2026-05-11T12:49:09.116307"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GTLB",
-    "fetch_date": "2026-05-04T12:07:07.454722",
+    "fetch_date": "2026-05-11T12:54:28.748418",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 211431000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -1.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-04T12:07:07.455927"
+  "fetched_at": "2026-05-11T12:54:28.749591"
 }

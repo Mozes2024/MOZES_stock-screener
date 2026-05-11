@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PUBM",
-    "fetch_date": "2026-05-04T12:17:19.800951",
+    "fetch_date": "2026-05-11T13:04:42.493400",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 85502000.0,
       "2025-03-31 00:00:00": 63825000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 10.65,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-04T12:17:19.802145"
+  "fetched_at": "2026-05-11T13:04:42.494552"
 }
