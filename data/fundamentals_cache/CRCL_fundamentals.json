@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRCL",
-    "fetch_date": "2026-05-05T11:26:22.962593",
+    "fetch_date": "2026-05-12T12:07:19.487825",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 435367000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 7.35,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-05T11:26:22.963788"
+  "fetched_at": "2026-05-12T12:07:19.491210"
 }

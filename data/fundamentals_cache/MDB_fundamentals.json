@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MDB",
-    "fetch_date": "2026-05-05T11:37:01.017249",
+    "fetch_date": "2026-05-12T12:17:55.186575",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": 548398000.0,
       "2025-04-30 00:00:00": 549014000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0.04,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-05T11:37:01.018966"
+  "fetched_at": "2026-05-12T12:17:55.187825"
 }
