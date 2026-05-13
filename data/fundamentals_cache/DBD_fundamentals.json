@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DBD",
-    "fetch_date": "2026-05-06T12:00:23.699229",
+    "fetch_date": "2026-05-13T12:15:59.858684",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:00:23.701894"
+  "fetched_at": "2026-05-13T12:15:59.860145"
 }

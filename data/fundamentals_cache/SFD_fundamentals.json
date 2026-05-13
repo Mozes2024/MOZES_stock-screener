@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SFD",
-    "fetch_date": "2026-05-06T12:17:36.885980",
+    "fetch_date": "2026-05-13T12:33:13.826124",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.618,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:17:36.888707"
+  "fetched_at": "2026-05-13T12:33:13.827603"
 }

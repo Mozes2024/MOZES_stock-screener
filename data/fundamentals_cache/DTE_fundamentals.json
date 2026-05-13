@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DTE",
-    "fetch_date": "2026-05-06T12:01:11.396712",
+    "fetch_date": "2026-05-13T12:16:47.630776",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.239,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:01:11.398789"
+  "fetched_at": "2026-05-13T12:16:47.632273"
 }

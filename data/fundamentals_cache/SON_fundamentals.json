@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SON",
-    "fetch_date": "2026-05-06T12:18:38.092042",
+    "fetch_date": "2026-05-13T12:34:15.156357",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.726,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:18:38.093778"
+  "fetched_at": "2026-05-13T12:34:15.157869"
 }

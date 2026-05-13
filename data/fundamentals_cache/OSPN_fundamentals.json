@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OSPN",
-    "fetch_date": "2026-05-06T12:13:36.587058",
+    "fetch_date": "2026-05-13T12:29:13.565453",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 63366000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.139,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:13:36.588883"
+  "fetched_at": "2026-05-13T12:29:13.566963"
 }

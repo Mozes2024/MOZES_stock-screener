@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CSGS",
-    "fetch_date": "2026-04-22T11:19:11.599207",
+    "fetch_date": "2026-05-13T12:15:20.929544",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 316652000.0,
       "2025-03-31 00:00:00": 299453000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 9.69,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-22T11:19:11.600967"
+  "fetched_at": "2026-05-13T12:15:20.930725"
 }

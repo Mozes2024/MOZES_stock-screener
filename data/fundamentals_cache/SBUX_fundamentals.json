@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SBUX",
-    "fetch_date": "2026-05-06T12:17:16.593595",
+    "fetch_date": "2026-05-13T12:32:53.305078",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2025-03-31 00:00:00": 8761600000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.226,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:17:16.596187"
+  "fetched_at": "2026-05-13T12:32:53.306604"
 }

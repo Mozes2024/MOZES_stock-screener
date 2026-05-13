@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AA",
-    "fetch_date": "2026-05-06T11:52:20.574969",
+    "fetch_date": "2026-05-13T12:07:58.669336",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.719,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T11:52:20.576870"
+  "fetched_at": "2026-05-13T12:07:58.671933"
 }

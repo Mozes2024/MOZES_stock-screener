@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OGE",
-    "fetch_date": "2026-05-06T12:13:00.123927",
+    "fetch_date": "2026-05-13T12:28:37.016970",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2025-03-31 00:00:00": 747700000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.427,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:13:00.125875"
+  "fetched_at": "2026-05-13T12:28:37.018494"
 }

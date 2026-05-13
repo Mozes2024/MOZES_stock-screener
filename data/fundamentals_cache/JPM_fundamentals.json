@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JPM",
-    "fetch_date": "2026-05-06T12:07:45.181937",
+    "fetch_date": "2026-05-13T12:23:21.674369",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 17.15976331360947,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:07:45.182874"
+  "fetched_at": "2026-05-13T12:23:21.675028"
 }

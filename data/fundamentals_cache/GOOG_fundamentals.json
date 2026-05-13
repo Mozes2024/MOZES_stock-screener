@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GOOG",
-    "fetch_date": "2026-05-06T12:04:48.818425",
+    "fetch_date": "2026-05-13T12:20:24.654351",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 90234000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 36.12,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:04:48.819803"
+  "fetched_at": "2026-05-13T12:20:24.655540"
 }

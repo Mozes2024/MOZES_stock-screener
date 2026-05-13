@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LLY",
-    "fetch_date": "2026-05-06T12:09:08.540501",
+    "fetch_date": "2026-05-13T12:24:44.885028",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.734,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:09:08.542388"
+  "fetched_at": "2026-05-13T12:24:44.887823"
 }

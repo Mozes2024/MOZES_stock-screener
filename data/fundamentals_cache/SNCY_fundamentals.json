@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SNCY",
-    "fetch_date": "2026-05-06T12:18:26.482078",
+    "fetch_date": "2026-05-13T12:34:03.382770",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 326649000.0,
       "2025-06-30 00:00:00": 263621000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.036,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:18:26.483841"
+  "fetched_at": "2026-05-13T12:34:03.384243"
 }

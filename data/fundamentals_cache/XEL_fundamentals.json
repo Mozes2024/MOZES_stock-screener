@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XEL",
-    "fetch_date": "2026-05-06T12:23:24.345544",
+    "fetch_date": "2026-05-13T12:39:01.438423",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3906000000.0,
       "2025-06-30 00:00:00": 3287000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.176,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:23:24.347348"
+  "fetched_at": "2026-05-13T12:39:01.439926"
 }

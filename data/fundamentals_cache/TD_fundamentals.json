@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TD",
-    "fetch_date": "2026-05-06T12:19:45.162350",
+    "fetch_date": "2026-05-13T12:35:22.636557",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 14901000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 50.96774193548386,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:19:45.163294"
+  "fetched_at": "2026-05-13T12:35:22.637218"
 }

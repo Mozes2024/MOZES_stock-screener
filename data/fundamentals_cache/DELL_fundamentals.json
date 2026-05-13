@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DELL",
-    "fetch_date": "2026-05-06T12:00:34.619848",
+    "fetch_date": "2026-05-13T12:16:11.033873",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 23931000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.313,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:00:34.621682"
+  "fetched_at": "2026-05-13T12:16:11.035343"
 }

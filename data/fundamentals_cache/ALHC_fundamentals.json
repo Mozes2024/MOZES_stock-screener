@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALHC",
-    "fetch_date": "2026-05-06T11:53:35.825558",
+    "fetch_date": "2026-05-13T12:09:14.550118",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 1.26,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T11:53:35.826979"
+  "fetched_at": "2026-05-13T12:09:14.551310"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KGC",
-    "fetch_date": "2026-05-06T12:08:00.755095",
+    "fetch_date": "2026-05-13T12:23:37.138002",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2025-03-31 00:00:00": 1497500000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.546,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:08:00.756876"
+  "fetched_at": "2026-05-13T12:23:37.139525"
 }

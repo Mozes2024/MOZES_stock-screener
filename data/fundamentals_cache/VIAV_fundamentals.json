@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VIAV",
-    "fetch_date": "2026-05-06T12:22:01.637341",
+    "fetch_date": "2026-05-13T12:37:38.232424",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 284800000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.364,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:22:01.639281"
+  "fetched_at": "2026-05-13T12:37:38.233953"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BEN",
-    "fetch_date": "2026-05-06T11:56:00.752869",
+    "fetch_date": "2026-05-13T12:11:38.860435",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2111400000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 15.92,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T11:56:00.754288"
+  "fetched_at": "2026-05-13T12:11:38.861590"
 }

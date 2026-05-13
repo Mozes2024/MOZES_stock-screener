@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EIX",
-    "fetch_date": "2026-05-06T12:01:48.680236",
+    "fetch_date": "2026-05-13T12:17:24.786042",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2025-03-31 00:00:00": 3811000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.132,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:01:48.681922"
+  "fetched_at": "2026-05-13T12:17:24.787624"
 }

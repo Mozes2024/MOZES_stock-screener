@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SEI",
-    "fetch_date": "2026-05-06T12:17:29.444795",
+    "fetch_date": "2026-05-13T12:33:06.436671",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.092,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:17:29.446581"
+  "fetched_at": "2026-05-13T12:33:06.438184"
 }

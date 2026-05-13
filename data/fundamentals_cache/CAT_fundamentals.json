@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CAT",
-    "fetch_date": "2026-05-06T11:57:37.857047",
+    "fetch_date": "2026-05-13T12:13:16.547068",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 16215000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T11:57:37.858798"
+  "fetched_at": "2026-05-13T12:13:16.549280"
 }

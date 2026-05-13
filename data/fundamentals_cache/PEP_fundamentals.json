@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PEP",
-    "fetch_date": "2026-05-06T12:14:16.201966",
+    "fetch_date": "2026-05-13T12:29:53.127678",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2025-03-31 00:00:00": 17919000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.319,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:14:16.203769"
+  "fetched_at": "2026-05-13T12:29:53.129250"
 }

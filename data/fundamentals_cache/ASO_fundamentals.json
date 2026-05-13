@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASO",
-    "fetch_date": "2026-05-06T11:54:50.563043",
+    "fetch_date": "2026-05-13T12:10:28.697346",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 1676920000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.875,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T11:54:50.564776"
+  "fetched_at": "2026-05-13T12:10:28.698846"
 }

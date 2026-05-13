@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CF",
-    "fetch_date": "2026-05-06T11:58:12.795928",
+    "fetch_date": "2026-05-13T12:13:50.731281",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1524000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.205,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T11:58:12.797765"
+  "fetched_at": "2026-05-13T12:13:50.732758"
 }

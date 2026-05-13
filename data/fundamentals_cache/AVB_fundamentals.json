@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVB",
-    "fetch_date": "2026-05-06T11:55:12.104307",
+    "fetch_date": "2026-05-13T12:10:50.175589",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 740549000.0,
@@ -29,5 +29,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T11:55:12.105687"
+  "fetched_at": "2026-05-13T12:10:50.176767"
 }

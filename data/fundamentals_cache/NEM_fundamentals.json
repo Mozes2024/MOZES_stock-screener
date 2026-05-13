@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NEM",
-    "fetch_date": "2026-05-06T12:11:43.321448",
+    "fetch_date": "2026-05-13T12:27:20.006629",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.371,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:11:43.323516"
+  "fetched_at": "2026-05-13T12:27:20.008146"
 }

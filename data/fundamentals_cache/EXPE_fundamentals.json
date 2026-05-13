@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EXPE",
-    "fetch_date": "2026-05-06T12:02:38.437402",
+    "fetch_date": "2026-05-13T12:18:14.561774",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 3184000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 15.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:02:38.438948"
+  "fetched_at": "2026-05-13T12:18:14.562951"
 }

@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "SBAC",
-    "fetch_date": "2026-05-06T12:17:11.472856",
+    "fetch_date": "2026-05-13T12:32:48.234411",
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": 693700000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 664248000.0,
       "2025-06-30 00:00:00": 698981000.0,
       "2025-09-30 00:00:00": 732327000.0,
       "2025-12-31 00:00:00": 719583000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 703438000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -2.2436605645213965,
+    "revenue_yoy_change": 5.899904854813263,
     "quarterly_eps": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1.77,
@@ -22,10 +22,10 @@
     },
     "eps_qoq_change": -49.85590778097983,
     "eps_yoy_change": -1.6949152542372896,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 75.64,
+    "margin_change": 0.02,
+    "operating_margin": 54.05,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:17:11.474220"
+  "fetched_at": "2026-05-13T12:32:48.235603"
 }

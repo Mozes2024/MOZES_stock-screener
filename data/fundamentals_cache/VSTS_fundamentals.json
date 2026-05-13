@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VSTS",
-    "fetch_date": "2026-04-21T11:43:41.345994",
+    "fetch_date": "2026-05-13T12:38:04.241153",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 683780000.0,
       "2025-03-31 00:00:00": 665249000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.864,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-21T11:43:41.347671"
+  "fetched_at": "2026-05-13T12:38:04.242599"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BVN",
-    "fetch_date": "2026-05-06T11:57:13.776816",
+    "fetch_date": "2026-05-13T12:12:52.348902",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 299593000.0,
@@ -24,7 +24,7 @@
     "eps_yoy_change": null,
     "gross_margin": 55.16,
     "margin_change": 9.83,
-    "operating_margin": 33.1,
+    "operating_margin": 29.63,
     "quarterly_inventory": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 79594000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.121,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T11:57:13.778645"
+  "fetched_at": "2026-05-13T12:12:52.350423"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VSAT",
-    "fetch_date": "2026-05-06T12:22:22.635131",
+    "fetch_date": "2026-05-13T12:37:59.788879",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1123767000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.248,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-06T12:22:22.636968"
+  "fetched_at": "2026-05-13T12:37:59.790353"
 }
