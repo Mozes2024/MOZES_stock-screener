@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KFRC",
-    "fetch_date": "2026-05-07T12:07:50.627097",
+    "fetch_date": "2026-05-14T12:11:24.179591",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 330028000.0,
       "2025-06-30 00:00:00": 334316000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 3.63,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-07T12:07:50.628466"
+  "fetched_at": "2026-05-14T12:11:24.180510"
 }

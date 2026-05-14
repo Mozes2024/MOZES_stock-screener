@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLBD",
-    "fetch_date": "2026-05-07T11:56:19.841088",
+    "fetch_date": "2026-05-14T11:59:52.464727",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 313872000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.423,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-07T11:56:19.842891"
+  "fetched_at": "2026-05-14T11:59:52.465892"
 }

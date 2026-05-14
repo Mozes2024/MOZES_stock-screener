@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GCMG",
-    "fetch_date": "2026-05-07T12:04:01.006984",
+    "fetch_date": "2026-05-14T12:07:34.093736",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 170106000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 32.14,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-07T12:04:01.008320"
+  "fetched_at": "2026-05-14T12:07:34.094667"
 }

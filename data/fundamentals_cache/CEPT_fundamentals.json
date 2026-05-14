@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CEPT",
-    "fetch_date": "2026-05-07T11:58:02.652687",
+    "fetch_date": "2026-05-14T12:01:36.264503",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-07T11:58:02.653612"
+  "fetched_at": "2026-05-14T12:01:36.265211"
 }

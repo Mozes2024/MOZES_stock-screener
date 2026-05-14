@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "REYN",
-    "fetch_date": "2026-05-07T12:16:00.518093",
+    "fetch_date": "2026-05-14T12:19:34.898605",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1020000000.0,
       "2025-03-31 00:00:00": 818000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.565,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-07T12:16:00.519998"
+  "fetched_at": "2026-05-14T12:19:34.899771"
 }
