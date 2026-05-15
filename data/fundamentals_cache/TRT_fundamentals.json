@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRT",
-    "fetch_date": "2026-05-08T11:50:55.393561",
+    "fetch_date": "2026-05-15T12:27:10.265195",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 8619000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.181,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-08T11:50:55.395316"
+  "fetched_at": "2026-05-15T12:27:10.266746"
 }

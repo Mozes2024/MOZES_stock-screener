@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SLP",
-    "fetch_date": "2026-05-08T11:48:26.341175",
+    "fetch_date": "2026-05-15T12:24:42.209439",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": NaN,
       "2025-02-28 00:00:00": 22432000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 23.18,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-08T11:48:26.342525"
+  "fetched_at": "2026-05-15T12:24:42.210640"
 }

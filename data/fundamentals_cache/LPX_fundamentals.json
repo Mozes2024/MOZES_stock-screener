@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LPX",
-    "fetch_date": "2026-05-08T11:39:39.138710",
+    "fetch_date": "2026-05-15T12:15:54.883179",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 680000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-08T11:39:39.140506"
+  "fetched_at": "2026-05-15T12:15:54.884721"
 }

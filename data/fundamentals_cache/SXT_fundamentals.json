@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SXT",
-    "fetch_date": "2026-05-08T11:49:44.490773",
+    "fetch_date": "2026-05-15T12:25:59.850476",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 392325000.0,
       "2025-06-30 00:00:00": 414230000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.564,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-08T11:49:44.492490"
+  "fetched_at": "2026-05-15T12:25:59.852005"
 }
