@@ -5670,5 +5670,33 @@
   "STRC": {
     "last_updated": "2026-05-15T12:25:41.161897",
     "in_earnings_season": true
+  },
+  "BIO": {
+    "last_updated": "2026-05-18T13:55:11.532508",
+    "in_earnings_season": false
+  },
+  "DXCM": {
+    "last_updated": "2026-05-18T14:00:14.842780",
+    "in_earnings_season": false
+  },
+  "FIG": {
+    "last_updated": "2026-05-18T14:02:03.293910",
+    "in_earnings_season": false
+  },
+  "LFUS": {
+    "last_updated": "2026-05-18T14:07:46.301160",
+    "in_earnings_season": false
+  },
+  "MMM": {
+    "last_updated": "2026-05-18T14:09:32.599797",
+    "in_earnings_season": false
+  },
+  "SAP": {
+    "last_updated": "2026-05-18T14:16:01.059109",
+    "in_earnings_season": false
+  },
+  "TBRG": {
+    "last_updated": "2026-05-18T14:18:35.056659",
+    "in_earnings_season": false
   }
 }
