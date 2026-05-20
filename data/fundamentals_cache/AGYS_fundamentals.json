@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AGYS",
-    "fetch_date": "2026-02-13T13:20:43.207588",
+    "fetch_date": "2026-05-20T12:29:34.880970",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 69561000.0,
       "2025-03-31 00:00:00": 74272000.0,
@@ -24,7 +24,6 @@
     "margin_change": 0.75,
     "operating_margin": 14.51,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 6360000.0,
       "2025-03-31 00:00:00": 5174000.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.097,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T13:20:43.209233"
+  "fetched_at": "2026-05-20T12:29:34.882848"
 }
