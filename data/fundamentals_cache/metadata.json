@@ -5726,5 +5726,25 @@
   "CLBK": {
     "last_updated": "2026-05-20T12:34:56.405353",
     "in_earnings_season": false
+  },
+  "KELYA": {
+    "last_updated": "2026-05-21T12:59:07.333249",
+    "in_earnings_season": false
+  },
+  "KURA": {
+    "last_updated": "2026-05-21T12:59:40.693110",
+    "in_earnings_season": false
+  },
+  "MEC": {
+    "last_updated": "2026-05-21T13:01:24.242751",
+    "in_earnings_season": false
+  },
+  "MEI": {
+    "last_updated": "2026-05-21T13:01:26.348101",
+    "in_earnings_season": false
+  },
+  "PRGS": {
+    "last_updated": "2026-05-21T13:06:14.946003",
+    "in_earnings_season": false
   }
 }
