@@ -5746,5 +5746,25 @@
   "PRGS": {
     "last_updated": "2026-05-21T13:06:14.946003",
     "in_earnings_season": false
+  },
+  "BNY": {
+    "last_updated": "2026-05-22T12:30:05.528200",
+    "in_earnings_season": false
+  },
+  "CBLL": {
+    "last_updated": "2026-05-22T12:31:09.834288",
+    "in_earnings_season": false
+  },
+  "CPRT": {
+    "last_updated": "2026-05-22T12:32:49.361992",
+    "in_earnings_season": false
+  },
+  "CTO": {
+    "last_updated": "2026-05-22T12:33:15.094746",
+    "in_earnings_season": false
+  },
+  "MHK": {
+    "last_updated": "2026-05-22T12:43:50.201239",
+    "in_earnings_season": false
   }
 }
