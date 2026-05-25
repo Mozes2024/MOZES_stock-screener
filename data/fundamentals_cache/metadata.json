@@ -5766,5 +5766,29 @@
   "MHK": {
     "last_updated": "2026-05-22T12:43:50.201239",
     "in_earnings_season": false
+  },
+  "ALAB": {
+    "last_updated": "2026-05-25T13:33:03.699760",
+    "in_earnings_season": false
+  },
+  "FLY": {
+    "last_updated": "2026-05-25T13:42:54.929100",
+    "in_earnings_season": false
+  },
+  "MBLY": {
+    "last_updated": "2026-05-25T13:49:27.149757",
+    "in_earnings_season": false
+  },
+  "PATH": {
+    "last_updated": "2026-05-25T13:53:27.568314",
+    "in_earnings_season": false
+  },
+  "PSN": {
+    "last_updated": "2026-05-25T13:54:46.603769",
+    "in_earnings_season": false
+  },
+  "TTAN": {
+    "last_updated": "2026-05-25T14:00:18.783798",
+    "in_earnings_season": false
   }
 }
