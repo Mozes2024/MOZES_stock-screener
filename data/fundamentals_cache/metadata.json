@@ -5790,5 +5790,25 @@
   "TTAN": {
     "last_updated": "2026-05-25T14:00:18.783798",
     "in_earnings_season": false
+  },
+  "CLFD": {
+    "last_updated": "2026-05-27T13:01:44.545016",
+    "in_earnings_season": false
+  },
+  "CPSH": {
+    "last_updated": "2026-05-27T13:02:32.196972",
+    "in_earnings_season": false
+  },
+  "KMX": {
+    "last_updated": "2026-05-27T13:11:14.330535",
+    "in_earnings_season": false
+  },
+  "LEN": {
+    "last_updated": "2026-05-27T13:11:53.493566",
+    "in_earnings_season": false
+  },
+  "THO": {
+    "last_updated": "2026-05-27T13:23:06.239806",
+    "in_earnings_season": false
   }
 }
