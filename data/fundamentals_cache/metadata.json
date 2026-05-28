@@ -5810,5 +5810,49 @@
   "THO": {
     "last_updated": "2026-05-27T13:23:06.239806",
     "in_earnings_season": false
+  },
+  "AMWD": {
+    "last_updated": "2026-05-28T13:57:30.331125",
+    "in_earnings_season": false
+  },
+  "AVAV": {
+    "last_updated": "2026-05-28T13:58:36.320333",
+    "in_earnings_season": false
+  },
+  "AXON": {
+    "last_updated": "2026-05-28T13:58:48.879898",
+    "in_earnings_season": false
+  },
+  "CNXC": {
+    "last_updated": "2026-05-28T14:02:29.546917",
+    "in_earnings_season": false
+  },
+  "CPB": {
+    "last_updated": "2026-05-28T14:02:45.066610",
+    "in_earnings_season": false
+  },
+  "FBIN": {
+    "last_updated": "2026-05-28T14:06:06.510938",
+    "in_earnings_season": false
+  },
+  "HRL": {
+    "last_updated": "2026-05-28T14:09:24.184545",
+    "in_earnings_season": false
+  },
+  "HTFL": {
+    "last_updated": "2026-05-28T14:09:31.605492",
+    "in_earnings_season": false
+  },
+  "LLYVA": {
+    "last_updated": "2026-05-28T14:12:30.566305",
+    "in_earnings_season": false
+  },
+  "NKE": {
+    "last_updated": "2026-05-28T14:15:20.628518",
+    "in_earnings_season": false
+  },
+  "SSYS": {
+    "last_updated": "2026-05-28T14:22:24.237177",
+    "in_earnings_season": false
   }
 }
