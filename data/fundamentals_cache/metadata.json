@@ -5854,5 +5854,37 @@
   "SSYS": {
     "last_updated": "2026-05-28T14:22:24.237177",
     "in_earnings_season": false
+  },
+  "AI": {
+    "last_updated": "2026-05-29T12:45:23.238454",
+    "in_earnings_season": false
+  },
+  "ATEX": {
+    "last_updated": "2026-05-29T12:47:06.674328",
+    "in_earnings_season": false
+  },
+  "CTAS": {
+    "last_updated": "2026-05-29T12:51:52.933602",
+    "in_earnings_season": false
+  },
+  "DGII": {
+    "last_updated": "2026-05-29T12:52:45.734189",
+    "in_earnings_season": false
+  },
+  "FND": {
+    "last_updated": "2026-05-29T12:55:33.454303",
+    "in_earnings_season": false
+  },
+  "IDXX": {
+    "last_updated": "2026-05-29T12:58:41.896700",
+    "in_earnings_season": false
+  },
+  "KROS": {
+    "last_updated": "2026-05-29T13:00:25.420245",
+    "in_earnings_season": false
+  },
+  "MOS": {
+    "last_updated": "2026-05-29T13:02:52.565810",
+    "in_earnings_season": false
   }
 }
