@@ -1,0 +1,49 @@
+name: Daily Stock Screening Watchdog
+
+on:
+  schedule:
+    # Fallback check after the primary 09:46 UTC schedule.
+    - cron: '16 10 * * 1-5'
+
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  ensure-daily-screening-ran:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check today's daily screening run
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          echo "Checking Daily Stock Screening runs for $TODAY"
+
+          RUN_COUNT=$(gh run list \
+            --repo "$REPO" \
+            --workflow daily_screening_git_storage.yml \
+            --limit 20 \
+            --json createdAt,event,status \
+            --jq "[.[] | select(.createdAt | startswith(\"$TODAY\")) | select(.event == \"schedule\" or .event == \"workflow_dispatch\")] | length")
+
+          echo "run_count=$RUN_COUNT" >> "$GITHUB_OUTPUT"
+          echo "Found $RUN_COUNT Daily Stock Screening run(s) today"
+
+      - name: Trigger daily screening if missing
+        if: steps.check.outputs.run_count == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh workflow run daily_screening_git_storage.yml --repo "$REPO" --ref main
+          echo "Triggered Daily Stock Screening fallback run"
+
+      - name: No action needed
+        if: steps.check.outputs.run_count != '0'
+        run: echo "Daily Stock Screening already ran today"
