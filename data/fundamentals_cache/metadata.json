@@ -8628,8 +8628,8 @@
     "in_earnings_season": true
   },
   "CNXN": {
-    "last_updated": "2026-02-13T13:32:23.511440",
-    "in_earnings_season": true
+    "last_updated": "2026-06-03T17:18:02.846067",
+    "in_earnings_season": false
   },
   "ESQ": {
     "last_updated": "2026-05-11T15:49:49.354323",
@@ -9505,6 +9505,14 @@
   },
   "FGMC": {
     "last_updated": "2026-06-02T17:09:43.194161",
+    "in_earnings_season": false
+  },
+  "ATLC": {
+    "last_updated": "2026-06-03T17:09:53.668090",
+    "in_earnings_season": false
+  },
+  "VSXY": {
+    "last_updated": "2026-06-03T18:04:39.057958",
     "in_earnings_season": false
   }
 }
