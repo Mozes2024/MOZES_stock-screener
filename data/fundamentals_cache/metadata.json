@@ -5926,5 +5926,37 @@
   "IP": {
     "last_updated": "2026-06-02T13:17:18.336732",
     "in_earnings_season": false
+  },
+  "ASYS": {
+    "last_updated": "2026-06-03T11:55:43.590472",
+    "in_earnings_season": false
+  },
+  "BB": {
+    "last_updated": "2026-06-03T11:56:24.267048",
+    "in_earnings_season": false
+  },
+  "DUOT": {
+    "last_updated": "2026-06-03T12:02:01.062979",
+    "in_earnings_season": false
+  },
+  "LLYVK": {
+    "last_updated": "2026-06-03T12:09:54.666324",
+    "in_earnings_season": false
+  },
+  "NGL": {
+    "last_updated": "2026-06-03T12:12:37.244964",
+    "in_earnings_season": false
+  },
+  "OCC": {
+    "last_updated": "2026-06-03T12:13:37.605586",
+    "in_earnings_season": false
+  },
+  "OOMA": {
+    "last_updated": "2026-06-03T12:14:05.215151",
+    "in_earnings_season": false
+  },
+  "WD": {
+    "last_updated": "2026-06-03T12:23:27.163735",
+    "in_earnings_season": false
   }
 }
