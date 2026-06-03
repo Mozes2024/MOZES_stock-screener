@@ -1,7 +1,7 @@
 name: Generate Breakout Signals (SP500 feed)
 # ─────────────────────────────────────────────────────────────────────────────
 # ARCHITECTURE (v2 — fast path):
-#   Step 1 → daily_screening_git_storage.yml (10:00 UTC)
+#   Step 1 → daily_screening_git_storage.yml (07:30 UTC)
 #            Scans full US market, saves structured output:
 #              data/daily_scans/latest_structured_scan.pkl
 #              data/daily_scans/latest_structured_scan.json

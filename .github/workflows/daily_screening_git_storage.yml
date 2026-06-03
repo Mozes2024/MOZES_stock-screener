@@ -2,8 +2,8 @@ name: Daily Stock Screening (Git-Based Storage)
 
 on:
   schedule:
-    # Run at 09:46 UTC on weekdays
-    - cron: '46 9 * * 1-5'
+    # Run early enough to complete the full downstream Ranker pipeline before US market open.
+    - cron: '30 7 * * 1-5'
 
   # Allow manual triggering
   workflow_dispatch:
