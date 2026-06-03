@@ -145,6 +145,14 @@ jobs:
       - name: Trigger SP500-Quant-Ranker pipeline
         if: success()
         run: |
+          NOW_MIN=$((10#$(date -u +%H) * 60 + 10#$(date -u +%M)))
+          DISPATCH_CUTOFF_MIN=$((11 * 60 + 55))
+
+          if [ "$NOW_MIN" -gt "$DISPATCH_CUTOFF_MIN" ]; then
+            echo "::warning::Skipping SP500-Quant-Ranker dispatch because it is after 11:55 UTC. Recent downstream runs have taken up to about 95 minutes, so a later dispatch could miss the 16:30 Israel market-open target."
+            exit 0
+          fi
+
           HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
             -X POST \
             -H "Accept: application/vnd.github+json" \

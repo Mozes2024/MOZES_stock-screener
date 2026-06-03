@@ -2,8 +2,8 @@ name: Daily Stock Screening Watchdog
 
 on:
   schedule:
-    # Fallback check after the primary 09:46 UTC schedule.
-    - cron: '16 10 * * 1-5'
+    # Fallback check shortly after the primary 11:15 UTC schedule.
+    - cron: '20 11 * * 1-5'
 
   workflow_dispatch:
 
