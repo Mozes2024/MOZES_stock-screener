@@ -1,7 +1,7 @@
 name: Generate Breakout Signals (SP500 feed)
 # ─────────────────────────────────────────────────────────────────────────────
 # ARCHITECTURE (v2 — fast path):
-#   Step 1 → daily_screening_git_storage.yml (07:30 UTC)
+#   Step 1 → daily_screening_git_storage.yml (11:15 UTC)
 #            Scans full US market, saves structured output:
 #              data/daily_scans/latest_structured_scan.pkl
 #              data/daily_scans/latest_structured_scan.json
@@ -11,6 +11,9 @@ name: Generate Breakout Signals (SP500 feed)
 #            formats breakout_signals.json, triggers SP500-Quant-Ranker.
 #
 #   FALLBACK: If pickle is missing/stale, falls back to full scan (~20-25 min).
+#
+#   NOTE: dispatch cutoff is 14:30 UTC (17:30 Israel time) to absorb GitHub
+#         Actions queue delays of up to ~3h on busy days.
 # ─────────────────────────────────────────────────────────────────────────────
 
 on:
@@ -142,16 +145,19 @@ jobs:
       # שולח repository_dispatch לריפו של ה-Ranker.
       # ה-Ranker כבר יודע למשוך את breakout_signals.json עם curl.
       # דרוש: secret בשם RANKER_PAT עם הרשאת repo על ריפו ה-Ranker.
+      # Cutoff: 14:30 UTC (17:30 Israel) — absorbs up to ~3h GH queue delay.
       - name: Trigger SP500-Quant-Ranker pipeline
         if: success()
         run: |
           NOW_MIN=$((10#$(date -u +%H) * 60 + 10#$(date -u +%M)))
-          DISPATCH_CUTOFF_MIN=$((11 * 60 + 55))
+          DISPATCH_CUTOFF_MIN=$((14 * 60 + 30))
 
           if [ "$NOW_MIN" -gt "$DISPATCH_CUTOFF_MIN" ]; then
-            echo "::warning::Skipping SP500-Quant-Ranker dispatch because it is after 11:55 UTC. Recent downstream runs have taken up to about 95 minutes, so a later dispatch could miss the 16:30 Israel market-open target."
+            echo "::warning::Skipping SP500-Quant-Ranker dispatch: already past 14:30 UTC (17:30 Israel). Current time: $(date -u +'%H:%M UTC'). Downstream Ranker (~95 min) would finish too late."
             exit 0
           fi
+
+          echo "⏱ Current time: $(date -u +'%H:%M UTC') — within cutoff, dispatching..."
 
           HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
             -X POST \
