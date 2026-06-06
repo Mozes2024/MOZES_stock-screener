@@ -2,9 +2,9 @@ name: Daily Stock Screening (Git-Based Storage)
 
 on:
   schedule:
-    # Start just-in-time while leaving enough room for the full downstream Ranker pipeline before US market open.
-    # 11:15 UTC = 14:15 Israel time during the current DST period.
-    - cron: '15 11 * * 1-5'
+    # Start early enough for the full downstream Ranker pipeline to finish before 16:30 Israel time.
+    # 09:45 UTC = 12:45 Israel DST / 11:45 Israel standard time.
+    - cron: '45 9 * * 1-5'
 
   # Allow manual triggering
   workflow_dispatch:

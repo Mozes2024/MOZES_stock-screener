@@ -1,7 +1,7 @@
 name: Generate Breakout Signals (SP500 feed)
 # ─────────────────────────────────────────────────────────────────────────────
 # ARCHITECTURE (v2 — fast path):
-#   Step 1 → daily_screening_git_storage.yml (11:15 UTC)
+#   Step 1 → daily_screening_git_storage.yml (09:45 UTC)
 #            Scans full US market, saves structured output:
 #              data/daily_scans/latest_structured_scan.pkl
 #              data/daily_scans/latest_structured_scan.json
@@ -12,8 +12,8 @@ name: Generate Breakout Signals (SP500 feed)
 #
 #   FALLBACK: If pickle is missing/stale, falls back to full scan (~20-25 min).
 #
-#   NOTE: dispatch cutoff is 14:30 UTC (17:30 Israel time) to absorb GitHub
-#         Actions queue delays of up to ~3h on busy days.
+#   NOTE: dispatch always runs. Late/manual starts still continue the full
+#         downstream pipeline; the earlier schedule is what targets market open.
 # ─────────────────────────────────────────────────────────────────────────────
 
 on:
@@ -145,19 +145,11 @@ jobs:
       # שולח repository_dispatch לריפו של ה-Ranker.
       # ה-Ranker כבר יודע למשוך את breakout_signals.json עם curl.
       # דרוש: secret בשם RANKER_PAT עם הרשאת repo על ריפו ה-Ranker.
-      # Cutoff: 14:30 UTC (17:30 Israel) — absorbs up to ~3h GH queue delay.
+      # Always dispatch downstream, including late/manual runs.
       - name: Trigger SP500-Quant-Ranker pipeline
         if: success()
         run: |
-          NOW_MIN=$((10#$(date -u +%H) * 60 + 10#$(date -u +%M)))
-          DISPATCH_CUTOFF_MIN=$((14 * 60 + 30))
-
-          if [ "$NOW_MIN" -gt "$DISPATCH_CUTOFF_MIN" ]; then
-            echo "::warning::Skipping SP500-Quant-Ranker dispatch: already past 14:30 UTC (17:30 Israel). Current time: $(date -u +'%H:%M UTC'). Downstream Ranker (~95 min) would finish too late."
-            exit 0
-          fi
-
-          echo "⏱ Current time: $(date -u +'%H:%M UTC') — within cutoff, dispatching..."
+          echo "Current time: $(date -u +'%H:%M UTC') — dispatching SP500-Quant-Ranker."
 
           HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
             -X POST \
