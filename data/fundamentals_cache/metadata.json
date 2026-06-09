@@ -5990,5 +5990,13 @@
   "TBCH": {
     "last_updated": "2026-06-06T18:32:55.768318",
     "in_earnings_season": false
+  },
+  "BELFB": {
+    "last_updated": "2026-06-09T12:30:09.477831",
+    "in_earnings_season": false
+  },
+  "MMSI": {
+    "last_updated": "2026-06-09T12:44:48.042214",
+    "in_earnings_season": false
   }
 }
