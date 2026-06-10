@@ -2188,8 +2188,8 @@
     "in_earnings_season": true
   },
   "ELF": {
-    "last_updated": "2026-02-09T13:45:55.405857",
-    "in_earnings_season": true
+    "last_updated": "2026-06-10T16:14:53.232172",
+    "in_earnings_season": false
   },
   "ELME": {
     "last_updated": "2025-12-04T13:47:51.274010",
@@ -3008,8 +3008,8 @@
     "in_earnings_season": true
   },
   "HD": {
-    "last_updated": "2026-02-13T13:45:17.673296",
-    "in_earnings_season": true
+    "last_updated": "2026-06-10T16:22:14.547660",
+    "in_earnings_season": false
   },
   "HDB": {
     "last_updated": "2025-12-04T13:53:12.859944",
@@ -7396,8 +7396,8 @@
     "in_earnings_season": true
   },
   "MKC": {
-    "last_updated": "2026-02-12T14:03:13.138404",
-    "in_earnings_season": true
+    "last_updated": "2026-06-10T16:32:17.532592",
+    "in_earnings_season": false
   },
   "MTN": {
     "last_updated": "2026-04-21T14:39:02.343050",
@@ -7544,8 +7544,8 @@
     "in_earnings_season": true
   },
   "SLGN": {
-    "last_updated": "2026-02-13T14:10:35.088024",
-    "in_earnings_season": true
+    "last_updated": "2026-06-10T16:47:36.487955",
+    "in_earnings_season": false
   },
   "VRE": {
     "last_updated": "2026-05-11T16:29:36.171599",
@@ -8508,8 +8508,8 @@
     "in_earnings_season": true
   },
   "ULCC": {
-    "last_updated": "2026-02-09T14:25:14.812482",
-    "in_earnings_season": true
+    "last_updated": "2026-06-10T16:53:56.578793",
+    "in_earnings_season": false
   },
   "UNH": {
     "last_updated": "2026-05-11T16:27:58.346131",
@@ -8884,7 +8884,7 @@
     "in_earnings_season": true
   },
   "BFC": {
-    "last_updated": "2026-03-11T13:26:44.799829",
+    "last_updated": "2026-06-10T16:03:23.260330",
     "in_earnings_season": false
   },
   "ACTG": {
@@ -9541,6 +9541,14 @@
   },
   "PUSA": {
     "last_updated": "2026-06-09T16:07:20.025943",
+    "in_earnings_season": false
+  },
+  "ODC": {
+    "last_updated": "2026-06-10T16:37:04.497014",
+    "in_earnings_season": false
+  },
+  "RBB": {
+    "last_updated": "2026-06-10T16:42:55.446685",
     "in_earnings_season": false
   }
 }
