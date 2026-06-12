@@ -1,0 +1,11 @@
+{
+  "data": {
+    "ticker": "FAC",
+    "fetch_date": "2026-06-12T12:54:30.587419",
+    "quarterly_eps": {
+      "2026-03-31 00:00:00": -0.07983
+    },
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-06-12T12:54:30.587708"
+}

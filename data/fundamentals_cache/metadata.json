@@ -6730,5 +6730,17 @@
   "SLGN": {
     "last_updated": "2026-06-11T13:31:33.977852",
     "in_earnings_season": false
+  },
+  "FAC": {
+    "last_updated": "2026-06-12T12:54:30.588902",
+    "in_earnings_season": false
+  },
+  "SLVM": {
+    "last_updated": "2026-06-12T13:10:05.461379",
+    "in_earnings_season": false
+  },
+  "VREX": {
+    "last_updated": "2026-06-12T13:14:05.167573",
+    "in_earnings_season": false
   }
 }
