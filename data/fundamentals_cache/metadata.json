@@ -6946,5 +6946,17 @@
   "SSTK": {
     "last_updated": "2026-06-22T15:36:07.459175",
     "in_earnings_season": false
+  },
+  "ACA": {
+    "last_updated": "2026-06-23T12:25:18.487792",
+    "in_earnings_season": false
+  },
+  "HAPN": {
+    "last_updated": "2026-06-23T12:38:06.566165",
+    "in_earnings_season": false
+  },
+  "SHOE": {
+    "last_updated": "2026-06-23T12:50:36.024187",
+    "in_earnings_season": false
   }
 }
