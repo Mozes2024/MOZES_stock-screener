@@ -1,12 +1,12 @@
 {
-  "scan_date": "2026-06-23",
-  "generated": "2026-06-23 12:56:40",
+  "scan_date": "2026-06-24",
+  "generated": "2026-06-24 12:41:00",
   "market_regime": "RISK-ON (Moderate)",
-  "total_analyzed": 1222,
-  "total_processed": 3789,
-  "phase2_pct": 36.5,
-  "buy_signals_count": 389,
-  "sell_signals_count": 307,
+  "total_analyzed": 1228,
+  "total_processed": 3788,
+  "phase2_pct": 37.8,
+  "buy_signals_count": 400,
+  "sell_signals_count": 298,
   "processing_time_minutes": 31.6,
   "note": "Full data available in latest_structured_scan.pkl"
 }

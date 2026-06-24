@@ -6958,5 +6958,17 @@
   "SHOE": {
     "last_updated": "2026-06-23T12:50:36.024187",
     "in_earnings_season": false
+  },
+  "FIZZ": {
+    "last_updated": "2026-06-24T12:20:21.396636",
+    "in_earnings_season": false
+  },
+  "LGND": {
+    "last_updated": "2026-06-24T12:26:02.898122",
+    "in_earnings_season": false
+  },
+  "MYE": {
+    "last_updated": "2026-06-24T12:28:27.580484",
+    "in_earnings_season": false
   }
 }
