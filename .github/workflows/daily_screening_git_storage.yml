@@ -66,15 +66,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Skip scheduled runs on weekends
-        if: github.event_name == 'schedule'
-        run: |
-          DOW=$(date -u +%u)
-          if [ "$DOW" -ge 6 ]; then
-            echo "US market closed (weekend) — skipping scheduled scan"
-            exit 0
-          fi
-
       - name: Run optimized stock screening
         env:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
