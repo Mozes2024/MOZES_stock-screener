@@ -115,8 +115,13 @@ jobs:
           COUNT=$(python3 -c "import json; d=json.load(open('breakout_signals.json')); print(d.get('top_signals_count', 0))")
           REGIME=$(python3 -c "import json; d=json.load(open('breakout_signals.json')); print(d.get('market_regime','?'))")
           echo "✅ breakout_signals.json נוצר: ${COUNT} signals | ${REGIME}"
+          if [ "$COUNT" -eq 0 ]; then
+            echo "❌ Refusing to publish empty breakout_signals.json to Ranker"
+            exit 1
+          fi
 
       - name: Commit and push
+        if: success()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -145,7 +150,7 @@ jobs:
       # שולח repository_dispatch לריפו של ה-Ranker.
       # ה-Ranker כבר יודע למשוך את breakout_signals.json עם curl.
       # דרוש: secret בשם RANKER_PAT עם הרשאת repo על ריפו ה-Ranker.
-      # Always dispatch downstream, including late/manual runs.
+      # Only dispatch when breakout_signals.json has real signals (verify step above).
       - name: Trigger SP500-Quant-Ranker pipeline
         if: success()
         run: |

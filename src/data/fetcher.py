@@ -5,6 +5,7 @@ price history with caching, error handling, and retry logic.
 """
 
 import logging
+import math
 import os
 import pickle
 import time
@@ -14,6 +15,36 @@ from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 import yfinance as yf
+
+
+def clean_price_history(hist: pd.DataFrame) -> pd.DataFrame:
+    """Drop incomplete OHLCV rows (e.g. weekend partial bars with NaN close)."""
+    if hist.empty:
+        return hist
+
+    df = hist.copy()
+    df.columns = [col.capitalize() for col in df.columns]
+    for col in ['Open', 'High', 'Low', 'Close', 'Volume']:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+
+    return df.dropna(subset=['Close'])
+
+
+def last_valid_close(hist: pd.DataFrame) -> Optional[float]:
+    """Return the last finite positive close price, or None if unavailable."""
+    if hist.empty or 'Close' not in hist.columns:
+        return None
+
+    closes = pd.to_numeric(hist['Close'], errors='coerce').dropna()
+    if closes.empty:
+        return None
+
+    price = float(closes.iloc[-1])
+    if not math.isfinite(price) or price <= 0:
+        return None
+
+    return price
 
 # Configure logging
 logging.basicConfig(
@@ -289,6 +320,11 @@ class YahooFinanceFetcher:
             # Select only OHLCV columns (no 'Date' column - it's the index)
             available_cols = ['Open', 'High', 'Low', 'Close', 'Volume']
             hist = hist[[col for col in available_cols if col in hist.columns]]
+            hist = clean_price_history(hist)
+
+            if hist.empty or last_valid_close(hist) is None:
+                logger.warning(f"No valid price history for {ticker} after cleaning")
+                return pd.DataFrame()
 
             # Cache the results
             self._save_to_cache(hist, cache_path)

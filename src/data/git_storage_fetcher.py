@@ -20,6 +20,8 @@ from typing import Dict, Optional
 import pandas as pd
 import yfinance as yf
 
+from src.data.fetcher import clean_price_history, last_valid_close
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
@@ -62,7 +64,11 @@ class GitStorageFetcher:
                 # Verify DatetimeIndex (yfinance should return this by default)
                 if not isinstance(data.index, pd.DatetimeIndex):
                     logger.warning(f"{ticker}: yfinance returned non-DatetimeIndex: {type(data.index)}")
-                    # This shouldn't happen, but log it if it does
+                    return pd.DataFrame()
+
+                data = clean_price_history(data)
+                if data.empty or last_valid_close(data) is None:
+                    logger.warning(f"{ticker}: No valid close price after cleaning")
                     return pd.DataFrame()
 
                 logger.debug(f"{ticker}: Fetched {len(data)} days (fresh)")

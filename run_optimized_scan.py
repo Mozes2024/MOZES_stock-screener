@@ -20,6 +20,7 @@ Usage:
 import argparse
 import json
 import logging
+import math
 import pickle
 import sys
 from datetime import datetime
@@ -42,6 +43,22 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+
+def validate_scan_quality(processor, results, spy_analysis) -> str | None:
+    """Return an error message if scan data is too broken to trust downstream."""
+    spy_price = processor.spy_price
+    if spy_price is None or not math.isfinite(float(spy_price)):
+        return f"Invalid SPY price: {spy_price}"
+
+    if spy_analysis.get('error'):
+        return f"SPY analysis failed: {spy_analysis['error']}"
+
+    error_rate = results.get('error_rate', 0)
+    if error_rate > 0.05:
+        return f"Scan error rate too high: {error_rate:.1%}"
+
+    return None
 
 
 def save_structured_data(results, buy_signals, sell_signals, spy_analysis, breadth, output_dir="./data/daily_scans"):
@@ -413,6 +430,12 @@ def main():
         # Analysis
         logger.info("Generating signals...")
         spy_analysis = analyze_spy_trend(processor.spy_data, processor.spy_price)
+        quality_error = validate_scan_quality(processor, results, spy_analysis)
+        if quality_error:
+            logger.error(f"Scan quality check failed: {quality_error}")
+            logger.error("Aborting — will not save structured output or overwrite good data")
+            sys.exit(1)
+
         breadth = calculate_market_breadth(results['phase_results'])
         signal_rec = should_generate_signals(spy_analysis, breadth)
 

@@ -19,7 +19,7 @@ from typing import Dict, List, Optional
 import pandas as pd
 import yfinance as yf
 
-from src.data.fetcher import YahooFinanceFetcher
+from src.data.fetcher import YahooFinanceFetcher, clean_price_history, last_valid_close
 from src.data.fundamentals_fetcher import fetch_quarterly_financials, analyze_fundamentals_for_signal
 from src.data.git_storage_fetcher import GitStorageFetcher
 from ..screening.phase_indicators import classify_phase, calculate_relative_strength, detect_vcp_pattern
@@ -151,34 +151,43 @@ class OptimizedBatchProcessor:
             self.last_request_time = time.time()
 
     def fetch_spy_data(self) -> bool:
-        """Fetch SPY benchmark data."""
-        try:
-            logger.info("Fetching SPY data...")
-            # Use 1 year for price data (not 2 years - 50% less data)
-            # Use same fetcher as stocks for consistency
-            if self.use_git_storage and self.git_fetcher:
-                spy_hist = self.git_fetcher.fetch_price_fresh('SPY')
-            else:
-                spy_hist = self.fetcher.fetch_price_history('SPY', period='1y')
+        """Fetch SPY benchmark data with retries and NaN-safe validation."""
+        max_attempts = 3
+        for attempt in range(1, max_attempts + 1):
+            try:
+                logger.info(f"Fetching SPY data (attempt {attempt}/{max_attempts})...")
+                if self.use_git_storage and self.git_fetcher:
+                    spy_hist = self.git_fetcher.fetch_price_fresh('SPY')
+                else:
+                    spy_hist = self.fetcher.fetch_price_history('SPY', period='1y')
 
-            if spy_hist.empty:
-                logger.error("Failed to fetch SPY data")
-                return False
+                spy_hist = clean_price_history(spy_hist)
+                spy_price = last_valid_close(spy_hist)
 
-            # Ensure DatetimeIndex (yfinance should return this, but verify)
-            if not isinstance(spy_hist.index, pd.DatetimeIndex):
-                logger.error(f"SPY has invalid index type: {type(spy_hist.index)}")
-                logger.error(f"SPY index: {spy_hist.index}")
-                return False
+                if spy_hist.empty or spy_price is None:
+                    logger.warning(f"SPY fetch attempt {attempt}: invalid or empty data")
+                    if attempt < max_attempts:
+                        time.sleep(2 * attempt)
+                    continue
 
-            self.spy_data = spy_hist
-            self.spy_price = spy_hist['Close'].iloc[-1]
-            logger.info(f"SPY ready: {len(spy_hist)} days, ${self.spy_price:.2f}")
-            return True
+                if not isinstance(spy_hist.index, pd.DatetimeIndex):
+                    logger.warning(f"SPY has invalid index type: {type(spy_hist.index)}")
+                    if attempt < max_attempts:
+                        time.sleep(2 * attempt)
+                    continue
 
-        except Exception as e:
-            logger.error(f"Error fetching SPY: {e}")
-            return False
+                self.spy_data = spy_hist
+                self.spy_price = spy_price
+                logger.info(f"SPY ready: {len(spy_hist)} days, ${self.spy_price:.2f}")
+                return True
+
+            except Exception as e:
+                logger.error(f"Error fetching SPY (attempt {attempt}): {e}")
+                if attempt < max_attempts:
+                    time.sleep(2 * attempt)
+
+        logger.error("Failed to fetch valid SPY data after all retries")
+        return False
 
     def analyze_single_stock(
         self,
@@ -212,17 +221,16 @@ class OptimizedBatchProcessor:
                 long_hist = yf.Ticker(ticker).history(period='5y', interval='1d')
 
                 if not long_hist.empty:
-                    # Use last 1 year for technical analysis
+                    long_hist = clean_price_history(long_hist)
                     price_data = long_hist.tail(252) if len(long_hist) > 252 else long_hist
                 else:
-                    # Fallback to git fetcher if 5y fails
                     price_data = self.git_fetcher.fetch_price_fresh(ticker)
-                    long_hist = price_data
+                    long_hist = clean_price_history(price_data)
+                    price_data = long_hist
             else:
-                # Regular fetcher - fetch 5y once
                 long_hist = self.fetcher.fetch_price_history(ticker, period='5y')
+                long_hist = clean_price_history(long_hist)
                 if not long_hist.empty:
-                    # Use last 1 year for technical analysis
                     price_data = long_hist.tail(252) if len(long_hist) > 252 else long_hist
                 else:
                     price_data = pd.DataFrame()
@@ -232,7 +240,11 @@ class OptimizedBatchProcessor:
                 self.filter_reasons['insufficient_data'] = self.filter_reasons.get('insufficient_data', 0) + 1
                 return None
 
-            current_price = price_data['Close'].iloc[-1]
+            current_price = last_valid_close(price_data)
+            if current_price is None:
+                self.filtered_count += 1
+                self.filter_reasons['invalid_price'] = self.filter_reasons.get('invalid_price', 0) + 1
+                return None
 
             # Historical drawdown filter (using 5y data we already fetched)
             # Exclude stocks that dropped >90% from any high in past 5 years

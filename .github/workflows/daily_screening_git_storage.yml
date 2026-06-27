@@ -66,6 +66,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Skip scheduled runs on weekends
+        if: github.event_name == 'schedule'
+        run: |
+          DOW=$(date -u +%u)
+          if [ "$DOW" -ge 6 ]; then
+            echo "US market closed (weekend) — skipping scheduled scan"
+            exit 0
+          fi
+
       - name: Run optimized stock screening
         env:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
@@ -87,10 +96,8 @@ jobs:
           mkdir -p data/daily_scans
           mkdir -p data/logs
 
-          # Conservative mode to avoid rate limits
-          # --git-storage flag enables Git-based fundamental storage
-          # --save-structured saves pickle + JSON for downstream breakout signal generator
-          python run_optimized_scan.py --git-storage --save-structured
+          # Conservative mode avoids yfinance rate limits; --save-structured feeds Ranker pipeline
+          python run_optimized_scan.py --conservative --git-storage --save-structured
 
       - name: Verify structured output
         if: always()

@@ -4,6 +4,7 @@ This module analyzes SPY (market benchmark) and calculates market breadth metric
 """
 
 import logging
+import math
 from typing import Dict, List
 
 import pandas as pd
@@ -34,6 +35,16 @@ def analyze_spy_trend(spy_price_data: pd.DataFrame, current_spy_price: float) ->
             'phase_name': 'Unknown',
             'trend': 'unknown',
             'error': 'No data'
+        }
+
+    if current_spy_price is None or not math.isfinite(float(current_spy_price)):
+        logger.warning(f"Invalid SPY price: {current_spy_price}")
+        return {
+            'phase': 0,
+            'phase_name': 'Unknown',
+            'trend': 'unknown',
+            'error': 'Invalid SPY price',
+            'current_price': current_spy_price,
         }
 
     # Classify SPY phase

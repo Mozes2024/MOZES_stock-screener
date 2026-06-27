@@ -22,6 +22,7 @@ Usage:
 import argparse
 import json
 import logging
+import math
 import pickle
 import re
 import sys
@@ -35,6 +36,35 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 STRUCTURED_SCAN_PATH = Path("./data/daily_scans/latest_structured_scan.pkl")
+
+
+def validate_scan_data(scan_data: dict) -> str | None:
+    """Return error message if structured scan is untrustworthy."""
+    spy = scan_data.get("spy_analysis") or {}
+    if spy.get("error"):
+        return f"SPY analysis error: {spy['error']}"
+
+    price = spy.get("current_price")
+    if price is None or not math.isfinite(float(price)):
+        return f"Invalid SPY price in scan: {price}"
+
+    results = scan_data.get("results") or {}
+    error_rate = results.get("error_rate", 0)
+    if error_rate > 0.05:
+        return f"Scan error rate too high: {error_rate:.1%}"
+
+    return None
+
+
+def _load_existing_output(output_path: Path) -> dict | None:
+    if not output_path.exists():
+        return None
+    try:
+        with output_path.open(encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError) as e:
+        logger.warning(f"Could not read existing {output_path}: {e}")
+        return None
 
 
 # ── Formatting helpers ───────────────────────────────────────────────────────
@@ -183,6 +213,11 @@ def run_from_pickle(args, scan_data: dict) -> bool:
     """Fast path: filter pre-computed buy signals and write breakout_signals.json."""
     from src.screening.benchmark import classify_market_regime
 
+    quality_error = validate_scan_data(scan_data)
+    if quality_error:
+        logger.error(f"Structured scan failed validation: {quality_error}")
+        return False
+
     output_path = Path(args.output)
     min_score = args.min_score
 
@@ -213,6 +248,14 @@ def run_from_pickle(args, scan_data: dict) -> bool:
 
 def _write_output(output_path: Path, buy_signals: list, market_regime: str, breadth: dict) -> bool:
     """Write breakout_signals.json in the SP500-Quant-Ranker schema."""
+    existing = _load_existing_output(output_path)
+    if len(buy_signals) == 0 and existing and existing.get("top_signals_count", 0) > 0:
+        logger.error(
+            f"Refusing to overwrite {output_path} "
+            f"({existing['top_signals_count']} existing signals) with empty output"
+        )
+        return False
+
     now_str = datetime.utcnow().strftime("%Y-%m-%d %H:%M")
     date_str = datetime.utcnow().strftime("%Y-%m-%d")
 
@@ -292,6 +335,15 @@ def main():
     if not success:
         logger.info("Falling back to full market scan…")
         success = run_full_scan(args)
+
+    if not success:
+        existing = _load_existing_output(Path(args.output))
+        if existing and existing.get("top_signals_count", 0) > 0:
+            logger.warning(
+                f"Keeping existing {args.output} "
+                f"({existing['top_signals_count']} signals from {existing.get('scan_date', '?')})"
+            )
+            sys.exit(0)
 
     sys.exit(0 if success else 1)
 
