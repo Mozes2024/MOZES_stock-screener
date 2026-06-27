@@ -5,6 +5,11 @@
 [![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Code Style](https://img.shields.io/badge/Code%20Style-Black-black.svg)](https://github.com/psf/black)
+[![Daily Scan](https://github.com/Mozes2024/MOZES_stock-screener/actions/workflows/daily_screening_git_storage.yml/badge.svg)](https://github.com/Mozes2024/MOZES_stock-screener/actions/workflows/daily_screening_git_storage.yml)
+
+---
+
+![Example scan output showing benchmark summary, market breadth, and top buy signals](assets/example-output.png)
 
 ---
 
@@ -321,7 +326,7 @@ Every buy signal includes:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/stock-screener.git
+git clone https://github.com/Mozes2024/MOZES_stock-screener.git
 cd stock-screener
 
 # Create virtual environment
@@ -442,7 +447,7 @@ python manage_positions.py --export
 
 ```
 Logging in to Robinhood...
-Robinhood password for ryanhamby22@gmail.com: ********
+Robinhood password for you@example.com: ********
 
 MFA required - check your phone for SMS code from Robinhood
 Enter SMS code from Robinhood: 123456
@@ -585,9 +590,9 @@ python manage_positions.py --entry-dates entry_dates.json
 stock-screener/
 ├── .github/
 │   └── workflows/
-│       └── daily_scan.yml              # GitHub Actions automation
+│       └── daily_screening_git_storage.yml  # Automated daily scan
 │
-├── src/
+├── src/                                # Core library
 │   ├── data/
 │   │   ├── fetcher.py                  # YahooFinanceFetcher (price data)
 │   │   ├── fundamentals_fetcher.py     # Quarterly financials fetcher
@@ -595,28 +600,37 @@ stock-screener/
 │   │   ├── enhanced_fundamentals.py    # FMP integration (optional)
 │   │   ├── universe_fetcher.py         # NASDAQ/NYSE stock universe
 │   │   └── robinhood_positions.py      # Robinhood read-only API
-│   │
 │   ├── screening/
 │   │   ├── phase_indicators.py         # 4-phase classification
 │   │   ├── signal_engine.py            # Buy/sell signal scoring
 │   │   ├── benchmark.py                # SPY analysis + market breadth
-│   │   └── optimized_batch_processor.py # Parallel processing engine
-│   │
+│   │   └── optimized_batch_processor.py
 │   └── analysis/
 │       └── position_manager.py         # Stop loss recommendations
 │
+├── tests/                              # Test suite
+├── examples/                           # Demo scripts and sample configs
+├── scripts/                            # Utility runners and shell scripts
+├── assets/                             # Screenshots and images
+├── docs/                               # Extended documentation
+│
 ├── data/
-│   ├── fundamentals_cache/             # Git-tracked fundamentals (1762 stocks)
+│   ├── fundamentals_cache/             # Git-tracked fundamentals (1,762 stocks)
 │   ├── daily_scans/                    # Historical scan reports
 │   └── position_reports/               # Position management reports
 │
 ├── run_optimized_scan.py               # Main scanner CLI
 ├── manage_positions.py                 # Position management CLI
 ├── automated_position_report.py        # GitHub Actions position report
+├── run_screen.sh                       # Convenience wrapper (full scan)
+├── run_test.sh                         # Convenience wrapper (test scan)
 │
-├── README.md                           # This file
-├── requirements.txt                    # Python dependencies
-└── .env                                # Local configuration (gitignored)
+├── config.yaml                         # Scan configuration
+├── requirements.txt
+├── README.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+└── LICENSE
 ```
 
 ---
@@ -883,6 +897,15 @@ MIT License - See [LICENSE](LICENSE) file for details.
 The author is not responsible for any financial losses incurred using this system.
 
 ---
+
+## Contact
+
+**Ryan Hamby** (original author)
+GitHub: [github.com/RyanJHamby](https://github.com/RyanJHamby)
+LinkedIn: [linkedin.com/in/ryanhamby](https://linkedin.com/in/ryanhamby)
+
+**Fork maintained by Mozes2024**
+GitHub: [github.com/Mozes2024/MOZES_stock-screener](https://github.com/Mozes2024/MOZES_stock-screener)
 
 ---
 
