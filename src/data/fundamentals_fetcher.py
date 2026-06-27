@@ -298,18 +298,23 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
     supports_breakout = True
     concerns = []
 
-    if quarterly_data.get('revenue_yoy_change', 0) < 0:
+    revenue_yoy = quarterly_data.get('revenue_yoy_change') or 0
+    eps_yoy = quarterly_data.get('eps_yoy_change') or 0
+    margin_change = quarterly_data.get('margin_change') or 0
+    inv_change = quarterly_data.get('inventory_qoq_change') or 0
+
+    if revenue_yoy < 0:
         supports_breakout = False
         concerns.append('revenue declining')
 
-    if quarterly_data.get('eps_yoy_change', 0) < 0:
+    if eps_yoy < 0:
         supports_breakout = False
         concerns.append('EPS declining')
 
-    if quarterly_data.get('margin_change', 0) < -2:
+    if margin_change < -2:
         concerns.append('margins contracting')
 
-    if quarterly_data.get('inventory_qoq_change', 0) > 15:
+    if inv_change > 15:
         concerns.append('inventory building rapidly')
 
     if supports_breakout and len(concerns) == 0:
