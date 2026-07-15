@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "NYT",
-    "fetch_date": "2026-05-13T12:28:24.592156",
+    "fetch_date": "2026-07-15T11:35:14.398310",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 726629000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 635910000.0,
       "2025-06-30 00:00:00": 685873000.0,
       "2025-09-30 00:00:00": 700821000.0,
       "2025-12-31 00:00:00": 802314000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 712236000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -11.227275106753714,
+    "revenue_yoy_change": 12.00264188328537,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.3,
       "2025-06-30 00:00:00": 0.5,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": -31.645569620253163,
     "eps_yoy_change": 80.00000000000001,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 49.04,
+    "margin_change": -5.19,
+    "operating_margin": 13.31,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-13T12:28:24.593324"
+  "fetched_at": "2026-07-15T11:35:14.399339"
 }

@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "BXP",
-    "fetch_date": "2026-05-14T12:00:46.606697",
+    "fetch_date": "2026-07-15T11:19:43.529695",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 858571000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 865215000.0,
       "2025-06-30 00:00:00": 868457000.0,
       "2025-09-30 00:00:00": 871510000.0,
       "2025-12-31 00:00:00": 877097000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 872148000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -0.5642477399877095,
+    "revenue_yoy_change": 0.8013037221962171,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.39,
       "2025-06-30 00:00:00": 0.56,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": -58.97435897435898,
     "eps_yoy_change": 64.1025641025641,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 59.63,
+    "margin_change": -0.61,
+    "operating_margin": 26.13,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-14T12:00:46.607624"
+  "fetched_at": "2026-07-15T11:19:43.530596"
 }

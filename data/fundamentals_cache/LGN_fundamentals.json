@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LGN",
-    "fetch_date": "2026-07-01T12:38:25.570494",
+    "fetch_date": "2026-07-15T11:31:21.621154",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 505953000.0,
       "2025-06-30 00:00:00": 598890000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.014,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-01T12:38:25.572309"
+  "fetched_at": "2026-07-15T11:31:21.622287"
 }

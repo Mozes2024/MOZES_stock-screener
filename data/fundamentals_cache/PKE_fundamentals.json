@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PKE",
-    "fetch_date": "2026-06-19T13:23:56.879516",
+    "fetch_date": "2026-07-15T11:36:59.556225",
     "quarterly_revenue": {
       "2025-02-28 00:00:00": 16939000.0,
       "2025-05-31 00:00:00": 15400000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.306,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-19T13:23:56.881166"
+  "fetched_at": "2026-07-15T11:36:59.557374"
 }

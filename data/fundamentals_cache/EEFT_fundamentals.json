@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "EEFT",
-    "fetch_date": "2026-05-08T11:31:51.841926",
+    "fetch_date": "2026-07-15T11:23:58.796390",
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": 1047300000.0,
       "2025-03-31 00:00:00": 915500000.0,
       "2025-06-30 00:00:00": 1074300000.0,
       "2025-09-30 00:00:00": 1145700000.0,
       "2025-12-31 00:00:00": 1108700000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 1011800000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -8.739965725624605,
+    "revenue_yoy_change": 10.518842162752593,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.85,
       "2025-06-30 00:00:00": 2.27,
       "2025-09-30 00:00:00": 2.75,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": -23.148148148148156,
     "eps_yoy_change": -2.35294117647059,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 38.98,
+    "margin_change": -1.03,
+    "operating_margin": 7.12,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-08T11:31:51.843290"
+  "fetched_at": "2026-07-15T11:23:58.797300"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KURA",
-    "fetch_date": "2026-05-21T12:59:40.690241",
+    "fetch_date": "2026-07-15T11:30:53.733285",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 14108000.0,
       "2025-06-30 00:00:00": 15288000.0,
@@ -24,7 +24,6 @@
     "margin_change": NaN,
     "operating_margin": -431.51,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.0,
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.046,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-21T12:59:40.692006"
+  "fetched_at": "2026-07-15T11:30:53.734432"
 }

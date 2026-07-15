@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TT",
-    "fetch_date": "2026-05-13T12:36:26.085937",
+    "fetch_date": "2026-07-15T11:43:11.425071",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4688500000.0,
@@ -26,7 +26,6 @@
     "margin_change": 0.68,
     "operating_margin": 15.62,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2220900000.0,
       "2025-06-30 00:00:00": 2361000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.483,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-13T12:36:26.087400"
+  "fetched_at": "2026-07-15T11:43:11.426231"
 }

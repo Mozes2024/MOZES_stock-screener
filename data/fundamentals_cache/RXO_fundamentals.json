@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RXO",
-    "fetch_date": "2026-05-13T12:32:30.722246",
+    "fetch_date": "2026-07-15T11:39:20.659724",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1433000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -1.33,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-13T12:32:30.723394"
+  "fetched_at": "2026-07-15T11:39:20.660768"
 }

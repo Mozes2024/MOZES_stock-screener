@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRC",
-    "fetch_date": "2026-05-14T12:11:44.720422",
+    "fetch_date": "2026-07-15T11:30:43.635281",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 270844000.0,
       "2025-06-30 00:00:00": 289892000.0,
@@ -24,7 +24,6 @@
     "margin_change": 0.66,
     "operating_margin": 22.49,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 255795000.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-14T12:11:44.721575"
+  "fetched_at": "2026-07-15T11:30:43.636424"
 }

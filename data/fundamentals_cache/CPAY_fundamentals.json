@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "CPAY",
-    "fetch_date": "2026-05-13T12:14:58.372671",
+    "fetch_date": "2026-07-15T11:21:44.778145",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 1034431000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1005667000.0,
       "2025-06-30 00:00:00": 1102030000.0,
       "2025-09-30 00:00:00": 1172480000.0,
       "2025-12-31 00:00:00": 1248226000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 1260987000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 1.0223308920019292,
+    "revenue_yoy_change": 25.38812549283212,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 3.4,
       "2025-06-30 00:00:00": 3.98,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": 35.20000000000001,
     "eps_yoy_change": 49.11764705882354,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 78.42,
+    "margin_change": -0.74,
+    "operating_margin": 40.82,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-13T12:14:58.374159"
+  "fetched_at": "2026-07-15T11:21:44.779040"
 }

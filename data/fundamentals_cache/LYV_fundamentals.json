@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "LYV",
-    "fetch_date": "2026-05-13T12:25:16.403973",
+    "fetch_date": "2026-07-15T11:32:05.170040",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 3382117000.0,
       "2025-06-30 00:00:00": 7006641000.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": -39.92197677835054,
     "revenue_yoy_change": 12.149550119052654,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": 1.66,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": -0.32,
       "2025-06-30 00:00:00": 0.41,
@@ -25,10 +23,9 @@
     "eps_qoq_change": null,
     "eps_yoy_change": -478.125,
     "gross_margin": 34.66,
-    "margin_change": NaN,
+    "margin_change": 11.63,
     "operating_margin": -9.93,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 50145000.0,
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -40,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-13T12:25:16.405428"
+  "fetched_at": "2026-07-15T11:32:05.171171"
 }

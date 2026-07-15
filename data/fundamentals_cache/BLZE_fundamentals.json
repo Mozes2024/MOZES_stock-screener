@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLZE",
-    "fetch_date": "2026-06-10T12:50:45.217233",
+    "fetch_date": "2026-07-15T11:18:54.892623",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 34613000.0,
       "2025-06-30 00:00:00": 36298000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -13.84,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-10T12:50:45.218554"
+  "fetched_at": "2026-07-15T11:18:54.893706"
 }

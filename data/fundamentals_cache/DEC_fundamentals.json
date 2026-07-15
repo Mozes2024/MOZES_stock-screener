@@ -1,14 +1,31 @@
 {
   "data": {
     "ticker": "DEC",
-    "fetch_date": "2026-05-13T12:16:08.939898",
+    "fetch_date": "2026-07-15T11:22:54.528670",
+    "quarterly_revenue": {
+      "2025-03-31 00:00:00": 62515000.0,
+      "2025-06-30 00:00:00": 715550000.0,
+      "2026-03-31 00:00:00": 27144000.0
+    },
+    "revenue_qoq_change": -96.20655439871427,
+    "quarterly_eps": {
+      "2025-03-31 00:00:00": -5.52,
+      "2025-06-30 00:00:00": NaN,
+      "2026-03-31 00:00:00": -2.13
+    },
+    "eps_qoq_change": null,
+    "gross_margin": -976.7,
+    "margin_change": -1031.05,
+    "operating_margin": -1284.41,
     "quarterly_inventory": {
       "2024-12-31 00:00:00": 9591000.0,
       "2025-06-30 00:00:00": NaN,
-      "2025-12-31 00:00:00": 27801000.0
+      "2025-12-31 00:00:00": 27801000.0,
+      "2026-03-31 00:00:00": NaN
     },
     "inventory_qoq_change": null,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-13T12:16:08.940356"
+  "fetched_at": "2026-07-15T11:22:54.529783"
 }

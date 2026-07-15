@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GEV",
-    "fetch_date": "2026-05-13T12:19:57.132816",
+    "fetch_date": "2026-07-15T11:26:45.630772",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 8032000000.0,
@@ -26,7 +26,6 @@
     "margin_change": -2.12,
     "operating_margin": 1.92,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 8505000000.0,
       "2025-06-30 00:00:00": 9038000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 1.188,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-13T12:19:57.134302"
+  "fetched_at": "2026-07-15T11:26:45.631933"
 }

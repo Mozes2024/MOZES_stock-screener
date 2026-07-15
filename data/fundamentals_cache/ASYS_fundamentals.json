@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASYS",
-    "fetch_date": "2026-06-03T11:55:43.587723",
+    "fetch_date": "2026-07-15T11:17:20.590623",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 15580000.0,
@@ -26,7 +26,6 @@
     "margin_change": 2.96,
     "operating_margin": 8.76,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2025-03-31 00:00:00": 20805000.0,
       "2025-06-30 00:00:00": 19620000.0,
       "2025-09-30 00:00:00": 18743000.0,
@@ -37,5 +36,5 @@
     "inventory_to_sales_ratio": 0.962,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-03T11:55:43.589292"
+  "fetched_at": "2026-07-15T11:17:20.591783"
 }

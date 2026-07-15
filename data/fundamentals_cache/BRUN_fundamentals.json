@@ -1,16 +1,25 @@
 {
   "data": {
     "ticker": "BRUN",
-    "fetch_date": "2026-05-12T12:04:50.465808",
+    "fetch_date": "2026-07-15T11:19:23.829558",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2180000.0,
-      "2025-12-31 00:00:00": 7585000.0
+      "2025-03-31 00:00:00": 4140000.0,
+      "2025-12-31 00:00:00": 7585000.0,
+      "2026-03-31 00:00:00": 10956000.0
     },
-    "revenue_qoq_change": 247.9357798165138,
-    "gross_margin": 80.47,
-    "margin_change": 9.42,
-    "operating_margin": -12.47,
+    "revenue_qoq_change": 44.44297956493079,
+    "quarterly_eps": {
+      "2024-12-31 00:00:00": NaN,
+      "2025-03-31 00:00:00": 0.000431,
+      "2025-12-31 00:00:00": NaN,
+      "2026-03-31 00:00:00": -0.084422
+    },
+    "eps_qoq_change": null,
+    "gross_margin": 85.59,
+    "margin_change": 5.11,
+    "operating_margin": -24.38,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-12T12:04:50.467006"
+  "fetched_at": "2026-07-15T11:19:23.830434"
 }

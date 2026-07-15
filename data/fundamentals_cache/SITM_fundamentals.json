@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SITM",
-    "fetch_date": "2026-05-14T12:21:22.386984",
+    "fetch_date": "2026-07-15T11:40:23.943578",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 60314000.0,
       "2025-06-30 00:00:00": 69494000.0,
@@ -24,7 +24,6 @@
     "margin_change": 2.57,
     "operating_margin": -4.16,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 82632000.0,
       "2025-06-30 00:00:00": 84126000.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.802,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-14T12:21:22.388165"
+  "fetched_at": "2026-07-15T11:40:23.944704"
 }

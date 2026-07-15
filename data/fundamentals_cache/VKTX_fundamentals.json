@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "VKTX",
-    "fetch_date": "2026-05-13T12:37:42.916210",
+    "fetch_date": "2026-07-15T11:44:26.799209",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.0,
       "2025-06-30 00:00:00": 0.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": null,
     "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": -0.41,
       "2025-06-30 00:00:00": -0.58,
@@ -27,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-13T12:37:42.917790"
+  "fetched_at": "2026-07-15T11:44:26.799894"
 }

@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "SBGI",
-    "fetch_date": "2026-05-13T12:32:51.817878",
+    "fetch_date": "2026-07-15T11:39:41.184591",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 1004000000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 776000000.0,
       "2025-06-30 00:00:00": 784000000.0,
       "2025-09-30 00:00:00": 773000000.0,
       "2025-12-31 00:00:00": 836000000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 807000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -3.4688995215311005,
+    "revenue_yoy_change": 3.994845360824742,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": -2.3,
       "2025-06-30 00:00:00": -0.91,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": -81.93548387096774,
     "eps_yoy_change": 112.17391304347828,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 48.95,
+    "margin_change": 2.77,
+    "operating_margin": 4.21,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-13T12:32:51.819059"
+  "fetched_at": "2026-07-15T11:39:41.185663"
 }

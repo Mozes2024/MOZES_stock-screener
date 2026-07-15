@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "HTLD",
-    "fetch_date": "2026-05-11T12:55:30.858267",
+    "fetch_date": "2026-07-15T11:28:36.591690",
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": 242576000.0,
       "2025-03-31 00:00:00": 219420000.0,
       "2025-06-30 00:00:00": 210387000.0,
       "2025-09-30 00:00:00": 196547000.0,
       "2025-12-31 00:00:00": 179355000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 176256000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -1.7278581584009367,
+    "revenue_yoy_change": -19.671862182116488,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": -0.18,
       "2025-06-30 00:00:00": -0.14,
       "2025-09-30 00:00:00": -0.11,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 76.0,
     "eps_yoy_change": 66.66666666666666,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 9.61,
+    "margin_change": 0.47,
+    "operating_margin": -6.02,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T12:55:30.860126"
+  "fetched_at": "2026-07-15T11:28:36.592601"
 }
