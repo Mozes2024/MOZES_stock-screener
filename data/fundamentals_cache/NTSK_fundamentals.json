@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NTSK",
-    "fetch_date": "2026-07-08T11:50:02.184190",
+    "fetch_date": "2026-07-16T11:41:33.731491",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 157736000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.026,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-08T11:50:02.185760"
+  "fetched_at": "2026-07-16T11:41:33.732443"
 }
