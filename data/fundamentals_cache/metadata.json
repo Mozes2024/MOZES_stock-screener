@@ -2328,7 +2328,7 @@
     "in_earnings_season": true
   },
   "NOG": {
-    "last_updated": "2026-05-13T12:27:44.981847",
+    "last_updated": "2026-07-20T12:23:09.986112",
     "in_earnings_season": true
   },
   "NOV": {
@@ -4308,7 +4308,7 @@
     "in_earnings_season": true
   },
   "PTEN": {
-    "last_updated": "2026-05-15T12:21:50.532426",
+    "last_updated": "2026-07-20T12:26:20.958791",
     "in_earnings_season": true
   },
   "QTWO": {
@@ -4788,7 +4788,7 @@
     "in_earnings_season": true
   },
   "AGX": {
-    "last_updated": "2026-04-22T11:12:43.392370",
+    "last_updated": "2026-07-20T12:04:16.813431",
     "in_earnings_season": true
   },
   "AHCO": {
@@ -4932,7 +4932,7 @@
     "in_earnings_season": true
   },
   "ARLO": {
-    "last_updated": "2026-05-06T11:54:37.324906",
+    "last_updated": "2026-07-20T12:05:41.701919",
     "in_earnings_season": true
   },
   "ARLP": {
@@ -7289,6 +7289,14 @@
   },
   "WOLF": {
     "last_updated": "2026-07-17T11:40:11.148486",
+    "in_earnings_season": true
+  },
+  "APEI": {
+    "last_updated": "2026-07-20T12:05:23.969637",
+    "in_earnings_season": true
+  },
+  "DCO": {
+    "last_updated": "2026-07-20T12:11:27.976184",
     "in_earnings_season": true
   }
 }
