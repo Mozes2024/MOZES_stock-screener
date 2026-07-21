@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JCAP",
-    "fetch_date": "2026-07-14T11:27:08.804459",
+    "fetch_date": "2026-07-21T11:44:33.109285",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 154943000.0,
       "2025-06-30 00:00:00": 152708000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 29.03,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-14T11:27:08.805734"
+  "fetched_at": "2026-07-21T11:44:33.110133"
 }

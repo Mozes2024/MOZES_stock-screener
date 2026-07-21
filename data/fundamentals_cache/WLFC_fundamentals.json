@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WLFC",
-    "fetch_date": "2026-05-15T15:26:54.109658",
+    "fetch_date": "2026-07-21T11:59:51.142602",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 157732000.0,
       "2025-06-30 00:00:00": 195502000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-15T15:26:54.111406"
+  "fetched_at": "2026-07-21T11:59:51.144769"
 }
