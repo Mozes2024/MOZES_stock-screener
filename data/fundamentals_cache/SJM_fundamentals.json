@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SJM",
-    "fetch_date": "2026-07-15T11:40:24.628928",
+    "fetch_date": "2026-07-22T11:55:13.494412",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 2143800000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.497,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:40:24.630100"
+  "fetched_at": "2026-07-22T11:55:13.495951"
 }

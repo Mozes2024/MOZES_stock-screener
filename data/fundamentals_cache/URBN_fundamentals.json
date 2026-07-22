@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "URBN",
-    "fetch_date": "2026-07-15T11:43:56.132084",
+    "fetch_date": "2026-07-22T11:58:45.787718",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 1329501000.0,
       "2025-07-31 00:00:00": 1504755000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.491,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:43:56.133181"
+  "fetched_at": "2026-07-22T11:58:45.789190"
 }

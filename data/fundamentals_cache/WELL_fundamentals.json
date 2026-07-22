@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WELL",
-    "fetch_date": "2026-07-15T11:45:07.155348",
+    "fetch_date": "2026-07-22T11:59:57.101346",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2388587000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 16.89,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:45:07.156279"
+  "fetched_at": "2026-07-22T11:59:57.102519"
 }

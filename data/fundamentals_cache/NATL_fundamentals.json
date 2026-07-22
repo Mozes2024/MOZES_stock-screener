@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NATL",
-    "fetch_date": "2026-07-15T11:33:55.893480",
+    "fetch_date": "2026-07-22T11:48:44.386345",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 979000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.351,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:33:55.894626"
+  "fetched_at": "2026-07-22T11:48:44.387889"
 }

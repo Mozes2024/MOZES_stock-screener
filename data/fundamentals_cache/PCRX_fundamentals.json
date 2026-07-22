@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PCRX",
-    "fetch_date": "2026-07-15T11:36:30.832343",
+    "fetch_date": "2026-07-22T11:51:18.640595",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 168923000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.848,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:36:30.833506"
+  "fetched_at": "2026-07-22T11:51:18.642342"
 }

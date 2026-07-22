@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AAON",
-    "fetch_date": "2026-07-15T11:14:49.178028",
+    "fetch_date": "2026-07-22T11:29:39.895025",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 322054000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.63,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:14:49.179201"
+  "fetched_at": "2026-07-22T11:29:39.896817"
 }

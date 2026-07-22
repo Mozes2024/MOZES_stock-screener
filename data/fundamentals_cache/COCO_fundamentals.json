@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COCO",
-    "fetch_date": "2026-07-15T11:21:31.719830",
+    "fetch_date": "2026-07-22T11:36:22.143374",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 130921000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.481,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:21:31.720986"
+  "fetched_at": "2026-07-22T11:36:22.145160"
 }

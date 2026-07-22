@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SNA",
-    "fetch_date": "2026-07-15T11:40:51.212514",
+    "fetch_date": "2026-07-22T11:55:40.213239",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1243200000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.78,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:40:51.214383"
+  "fetched_at": "2026-07-22T11:55:40.214757"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IEX",
-    "fetch_date": "2026-07-15T11:29:04.641898",
+    "fetch_date": "2026-07-22T11:43:53.138848",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 814300000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.565,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:29:04.643050"
+  "fetched_at": "2026-07-22T11:43:53.140987"
 }

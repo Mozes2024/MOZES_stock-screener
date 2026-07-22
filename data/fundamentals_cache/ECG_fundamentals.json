@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ECG",
-    "fetch_date": "2026-07-15T11:23:52.562273",
+    "fetch_date": "2026-07-22T11:38:41.462820",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 826629000.0,
       "2025-06-30 00:00:00": 921466000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.046,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:23:52.563403"
+  "fetched_at": "2026-07-22T11:38:41.464579"
 }

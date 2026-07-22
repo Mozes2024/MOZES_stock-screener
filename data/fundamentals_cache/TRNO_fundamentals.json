@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRNO",
-    "fetch_date": "2026-07-15T11:43:01.224175",
+    "fetch_date": "2026-07-22T11:57:50.746915",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 110420000.0,
       "2025-06-30 00:00:00": 112234000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 40.76,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:43:01.225073"
+  "fetched_at": "2026-07-22T11:57:50.748342"
 }

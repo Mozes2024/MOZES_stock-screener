@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NSIT",
-    "fetch_date": "2026-07-15T11:34:44.825193",
+    "fetch_date": "2026-07-22T11:49:33.545284",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2103556000.0,
       "2025-06-30 00:00:00": 2091482000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.118,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:34:44.826358"
+  "fetched_at": "2026-07-22T11:49:33.546835"
 }

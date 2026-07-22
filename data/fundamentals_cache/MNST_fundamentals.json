@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MNST",
-    "fetch_date": "2026-07-15T11:33:07.955846",
+    "fetch_date": "2026-07-22T11:47:56.435266",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1854558000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.352,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:33:07.956987"
+  "fetched_at": "2026-07-22T11:47:56.436808"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HTLD",
-    "fetch_date": "2026-07-15T11:28:36.591690",
+    "fetch_date": "2026-07-22T11:43:24.724068",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 219420000.0,
       "2025-06-30 00:00:00": 210387000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -6.02,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:28:36.592601"
+  "fetched_at": "2026-07-22T11:43:24.725257"
 }

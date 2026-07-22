@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FORM",
-    "fetch_date": "2026-07-15T11:25:57.212291",
+    "fetch_date": "2026-07-22T11:40:45.973974",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 171356000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.499,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:25:57.213457"
+  "fetched_at": "2026-07-22T11:40:45.975737"
 }

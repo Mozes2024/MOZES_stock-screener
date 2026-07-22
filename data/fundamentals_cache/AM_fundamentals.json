@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AM",
-    "fetch_date": "2026-07-15T11:16:14.359302",
+    "fetch_date": "2026-07-22T11:31:04.507177",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 308797000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 55.44,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:16:14.360227"
+  "fetched_at": "2026-07-22T11:31:04.508925"
 }

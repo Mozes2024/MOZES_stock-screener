@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CTRI",
-    "fetch_date": "2026-07-15T11:22:15.306277",
+    "fetch_date": "2026-07-22T11:37:04.892011",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 550081000.0,
       "2025-06-30 00:00:00": 724052000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -0.66,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:22:15.307166"
+  "fetched_at": "2026-07-22T11:37:04.893171"
 }

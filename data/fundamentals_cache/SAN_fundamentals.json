@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAN",
-    "fetch_date": "2026-07-15T11:39:32.894669",
+    "fetch_date": "2026-07-22T11:54:21.943701",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 15002000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 71.42857142857143,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:39:32.895246"
+  "fetched_at": "2026-07-22T11:54:21.944338"
 }

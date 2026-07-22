@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NVS",
-    "fetch_date": "2026-07-15T11:35:02.629840",
+    "fetch_date": "2026-07-22T11:49:50.606215",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 13620000000.0,
       "2025-06-30 00:00:00": 14836000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.465,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:35:02.630982"
+  "fetched_at": "2026-07-22T11:49:50.607724"
 }

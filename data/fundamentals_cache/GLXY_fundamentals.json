@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GLXY",
-    "fetch_date": "2026-07-15T11:27:01.656388",
+    "fetch_date": "2026-07-22T11:41:51.093058",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 12976206000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 0.66,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:27:01.657695"
+  "fetched_at": "2026-07-22T11:41:51.094262"
 }

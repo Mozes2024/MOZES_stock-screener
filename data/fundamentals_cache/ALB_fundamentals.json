@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALB",
-    "fetch_date": "2026-07-15T11:15:56.356395",
+    "fetch_date": "2026-07-22T11:30:47.005554",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1076881000.0,
       "2025-06-30 00:00:00": 1329992000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.943,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:15:56.357567"
+  "fetched_at": "2026-07-22T11:30:47.007044"
 }

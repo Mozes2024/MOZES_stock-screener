@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MRTN",
-    "fetch_date": "2026-07-15T11:33:24.325956",
+    "fetch_date": "2026-07-22T11:48:12.989530",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 223152000.0,
       "2025-06-30 00:00:00": 229922000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0.08,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:33:24.326856"
+  "fetched_at": "2026-07-22T11:48:12.990701"
 }

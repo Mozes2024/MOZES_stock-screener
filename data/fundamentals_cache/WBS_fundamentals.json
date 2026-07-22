@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WBS",
-    "fetch_date": "2026-07-15T11:45:02.733429",
+    "fetch_date": "2026-07-22T11:59:52.325501",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 704798000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 15.38461538461538,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:45:02.733949"
+  "fetched_at": "2026-07-22T11:59:52.326139"
 }

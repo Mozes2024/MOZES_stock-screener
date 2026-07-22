@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MTSI",
-    "fetch_date": "2026-07-15T11:33:38.291301",
+    "fetch_date": "2026-07-22T11:48:26.879656",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 235887000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.873,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:33:38.292443"
+  "fetched_at": "2026-07-22T11:48:26.881171"
 }

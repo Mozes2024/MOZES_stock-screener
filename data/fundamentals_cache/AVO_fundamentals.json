@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVO",
-    "fetch_date": "2026-07-15T11:17:41.368414",
+    "fetch_date": "2026-07-22T11:32:31.239231",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 380300000.0,
       "2025-07-31 00:00:00": 357700000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.401,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:17:41.369567"
+  "fetched_at": "2026-07-22T11:32:31.241439"
 }

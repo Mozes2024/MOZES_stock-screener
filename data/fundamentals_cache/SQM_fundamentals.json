@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SQM",
-    "fetch_date": "2026-07-15T11:41:15.692701",
+    "fetch_date": "2026-07-22T11:56:04.647048",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1036600000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.069,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:41:15.693860"
+  "fetched_at": "2026-07-22T11:56:04.648590"
 }

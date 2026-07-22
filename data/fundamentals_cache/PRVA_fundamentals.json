@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRVA",
-    "fetch_date": "2026-07-15T11:37:37.569007",
+    "fetch_date": "2026-07-22T11:52:25.572190",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 480097000.0,
       "2025-06-30 00:00:00": 521153000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 1.23,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:37:37.569890"
+  "fetched_at": "2026-07-22T11:52:25.573351"
 }

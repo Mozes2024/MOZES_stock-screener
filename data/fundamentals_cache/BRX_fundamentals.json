@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BRX",
-    "fetch_date": "2026-07-15T11:19:24.605578",
+    "fetch_date": "2026-07-22T11:34:14.385091",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 337512000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 37.8,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:19:24.606502"
+  "fetched_at": "2026-07-22T11:34:14.386899"
 }

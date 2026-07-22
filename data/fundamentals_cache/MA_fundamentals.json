@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MA",
-    "fetch_date": "2026-07-15T11:32:07.198895",
+    "fetch_date": "2026-07-22T11:46:55.308597",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 7250000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 59.12,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:32:07.199780"
+  "fetched_at": "2026-07-22T11:46:55.309778"
 }

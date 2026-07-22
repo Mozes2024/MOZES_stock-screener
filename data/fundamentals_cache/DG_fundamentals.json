@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DG",
-    "fetch_date": "2026-07-15T11:23:00.944855",
+    "fetch_date": "2026-07-22T11:37:50.479726",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 10435979000.0,
       "2025-07-31 00:00:00": 10727737000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.615,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:23:00.945995"
+  "fetched_at": "2026-07-22T11:37:50.481423"
 }

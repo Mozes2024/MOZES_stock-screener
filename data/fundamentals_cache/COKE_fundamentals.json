@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COKE",
-    "fetch_date": "2026-07-15T11:21:36.682719",
+    "fetch_date": "2026-07-22T11:36:26.897160",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1579977000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.211,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:21:36.684060"
+  "fetched_at": "2026-07-22T11:36:26.898891"
 }

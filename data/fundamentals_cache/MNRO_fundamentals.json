@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MNRO",
-    "fetch_date": "2026-07-15T11:33:07.351032",
+    "fetch_date": "2026-07-22T11:47:55.739624",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 294992000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.567,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:33:07.352162"
+  "fetched_at": "2026-07-22T11:47:55.741136"
 }

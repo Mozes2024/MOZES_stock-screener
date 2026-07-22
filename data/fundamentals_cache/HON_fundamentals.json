@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HON",
-    "fetch_date": "2026-07-15T11:28:19.918752",
+    "fetch_date": "2026-07-22T11:43:08.411277",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 8925000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.697,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:28:19.919916"
+  "fetched_at": "2026-07-22T11:43:08.412891"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ROP",
-    "fetch_date": "2026-07-15T11:39:07.332070",
+    "fetch_date": "2026-07-22T11:53:56.693967",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1882800000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.069,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:39:07.333231"
+  "fetched_at": "2026-07-22T11:53:56.696046"
 }

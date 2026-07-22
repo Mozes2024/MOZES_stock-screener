@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALMS",
-    "fetch_date": "2026-07-15T11:16:05.211952",
+    "fetch_date": "2026-07-22T11:30:55.407805",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 17389000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -5652.44,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:16:05.213342"
+  "fetched_at": "2026-07-22T11:30:55.408731"
 }
