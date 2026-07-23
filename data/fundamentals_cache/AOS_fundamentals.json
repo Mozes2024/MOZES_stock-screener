@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AOS",
-    "fetch_date": "2026-07-15T11:16:41.812984",
+    "fetch_date": "2026-07-23T11:33:56.654717",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 963900000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.517,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:16:41.814186"
+  "fetched_at": "2026-07-23T11:33:56.656270"
 }

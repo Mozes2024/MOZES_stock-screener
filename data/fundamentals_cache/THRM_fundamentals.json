@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "THRM",
-    "fetch_date": "2026-07-15T11:42:25.618638",
+    "fetch_date": "2026-07-23T11:59:37.359380",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 353854000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.653,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:42:25.619833"
+  "fetched_at": "2026-07-23T11:59:37.360873"
 }

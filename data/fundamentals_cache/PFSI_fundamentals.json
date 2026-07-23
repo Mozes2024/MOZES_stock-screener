@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PFSI",
-    "fetch_date": "2026-07-16T11:43:29.883547",
+    "fetch_date": "2026-07-23T11:53:59.937197",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1069756000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 10.83,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T11:43:29.884332"
+  "fetched_at": "2026-07-23T11:53:59.938387"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NXST",
-    "fetch_date": "2026-07-16T11:41:52.634993",
+    "fetch_date": "2026-07-23T11:52:22.444917",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1234000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 18.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T11:41:52.635736"
+  "fetched_at": "2026-07-23T11:52:22.446615"
 }
