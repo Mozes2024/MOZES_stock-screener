@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ARDT",
-    "fetch_date": "2026-07-17T11:11:42.545028",
+    "fetch_date": "2026-07-24T11:26:31.283621",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1497234000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.075,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-17T11:11:42.547655"
+  "fetched_at": "2026-07-24T11:26:31.285328"
 }

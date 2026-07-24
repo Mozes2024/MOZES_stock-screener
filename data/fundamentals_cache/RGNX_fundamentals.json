@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RGNX",
-    "fetch_date": "2026-07-17T11:33:23.809019",
+    "fetch_date": "2026-07-24T11:48:10.083599",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 89012000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -1303.96,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-17T11:33:23.810359"
+  "fetched_at": "2026-07-24T11:48:10.084968"
 }

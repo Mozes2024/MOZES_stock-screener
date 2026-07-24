@@ -4746,5 +4746,93 @@
   "WSO": {
     "last_updated": "2026-07-23T12:02:45.951517",
     "in_earnings_season": true
+  },
+  "AMTM": {
+    "last_updated": "2026-07-24T11:26:03.801921",
+    "in_earnings_season": true
+  },
+  "APPF": {
+    "last_updated": "2026-07-24T11:26:23.106582",
+    "in_earnings_season": true
+  },
+  "ARDT": {
+    "last_updated": "2026-07-24T11:26:31.286118",
+    "in_earnings_season": true
+  },
+  "ARE": {
+    "last_updated": "2026-07-24T11:26:32.347350",
+    "in_earnings_season": true
+  },
+  "AWI": {
+    "last_updated": "2026-07-24T11:27:17.871681",
+    "in_earnings_season": true
+  },
+  "CMCO": {
+    "last_updated": "2026-07-24T11:30:45.954905",
+    "in_earnings_season": true
+  },
+  "CRNX": {
+    "last_updated": "2026-07-24T11:31:32.687173",
+    "in_earnings_season": true
+  },
+  "DHI": {
+    "last_updated": "2026-07-24T11:32:37.558395",
+    "in_earnings_season": true
+  },
+  "ECPG": {
+    "last_updated": "2026-07-24T11:33:26.316906",
+    "in_earnings_season": true
+  },
+  "EGBN": {
+    "last_updated": "2026-07-24T11:33:35.036004",
+    "in_earnings_season": true
+  },
+  "GGG": {
+    "last_updated": "2026-07-24T11:36:20.205789",
+    "in_earnings_season": true
+  },
+  "KT": {
+    "last_updated": "2026-07-24T11:40:19.629903",
+    "in_earnings_season": true
+  },
+  "LHX": {
+    "last_updated": "2026-07-24T11:40:53.775118",
+    "in_earnings_season": true
+  },
+  "LMT": {
+    "last_updated": "2026-07-24T11:41:06.722434",
+    "in_earnings_season": true
+  },
+  "MATX": {
+    "last_updated": "2026-07-24T11:41:45.049608",
+    "in_earnings_season": true
+  },
+  "OGS": {
+    "last_updated": "2026-07-24T11:44:57.206584",
+    "in_earnings_season": true
+  },
+  "PTRN": {
+    "last_updated": "2026-07-24T11:47:17.098088",
+    "in_earnings_season": true
+  },
+  "QNST": {
+    "last_updated": "2026-07-24T11:47:31.752171",
+    "in_earnings_season": true
+  },
+  "RGNX": {
+    "last_updated": "2026-07-24T11:48:10.085908",
+    "in_earnings_season": true
+  },
+  "RPM": {
+    "last_updated": "2026-07-24T11:48:39.717451",
+    "in_earnings_season": true
+  },
+  "TGTX": {
+    "last_updated": "2026-07-24T11:51:51.725399",
+    "in_earnings_season": true
+  },
+  "WOLF": {
+    "last_updated": "2026-07-24T11:54:56.260465",
+    "in_earnings_season": true
   }
 }
