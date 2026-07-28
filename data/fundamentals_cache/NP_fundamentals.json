@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NP",
-    "fetch_date": "2026-07-21T11:49:06.156240",
+    "fetch_date": "2026-07-28T12:04:43.288302",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 29353000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 35.56,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-21T11:49:06.157309"
+  "fetched_at": "2026-07-28T12:04:43.289239"
 }
