@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ABT",
-    "fetch_date": "2026-07-22T11:29:46.998337",
+    "fetch_date": "2026-07-29T11:49:14.504258",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10358000000.0,
       "2025-06-30 00:00:00": 11142000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T11:29:46.999878"
+  "fetched_at": "2026-07-29T11:49:14.505534"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RBA",
-    "fetch_date": "2026-07-22T11:53:03.326773",
+    "fetch_date": "2026-07-29T12:12:29.583536",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1108600000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.096,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T11:53:03.329441"
+  "fetched_at": "2026-07-29T12:12:29.584693"
 }

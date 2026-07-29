@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PBI",
-    "fetch_date": "2026-07-22T11:51:15.968368",
+    "fetch_date": "2026-07-29T12:10:41.569970",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 493420000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.131,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T11:51:15.969886"
+  "fetched_at": "2026-07-29T12:10:41.572118"
 }

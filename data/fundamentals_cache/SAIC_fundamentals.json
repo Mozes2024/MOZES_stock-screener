@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAIC",
-    "fetch_date": "2026-07-22T11:54:19.780876",
+    "fetch_date": "2026-07-29T12:13:46.098296",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 9.39,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T11:54:19.782676"
+  "fetched_at": "2026-07-29T12:13:46.099205"
 }

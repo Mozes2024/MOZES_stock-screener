@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LEA",
-    "fetch_date": "2026-07-22T11:45:59.102690",
+    "fetch_date": "2026-07-29T12:05:25.478426",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5560300000.0,
       "2025-06-30 00:00:00": 6030400000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.301,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T11:45:59.104194"
+  "fetched_at": "2026-07-29T12:05:25.479577"
 }
