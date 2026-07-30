@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CNX",
-    "fetch_date": "2026-07-23T11:38:44.180685",
+    "fetch_date": "2026-07-30T11:39:21.294831",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 610608000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.038,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-23T11:38:44.182430"
+  "fetched_at": "2026-07-30T11:39:21.296353"
 }
