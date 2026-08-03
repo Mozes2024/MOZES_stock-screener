@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRMD",
-    "fetch_date": "2026-06-10T12:53:48.961434",
+    "fetch_date": "2026-07-16T14:24:59.337556",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 39082000.0,
@@ -26,7 +26,6 @@
     "margin_change": -0.94,
     "operating_margin": 49.96,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 7487708.0,
       "2025-06-30 00:00:00": 9634438.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.241,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-10T12:53:48.963199"
+  "fetched_at": "2026-07-16T14:24:59.339065"
 }

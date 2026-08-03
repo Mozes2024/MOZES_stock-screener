@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OXM",
-    "fetch_date": "2026-07-29T12:10:24.982581",
+    "fetch_date": "2026-07-30T15:05:05.655417",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 392861000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.377,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:10:24.984292"
+  "fetched_at": "2026-07-30T15:05:05.656747"
 }

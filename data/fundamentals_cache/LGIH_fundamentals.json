@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LGIH",
-    "fetch_date": "2026-07-15T11:31:20.800167",
+    "fetch_date": "2026-07-30T14:55:26.121636",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 351420000.0,
       "2025-06-30 00:00:00": 483485000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 11.074,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:31:20.801276"
+  "fetched_at": "2026-07-30T14:55:26.122984"
 }

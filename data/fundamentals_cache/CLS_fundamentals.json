@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CLS",
-    "fetch_date": "2026-07-29T11:55:26.412441",
+    "fetch_date": "2026-07-29T14:37:54.803566",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2893400000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.724,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T11:55:26.413700"
+  "fetched_at": "2026-07-29T14:37:54.804844"
 }

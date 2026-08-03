@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COO",
-    "fetch_date": "2026-07-29T11:55:57.044872",
+    "fetch_date": "2026-07-29T14:38:56.031604",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 1002300000.0,
       "2025-07-31 00:00:00": 1060300000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.829,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T11:55:57.046203"
+  "fetched_at": "2026-07-29T14:38:56.032744"
 }

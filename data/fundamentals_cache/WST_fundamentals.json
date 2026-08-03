@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WST",
-    "fetch_date": "2026-07-29T12:19:49.619283",
+    "fetch_date": "2026-07-30T15:23:58.707540",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.513,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:19:49.620466"
+  "fetched_at": "2026-07-30T15:23:58.708920"
 }

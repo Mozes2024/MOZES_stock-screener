@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "AMG",
-    "fetch_date": "2026-05-12T12:01:43.409663",
+    "fetch_date": "2026-07-29T14:28:15.093697",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 524300000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 496600000.0,
       "2025-06-30 00:00:00": 493200000.0,
       "2025-09-30 00:00:00": 528000000.0,
       "2025-12-31 00:00:00": 556600000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 544900000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -2.1020481494789798,
+    "revenue_yoy_change": 9.72613773660894,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2.2,
       "2025-06-30 00:00:00": 2.8,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": -65.7448706512043,
     "eps_yoy_change": 74.54545454545453,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 47.31,
+    "margin_change": -3.78,
+    "operating_margin": 18.11,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-12T12:01:43.410875"
+  "fetched_at": "2026-07-29T14:28:15.094663"
 }

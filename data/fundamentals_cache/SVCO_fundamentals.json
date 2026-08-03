@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SVCO",
-    "fetch_date": "2026-07-15T11:41:48.141611",
+    "fetch_date": "2026-07-30T15:16:24.415649",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 14092000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -31.86,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:41:48.142614"
+  "fetched_at": "2026-07-30T15:16:24.416721"
 }

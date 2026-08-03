@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CPNG",
-    "fetch_date": "2026-07-15T11:21:48.244995",
+    "fetch_date": "2026-07-15T14:13:50.023343",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 7908000000.0,
       "2025-06-30 00:00:00": 8524000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.24,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:21:48.246195"
+  "fetched_at": "2026-07-15T14:13:50.024819"
 }

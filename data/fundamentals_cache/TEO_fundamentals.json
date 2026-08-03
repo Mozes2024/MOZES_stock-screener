@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TEO",
-    "fetch_date": "2026-07-15T11:42:16.994273",
+    "fetch_date": "2026-07-30T15:17:21.540115",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1806103000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.029,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:42:16.995977"
+  "fetched_at": "2026-07-30T15:17:21.541492"
 }

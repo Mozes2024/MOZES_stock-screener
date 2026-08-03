@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DOV",
-    "fetch_date": "2026-07-29T11:57:39.712289",
+    "fetch_date": "2026-07-29T14:42:20.918817",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2049592000.0,
       "2025-09-30 00:00:00": 2077841000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.649,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T11:57:39.713572"
+  "fetched_at": "2026-07-29T14:42:20.920066"
 }

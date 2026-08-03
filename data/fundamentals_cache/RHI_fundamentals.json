@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RHI",
-    "fetch_date": "2026-07-29T12:12:58.681299",
+    "fetch_date": "2026-07-30T15:10:14.400678",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1351907000.0,
@@ -29,5 +29,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:12:58.683818"
+  "fetched_at": "2026-07-30T15:10:14.401766"
 }

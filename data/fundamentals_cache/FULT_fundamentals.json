@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FULT",
-    "fetch_date": "2026-07-29T12:00:35.954804",
+    "fetch_date": "2026-07-29T14:48:13.303331",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 318372000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": -1.8867924528301903,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:00:35.955408"
+  "fetched_at": "2026-07-29T14:48:13.303919"
 }

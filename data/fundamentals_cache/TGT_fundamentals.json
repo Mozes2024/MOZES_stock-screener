@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TGT",
-    "fetch_date": "2026-07-29T12:16:37.982477",
+    "fetch_date": "2026-07-30T15:17:32.615800",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 23846000000.0,
       "2025-07-31 00:00:00": 25211000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.484,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:16:37.983798"
+  "fetched_at": "2026-07-30T15:17:32.617159"
 }

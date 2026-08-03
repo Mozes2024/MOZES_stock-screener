@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NTNX",
-    "fetch_date": "2026-07-29T12:09:05.195376",
+    "fetch_date": "2026-07-30T15:02:26.510045",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 638983000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 10.03,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:09:05.196437"
+  "fetched_at": "2026-07-30T15:02:26.511854"
 }

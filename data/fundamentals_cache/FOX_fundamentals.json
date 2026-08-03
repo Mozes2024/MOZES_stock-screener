@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FOX",
-    "fetch_date": "2026-07-30T11:43:47.615075",
+    "fetch_date": "2026-08-03T15:18:34.221247",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4371000000.0,
       "2025-06-30 00:00:00": 3287000000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.163,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T11:43:47.616847"
+  "fetched_at": "2026-08-03T15:18:34.222511"
 }

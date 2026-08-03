@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZM",
-    "fetch_date": "2026-07-29T12:20:25.630640",
+    "fetch_date": "2026-07-30T15:25:10.220646",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 1174715000.0,
       "2025-07-31 00:00:00": 1217227000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 25.06,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:20:25.632013"
+  "fetched_at": "2026-07-30T15:25:10.221759"
 }

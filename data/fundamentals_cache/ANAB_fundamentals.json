@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ANAB",
-    "fetch_date": "2026-07-29T11:50:50.483922",
+    "fetch_date": "2026-07-29T14:28:43.042903",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 27771000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -135.53,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T11:50:50.484702"
+  "fetched_at": "2026-07-29T14:28:43.043654"
 }

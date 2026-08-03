@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OCUL",
-    "fetch_date": "2026-06-17T13:24:22.878603",
+    "fetch_date": "2026-07-15T14:43:52.753489",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 10698000.0,
@@ -26,7 +26,6 @@
     "margin_change": -0.29,
     "operating_margin": -865.46,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 3269000.0,
       "2025-06-30 00:00:00": 3039000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.346,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-17T13:24:22.880092"
+  "fetched_at": "2026-07-15T14:43:52.755329"
 }

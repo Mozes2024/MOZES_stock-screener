@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ITT",
-    "fetch_date": "2026-07-29T12:04:05.607766",
+    "fetch_date": "2026-07-29T14:55:12.747970",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 913000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.806,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:04:05.608954"
+  "fetched_at": "2026-07-29T14:55:12.749201"
 }

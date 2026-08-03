@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NVO",
-    "fetch_date": "2026-07-29T12:09:15.822059",
+    "fetch_date": "2026-07-30T15:02:47.467011",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 78087000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.53,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:09:15.823343"
+  "fetched_at": "2026-07-30T15:02:47.468367"
 }

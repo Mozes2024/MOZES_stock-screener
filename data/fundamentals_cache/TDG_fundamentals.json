@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TDG",
-    "fetch_date": "2026-07-29T12:16:25.433290",
+    "fetch_date": "2026-08-03T15:50:56.552586",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2150000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.943,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:16:25.434465"
+  "fetched_at": "2026-08-03T15:50:56.554119"
 }

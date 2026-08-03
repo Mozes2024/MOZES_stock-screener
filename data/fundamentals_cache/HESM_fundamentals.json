@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HESM",
-    "fetch_date": "2026-07-29T12:02:14.968316",
+    "fetch_date": "2026-07-29T14:51:31.396392",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 381000000.0,
       "2025-06-30 00:00:00": 413500000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 61.26,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:02:14.969253"
+  "fetched_at": "2026-07-29T14:51:31.397362"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NVST",
-    "fetch_date": "2026-07-29T12:09:17.276966",
+    "fetch_date": "2026-07-30T15:02:50.378830",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 616900000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.426,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:09:17.278316"
+  "fetched_at": "2026-07-30T15:02:50.380161"
 }

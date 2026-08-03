@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRLB",
-    "fetch_date": "2026-05-11T16:15:13.492643",
+    "fetch_date": "2026-07-30T15:07:46.212797",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 126205000.0,
@@ -26,7 +26,6 @@
     "margin_change": 1.41,
     "operating_margin": 8.08,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 13202000.0,
       "2025-06-30 00:00:00": 13169000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.107,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T16:15:13.494241"
+  "fetched_at": "2026-07-30T15:07:46.214127"
 }

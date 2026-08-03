@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KNX",
-    "fetch_date": "2026-07-29T12:04:53.059203",
+    "fetch_date": "2026-07-30T14:54:02.185253",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1824362000.0,
       "2025-06-30 00:00:00": 1861940000.0,
@@ -27,5 +27,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:04:53.060182"
+  "fetched_at": "2026-07-30T14:54:02.186373"
 }

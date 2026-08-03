@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "WTS",
-    "fetch_date": "2026-07-29T12:19:53.171407",
+    "fetch_date": "2026-07-30T15:24:05.497330",
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 558000000.0,
       "2025-06-30 00:00:00": 643700000.0,
       "2025-09-30 00:00:00": 611700000.0,
@@ -13,7 +12,6 @@
     "revenue_qoq_change": 8.350663893776995,
     "revenue_yoy_change": 21.379928315412187,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2.21,
       "2025-06-30 00:00:00": 3.01,
       "2025-09-30 00:00:00": 2.45,
@@ -23,7 +21,7 @@
     "eps_qoq_change": 18.800000000000008,
     "eps_yoy_change": 34.389140271493225,
     "gross_margin": 48.15,
-    "margin_change": NaN,
+    "margin_change": -1.33,
     "operating_margin": 19.67,
     "quarterly_inventory": {
       "2024-12-31 00:00:00": NaN,
@@ -37,5 +35,5 @@
     "inventory_to_sales_ratio": 0.802,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:19:53.172959"
+  "fetched_at": "2026-07-30T15:24:05.498658"
 }

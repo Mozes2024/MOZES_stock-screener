@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ARHS",
-    "fetch_date": "2026-06-10T12:48:50.363386",
+    "fetch_date": "2026-07-29T14:29:38.345552",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 311372000.0,
@@ -26,7 +26,6 @@
     "margin_change": -1.73,
     "operating_margin": 0.71,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 301403000.0,
       "2025-06-30 00:00:00": 311117000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 1.176,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-10T12:48:50.365069"
+  "fetched_at": "2026-07-29T14:29:38.346804"
 }

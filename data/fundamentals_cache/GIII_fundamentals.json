@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GIII",
-    "fetch_date": "2026-07-29T12:01:08.810810",
+    "fetch_date": "2026-07-29T14:49:19.183312",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.78,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:01:08.812203"
+  "fetched_at": "2026-07-29T14:49:19.184577"
 }

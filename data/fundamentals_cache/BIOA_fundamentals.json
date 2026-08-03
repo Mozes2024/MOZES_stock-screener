@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BIOA",
-    "fetch_date": "2026-07-29T11:52:57.124852",
+    "fetch_date": "2026-07-29T14:32:56.606684",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1451000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -915.4,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T11:52:57.125543"
+  "fetched_at": "2026-07-29T14:32:56.607627"
 }

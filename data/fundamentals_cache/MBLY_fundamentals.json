@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MBLY",
-    "fetch_date": "2026-07-15T11:32:21.440750",
+    "fetch_date": "2026-07-15T14:36:59.090139",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 438000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.543,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:32:21.441911"
+  "fetched_at": "2026-07-15T14:36:59.093040"
 }

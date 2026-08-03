@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EEFT",
-    "fetch_date": "2026-07-29T11:58:14.640950",
+    "fetch_date": "2026-07-29T14:43:31.049993",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 915500000.0,
       "2025-06-30 00:00:00": 1074300000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 7.12,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T11:58:14.641981"
+  "fetched_at": "2026-07-29T14:43:31.051297"
 }

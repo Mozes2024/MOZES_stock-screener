@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MSEX",
-    "fetch_date": "2026-05-04T14:58:57.947188",
+    "fetch_date": "2026-07-30T14:59:42.282200",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 44301000.0,
       "2025-06-30 00:00:00": 49323000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.166,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-04T14:58:57.948884"
+  "fetched_at": "2026-07-30T14:59:42.283712"
 }

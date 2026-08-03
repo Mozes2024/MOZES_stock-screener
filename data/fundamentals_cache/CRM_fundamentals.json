@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRM",
-    "fetch_date": "2026-07-28T11:52:08.183391",
+    "fetch_date": "2026-08-03T15:10:38.204610",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 9829000000.0,
       "2025-07-31 00:00:00": 10236000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 21.8,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T11:52:08.184275"
+  "fetched_at": "2026-08-03T15:10:38.205837"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NKE",
-    "fetch_date": "2026-07-15T11:34:24.492741",
+    "fetch_date": "2026-07-15T14:41:39.147477",
     "quarterly_revenue": {
       "2025-02-28 00:00:00": 11269000000.0,
       "2025-05-31 00:00:00": 11097000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T11:34:24.493891"
+  "fetched_at": "2026-07-15T14:41:39.148957"
 }

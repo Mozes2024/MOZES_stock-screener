@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMCX",
-    "fetch_date": "2026-07-29T11:50:35.010426",
+    "fetch_date": "2026-07-29T14:28:12.108582",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 555233000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 6.57,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T11:50:35.011379"
+  "fetched_at": "2026-07-29T14:28:12.109564"
 }

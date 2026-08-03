@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RUM",
-    "fetch_date": "2026-06-17T13:28:20.052694",
+    "fetch_date": "2026-07-30T15:11:19.453384",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 23706790.0,
       "2025-06-30 00:00:00": 25084631.0,
@@ -25,5 +25,5 @@
     "operating_margin": -118.56,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-17T13:28:20.053843"
+  "fetched_at": "2026-07-30T15:11:19.454431"
 }

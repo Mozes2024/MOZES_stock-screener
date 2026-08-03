@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GRND",
-    "fetch_date": "2026-07-29T12:01:39.401672",
+    "fetch_date": "2026-07-31T14:50:22.397699",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 93938000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 32.88,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T12:01:39.402768"
+  "fetched_at": "2026-07-31T14:50:22.398890"
 }
