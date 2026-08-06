@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "ALGM",
-    "fetch_date": "2026-07-29T14:27:36.109807",
+    "fetch_date": "2026-08-06T11:51:53.144600",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 192824000.0,
       "2025-06-30 00:00:00": 203405000.0,
       "2025-09-30 00:00:00": 214294000.0,
       "2025-12-31 00:00:00": 229210000.0,
-      "2026-03-31 00:00:00": 243187000.0
+      "2026-03-31 00:00:00": 243187000.0,
+      "2026-06-30 00:00:00": NaN
     },
-    "revenue_qoq_change": 6.097901487718685,
-    "revenue_yoy_change": 26.11863668423018,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": -0.08,
+      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": -0.07,
       "2025-09-30 00:00:00": 0.03,
       "2025-12-31 00:00:00": 0.04,
-      "2026-03-31 00:00:00": -0.09
+      "2026-03-31 00:00:00": -0.09,
+      "2026-06-30 00:00:00": 0.08
     },
-    "eps_qoq_change": -325.0,
-    "eps_yoy_change": -12.499999999999993,
-    "gross_margin": 46.99,
-    "margin_change": 0.26,
-    "operating_margin": 4.93,
+    "eps_qoq_change": 188.88888888888889,
+    "eps_yoy_change": 214.28571428571428,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 183914000.0,
@@ -32,8 +34,8 @@
       "2026-03-31 00:00:00": 181752000.0
     },
     "inventory_qoq_change": 2.0,
-    "inventory_to_sales_ratio": 0.747,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:27:36.111027"
+  "fetched_at": "2026-08-06T11:51:53.146093"
 }

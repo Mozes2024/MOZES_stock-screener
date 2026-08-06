@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALSN",
-    "fetch_date": "2026-07-29T14:27:57.033586",
+    "fetch_date": "2026-08-06T11:52:03.882465",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 766000000.0,
       "2025-06-30 00:00:00": 814000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.594,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:27:57.036664"
+  "fetched_at": "2026-08-06T11:52:03.883936"
 }

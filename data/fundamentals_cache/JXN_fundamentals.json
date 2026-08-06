@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JXN",
-    "fetch_date": "2026-07-29T14:55:57.435467",
+    "fetch_date": "2026-08-06T12:06:06.083180",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3723000000.0,
       "2025-06-30 00:00:00": -483000000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": -1200.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:55:57.436055"
+  "fetched_at": "2026-08-06T12:06:06.083841"
 }

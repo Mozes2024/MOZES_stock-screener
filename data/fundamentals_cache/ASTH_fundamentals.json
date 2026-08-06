@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASTH",
-    "fetch_date": "2026-07-29T14:30:15.750489",
+    "fetch_date": "2026-08-06T11:53:13.252607",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 620390000.0,
       "2025-06-30 00:00:00": 654808000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 2.96,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:30:15.751386"
+  "fetched_at": "2026-08-06T11:53:13.253747"
 }

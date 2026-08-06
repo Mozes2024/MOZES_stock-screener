@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DPZ",
-    "fetch_date": "2026-07-30T11:41:14.120537",
+    "fetch_date": "2026-08-06T11:59:17.953645",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1145144000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.063,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T11:41:14.122334"
+  "fetched_at": "2026-08-06T11:59:17.955046"
 }

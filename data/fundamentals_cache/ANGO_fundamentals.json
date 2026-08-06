@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ANGO",
-    "fetch_date": "2026-07-29T14:28:49.144678",
+    "fetch_date": "2026-08-06T11:52:29.748256",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": NaN,
       "2025-02-28 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.605,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:28:49.145934"
+  "fetched_at": "2026-08-06T11:52:29.749754"
 }

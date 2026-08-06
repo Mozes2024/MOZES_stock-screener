@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ELS",
-    "fetch_date": "2026-07-29T14:44:05.092612",
+    "fetch_date": "2026-08-06T12:00:09.194195",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 367523000.0,
@@ -29,5 +29,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:44:05.093634"
+  "fetched_at": "2026-08-06T12:00:09.195326"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CON",
-    "fetch_date": "2026-07-29T14:38:54.581391",
+    "fetch_date": "2026-08-06T11:57:34.227640",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 500752000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 16.79,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:38:54.582399"
+  "fetched_at": "2026-08-06T11:57:34.228748"
 }
