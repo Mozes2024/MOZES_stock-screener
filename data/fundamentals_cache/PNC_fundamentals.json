@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PNC",
-    "fetch_date": "2026-07-30T15:07:10.307571",
+    "fetch_date": "2026-08-07T10:55:34.900557",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 5447000000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 24.935064935064922,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:07:10.308203"
+  "fetched_at": "2026-08-07T10:55:34.901587"
 }

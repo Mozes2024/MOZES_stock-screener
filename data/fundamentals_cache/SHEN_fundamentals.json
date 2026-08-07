@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "SHEN",
-    "fetch_date": "2026-07-30T15:13:12.544373",
+    "fetch_date": "2026-08-07T10:58:36.528268",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 87898000.0,
+      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 88568000.0,
       "2025-09-30 00:00:00": 89796000.0,
       "2025-12-31 00:00:00": 91592000.0,
       "2026-03-31 00:00:00": 92153000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 93462000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 1.4204637939079574,
+    "revenue_yoy_change": 5.525697768945895,
     "quarterly_eps": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": 45.16129032258064,
     "eps_yoy_change": 10.52631578947368,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 65.01,
+    "margin_change": -0.46,
+    "operating_margin": -0.94,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:13:12.545436"
+  "fetched_at": "2026-08-07T10:58:36.529796"
 }

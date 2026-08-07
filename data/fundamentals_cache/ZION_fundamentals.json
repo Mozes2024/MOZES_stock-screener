@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZION",
-    "fetch_date": "2026-07-30T15:25:07.307882",
+    "fetch_date": "2026-08-07T11:04:32.832800",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 795000000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 87.11656441717791,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:25:07.308539"
+  "fetched_at": "2026-08-07T11:04:32.833521"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RJF",
-    "fetch_date": "2026-07-30T15:10:27.652299",
+    "fetch_date": "2026-08-07T10:57:13.819893",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 3349000000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 41.981132075471685,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:10:27.652933"
+  "fetched_at": "2026-08-07T10:57:13.820623"
 }

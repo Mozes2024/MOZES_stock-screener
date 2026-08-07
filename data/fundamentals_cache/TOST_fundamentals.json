@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TOST",
-    "fetch_date": "2026-07-30T15:18:27.525638",
+    "fetch_date": "2026-08-07T11:01:14.481923",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1337000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.083,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:18:27.526988"
+  "fetched_at": "2026-08-07T11:01:14.483767"
 }

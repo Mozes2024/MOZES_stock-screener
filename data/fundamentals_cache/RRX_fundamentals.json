@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RRX",
-    "fetch_date": "2026-07-30T15:11:11.656969",
+    "fetch_date": "2026-08-07T10:57:35.843231",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1418100000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.932,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:11:11.658332"
+  "fetched_at": "2026-08-07T10:57:35.845501"
 }

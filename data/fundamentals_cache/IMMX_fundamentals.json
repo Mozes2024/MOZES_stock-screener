@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IMMX",
-    "fetch_date": "2026-07-29T14:53:53.274255",
+    "fetch_date": "2026-08-07T10:47:31.995314",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:53:53.274965"
+  "fetched_at": "2026-08-07T10:47:31.996380"
 }

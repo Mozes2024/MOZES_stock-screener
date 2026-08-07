@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WRBY",
-    "fetch_date": "2026-07-30T15:23:48.160159",
+    "fetch_date": "2026-08-07T11:03:53.616161",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 223782000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.192,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:23:48.161477"
+  "fetched_at": "2026-08-07T11:03:53.618033"
 }

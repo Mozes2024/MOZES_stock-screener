@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KNF",
-    "fetch_date": "2026-07-30T14:53:58.180374",
+    "fetch_date": "2026-08-07T10:48:57.471092",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 353471000.0,
       "2025-06-30 00:00:00": 833759000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.172,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:53:58.181721"
+  "fetched_at": "2026-08-07T10:48:57.473775"
 }

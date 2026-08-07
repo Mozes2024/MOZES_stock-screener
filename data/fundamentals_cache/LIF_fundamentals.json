@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LIF",
-    "fetch_date": "2026-07-30T14:55:35.064687",
+    "fetch_date": "2026-08-07T10:49:46.215494",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 103624000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.106,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:55:35.066049"
+  "fetched_at": "2026-08-07T10:49:46.217369"
 }

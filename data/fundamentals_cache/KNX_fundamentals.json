@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "KNX",
-    "fetch_date": "2026-07-30T14:54:02.185253",
+    "fetch_date": "2026-08-07T10:48:59.993123",
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 1824362000.0,
       "2025-06-30 00:00:00": 1861940000.0,
       "2025-09-30 00:00:00": 1927057000.0,
       "2025-12-31 00:00:00": 1856330000.0,
       "2026-03-31 00:00:00": 1850223000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 2095712000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 13.268076334582371,
+    "revenue_yoy_change": 12.55529179243155,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.21,
       "2025-09-30 00:00:00": 0.05,
       "2025-12-31 00:00:00": -0.04,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 2700.0,
     "eps_yoy_change": 23.80952380952382,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 15.27,
+    "margin_change": 2.18,
+    "operating_margin": 5.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:54:02.186373"
+  "fetched_at": "2026-08-07T10:48:59.995222"
 }

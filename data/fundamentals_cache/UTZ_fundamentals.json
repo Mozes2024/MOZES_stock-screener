@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UTZ",
-    "fetch_date": "2026-07-15T15:03:45.416241",
+    "fetch_date": "2026-08-07T11:02:30.658937",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 352100000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.339,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:03:45.417773"
+  "fetched_at": "2026-08-07T11:02:30.660838"
 }

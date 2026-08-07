@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CAI",
-    "fetch_date": "2026-07-16T11:26:36.604473",
+    "fetch_date": "2026-08-07T10:38:17.243359",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 120915000.0,
       "2025-06-30 00:00:00": 181398000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.353,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T11:26:36.605484"
+  "fetched_at": "2026-08-07T10:38:17.245220"
 }

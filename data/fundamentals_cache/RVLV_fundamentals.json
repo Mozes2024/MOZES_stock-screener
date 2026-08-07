@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RVLV",
-    "fetch_date": "2026-07-30T15:11:23.388277",
+    "fetch_date": "2026-08-07T10:57:41.880780",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 296709000.0,
       "2025-06-30 00:00:00": 308971000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.715,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:11:23.389623"
+  "fetched_at": "2026-08-07T10:57:41.882613"
 }
