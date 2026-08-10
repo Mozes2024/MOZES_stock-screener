@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "ICE",
-    "fetch_date": "2026-07-31T14:53:27.832087",
+    "fetch_date": "2026-08-10T11:01:15.804223",
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 3229000000.0,
+      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3262000000.0,
       "2025-09-30 00:00:00": 3007000000.0,
       "2025-12-31 00:00:00": 3142000000.0,
       "2026-03-31 00:00:00": 3666000000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 3611000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -1.5002727768685216,
+    "revenue_yoy_change": 10.698957694665848,
     "quarterly_eps": {
       "2025-03-31 00:00:00": 1.38,
       "2025-06-30 00:00:00": NaN,
@@ -22,10 +22,10 @@
     },
     "eps_qoq_change": -31.85483870967742,
     "eps_yoy_change": null,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 53.03,
+    "margin_change": -7.91,
+    "operating_margin": 38.85,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-31T14:53:27.833376"
+  "fetched_at": "2026-08-10T11:01:15.805748"
 }

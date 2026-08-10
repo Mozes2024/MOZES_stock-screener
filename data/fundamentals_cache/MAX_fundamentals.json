@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAX",
-    "fetch_date": "2026-07-31T15:00:05.692614",
+    "fetch_date": "2026-08-10T11:04:34.838420",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 251622000.0,
       "2025-09-30 00:00:00": 306514000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 6.3,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-31T15:00:05.694039"
+  "fetched_at": "2026-08-10T11:04:34.840012"
 }

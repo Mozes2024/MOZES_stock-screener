@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HTFL",
-    "fetch_date": "2026-07-15T14:28:25.881281",
+    "fetch_date": "2026-08-10T11:00:53.662753",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 37205000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -41.88,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:28:25.882444"
+  "fetched_at": "2026-08-10T11:00:53.664325"
 }

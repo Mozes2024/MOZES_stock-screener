@@ -1,30 +1,32 @@
 {
   "data": {
     "ticker": "ARDT",
-    "fetch_date": "2026-07-31T11:50:05.264264",
+    "fetch_date": "2026-08-10T10:49:18.358515",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1497234000.0,
       "2025-06-30 00:00:00": 1645280000.0,
       "2025-09-30 00:00:00": 1576746000.0,
       "2025-12-31 00:00:00": 1605079000.0,
-      "2026-03-31 00:00:00": 1601870000.0
+      "2026-03-31 00:00:00": 1601870000.0,
+      "2026-06-30 00:00:00": NaN
     },
-    "revenue_qoq_change": -0.19992785401840035,
-    "revenue_yoy_change": 6.988620349257364,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.29,
       "2025-06-30 00:00:00": 0.52,
       "2025-09-30 00:00:00": -0.17,
       "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 0.28
+      "2026-03-31 00:00:00": 0.28,
+      "2026-06-30 00:00:00": 0.12
     },
-    "eps_qoq_change": null,
-    "eps_yoy_change": -3.4482758620689493,
-    "gross_margin": 41.94,
-    "margin_change": -0.18,
-    "operating_margin": 5.05,
+    "eps_qoq_change": -57.14285714285715,
+    "eps_yoy_change": -76.92307692307693,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 120357000.0,
@@ -34,8 +36,8 @@
       "2026-03-31 00:00:00": 119838000.0
     },
     "inventory_qoq_change": 1.05,
-    "inventory_to_sales_ratio": 0.075,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-31T11:50:05.266647"
+  "fetched_at": "2026-08-10T10:49:18.360297"
 }

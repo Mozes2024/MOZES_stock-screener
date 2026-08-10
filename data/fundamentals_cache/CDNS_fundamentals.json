@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CDNS",
-    "fetch_date": "2026-07-31T14:36:30.682476",
+    "fetch_date": "2026-08-10T10:52:47.375979",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1275441000.0,
       "2025-09-30 00:00:00": 1338838000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.246,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-31T14:36:30.684265"
+  "fetched_at": "2026-08-10T10:52:47.378642"
 }

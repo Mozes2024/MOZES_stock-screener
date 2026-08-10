@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HXL",
-    "fetch_date": "2026-07-31T14:53:06.469064",
+    "fetch_date": "2026-08-10T11:01:05.391329",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.652,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-31T14:53:06.471373"
+  "fetched_at": "2026-08-10T11:01:05.393398"
 }
