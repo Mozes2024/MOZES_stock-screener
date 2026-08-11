@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SONO",
-    "fetch_date": "2026-08-03T15:48:44.327271",
+    "fetch_date": "2026-08-11T10:59:53.933791",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 344764000.0,
       "2025-09-30 00:00:00": 287900000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.421,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T15:48:44.328793"
+  "fetched_at": "2026-08-11T10:59:53.935581"
 }

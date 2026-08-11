@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EXP",
-    "fetch_date": "2026-08-03T15:16:36.356037",
+    "fetch_date": "2026-08-11T10:43:46.701498",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 634690000.0,
       "2025-09-30 00:00:00": 638906000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.583,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T15:16:36.357565"
+  "fetched_at": "2026-08-11T10:43:46.704172"
 }

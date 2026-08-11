@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HZO",
-    "fetch_date": "2026-07-29T14:53:11.448276",
+    "fetch_date": "2026-08-11T10:47:37.431669",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 657159000.0,
       "2025-09-30 00:00:00": 552153000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:53:11.449390"
+  "fetched_at": "2026-08-11T10:47:37.433490"
 }
