@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APGE",
-    "fetch_date": "2026-08-06T11:52:39.650850",
+    "fetch_date": "2026-08-14T10:41:16.947229",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 0.0,
       "2025-06-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T11:52:39.651753"
+  "fetched_at": "2026-08-14T10:41:16.948213"
 }

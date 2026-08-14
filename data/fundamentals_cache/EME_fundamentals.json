@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EME",
-    "fetch_date": "2026-08-06T12:00:13.179192",
+    "fetch_date": "2026-08-14T10:48:52.418363",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.03,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T12:00:13.180644"
+  "fetched_at": "2026-08-14T10:48:52.420412"
 }

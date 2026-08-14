@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "MAC",
-    "fetch_date": "2026-08-07T10:50:28.333285",
+    "fetch_date": "2026-08-14T10:56:40.559402",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 249224000.0,
+      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 249793000.0,
       "2025-09-30 00:00:00": 253262000.0,
       "2025-12-31 00:00:00": 261704000.0,
       "2026-03-31 00:00:00": 241538000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 249707000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 3.3820765262608785,
+    "revenue_yoy_change": -0.03442850680363341,
     "quarterly_eps": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": 28.571428571428577,
     "eps_yoy_change": 37.5,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 53.67,
+    "margin_change": 3.13,
+    "operating_margin": 15.35,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T10:50:28.334759"
+  "fetched_at": "2026-08-14T10:56:40.560779"
 }

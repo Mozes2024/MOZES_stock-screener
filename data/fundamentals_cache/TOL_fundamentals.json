@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TOL",
-    "fetch_date": "2026-08-07T11:01:11.025001",
+    "fetch_date": "2026-08-14T11:07:22.986166",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 2739077000.0,
       "2025-07-31 00:00:00": 2945117000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 4.495,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T11:01:11.026878"
+  "fetched_at": "2026-08-14T11:07:22.987880"
 }

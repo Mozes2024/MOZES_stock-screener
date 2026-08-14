@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PD",
-    "fetch_date": "2026-08-07T10:54:54.921277",
+    "fetch_date": "2026-08-14T11:01:06.668231",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 119805000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 7.59,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T10:54:54.922773"
+  "fetched_at": "2026-08-14T11:01:06.669551"
 }

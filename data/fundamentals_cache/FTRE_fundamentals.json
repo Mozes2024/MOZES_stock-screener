@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FTRE",
-    "fetch_date": "2026-08-06T12:02:10.192392",
+    "fetch_date": "2026-08-14T10:50:49.770232",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 2.58,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T12:02:10.193539"
+  "fetched_at": "2026-08-14T10:50:49.772064"
 }

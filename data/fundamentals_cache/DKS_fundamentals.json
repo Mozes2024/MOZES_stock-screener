@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DKS",
-    "fetch_date": "2026-08-06T11:59:06.496167",
+    "fetch_date": "2026-08-14T10:47:45.846786",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 3174677000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.049,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T11:59:06.497574"
+  "fetched_at": "2026-08-14T10:47:45.848613"
 }

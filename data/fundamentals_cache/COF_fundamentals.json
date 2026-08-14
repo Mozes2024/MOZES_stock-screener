@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COF",
-    "fetch_date": "2026-08-06T11:57:29.277272",
+    "fetch_date": "2026-08-14T10:46:08.458879",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 155.12820512820514,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T11:57:29.277968"
+  "fetched_at": "2026-08-14T10:46:08.459725"
 }

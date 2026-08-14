@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZBRA",
-    "fetch_date": "2026-08-07T11:04:29.443493",
+    "fetch_date": "2026-08-14T11:10:41.845357",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1293000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.471,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T11:04:29.445378"
+  "fetched_at": "2026-08-14T11:10:41.847082"
 }

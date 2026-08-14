@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PNFP",
-    "fetch_date": "2026-08-07T10:55:35.138781",
+    "fetch_date": "2026-08-14T11:01:46.889739",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 3.499999999999992,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T10:55:35.139561"
+  "fetched_at": "2026-08-14T11:01:46.890407"
 }

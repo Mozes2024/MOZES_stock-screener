@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "MRTN",
-    "fetch_date": "2026-08-07T10:51:45.301450",
+    "fetch_date": "2026-08-14T10:57:56.584637",
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 223152000.0,
       "2025-06-30 00:00:00": 229922000.0,
       "2025-09-30 00:00:00": 220470000.0,
       "2025-12-31 00:00:00": 210108000.0,
       "2026-03-31 00:00:00": 203526000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 223543000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 9.835107062488332,
+    "revenue_yoy_change": -2.7744191508424594,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.09,
       "2025-09-30 00:00:00": 0.03,
       "2025-12-31 00:00:00": 0.05,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 250.0,
     "eps_yoy_change": -22.222222222222214,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 11.78,
+    "margin_change": 0.04,
+    "operating_margin": 2.35,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T10:51:45.302885"
+  "fetched_at": "2026-08-14T10:57:56.585985"
 }

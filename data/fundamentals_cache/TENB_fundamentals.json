@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "TENB",
-    "fetch_date": "2026-08-07T11:00:41.350509",
+    "fetch_date": "2026-08-14T11:06:52.745935",
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 239137000.0,
       "2025-06-30 00:00:00": 247295000.0,
       "2025-09-30 00:00:00": 252440000.0,
       "2025-12-31 00:00:00": 260533000.0,
       "2026-03-31 00:00:00": 262058000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 268508000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 2.4612871959642524,
+    "revenue_yoy_change": 8.578014112699407,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": -0.12,
       "2025-09-30 00:00:00": 0.02,
       "2025-12-31 00:00:00": -0.01,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 199.99999999999994,
     "eps_yoy_change": 125.0,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 77.53,
+    "margin_change": -0.85,
+    "operating_margin": 4.85,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T11:00:41.351981"
+  "fetched_at": "2026-08-14T11:06:52.747902"
 }

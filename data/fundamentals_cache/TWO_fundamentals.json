@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TWO",
-    "fetch_date": "2026-08-07T11:01:48.269898",
+    "fetch_date": "2026-08-14T11:08:00.053505",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 117.55725190839695,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T11:01:48.270610"
+  "fetched_at": "2026-08-14T11:08:00.054255"
 }

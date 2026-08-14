@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NBIX",
-    "fetch_date": "2026-08-07T10:52:20.274885",
+    "fetch_date": "2026-08-14T10:58:31.750964",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 687500000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.109,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T10:52:20.277178"
+  "fetched_at": "2026-08-14T10:58:31.752727"
 }

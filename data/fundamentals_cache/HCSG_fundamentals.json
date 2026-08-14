@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HCSG",
-    "fetch_date": "2026-08-06T12:03:45.927195",
+    "fetch_date": "2026-08-14T10:52:25.706033",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 458491000.0,
       "2025-09-30 00:00:00": 464338000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.034,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T12:03:45.928614"
+  "fetched_at": "2026-08-14T10:52:25.707874"
 }

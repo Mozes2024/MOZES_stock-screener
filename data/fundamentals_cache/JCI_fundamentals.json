@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JCI",
-    "fetch_date": "2026-08-06T12:05:55.152784",
+    "fetch_date": "2026-08-14T10:54:35.073556",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 6052000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.296,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T12:05:55.154158"
+  "fetched_at": "2026-08-14T10:54:35.075382"
 }

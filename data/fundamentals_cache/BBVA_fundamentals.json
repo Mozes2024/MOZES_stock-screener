@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BBVA",
-    "fetch_date": "2026-08-06T11:54:01.390421",
+    "fetch_date": "2026-08-14T10:42:38.893875",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 8710000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 15.217391304347828,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T11:54:01.391271"
+  "fetched_at": "2026-08-14T10:42:38.894589"
 }

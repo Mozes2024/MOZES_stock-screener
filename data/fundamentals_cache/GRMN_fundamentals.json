@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GRMN",
-    "fetch_date": "2026-08-06T12:03:15.857327",
+    "fetch_date": "2026-08-14T10:51:55.746083",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1814564000.0,
       "2025-09-30 00:00:00": 1770901000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.972,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T12:03:15.858722"
+  "fetched_at": "2026-08-14T10:51:55.747787"
 }

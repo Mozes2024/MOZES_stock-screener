@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ABM",
-    "fetch_date": "2026-08-06T11:50:48.496247",
+    "fetch_date": "2026-08-14T10:39:25.423424",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 2111700000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 3.93,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T11:50:48.497161"
+  "fetched_at": "2026-08-14T10:39:25.424489"
 }

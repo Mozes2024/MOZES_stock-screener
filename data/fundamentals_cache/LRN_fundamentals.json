@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LRN",
-    "fetch_date": "2026-08-07T10:50:12.572461",
+    "fetch_date": "2026-08-14T10:56:24.202131",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 653647000.0,
       "2025-09-30 00:00:00": 620884000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.06,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T10:50:12.574940"
+  "fetched_at": "2026-08-14T10:56:24.204771"
 }

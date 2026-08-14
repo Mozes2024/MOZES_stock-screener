@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WMB",
-    "fetch_date": "2026-08-07T11:03:47.970371",
+    "fetch_date": "2026-08-14T11:09:59.975117",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.11,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T11:03:47.973782"
+  "fetched_at": "2026-08-14T11:09:59.976916"
 }

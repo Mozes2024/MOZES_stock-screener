@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NVRI",
-    "fetch_date": "2026-08-07T10:53:22.313158",
+    "fetch_date": "2026-08-14T10:59:33.781978",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 547907000.0,
       "2026-03-31 00:00:00": 549803000.0
@@ -21,5 +21,5 @@
     "inventory_to_sales_ratio": 0.299,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T10:53:22.314870"
+  "fetched_at": "2026-08-14T10:59:33.783613"
 }

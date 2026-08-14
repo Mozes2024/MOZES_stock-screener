@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RY",
-    "fetch_date": "2026-08-07T10:57:46.768986",
+    "fetch_date": "2026-08-14T11:03:59.461822",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 15656000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 27.483443708609272,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T10:57:46.769753"
+  "fetched_at": "2026-08-14T11:03:59.462471"
 }

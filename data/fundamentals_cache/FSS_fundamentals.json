@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FSS",
-    "fetch_date": "2026-08-06T12:02:04.240415",
+    "fetch_date": "2026-08-14T10:50:43.777694",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 564600000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.716,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T12:02:04.241880"
+  "fetched_at": "2026-08-14T10:50:43.779511"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XYL",
-    "fetch_date": "2026-08-07T11:04:20.326289",
+    "fetch_date": "2026-08-14T11:10:33.103266",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2301000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.435,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T11:04:20.329079"
+  "fetched_at": "2026-08-14T11:10:33.105009"
 }

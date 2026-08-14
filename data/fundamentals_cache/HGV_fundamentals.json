@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HGV",
-    "fetch_date": "2026-08-06T12:03:55.342335",
+    "fetch_date": "2026-08-14T10:52:35.071105",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1266000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 1.875,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T12:03:55.344914"
+  "fetched_at": "2026-08-14T10:52:35.073410"
 }

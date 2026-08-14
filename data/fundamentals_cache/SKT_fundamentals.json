@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "SKT",
-    "fetch_date": "2026-08-07T10:58:50.596000",
+    "fetch_date": "2026-08-14T11:05:02.916476",
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 135363000.0,
+      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 140694000.0,
       "2025-09-30 00:00:00": 145208000.0,
       "2025-12-31 00:00:00": 160297000.0,
       "2026-03-31 00:00:00": 150417000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 156388000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 3.9696310922302662,
+    "revenue_yoy_change": 11.154704536085406,
     "quarterly_eps": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.26,
@@ -22,20 +22,21 @@
     },
     "eps_qoq_change": 20.83333333333333,
     "eps_yoy_change": 11.538461538461526,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 70.92,
+    "margin_change": 1.99,
+    "operating_margin": 30.98,
     "quarterly_inventory": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 16628000.0,
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": NaN,
       "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": NaN,
+      "2026-06-30 00:00:00": NaN
     },
     "inventory_qoq_change": null,
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T10:58:50.597921"
+  "fetched_at": "2026-08-14T11:05:02.918522"
 }

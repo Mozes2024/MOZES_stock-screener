@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HSY",
-    "fetch_date": "2026-08-06T12:04:26.666528",
+    "fetch_date": "2026-08-14T10:53:06.311473",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.625,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T12:04:26.667904"
+  "fetched_at": "2026-08-14T10:53:06.313260"
 }

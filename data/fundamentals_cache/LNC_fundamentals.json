@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LNC",
-    "fetch_date": "2026-08-07T10:49:59.249656",
+    "fetch_date": "2026-08-14T10:56:10.816528",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 76.8421052631579,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T10:49:59.250381"
+  "fetched_at": "2026-08-14T10:56:10.817278"
 }
