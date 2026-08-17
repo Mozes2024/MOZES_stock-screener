@@ -5394,5 +5394,25 @@
   "ZG": {
     "last_updated": "2026-08-14T11:10:44.913138",
     "in_earnings_season": true
+  },
+  "IMXI": {
+    "last_updated": "2026-08-17T10:29:44.330652",
+    "in_earnings_season": false
+  },
+  "METC": {
+    "last_updated": "2026-08-17T10:33:10.775921",
+    "in_earnings_season": false
+  },
+  "MPLT": {
+    "last_updated": "2026-08-17T10:33:45.854534",
+    "in_earnings_season": false
+  },
+  "PSKY": {
+    "last_updated": "2026-08-17T10:38:09.563033",
+    "in_earnings_season": false
+  },
+  "Q": {
+    "last_updated": "2026-08-17T10:38:26.393428",
+    "in_earnings_season": false
   }
 }
