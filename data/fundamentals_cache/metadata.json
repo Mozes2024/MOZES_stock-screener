@@ -5434,5 +5434,13 @@
   "BETA": {
     "last_updated": "2026-08-25T10:09:38.994091",
     "in_earnings_season": false
+  },
+  "BLLN": {
+    "last_updated": "2026-08-26T10:21:38.158742",
+    "in_earnings_season": false
+  },
+  "SUNC": {
+    "last_updated": "2026-08-26T10:44:31.666825",
+    "in_earnings_season": false
   }
 }
