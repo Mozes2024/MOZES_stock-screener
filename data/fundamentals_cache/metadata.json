@@ -8498,5 +8498,21 @@
   "BAFN": {
     "last_updated": "2026-09-18T16:21:30.838646",
     "in_earnings_season": false
+  },
+  "ORIC": {
+    "last_updated": "2026-09-21T18:50:53.782523",
+    "in_earnings_season": false
+  },
+  "RMBI": {
+    "last_updated": "2026-09-21T18:56:57.845277",
+    "in_earnings_season": false
+  },
+  "TRAK": {
+    "last_updated": "2026-09-21T19:04:55.862505",
+    "in_earnings_season": false
+  },
+  "VHC": {
+    "last_updated": "2026-09-21T19:07:43.917854",
+    "in_earnings_season": false
   }
 }
