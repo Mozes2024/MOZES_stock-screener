@@ -5498,5 +5498,13 @@
   "RDIB": {
     "last_updated": "2026-09-15T14:52:09.615515",
     "in_earnings_season": false
+  },
+  "ELE": {
+    "last_updated": "2026-09-21T16:10:32.580713",
+    "in_earnings_season": false
+  },
+  "ORIC": {
+    "last_updated": "2026-09-21T16:22:10.741338",
+    "in_earnings_season": false
   }
 }
