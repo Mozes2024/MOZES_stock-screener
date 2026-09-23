@@ -39,11 +39,42 @@ on:
         default: '6'
 
 jobs:
+  confirm-screening-completed:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+    outputs:
+      screening_completed: ${{ steps.check.outputs.screening_completed }}
+    steps:
+      - name: Confirm canonical screening job completed
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          SOURCE_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "screening_completed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          SCREEN_JOB_CONCLUSION=$(gh api \
+            "repos/$REPO/actions/runs/$SOURCE_RUN_ID/jobs" \
+            --jq '.jobs[] | select(.name == "Canonical stock screening") | .conclusion')
+          if [ "$SCREEN_JOB_CONCLUSION" = "success" ]; then
+            echo "screening_completed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "screening_completed=false" >> "$GITHUB_OUTPUT"
+            echo "Canonical screening job conclusion: ${SCREEN_JOB_CONCLUSION:-missing}"
+          fi
+
   generate-breakout-signals:
+    needs: confirm-screening-completed
     runs-on: ubuntu-latest
 
     # Skip if daily screening failed (only relevant for workflow_run trigger)
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: >-
+      needs.confirm-screening-completed.outputs.screening_completed == 'true' &&
+      (github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success')
 
     permissions:
       contents: write

@@ -1,6 +1,9 @@
 name: Daily Stock Screening (Git-Based Storage)
 
 on:
+  repository_dispatch:
+    types: [cloudflare_screener_schedule]
+
   schedule:
     # Start early enough for the full downstream Ranker pipeline to finish before 16:30 Israel time.
     # 09:45 UTC = 12:45 Israel DST / 11:45 Israel standard time.
@@ -16,7 +19,26 @@ on:
         default: false
 
 jobs:
+  freshness-gate:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.freshness.outputs.should_run }}
+      reason: ${{ steps.freshness.outputs.reason }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check Israel-day structured output freshness
+        id: freshness
+        run: >-
+          python scripts/screening_freshness_gate.py
+          --event-name "${{ github.event_name }}"
+          --github-output "$GITHUB_OUTPUT"
+
   screen-stocks:
+    name: Canonical stock screening
+    needs: freshness-gate
+    if: needs.freshness-gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
 
     permissions:

@@ -16,27 +16,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check today's daily screening run
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check today's structured screening output
         id: check
+        run: >-
+          python scripts/screening_freshness_gate.py
+          --event-name schedule
+          --github-output "$GITHUB_OUTPUT"
+
+      - name: Check for an active daily screening run
+        id: active
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          TODAY=$(date -u +%Y-%m-%d)
-          echo "Checking Daily Stock Screening runs for $TODAY"
-
           RUN_COUNT=$(gh run list \
             --repo "$REPO" \
             --workflow daily_screening_git_storage.yml \
             --limit 20 \
-            --json createdAt,event,status \
-            --jq "[.[] | select(.createdAt | startswith(\"$TODAY\")) | select(.event == \"schedule\" or .event == \"workflow_dispatch\")] | length")
-
+            --json status \
+            --jq '[.[] | select(.status == "queued" or .status == "in_progress" or .status == "waiting" or .status == "requested" or .status == "pending")] | length')
           echo "run_count=$RUN_COUNT" >> "$GITHUB_OUTPUT"
-          echo "Found $RUN_COUNT Daily Stock Screening run(s) today"
+          echo "Found $RUN_COUNT active Daily Stock Screening run(s)"
 
       - name: Trigger daily screening if missing
-        if: steps.check.outputs.run_count == '0'
+        if: steps.check.outputs.should_run == 'true' && steps.active.outputs.run_count == '0'
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
@@ -45,5 +51,5 @@ jobs:
           echo "Triggered Daily Stock Screening fallback run"
 
       - name: No action needed
-        if: steps.check.outputs.run_count != '0'
-        run: echo "Daily Stock Screening already ran today"
+        if: steps.check.outputs.should_run != 'true' || steps.active.outputs.run_count != '0'
+        run: echo "Daily Stock Screening already produced valid output or is still active"
