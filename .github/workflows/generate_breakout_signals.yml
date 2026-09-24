@@ -1,7 +1,7 @@
 name: Generate Breakout Signals (SP500 feed)
 # ─────────────────────────────────────────────────────────────────────────────
 # ARCHITECTURE (v2 — fast path):
-#   Step 1 → daily_screening_git_storage.yml (09:45 UTC)
+#   Step 1 → daily_screening_git_storage.yml (12:45 Israel, Cloudflare primary)
 #            Scans full US market, saves structured output:
 #              data/daily_scans/latest_structured_scan.pkl
 #              data/daily_scans/latest_structured_scan.json
@@ -37,6 +37,10 @@ on:
         description: 'Max pickle age in hours (default 6)'
         required: false
         default: '6'
+
+concurrency:
+  group: ${{ github.event_name == 'workflow_dispatch' && format('breakout-manual-{0}', github.run_id) || format('breakout-source-{0}', github.event.workflow_run.id) }}
+  cancel-in-progress: false
 
 jobs:
   confirm-screening-completed:
@@ -192,7 +196,7 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.RANKER_PAT }}" \
             https://api.github.com/repos/Mozes2024/SP500-Quant-Ranker_2026/dispatches \
-            -d '{"event_type":"breakout_signals_ready","client_payload":{"scan_date":"${{ steps.date.outputs.date }}"}}')
+            -d '{"event_type":"breakout_signals_ready","client_payload":{"source":"screener-breakout","scan_date":"${{ steps.date.outputs.date }}","schedule_key":"daily:${{ steps.date.outputs.date }}"}}')
 
           if [ "$HTTP_STATUS" = "204" ]; then
             echo "✅ Triggered SP500-Quant-Ranker (HTTP $HTTP_STATUS)"

@@ -36,10 +36,11 @@ def test_scheduled_fallback_runs_when_output_is_absent_or_invalid(tmp_path):
     assert should_run_screening("schedule", tmp_path, NOW)[0] is True
 
 
-def test_manual_and_cloudflare_dispatches_are_never_deduplicated(tmp_path):
+def test_manual_runs_remain_explicit_and_cloudflare_is_deduplicated(tmp_path):
     write_output(tmp_path)
     assert should_run_screening("workflow_dispatch", tmp_path, NOW)[0] is True
-    assert should_run_screening("repository_dispatch", tmp_path, NOW)[0] is True
+    assert should_run_screening("repository_dispatch", tmp_path, NOW, "screener:2026-09-23")[0] is False
+    assert should_run_screening("repository_dispatch", tmp_path, NOW, "screener:wrong")[0] is False
 
 
 def test_same_day_uses_jerusalem_not_utc(tmp_path):
@@ -55,9 +56,19 @@ def test_workflows_keep_dispatch_and_downstream_contracts():
     watchdog = (root / ".github/workflows/daily_screening_watchdog.yml").read_text(encoding="utf-8")
 
     assert "repository_dispatch:" in daily
-    assert "types: [cloudflare_screener_schedule]" in daily
-    assert "workflow_dispatch:" in daily and "schedule:" in daily
+    assert "types: [cloudflare_screener_schedule_v2]" in daily
+    assert "workflow_dispatch:" in daily and "schedule:" not in daily
+    assert "github.event.client_payload.schedule_key" in daily
     assert 'workflows: ["Daily Stock Screening (Git-Based Storage)"]' in downstream
     assert "Canonical stock screening" in daily
     assert "Canonical stock screening" in downstream and "conclusion == 'success'" in downstream
     assert "screening_freshness_gate.py" in watchdog
+    assert "20 10 * * 1-5" in watchdog and "20 11 * * 1-5" in watchdog
+    assert '"Asia/Jerusalem"' in watchdog
+    assert '"schedule_key":"daily:${{ steps.date.outputs.date }}"' in downstream
+
+
+def test_cloudflare_dispatch_runs_when_today_output_is_missing(tmp_path):
+    assert should_run_screening(
+        "repository_dispatch", tmp_path, NOW, "screener:2026-09-23"
+    ) == (True, "structured_output_missing")

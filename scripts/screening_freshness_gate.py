@@ -11,15 +11,22 @@ from zoneinfo import ZoneInfo
 JERUSALEM = ZoneInfo("Asia/Jerusalem")
 
 
-def should_run_screening(event_name: str, repository: Path, now: datetime | None = None) -> tuple[bool, str]:
-    """Allow explicit runs and deduplicate only GitHub's native schedule."""
-    if event_name != "schedule":
+def should_run_screening(
+    event_name: str,
+    repository: Path,
+    now: datetime | None = None,
+    schedule_key: str = "",
+) -> tuple[bool, str]:
+    """Allow manual runs while deduplicating automatic Israel-day work."""
+    if event_name == "workflow_dispatch":
         return True, f"{event_name}_always_allowed"
 
     current = now or datetime.now(JERUSALEM)
     if current.tzinfo is None:
         current = current.replace(tzinfo=JERUSALEM)
     today = current.astimezone(JERUSALEM).date().isoformat()
+    if event_name == "repository_dispatch" and schedule_key != f"screener:{today}":
+        return False, "invalid_schedule_key"
     scan_dir = repository / "data" / "daily_scans"
     summary_path = scan_dir / "latest_structured_scan.json"
     pickle_path = scan_dir / "latest_structured_scan.pkl"
@@ -43,10 +50,11 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--event-name", required=True)
     parser.add_argument("--repository", type=Path, default=Path.cwd())
+    parser.add_argument("--schedule-key", default="")
     parser.add_argument("--github-output", type=Path)
     args = parser.parse_args()
 
-    should_run, reason = should_run_screening(args.event_name, args.repository)
+    should_run, reason = should_run_screening(args.event_name, args.repository, schedule_key=args.schedule_key)
     result = f"should_run={'true' if should_run else 'false'}\nreason={reason}\n"
     if args.github_output:
         with args.github_output.open("a", encoding="utf-8") as output:

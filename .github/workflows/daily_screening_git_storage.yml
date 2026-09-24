@@ -2,12 +2,7 @@ name: Daily Stock Screening (Git-Based Storage)
 
 on:
   repository_dispatch:
-    types: [cloudflare_screener_schedule]
-
-  schedule:
-    # Start early enough for the full downstream Ranker pipeline to finish before 16:30 Israel time.
-    # 09:45 UTC = 12:45 Israel DST / 11:45 Israel standard time.
-    - cron: '45 9 * * 1-5'
+    types: [cloudflare_screener_schedule_v2]
 
   # Allow manual triggering
   workflow_dispatch:
@@ -17,6 +12,10 @@ on:
         required: false
         type: boolean
         default: false
+
+concurrency:
+  group: ${{ github.event_name == 'workflow_dispatch' && format('screener-manual-{0}', github.run_id) || format('screener-{0}', github.event.client_payload.schedule_key) }}
+  cancel-in-progress: false
 
 jobs:
   freshness-gate:
@@ -33,6 +32,7 @@ jobs:
         run: >-
           python scripts/screening_freshness_gate.py
           --event-name "${{ github.event_name }}"
+          --schedule-key "${{ github.event.client_payload.schedule_key }}"
           --github-output "$GITHUB_OUTPUT"
 
   screen-stocks:

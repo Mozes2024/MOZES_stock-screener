@@ -2,7 +2,8 @@ name: Daily Stock Screening Watchdog
 
 on:
   schedule:
-    # Fallback check shortly after the primary 11:15 UTC schedule.
+    # Delayed 13:20 Israel fallback for the 12:45 Cloudflare primary.
+    - cron: '20 10 * * 1-5'
     - cron: '20 11 * * 1-5'
 
   workflow_dispatch:
@@ -21,10 +22,30 @@ jobs:
 
       - name: Check today's structured screening output
         id: check
+        env:
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: >-
           python scripts/screening_freshness_gate.py
           --event-name schedule
           --github-output "$GITHUB_OUTPUT"
+
+      - name: Select the active Israel-offset fallback
+        id: clock
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          if os.environ["EVENT_NAME"] == "workflow_dispatch":
+              print("active=true")
+          else:
+              offset = int(datetime.now(ZoneInfo("Asia/Jerusalem")).utcoffset().total_seconds() // 3600)
+              expected = "20 10 * * 1-5" if offset == 3 else "20 11 * * 1-5"
+              print(f"active={'true' if os.environ['EVENT_SCHEDULE'] == expected else 'false'}")
+          PY
 
       - name: Check for an active daily screening run
         id: active
@@ -42,7 +63,7 @@ jobs:
           echo "Found $RUN_COUNT active Daily Stock Screening run(s)"
 
       - name: Trigger daily screening if missing
-        if: steps.check.outputs.should_run == 'true' && steps.active.outputs.run_count == '0'
+        if: steps.clock.outputs.active == 'true' && steps.check.outputs.should_run == 'true' && steps.active.outputs.run_count == '0'
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
@@ -51,5 +72,5 @@ jobs:
           echo "Triggered Daily Stock Screening fallback run"
 
       - name: No action needed
-        if: steps.check.outputs.should_run != 'true' || steps.active.outputs.run_count != '0'
+        if: steps.clock.outputs.active != 'true' || steps.check.outputs.should_run != 'true' || steps.active.outputs.run_count != '0'
         run: echo "Daily Stock Screening already produced valid output or is still active"
