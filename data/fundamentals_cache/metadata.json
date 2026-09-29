@@ -5506,5 +5506,13 @@
   "ORIC": {
     "last_updated": "2026-09-21T16:22:10.741338",
     "in_earnings_season": false
+  },
+  "BAND": {
+    "last_updated": "2026-09-29T09:49:13.815260",
+    "in_earnings_season": false
+  },
+  "CDNL": {
+    "last_updated": "2026-09-29T09:51:42.832589",
+    "in_earnings_season": false
   }
 }
