@@ -1,12 +1,12 @@
 {
-  "scan_date": "2026-10-12",
-  "generated": "2026-10-12 10:17:58",
+  "scan_date": "2026-10-13",
+  "generated": "2026-10-13 10:18:02",
   "market_regime": "RISK-ON (Weak) / Mixed",
-  "total_analyzed": 1459,
+  "total_analyzed": 1455,
   "total_processed": 3759,
-  "phase2_pct": 19.4,
-  "buy_signals_count": 226,
-  "sell_signals_count": 396,
+  "phase2_pct": 19.5,
+  "buy_signals_count": 222,
+  "sell_signals_count": 393,
   "processing_time_minutes": 31.3,
   "note": "Full data available in latest_structured_scan.pkl"
 }
