@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NLY",
-    "fetch_date": "2026-08-14T10:58:58.216624",
+    "fetch_date": "2026-10-15T10:05:51.838783",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 110829000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 3433.3333333333335,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T10:58:58.217362"
+  "fetched_at": "2026-10-15T10:05:51.839458"
 }

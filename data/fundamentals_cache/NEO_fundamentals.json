@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NEO",
-    "fetch_date": "2026-10-02T10:05:20.040995",
+    "fetch_date": "2026-10-15T10:05:36.298307",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 181330000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.135,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-02T10:05:20.042193"
+  "fetched_at": "2026-10-15T10:05:36.300086"
 }
