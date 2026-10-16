@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BIPC",
-    "fetch_date": "2026-08-14T10:43:13.747242",
+    "fetch_date": "2026-10-16T09:50:19.566547",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 866000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 58.51,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T10:43:13.749294"
+  "fetched_at": "2026-10-16T09:50:19.567651"
 }
