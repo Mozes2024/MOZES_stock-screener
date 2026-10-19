@@ -3902,5 +3902,105 @@
   "YUMC": {
     "last_updated": "2026-10-16T10:17:33.670787",
     "in_earnings_season": true
+  },
+  "AMSF": {
+    "last_updated": "2026-10-19T09:48:05.945891",
+    "in_earnings_season": true
+  },
+  "ATO": {
+    "last_updated": "2026-10-19T09:49:06.142429",
+    "in_earnings_season": true
+  },
+  "AXS": {
+    "last_updated": "2026-10-19T09:49:26.265433",
+    "in_earnings_season": true
+  },
+  "CMS": {
+    "last_updated": "2026-10-19T09:52:56.811884",
+    "in_earnings_season": true
+  },
+  "CNX": {
+    "last_updated": "2026-10-19T09:53:09.188363",
+    "in_earnings_season": true
+  },
+  "CRK": {
+    "last_updated": "2026-10-19T09:53:36.298353",
+    "in_earnings_season": true
+  },
+  "DOV": {
+    "last_updated": "2026-10-19T09:55:00.345658",
+    "in_earnings_season": true
+  },
+  "ECVT": {
+    "last_updated": "2026-10-19T09:55:30.824103",
+    "in_earnings_season": true
+  },
+  "EQT": {
+    "last_updated": "2026-10-19T09:56:11.951089",
+    "in_earnings_season": true
+  },
+  "EXC": {
+    "last_updated": "2026-10-19T09:56:32.009666",
+    "in_earnings_season": true
+  },
+  "EXE": {
+    "last_updated": "2026-10-19T09:56:32.365271",
+    "in_earnings_season": true
+  },
+  "FE": {
+    "last_updated": "2026-10-19T09:56:57.806232",
+    "in_earnings_season": true
+  },
+  "GME": {
+    "last_updated": "2026-10-19T09:58:36.308964",
+    "in_earnings_season": true
+  },
+  "HIG": {
+    "last_updated": "2026-10-19T09:59:36.967751",
+    "in_earnings_season": true
+  },
+  "HPK": {
+    "last_updated": "2026-10-19T09:59:56.404286",
+    "in_earnings_season": true
+  },
+  "LMT": {
+    "last_updated": "2026-10-19T10:03:07.940116",
+    "in_earnings_season": true
+  },
+  "OPCH": {
+    "last_updated": "2026-10-19T10:07:14.969395",
+    "in_earnings_season": true
+  },
+  "PBH": {
+    "last_updated": "2026-10-19T10:07:55.135097",
+    "in_earnings_season": true
+  },
+  "PODD": {
+    "last_updated": "2026-10-19T10:08:44.437018",
+    "in_earnings_season": true
+  },
+  "POST": {
+    "last_updated": "2026-10-19T10:08:46.122946",
+    "in_earnings_season": true
+  },
+  "PPC": {
+    "last_updated": "2026-10-19T10:08:48.185110",
+    "in_earnings_season": true
+  },
+  "SRE": {
+    "last_updated": "2026-10-19T10:12:45.266010",
+    "in_earnings_season": true
+  },
+  "SUI": {
+    "last_updated": "2026-10-19T10:13:12.678406",
+    "in_earnings_season": true
+  },
+  "TAP": {
+    "last_updated": "2026-10-19T10:13:30.683232",
+    "in_earnings_season": true
+  },
+  "YETI": {
+    "last_updated": "2026-10-19T10:17:29.336624",
+    "in_earnings_season": true
   }
 }
