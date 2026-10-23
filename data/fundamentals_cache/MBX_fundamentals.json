@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MBX",
-    "fetch_date": "2026-10-15T10:03:50.818857",
+    "fetch_date": "2026-10-23T10:03:53.312811",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:03:50.820601"
+  "fetched_at": "2026-10-23T10:03:53.313807"
 }

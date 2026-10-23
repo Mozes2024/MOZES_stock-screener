@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TWLO",
-    "fetch_date": "2026-10-15T10:14:51.384689",
+    "fetch_date": "2026-10-23T10:14:52.845011",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1228425000.0,
       "2025-09-30 00:00:00": 1300402000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 7.83,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:14:51.386032"
+  "fetched_at": "2026-10-23T10:14:52.845840"
 }

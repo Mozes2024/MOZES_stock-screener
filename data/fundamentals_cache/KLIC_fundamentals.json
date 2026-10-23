@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KLIC",
-    "fetch_date": "2026-10-15T10:02:00.419903",
+    "fetch_date": "2026-10-23T10:02:03.272230",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 148413000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.687,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:02:00.421679"
+  "fetched_at": "2026-10-23T10:02:03.273534"
 }

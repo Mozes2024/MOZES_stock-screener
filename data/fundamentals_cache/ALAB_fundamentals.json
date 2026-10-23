@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALAB",
-    "fetch_date": "2026-10-15T09:48:01.912084",
+    "fetch_date": "2026-10-23T09:47:35.703797",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 191925000.0,
       "2025-09-30 00:00:00": 230575000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T09:48:01.914603"
+  "fetched_at": "2026-10-23T09:47:35.704914"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MMM",
-    "fetch_date": "2026-10-15T10:04:32.778034",
+    "fetch_date": "2026-10-23T10:04:34.334455",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 6344000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.58,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:04:32.779800"
+  "fetched_at": "2026-10-23T10:04:34.335573"
 }

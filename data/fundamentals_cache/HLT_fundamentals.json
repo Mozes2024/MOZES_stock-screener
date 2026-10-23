@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HLT",
-    "fetch_date": "2026-10-15T09:59:41.664919",
+    "fetch_date": "2026-10-23T09:59:44.269783",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3137000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 25.68,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T09:59:41.667476"
+  "fetched_at": "2026-10-23T09:59:44.270644"
 }

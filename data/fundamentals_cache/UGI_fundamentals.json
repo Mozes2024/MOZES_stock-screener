@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UGI",
-    "fetch_date": "2026-10-15T10:15:07.419622",
+    "fetch_date": "2026-10-23T10:15:08.999127",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1394000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.264,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:15:07.421622"
+  "fetched_at": "2026-10-23T10:15:09.000566"
 }

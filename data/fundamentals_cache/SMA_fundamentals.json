@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SMA",
-    "fetch_date": "2026-10-15T10:12:08.536311",
+    "fetch_date": "2026-10-23T10:12:09.643131",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 66816000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 22.71,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:12:08.537667"
+  "fetched_at": "2026-10-23T10:12:09.644007"
 }

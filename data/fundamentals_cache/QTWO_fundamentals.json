@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "QTWO",
-    "fetch_date": "2026-10-15T10:09:33.373058",
+    "fetch_date": "2026-10-23T10:09:34.714422",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 195148000.0,
       "2025-09-30 00:00:00": 201704000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 13.68,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:09:33.374397"
+  "fetched_at": "2026-10-23T10:09:34.715324"
 }

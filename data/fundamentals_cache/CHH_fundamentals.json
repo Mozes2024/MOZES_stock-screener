@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CHH",
-    "fetch_date": "2026-10-15T09:52:20.958453",
+    "fetch_date": "2026-10-23T09:52:22.958594",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 426443000.0,
       "2025-09-30 00:00:00": 447340000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 23.75,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T09:52:20.959818"
+  "fetched_at": "2026-10-23T09:52:22.959629"
 }

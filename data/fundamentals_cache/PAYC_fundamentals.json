@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PAYC",
-    "fetch_date": "2026-10-15T10:07:49.859144",
+    "fetch_date": "2026-10-23T10:07:52.007198",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 483600000.0,
       "2025-09-30 00:00:00": 493300000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.003,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:07:49.861630"
+  "fetched_at": "2026-10-23T10:07:52.008469"
 }

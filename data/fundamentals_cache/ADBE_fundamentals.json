@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADBE",
-    "fetch_date": "2026-10-15T09:46:48.258561",
+    "fetch_date": "2026-10-23T09:46:50.747703",
     "quarterly_revenue": {
       "2025-02-28 00:00:00": NaN,
       "2025-05-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 34.82,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T09:46:48.259965"
+  "fetched_at": "2026-10-23T09:46:50.748578"
 }

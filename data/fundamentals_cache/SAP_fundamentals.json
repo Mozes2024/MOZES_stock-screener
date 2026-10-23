@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAP",
-    "fetch_date": "2026-10-15T10:11:02.406883",
+    "fetch_date": "2026-10-23T10:11:03.740063",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 9027000000.0,
       "2025-09-30 00:00:00": 9076000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 26.84,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:11:02.408225"
+  "fetched_at": "2026-10-23T10:11:03.740995"
 }

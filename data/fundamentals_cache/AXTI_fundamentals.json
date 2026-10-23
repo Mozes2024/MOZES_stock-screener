@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AXTI",
-    "fetch_date": "2026-10-15T09:49:24.615358",
+    "fetch_date": "2026-10-23T09:49:27.202358",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 17974000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 2.024,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T09:49:24.617144"
+  "fetched_at": "2026-10-23T09:49:27.203912"
 }

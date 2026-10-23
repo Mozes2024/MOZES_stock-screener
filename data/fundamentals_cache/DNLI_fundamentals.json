@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DNLI",
-    "fetch_date": "2026-10-15T09:54:52.422262",
+    "fetch_date": "2026-10-23T09:54:54.952362",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.148,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T09:54:52.423990"
+  "fetched_at": "2026-10-23T09:54:54.953459"
 }

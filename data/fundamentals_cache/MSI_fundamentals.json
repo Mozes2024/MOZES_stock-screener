@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MSI",
-    "fetch_date": "2026-10-15T10:04:58.801531",
+    "fetch_date": "2026-10-23T10:05:00.530409",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2765000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.425,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:04:58.803268"
+  "fetched_at": "2026-10-23T10:05:00.531531"
 }

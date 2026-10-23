@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ECL",
-    "fetch_date": "2026-10-15T09:55:26.488961",
+    "fetch_date": "2026-10-23T09:55:29.020191",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4025200000.0,
       "2025-09-30 00:00:00": 4165000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.372,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T09:55:26.491204"
+  "fetched_at": "2026-10-23T09:55:29.021319"
 }

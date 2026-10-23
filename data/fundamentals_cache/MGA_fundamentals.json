@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MGA",
-    "fetch_date": "2026-10-15T10:04:13.020794",
+    "fetch_date": "2026-10-23T10:04:15.426127",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 10631000000.0,
@@ -13,15 +13,15 @@
     "revenue_qoq_change": 5.770157017628359,
     "revenue_yoy_change": 3.2828520364970366,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
+      "2025-03-31 00:00:00": 0.52,
       "2025-06-30 00:00:00": 1.35,
       "2025-09-30 00:00:00": 1.08,
       "2025-12-31 00:00:00": 0.0,
       "2026-03-31 00:00:00": -0.04,
-      "2026-06-30 00:00:00": 1.72
+      "2026-06-30 00:00:00": NaN
     },
-    "eps_qoq_change": 4400.0,
-    "eps_yoy_change": 27.407407407407398,
+    "eps_qoq_change": null,
+    "eps_yoy_change": null,
     "gross_margin": 14.68,
     "margin_change": 0.97,
     "operating_margin": 5.6,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.365,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:04:13.022604"
+  "fetched_at": "2026-10-23T10:04:15.427246"
 }

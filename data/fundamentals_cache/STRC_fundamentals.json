@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STRC",
-    "fetch_date": "2026-10-15T10:13:04.512596",
+    "fetch_date": "2026-10-23T10:13:06.287351",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 114488000.0,
@@ -17,5 +17,5 @@
     "operating_margin": -12.74,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:13:04.513694"
+  "fetched_at": "2026-10-23T10:13:06.288203"
 }

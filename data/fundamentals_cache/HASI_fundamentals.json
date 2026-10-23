@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HASI",
-    "fetch_date": "2026-10-15T09:59:15.978554",
+    "fetch_date": "2026-10-23T09:59:18.564416",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 85685000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T09:59:15.980672"
+  "fetched_at": "2026-10-23T09:59:18.565571"
 }

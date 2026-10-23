@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MRK",
-    "fetch_date": "2026-10-15T10:04:49.323199",
+    "fetch_date": "2026-10-23T10:04:50.919229",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 15806000000.0,
       "2025-09-30 00:00:00": 17276000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.374,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:04:49.324977"
+  "fetched_at": "2026-10-23T10:04:50.920306"
 }

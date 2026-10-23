@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DT",
-    "fetch_date": "2026-10-15T09:55:04.516740",
+    "fetch_date": "2026-10-23T09:55:06.998790",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 477349000.0,
       "2025-09-30 00:00:00": 493849000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 12.89,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T09:55:04.518082"
+  "fetched_at": "2026-10-23T09:55:06.999656"
 }

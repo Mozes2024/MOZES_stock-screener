@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NET",
-    "fetch_date": "2026-10-15T10:05:39.102131",
+    "fetch_date": "2026-10-23T10:05:41.445995",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 512316000.0,
       "2025-09-30 00:00:00": 562027000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -7.9,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:05:39.103543"
+  "fetched_at": "2026-10-23T10:05:41.446828"
 }

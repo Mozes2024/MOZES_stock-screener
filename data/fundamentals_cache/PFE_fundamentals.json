@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PFE",
-    "fetch_date": "2026-10-15T10:08:12.700426",
+    "fetch_date": "2026-10-23T10:08:14.196192",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 14653000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.662,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T10:08:12.702198"
+  "fetched_at": "2026-10-23T10:08:14.197330"
 }
