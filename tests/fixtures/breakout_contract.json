@@ -1,0 +1,255 @@
+{
+  "source_signals": [
+    {
+      "ticker": "CONFIRMED",
+      "score": 124.3,
+      "phase": 2,
+      "current_price": 100,
+      "stop_loss": 95,
+      "risk_reward_ratio": 3,
+      "entry_quality": "Good",
+      "breakout_price": 99,
+      "reasons": [
+        "Strong trend"
+      ],
+      "details": {
+        "rs_slope": 0.123,
+        "vcp_data": {
+          "quality": 85,
+          "pattern": "synthetic diagnostic evidence",
+          "confirmed": true
+        }
+      }
+    },
+    {
+      "ticker": "PARTIAL",
+      "score": 116.8,
+      "phase": 2,
+      "current_price": 100,
+      "stop_loss": 95,
+      "risk_reward_ratio": 3,
+      "entry_quality": "Good",
+      "breakout_price": 99,
+      "reasons": [
+        "Strong trend"
+      ],
+      "details": {
+        "rs_slope": 0.123,
+        "vcp_data": {
+          "quality": 75,
+          "pattern": "synthetic diagnostic evidence",
+          "confirmed": false
+        }
+      }
+    },
+    {
+      "ticker": "LEGACY",
+      "score": 107.8,
+      "phase": 2,
+      "current_price": 100,
+      "stop_loss": 95,
+      "risk_reward_ratio": 3,
+      "entry_quality": "Good",
+      "breakout_price": 99,
+      "reasons": [
+        "Strong trend"
+      ],
+      "details": {
+        "rs_slope": 0.123,
+        "vcp_data": {
+          "quality": 90,
+          "pattern": "synthetic diagnostic evidence"
+        }
+      }
+    },
+    {
+      "ticker": "LOW",
+      "score": 100,
+      "phase": 2,
+      "current_price": 100,
+      "stop_loss": 95,
+      "risk_reward_ratio": 3,
+      "entry_quality": "Good",
+      "breakout_price": 99,
+      "reasons": [
+        "Strong trend"
+      ],
+      "details": {
+        "rs_slope": 0.123,
+        "vcp_data": {
+          "quality": 28.3,
+          "pattern": "synthetic diagnostic evidence",
+          "confirmed": false
+        }
+      }
+    },
+    {
+      "ticker": "ZERO",
+      "score": 0,
+      "phase": 2,
+      "current_price": 100,
+      "stop_loss": 95,
+      "risk_reward_ratio": 3,
+      "entry_quality": "Good",
+      "breakout_price": 99,
+      "reasons": [
+        "Strong trend"
+      ],
+      "details": {
+        "rs_slope": 0.123,
+        "vcp_data": {
+          "quality": 0,
+          "pattern": "synthetic diagnostic evidence",
+          "confirmed": false
+        }
+      }
+    },
+    {
+      "ticker": "MAX",
+      "score": 125,
+      "phase": 2,
+      "current_price": 100,
+      "stop_loss": 95,
+      "risk_reward_ratio": 3,
+      "entry_quality": "Good",
+      "breakout_price": 99,
+      "reasons": [
+        "Strong trend"
+      ],
+      "details": {
+        "rs_slope": 0.123,
+        "vcp_data": {
+          "quality": 80,
+          "pattern": "synthetic diagnostic evidence",
+          "confirmed": true
+        }
+      }
+    }
+  ],
+  "feed": {
+    "scan_date": "2026-10-23",
+    "breakout_score_max": 125,
+    "top_signals": [
+      {
+        "rank": 1,
+        "ticker": "CONFIRMED",
+        "breakout_score": 124.3,
+        "phase": 2,
+        "entry_quality": "Good",
+        "stop_loss": 95,
+        "risk": 5,
+        "reward": 15,
+        "risk_reward": 3,
+        "rs": 0.123,
+        "breakout_price": 99,
+        "has_vcp": true,
+        "vcp_confirmed": true,
+        "vcp_quality": 85,
+        "vcp_desc": "synthetic diagnostic evidence",
+        "reasons": [
+          "Strong trend"
+        ]
+      },
+      {
+        "rank": 2,
+        "ticker": "PARTIAL",
+        "breakout_score": 116.8,
+        "phase": 2,
+        "entry_quality": "Good",
+        "stop_loss": 95,
+        "risk": 5,
+        "reward": 15,
+        "risk_reward": 3,
+        "rs": 0.123,
+        "breakout_price": 99,
+        "has_vcp": false,
+        "vcp_confirmed": false,
+        "vcp_quality": 75,
+        "vcp_desc": "synthetic diagnostic evidence",
+        "reasons": [
+          "Strong trend"
+        ]
+      },
+      {
+        "rank": 3,
+        "ticker": "LEGACY",
+        "breakout_score": 107.8,
+        "phase": 2,
+        "entry_quality": "Good",
+        "stop_loss": 95,
+        "risk": 5,
+        "reward": 15,
+        "risk_reward": 3,
+        "rs": 0.123,
+        "breakout_price": 99,
+        "has_vcp": false,
+        "vcp_confirmed": false,
+        "vcp_quality": 90,
+        "vcp_desc": "synthetic diagnostic evidence",
+        "reasons": [
+          "Strong trend"
+        ]
+      },
+      {
+        "rank": 4,
+        "ticker": "LOW",
+        "breakout_score": 100,
+        "phase": 2,
+        "entry_quality": "Good",
+        "stop_loss": 95,
+        "risk": 5,
+        "reward": 15,
+        "risk_reward": 3,
+        "rs": 0.123,
+        "breakout_price": 99,
+        "has_vcp": false,
+        "vcp_confirmed": false,
+        "vcp_quality": 28.3,
+        "vcp_desc": "synthetic diagnostic evidence",
+        "reasons": [
+          "Strong trend"
+        ]
+      },
+      {
+        "rank": 5,
+        "ticker": "ZERO",
+        "breakout_score": 0,
+        "phase": 2,
+        "entry_quality": "Good",
+        "stop_loss": 95,
+        "risk": 5,
+        "reward": 15,
+        "risk_reward": 3,
+        "rs": 0.123,
+        "breakout_price": 99,
+        "has_vcp": false,
+        "vcp_confirmed": false,
+        "vcp_quality": 0,
+        "vcp_desc": "synthetic diagnostic evidence",
+        "reasons": [
+          "Strong trend"
+        ]
+      },
+      {
+        "rank": 6,
+        "ticker": "MAX",
+        "breakout_score": 125,
+        "phase": 2,
+        "entry_quality": "Good",
+        "stop_loss": 95,
+        "risk": 5,
+        "reward": 15,
+        "risk_reward": 3,
+        "rs": 0.123,
+        "breakout_price": 99,
+        "has_vcp": true,
+        "vcp_confirmed": true,
+        "vcp_quality": 80,
+        "vcp_desc": "synthetic diagnostic evidence",
+        "reasons": [
+          "Strong trend"
+        ]
+      }
+    ]
+  }
+}
