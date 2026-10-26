@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WM",
-    "fetch_date": "2026-10-16T10:16:51.248403",
+    "fetch_date": "2026-10-26T11:16:51.349214",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 6430000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.035,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T10:16:51.249598"
+  "fetched_at": "2026-10-26T11:16:51.350403"
 }

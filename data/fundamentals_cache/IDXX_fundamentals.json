@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IDXX",
-    "fetch_date": "2026-10-16T10:00:35.243848",
+    "fetch_date": "2026-10-26T11:00:35.822040",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1109457000.0,
       "2025-09-30 00:00:00": 1105239000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.322,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T10:00:35.245083"
+  "fetched_at": "2026-10-26T11:00:35.823666"
 }

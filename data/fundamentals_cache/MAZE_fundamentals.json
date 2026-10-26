@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAZE",
-    "fetch_date": "2026-10-16T10:03:47.727817",
+    "fetch_date": "2026-10-26T11:03:48.398085",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T10:03:47.729179"
+  "fetched_at": "2026-10-26T11:03:48.398884"
 }

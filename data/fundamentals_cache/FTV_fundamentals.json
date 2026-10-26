@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FTV",
-    "fetch_date": "2026-10-16T09:57:53.197298",
+    "fetch_date": "2026-10-26T10:57:54.049963",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1016400000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.283,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T09:57:53.199030"
+  "fetched_at": "2026-10-26T10:57:54.051069"
 }

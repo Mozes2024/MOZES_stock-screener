@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FCN",
-    "fetch_date": "2026-10-16T09:56:53.560811",
+    "fetch_date": "2026-10-26T10:56:54.222228",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 943662000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 8.56,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T09:56:53.561799"
+  "fetched_at": "2026-10-26T10:56:54.223259"
 }
