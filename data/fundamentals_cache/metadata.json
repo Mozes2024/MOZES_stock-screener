@@ -452,7 +452,7 @@
     "in_earnings_season": true
   },
   "CDNS": {
-    "last_updated": "2026-10-15T09:52:01.071703",
+    "last_updated": "2026-10-27T10:52:00.743799",
     "in_earnings_season": true
   },
   "CE": {
@@ -2928,7 +2928,7 @@
     "in_earnings_season": true
   },
   "SNPS": {
-    "last_updated": "2026-10-15T10:12:24.909847",
+    "last_updated": "2026-10-27T11:12:23.103222",
     "in_earnings_season": true
   },
   "SNX": {
@@ -3092,7 +3092,7 @@
     "in_earnings_season": true
   },
   "TFC": {
-    "last_updated": "2026-10-15T10:13:46.186648",
+    "last_updated": "2026-10-27T11:13:44.789696",
     "in_earnings_season": true
   },
   "TFSL": {
@@ -3664,7 +3664,7 @@
     "in_earnings_season": true
   },
   "APG": {
-    "last_updated": "2026-10-16T09:48:25.572386",
+    "last_updated": "2026-10-27T10:48:21.625334",
     "in_earnings_season": true
   },
   "ARHS": {
@@ -4004,7 +4004,7 @@
     "in_earnings_season": true
   },
   "BSM": {
-    "last_updated": "2026-10-20T09:51:04.817676",
+    "last_updated": "2026-10-27T10:51:03.458289",
     "in_earnings_season": true
   },
   "CELH": {
@@ -4020,11 +4020,11 @@
     "in_earnings_season": true
   },
   "EYE": {
-    "last_updated": "2026-10-20T09:56:36.937136",
+    "last_updated": "2026-10-27T10:56:34.896765",
     "in_earnings_season": true
   },
   "LEVI": {
-    "last_updated": "2026-10-20T10:02:45.487289",
+    "last_updated": "2026-10-27T11:02:43.530978",
     "in_earnings_season": true
   },
   "MSGS": {
@@ -4032,19 +4032,19 @@
     "in_earnings_season": true
   },
   "PBYI": {
-    "last_updated": "2026-10-20T10:07:56.682052",
+    "last_updated": "2026-10-27T11:07:54.497083",
     "in_earnings_season": true
   },
   "RELL": {
-    "last_updated": "2026-10-20T10:10:00.292332",
+    "last_updated": "2026-10-27T11:09:57.978965",
     "in_earnings_season": true
   },
   "RXO": {
-    "last_updated": "2026-10-20T10:10:49.045239",
+    "last_updated": "2026-10-27T11:10:47.048004",
     "in_earnings_season": true
   },
   "SLGN": {
-    "last_updated": "2026-10-20T10:12:02.289016",
+    "last_updated": "2026-10-27T11:12:00.016187",
     "in_earnings_season": true
   },
   "AAP": {
@@ -4673,6 +4673,14 @@
   },
   "STN": {
     "last_updated": "2026-10-26T11:13:05.587080",
+    "in_earnings_season": true
+  },
+  "DTM": {
+    "last_updated": "2026-10-27T10:55:08.886810",
+    "in_earnings_season": true
+  },
+  "HII": {
+    "last_updated": "2026-10-27T10:59:34.767905",
     "in_earnings_season": true
   }
 }

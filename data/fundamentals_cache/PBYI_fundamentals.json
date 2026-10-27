@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PBYI",
-    "fetch_date": "2026-10-20T10:07:56.679379",
+    "fetch_date": "2026-10-27T11:07:54.494707",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 52436000.0,
       "2025-09-30 00:00:00": 54475000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.236,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-20T10:07:56.681055"
+  "fetched_at": "2026-10-27T11:07:54.495812"
 }
