@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OLED",
-    "fetch_date": "2026-10-21T10:07:01.216735",
+    "fetch_date": "2026-10-28T11:06:54.630746",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 171794000.0,
       "2025-09-30 00:00:00": 139613000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.641,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-21T10:07:01.218502"
+  "fetched_at": "2026-10-28T11:06:54.631622"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HLI",
-    "fetch_date": "2026-10-21T09:59:41.457214",
+    "fetch_date": "2026-10-28T10:59:34.514144",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 605000000.0,
       "2025-09-30 00:00:00": 659452000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 18.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-21T09:59:41.458588"
+  "fetched_at": "2026-10-28T10:59:34.514845"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DAKT",
-    "fetch_date": "2026-10-21T09:54:20.429012",
+    "fetch_date": "2026-10-28T10:54:14.081338",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.501,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-21T09:54:20.430801"
+  "fetched_at": "2026-10-28T10:54:14.082250"
 }
