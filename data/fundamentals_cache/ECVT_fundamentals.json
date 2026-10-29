@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ECVT",
-    "fetch_date": "2026-10-19T09:55:30.821689",
+    "fetch_date": "2026-10-29T10:55:28.279146",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 176065000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T09:55:30.823190"
+  "fetched_at": "2026-10-29T10:55:28.280421"
 }
