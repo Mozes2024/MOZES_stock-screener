@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OGS",
-    "fetch_date": "2026-10-23T10:06:55.328800",
+    "fetch_date": "2026-10-30T11:06:51.089905",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 423741000.0,
       "2025-09-30 00:00:00": 379125000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.619,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:06:55.329889"
+  "fetched_at": "2026-10-30T11:06:51.091918"
 }

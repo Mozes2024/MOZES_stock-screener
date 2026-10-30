@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PAY",
-    "fetch_date": "2026-10-23T10:07:51.480207",
+    "fetch_date": "2026-10-30T11:07:46.570873",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 280077000.0,
       "2025-09-30 00:00:00": 310737000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 9.04,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:07:51.481056"
+  "fetched_at": "2026-10-30T11:07:46.572509"
 }

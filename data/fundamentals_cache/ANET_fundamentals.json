@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ANET",
-    "fetch_date": "2026-10-23T09:48:12.754582",
+    "fetch_date": "2026-10-30T10:48:08.984091",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2204800000.0,
       "2025-09-30 00:00:00": 2308300000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.835,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T09:48:12.755709"
+  "fetched_at": "2026-10-30T10:48:08.986049"
 }

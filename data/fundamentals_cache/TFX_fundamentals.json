@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TFX",
-    "fetch_date": "2026-10-23T10:13:49.445835",
+    "fetch_date": "2026-10-30T11:13:45.243673",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 442525000.0,
       "2025-09-30 00:00:00": 913021000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.617,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:13:49.446970"
+  "fetched_at": "2026-10-30T11:13:45.245429"
 }

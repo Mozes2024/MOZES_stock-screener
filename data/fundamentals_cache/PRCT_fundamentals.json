@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRCT",
-    "fetch_date": "2026-10-23T10:08:54.010465",
+    "fetch_date": "2026-10-30T11:08:49.086510",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 79182000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.815,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:08:54.011799"
+  "fetched_at": "2026-10-30T11:08:49.088249"
 }

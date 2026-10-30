@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TTC",
-    "fetch_date": "2026-10-23T10:14:41.957948",
+    "fetch_date": "2026-10-30T11:14:37.856673",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 1131300000.0,
       "2025-10-31 00:00:00": 1066200000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:14:41.959319"
+  "fetched_at": "2026-10-30T11:14:37.858454"
 }

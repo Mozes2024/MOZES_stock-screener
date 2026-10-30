@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TPC",
-    "fetch_date": "2026-10-23T10:14:20.957340",
+    "fetch_date": "2026-10-30T11:14:16.818489",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1373681000.0,
       "2025-09-30 00:00:00": 1415360000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 7.19,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:14:20.958245"
+  "fetched_at": "2026-10-30T11:14:16.819811"
 }

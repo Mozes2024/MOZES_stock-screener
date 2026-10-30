@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CEVA",
-    "fetch_date": "2026-10-23T09:52:13.215694",
+    "fetch_date": "2026-10-30T10:52:09.693376",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 25678000.0,
       "2025-09-30 00:00:00": 28384000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -7.15,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T09:52:13.216558"
+  "fetched_at": "2026-10-30T10:52:09.703125"
 }

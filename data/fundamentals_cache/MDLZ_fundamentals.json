@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MDLZ",
-    "fetch_date": "2026-10-23T10:04:05.380234",
+    "fetch_date": "2026-10-30T11:04:01.263763",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 9313000000.0,
       "2025-06-30 00:00:00": 8984000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:04:05.381503"
+  "fetched_at": "2026-10-30T11:04:01.265726"
 }

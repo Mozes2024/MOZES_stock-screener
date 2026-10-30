@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FIS",
-    "fetch_date": "2026-10-23T09:57:10.510002",
+    "fetch_date": "2026-10-30T10:57:06.190024",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2616000000.0,
@@ -13,19 +13,19 @@
     "revenue_qoq_change": 2.488619119878604,
     "revenue_yoy_change": 29.090214067278286,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.15,
+      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": -0.9,
       "2025-09-30 00:00:00": 0.5,
       "2025-12-31 00:00:00": 0.98,
       "2026-03-31 00:00:00": 4.58,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 0.45
     },
-    "eps_qoq_change": null,
-    "eps_yoy_change": null,
+    "eps_qoq_change": -90.17467248908297,
+    "eps_yoy_change": 150.0,
     "gross_margin": 34.76,
     "margin_change": 1.14,
     "operating_margin": 15.01,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T09:57:10.510862"
+  "fetched_at": "2026-10-30T10:57:06.191565"
 }

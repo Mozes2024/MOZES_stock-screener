@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRP",
-    "fetch_date": "2026-10-23T10:14:32.113035",
+    "fetch_date": "2026-10-30T11:14:27.864538",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3744000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.237,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:14:32.114183"
+  "fetched_at": "2026-10-30T11:14:27.866331"
 }

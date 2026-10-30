@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CVI",
-    "fetch_date": "2026-10-23T09:54:02.925389",
+    "fetch_date": "2026-10-30T10:53:59.326870",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1761000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.22,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T09:54:02.926491"
+  "fetched_at": "2026-10-30T10:53:59.329004"
 }

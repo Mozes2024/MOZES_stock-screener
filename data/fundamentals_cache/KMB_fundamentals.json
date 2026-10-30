@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KMB",
-    "fetch_date": "2026-10-23T10:02:05.379467",
+    "fetch_date": "2026-10-30T11:02:01.074636",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4163000000.0,
       "2025-09-30 00:00:00": 4150000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.367,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:02:05.380539"
+  "fetched_at": "2026-10-30T11:02:01.076481"
 }

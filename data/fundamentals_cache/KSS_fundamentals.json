@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KSS",
-    "fetch_date": "2026-10-23T10:02:22.271215",
+    "fetch_date": "2026-10-30T11:02:18.142139",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 3546000000.0,
       "2025-10-31 00:00:00": 3575000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.829,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:02:22.272839"
+  "fetched_at": "2026-10-30T11:02:18.143872"
 }

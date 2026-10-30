@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XYZ",
-    "fetch_date": "2026-10-23T10:17:27.326597",
+    "fetch_date": "2026-10-30T11:17:22.706531",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 6054457000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.03,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:17:27.327723"
+  "fetched_at": "2026-10-30T11:17:22.708282"
 }

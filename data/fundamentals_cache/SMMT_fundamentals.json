@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SMMT",
-    "fetch_date": "2026-10-21T10:12:16.210555",
+    "fetch_date": "2026-10-30T11:12:11.019347",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-21T10:12:16.211554"
+  "fetched_at": "2026-10-30T11:12:11.020485"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OLLI",
-    "fetch_date": "2026-10-23T10:07:01.431288",
+    "fetch_date": "2026-10-30T11:06:56.861811",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.95,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:07:01.432961"
+  "fetched_at": "2026-10-30T11:06:56.863614"
 }

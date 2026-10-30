@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BETA",
-    "fetch_date": "2026-10-23T09:50:03.703976",
+    "fetch_date": "2026-10-30T10:49:59.791785",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 5966000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T09:50:03.705089"
+  "fetched_at": "2026-10-30T10:49:59.793534"
 }

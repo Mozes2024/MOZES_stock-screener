@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RH",
-    "fetch_date": "2026-10-23T10:10:12.211076",
+    "fetch_date": "2026-10-30T11:10:07.758834",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 899151000.0,
       "2025-10-31 00:00:00": 883810000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.838,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:10:12.212193"
+  "fetched_at": "2026-10-30T11:10:07.760630"
 }
