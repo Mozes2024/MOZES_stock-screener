@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TK",
-    "fetch_date": "2026-10-26T11:14:02.315279",
+    "fetch_date": "2026-11-03T11:13:55.933216",
     "quarterly_eps": {
       "2026-06-30 00:00:00": 1.33
     },
@@ -13,5 +13,5 @@
     "inventory_qoq_change": null,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-26T11:14:02.315709"
+  "fetched_at": "2026-11-03T11:13:55.933853"
 }
