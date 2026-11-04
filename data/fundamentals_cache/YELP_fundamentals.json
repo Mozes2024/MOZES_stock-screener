@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "YELP",
-    "fetch_date": "2026-10-23T10:17:29.433680",
+    "fetch_date": "2026-11-04T19:13:04.901100",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 370394000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 11.65,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T10:17:29.435015"
+  "fetched_at": "2026-11-04T19:13:04.902212"
 }
