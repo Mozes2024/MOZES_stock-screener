@@ -1,12 +1,12 @@
 {
-  "scan_date": "2026-11-04",
-  "generated": "2026-11-04 19:13:21",
+  "scan_date": "2026-11-05",
+  "generated": "2026-11-05 11:17:39",
   "market_regime": "TRANSITIONAL / Uncertain",
-  "total_analyzed": 1413,
-  "total_processed": 3753,
-  "phase2_pct": 22.1,
-  "buy_signals_count": 264,
-  "sell_signals_count": 199,
+  "total_analyzed": 1436,
+  "total_processed": 3752,
+  "phase2_pct": 22.2,
+  "buy_signals_count": 271,
+  "sell_signals_count": 225,
   "processing_time_minutes": 31.3,
   "note": "Full data available in latest_structured_scan.pkl"
 }
