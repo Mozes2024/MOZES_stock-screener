@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BRO",
-    "fetch_date": "2026-10-30T10:50:53.487371",
+    "fetch_date": "2026-11-06T10:50:53.749366",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1550000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 24.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T10:50:53.488682"
+  "fetched_at": "2026-11-06T10:50:53.750780"
 }
