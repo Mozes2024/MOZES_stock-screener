@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VICI",
-    "fetch_date": "2026-10-30T11:15:47.982527",
+    "fetch_date": "2026-11-09T11:15:46.964916",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 1007488000.0,
       "2025-12-31 00:00:00": 1013090000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 52.87,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T11:15:47.984025"
+  "fetched_at": "2026-11-09T11:15:46.966195"
 }

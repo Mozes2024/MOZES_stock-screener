@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AEP",
-    "fetch_date": "2026-10-30T10:47:01.421377",
+    "fetch_date": "2026-11-09T10:47:02.153839",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.262,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T10:47:01.423136"
+  "fetched_at": "2026-11-09T10:47:02.155738"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WSC",
-    "fetch_date": "2026-10-30T11:16:56.044444",
+    "fetch_date": "2026-11-09T11:16:55.024624",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 589083000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.08,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T11:16:56.046293"
+  "fetched_at": "2026-11-09T11:16:55.026312"
 }

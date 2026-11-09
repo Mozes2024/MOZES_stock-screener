@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MKTX",
-    "fetch_date": "2026-10-30T11:04:24.363019",
+    "fetch_date": "2026-11-09T11:04:22.701479",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 219462000.0,
       "2025-09-30 00:00:00": 208821000.0,
@@ -27,5 +27,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T11:04:24.364361"
+  "fetched_at": "2026-11-09T11:04:22.702956"
 }

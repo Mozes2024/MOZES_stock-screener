@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EOG",
-    "fetch_date": "2026-10-30T10:55:59.576685",
+    "fetch_date": "2026-11-09T10:56:00.250866",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5355000000.0,
       "2025-09-30 00:00:00": 5732000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.109,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T10:55:59.578362"
+  "fetched_at": "2026-11-09T10:56:00.252578"
 }

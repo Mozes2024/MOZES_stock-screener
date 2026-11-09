@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRGS",
-    "fetch_date": "2026-10-30T11:08:51.286394",
+    "fetch_date": "2026-11-09T11:08:51.195037",
     "quarterly_revenue": {
       "2025-02-28 00:00:00": NaN,
       "2025-05-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 21.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T11:08:51.287734"
+  "fetched_at": "2026-11-09T11:08:51.196327"
 }

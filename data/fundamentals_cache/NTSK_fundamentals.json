@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NTSK",
-    "fetch_date": "2026-10-30T11:06:15.362834",
+    "fetch_date": "2026-11-09T11:06:15.254876",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 170758000.0,
       "2025-10-31 00:00:00": 184173000.0,
@@ -24,7 +24,6 @@
     "margin_change": 0.38,
     "operating_margin": -40.72,
     "quarterly_inventory": {
-      "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 5436000.0,
       "2025-10-31 00:00:00": 5377000.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.022,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T11:06:15.364875"
+  "fetched_at": "2026-11-09T11:06:15.256572"
 }

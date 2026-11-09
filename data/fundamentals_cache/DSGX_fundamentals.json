@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DSGX",
-    "fetch_date": "2026-10-30T10:55:01.439465",
+    "fetch_date": "2026-11-09T10:55:02.083394",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 179815000.0,
@@ -26,7 +26,6 @@
     "margin_change": 0.36,
     "operating_margin": 33.18,
     "quarterly_inventory": {
-      "2025-01-31 00:00:00": 715000.0,
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": NaN,
       "2025-10-31 00:00:00": 207000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.002,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T10:55:01.441509"
+  "fetched_at": "2026-11-09T10:55:02.085038"
 }

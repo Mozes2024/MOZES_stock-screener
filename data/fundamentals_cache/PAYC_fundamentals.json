@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "PAYC",
-    "fetch_date": "2026-10-30T11:07:47.010658",
+    "fetch_date": "2026-11-09T11:07:47.176476",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 483600000.0,
       "2025-09-30 00:00:00": 493300000.0,
       "2025-12-31 00:00:00": 544300000.0,
       "2026-03-31 00:00:00": 571800000.0,
-      "2026-06-30 00:00:00": 531200000.0
+      "2026-06-30 00:00:00": 531200000.0,
+      "2026-09-30 00:00:00": NaN
     },
-    "revenue_qoq_change": -7.100384749912557,
-    "revenue_yoy_change": 9.842845326716294,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.58,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1.96,
       "2025-12-31 00:00:00": 2.07,
       "2026-03-31 00:00:00": 3.04,
-      "2026-06-30 00:00:00": 2.34
+      "2026-06-30 00:00:00": 2.34,
+      "2026-09-30 00:00:00": 2.99
     },
-    "eps_qoq_change": -23.02631578947369,
-    "eps_yoy_change": 48.1012658227848,
-    "gross_margin": 83.23,
-    "margin_change": -1.51,
-    "operating_margin": 31.72,
+    "eps_qoq_change": 27.777777777777796,
+    "eps_yoy_change": 52.551020408163275,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1600000.0,
@@ -32,8 +34,8 @@
       "2026-06-30 00:00:00": 1700000.0
     },
     "inventory_qoq_change": 13.33,
-    "inventory_to_sales_ratio": 0.003,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T11:07:47.012415"
+  "fetched_at": "2026-11-09T11:07:47.178205"
 }

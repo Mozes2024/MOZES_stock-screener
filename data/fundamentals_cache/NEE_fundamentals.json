@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NEE",
-    "fetch_date": "2026-10-30T11:05:32.465811",
+    "fetch_date": "2026-11-09T11:05:32.229721",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 7966000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.351,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T11:05:32.467647"
+  "fetched_at": "2026-11-09T11:05:32.231423"
 }

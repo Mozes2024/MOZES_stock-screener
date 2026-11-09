@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MS",
-    "fetch_date": "2026-10-30T11:04:51.456284",
+    "fetch_date": "2026-11-09T11:04:49.817930",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 15604000000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 8.214285714285714,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T11:04:51.457059"
+  "fetched_at": "2026-11-09T11:04:49.818605"
 }
