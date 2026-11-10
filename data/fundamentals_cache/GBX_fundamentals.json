@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GBX",
-    "fetch_date": "2026-11-03T10:58:04.205269",
+    "fetch_date": "2026-11-10T10:58:08.369394",
     "quarterly_revenue": {
       "2025-02-28 00:00:00": NaN,
       "2025-05-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 1.256,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T10:58:04.207058"
+  "fetched_at": "2026-11-10T10:58:08.371158"
 }

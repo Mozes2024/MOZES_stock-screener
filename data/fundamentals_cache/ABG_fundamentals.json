@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ABG",
-    "fetch_date": "2026-11-03T10:46:31.424288",
+    "fetch_date": "2026-11-10T10:46:36.924494",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 4373200000.0,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.454,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T10:46:31.426046"
+  "fetched_at": "2026-11-10T10:46:36.926184"
 }

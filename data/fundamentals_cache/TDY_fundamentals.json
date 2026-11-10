@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TDY",
-    "fetch_date": "2026-11-03T11:13:36.231771",
+    "fetch_date": "2026-11-10T11:13:40.413637",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1539500000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.724,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T11:13:36.234208"
+  "fetched_at": "2026-11-10T11:13:40.415709"
 }

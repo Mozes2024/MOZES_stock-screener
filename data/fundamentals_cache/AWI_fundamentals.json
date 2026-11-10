@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AWI",
-    "fetch_date": "2026-11-03T10:49:19.174936",
+    "fetch_date": "2026-11-10T10:49:24.248372",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 425200000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.285,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T10:49:19.176677"
+  "fetched_at": "2026-11-10T10:49:24.250104"
 }
