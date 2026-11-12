@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HII",
-    "fetch_date": "2026-11-04T18:55:16.037837",
+    "fetch_date": "2026-11-12T10:59:34.417907",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.068,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-04T18:55:16.039243"
+  "fetched_at": "2026-11-12T10:59:34.419547"
 }
