@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LMRI",
-    "fetch_date": "2026-11-05T11:03:01.986155",
+    "fetch_date": "2026-11-13T11:02:53.873427",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 251402000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 1.66,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T11:03:01.986827"
+  "fetched_at": "2026-11-13T11:02:53.874105"
 }
