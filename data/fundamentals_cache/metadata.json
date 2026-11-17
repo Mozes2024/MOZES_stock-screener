@@ -5626,5 +5626,21 @@
   "WFRD": {
     "last_updated": "2026-11-13T11:16:23.927804",
     "in_earnings_season": true
+  },
+  "DCTH": {
+    "last_updated": "2026-11-17T10:53:55.699022",
+    "in_earnings_season": false
+  },
+  "DFIN": {
+    "last_updated": "2026-11-17T10:54:03.509135",
+    "in_earnings_season": false
+  },
+  "GTY": {
+    "last_updated": "2026-11-17T10:58:32.556219",
+    "in_earnings_season": false
+  },
+  "SENEA": {
+    "last_updated": "2026-11-17T11:10:46.180693",
+    "in_earnings_season": false
   }
 }
