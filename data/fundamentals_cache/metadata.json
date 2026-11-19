@@ -5654,5 +5654,17 @@
   "TWST": {
     "last_updated": "2026-11-18T11:14:09.214733",
     "in_earnings_season": false
+  },
+  "BOBS": {
+    "last_updated": "2026-11-19T19:35:38.471121",
+    "in_earnings_season": false
+  },
+  "HZN": {
+    "last_updated": "2026-11-19T19:45:16.524054",
+    "in_earnings_season": false
+  },
+  "MANE": {
+    "last_updated": "2026-11-19T19:48:34.425900",
+    "in_earnings_season": false
   }
 }
