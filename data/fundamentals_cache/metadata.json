@@ -5666,5 +5666,17 @@
   "MANE": {
     "last_updated": "2026-11-19T19:48:34.425900",
     "in_earnings_season": false
+  },
+  "ARLP": {
+    "last_updated": "2026-11-20T10:48:46.460136",
+    "in_earnings_season": false
+  },
+  "MSA": {
+    "last_updated": "2026-11-20T11:04:56.145502",
+    "in_earnings_season": false
+  },
+  "SG": {
+    "last_updated": "2026-11-20T11:11:30.812540",
+    "in_earnings_season": false
   }
 }
