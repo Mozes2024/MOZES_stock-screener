@@ -1,7 +1,7 @@
 {
-  "scan_date": "2026-11-26",
-  "generated": "2026-11-26 11:18:17",
-  "converted_at": "2026-11-26 11:18 UTC",
+  "scan_date": "2026-11-27",
+  "generated": "2026-11-27 11:18:31",
+  "converted_at": "2026-11-27 11:18 UTC",
   "market_regime": "TRANSITIONAL / Uncertain",
   "breakout_score_max": 125,
   "total_buy_signals": 301,
@@ -179,7 +179,7 @@
     {
       "rank": 8,
       "ticker": "HMC",
-      "breakout_score": 107.9,
+      "breakout_score": 108.1,
       "phase": 2,
       "entry_quality": "Good",
       "stop_loss": 32.65,
@@ -5242,6 +5242,30 @@
     },
     {
       "rank": 219,
+      "ticker": "TENB",
+      "breakout_score": 80.0,
+      "phase": 2,
+      "entry_quality": "Good",
+      "stop_loss": 41.13,
+      "risk": null,
+      "reward": null,
+      "risk_reward": 3.0,
+      "rs": -0.25,
+      "breakout_price": null,
+      "has_vcp": false,
+      "vcp_confirmed": false,
+      "vcp_quality": 0,
+      "vcp_desc": "",
+      "reasons": [
+        "Strong Stage 2: 10.9% above 50 SMA",
+        "SMAs rising strongly (50:0.425, 200:0.358)",
+        "Revenue: 3Q avg 2.0% QoQ (0.6% → 2.5% → 2.9%)",
+        "EPS: +400% YoY (strong earnings)",
+        "Volume heavier on down days (ratio 0.86 - distribution)"
+      ]
+    },
+    {
+      "rank": 220,
       "ticker": "CME",
       "breakout_score": 79.9,
       "phase": 2,
@@ -5265,7 +5289,7 @@
       ]
     },
     {
-      "rank": 220,
+      "rank": 221,
       "ticker": "OGN",
       "breakout_score": 79.9,
       "phase": 2,
@@ -5289,7 +5313,7 @@
       ]
     },
     {
-      "rank": 221,
+      "rank": 222,
       "ticker": "SBH",
       "breakout_score": 79.9,
       "phase": 2,
@@ -5310,30 +5334,6 @@
         "Revenue: 3Q avg -0.4% QoQ (-0.4% → -4.2% → 3.6%)",
         "EPS: +25% YoY",
         "Inventory neutral (0.9% QoQ)"
-      ]
-    },
-    {
-      "rank": 222,
-      "ticker": "TENB",
-      "breakout_score": 79.9,
-      "phase": 2,
-      "entry_quality": "Good",
-      "stop_loss": 41.13,
-      "risk": null,
-      "reward": null,
-      "risk_reward": 3.0,
-      "rs": -0.25,
-      "breakout_price": null,
-      "has_vcp": false,
-      "vcp_confirmed": false,
-      "vcp_quality": 0,
-      "vcp_desc": "",
-      "reasons": [
-        "Strong Stage 2: 10.9% above 50 SMA",
-        "SMAs rising strongly (50:0.425, 200:0.358)",
-        "Revenue: 3Q avg 2.0% QoQ (0.6% → 2.5% → 2.9%)",
-        "EPS: +400% YoY (strong earnings)",
-        "Volume heavier on down days (ratio 0.86 - distribution)"
       ]
     },
     {
@@ -6203,7 +6203,7 @@
     {
       "rank": 259,
       "ticker": "ITT",
-      "breakout_score": 74.8,
+      "breakout_score": 75.2,
       "phase": 2,
       "entry_quality": "Good",
       "stop_loss": 202.11,
@@ -6694,8 +6694,8 @@
       "breakout_price": null,
       "has_vcp": false,
       "vcp_confirmed": false,
-      "vcp_quality": 53.2,
-      "vcp_desc": "10 contractions (last 4): 0.7% → 0.5% → 0.6% → -0.3%",
+      "vcp_quality": 50.1,
+      "vcp_desc": "11 contractions (last 4): 0.7% → 0.5% → 0.6% → -0.3%",
       "reasons": [
         "Weak Stage 2: 1.3% above 50 SMA",
         "SMAs rising moderately",
