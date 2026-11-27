@@ -1,5 +1,7 @@
 # Local Test Results - Git Storage Fetcher
 
+Request savings and full-scan runtimes below are extrapolations from the original test scenario.
+
 ## ✅ Test Summary
 
 **Date**: 2025-11-29
@@ -182,7 +184,7 @@ Total: 7 files, 28 KB
 | JSON serialization | ✅ Fixed | Timestamps converted |
 | Cache persistence | ✅ Verified | Survives restarts |
 | Earnings detection | ✅ Accurate | Correct season logic |
-| API optimization | ✅ Confirmed | 74% reduction |
+| API optimization | Estimated | Based on the modeled cache coverage |
 | Storage efficiency | ✅ Excellent | 4.5 MB for 3,800 stocks |
 
 **Recommendation**: ✅ **READY FOR DEPLOYMENT**
@@ -221,7 +223,7 @@ Total: 7 files, 28 KB
 ## Conclusion
 
 ✅ **All tests passed successfully**
-✅ **74% reduction in API calls achieved**
+✅ **Cache reuse verified in local tests**
 ✅ **Git-based storage working perfectly**
 ✅ **Ready for production deployment**
 
@@ -229,5 +231,5 @@ The Git storage fetcher is working exactly as designed:
 - Price data fetched fresh daily
 - Fundamentals cached for 7-90 days
 - Minimal Git repository impact (4.5 MB)
-- Significant API call reduction (74%)
+- Reuse of cached fundamentals
 - No external storage dependencies

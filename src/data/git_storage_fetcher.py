@@ -6,7 +6,7 @@ This module implements the optimal strategy:
   - Earnings season: Refresh if >7 days old
   - Normal: Refresh if >90 days old
 
-Reduces API calls by 74% while ensuring:
+Reuses fresh fundamentals while ensuring:
 - Latest prices always available
 - Fundamentals persist beyond GitHub Actions cache limits
 """
@@ -269,8 +269,10 @@ class GitStorageFetcher:
             try:
                 with open(self.metadata_file, 'r') as f:
                     metadata = json.load(f)
-            except Exception:
-                pass
+            except Exception as e:
+                logger.warning(
+                    f"Could not read {self.metadata_file}, rebuilding from scratch: {e}"
+                )
 
         metadata[ticker] = {
             'last_updated': datetime.now().isoformat(),

@@ -1,0 +1,50 @@
+name: Tests
+
+# CI for the pytest suite. Independent from the production workflows
+# (daily screening, watchdog, breakout signals) - it never commits, pushes,
+# dispatches or reads secrets.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/**'
+      - 'breakout_signals.json'
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - 'data/**'
+      - 'breakout_signals.json'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run test suite
+        run: |
+          # tests/test_email_full.py is a manual smoke-test script (live network /
+          # DB / email + credentials), not an automated unit test, so it is excluded.
+          pytest tests/ --ignore=tests/test_email_full.py -v

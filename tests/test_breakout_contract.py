@@ -1,12 +1,16 @@
 """Offline contract tests; never run the exporter CLI (which can start a scan)."""
 
 import json
+import os
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from types import SimpleNamespace
 
 import numpy as np
 import pandas as pd
 import pytest
 
+import generate_breakout_signals_for_sp500 as exporter
 from generate_breakout_signals_for_sp500 import _write_output, build_signal_entry
 from src.screening.signal_engine import score_buy_signal
 
@@ -20,9 +24,93 @@ def raw_signal(score=124.3, vcp=None):
     }
 
 
-def test_shared_fixture_matches_actual_producer():
-    fixture = json.loads((Path(__file__).parent / "fixtures/breakout_contract.json").read_text(encoding="utf-8"))
-    assert [build_signal_entry(i + 1, s) for i, s in enumerate(fixture["source_signals"])] == fixture["feed"]["top_signals"]
+@pytest.fixture
+def contract_fixture():
+    return json.loads((Path(__file__).parent / "fixtures/breakout_contract.json").read_text(encoding="utf-8"))
+
+
+def test_shared_fixture_matches_actual_producer(contract_fixture):
+    entries = [build_signal_entry(i, signal) for i, signal in enumerate(contract_fixture["source_signals"], 1)]
+    assert entries == contract_fixture["feed"]["top_signals"]
+
+
+@pytest.fixture
+def frozen_clock(monkeypatch):
+    instant = datetime(2026, 10, 23, 16, 42, 15, tzinfo=timezone.utc)
+
+    class FrozenDateTime(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return instant.astimezone(tz) if tz else instant.replace(tzinfo=None)
+
+        @classmethod
+        def utcnow(cls):
+            return instant.replace(tzinfo=None)
+
+    monkeypatch.setattr(exporter, "datetime", FrozenDateTime)
+    return instant
+
+
+@pytest.fixture
+def structured_scan(contract_fixture):
+    return {
+        "spy_analysis": {"phase": 2, "current_price": 500},
+        "breadth": {"phase_2_pct": 45},
+        "results": {"error_rate": 0},
+        "buy_signals": contract_fixture["source_signals"],
+    }
+
+
+def test_run_from_pickle_exports_ranked_contract(tmp_path, frozen_clock, structured_scan, contract_fixture):
+    output = tmp_path / "feed.json"
+    assert exporter.run_from_pickle(SimpleNamespace(output=output, min_score=107), structured_scan)
+    actual = json.loads(output.read_text(encoding="utf-8"))
+    tickers = ["MAX", "CONFIRMED", "PARTIAL", "LEGACY"]
+    entries = {entry["ticker"]: entry for entry in contract_fixture["feed"]["top_signals"]}
+    assert actual == {
+        "scan_date": "2026-10-23",
+        "generated": "2026-10-23 16:42:15",
+        "converted_at": "2026-10-23 16:42 UTC",
+        "market_regime": "RISK-ON (Strong)",
+        "breakout_score_max": 125,
+        "total_buy_signals": 4,
+        "phase2_pct": 45,
+        "top_signals_count": 4,
+        "top_signals": [dict(entries[ticker], rank=rank) for rank, ticker in enumerate(tickers, 1)],
+    }
+    assert [entry["breakout_score"] for entry in actual["top_signals"]] == [125, 124.3, 116.8, 107.8]
+    for entry, expected in zip(actual["top_signals"], (True, True, False, False), strict=True):
+        assert entry["has_vcp"] is expected
+        assert entry["vcp_confirmed"] is expected
+
+
+@pytest.mark.parametrize("scan_override, min_score", [
+    ({"results": {"error_rate": 0.06}}, 107),
+    ({"spy_analysis": {"phase": 2, "current_price": float("nan")}}, 107),
+    ({}, 126),
+], ids=["excessive-errors", "invalid-benchmark", "no-qualifying-signals"])
+def test_run_from_pickle_preserves_good_feed(tmp_path, frozen_clock, structured_scan, scan_override, min_score):
+    output = tmp_path / "feed.json"
+    assert exporter.run_from_pickle(SimpleNamespace(output=output, min_score=107), structured_scan)
+    original = output.read_bytes()
+    assert not exporter.run_from_pickle(
+        SimpleNamespace(output=output, min_score=min_score), {**structured_scan, **scan_override},
+    )
+    assert output.read_bytes() == original
+
+
+def test_stale_cache_is_not_deserialized(tmp_path, monkeypatch, frozen_clock):
+    cache = tmp_path / "scan.pkl"
+    cache.touch()
+    stale = (frozen_clock - timedelta(hours=7)).timestamp()
+    os.utime(cache, (stale, stale))
+    monkeypatch.setattr(exporter, "STRUCTURED_SCAN_PATH", cache)
+
+    def unexpected_load(*args, **kwargs):
+        pytest.fail("Tried to deserialize a stale structured scan")
+
+    monkeypatch.setattr(exporter.pickle, "load", unexpected_load)
+    assert exporter.load_structured_scan() is None
 
 
 @pytest.mark.parametrize("vcp,confirmed", [
