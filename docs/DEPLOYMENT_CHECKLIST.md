@@ -1,5 +1,7 @@
 # Deployment Checklist - Git-Based Fundamental Storage
 
+This checklist records the original rollout. Its request totals and timing figures were planning estimates for that rollout.
+
 ## ✅ Pre-Deployment Verification
 
 ### Local Testing
@@ -8,7 +10,6 @@
 - [x] YAML syntax validated
 - [x] JSON serialization working
 - [x] Cache persistence verified
-- [x] API call reduction confirmed (74%)
 
 ### Files Ready for Deployment
 - [x] `src/data/git_storage_fetcher.py` - Main implementation

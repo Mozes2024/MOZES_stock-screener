@@ -36,7 +36,7 @@ Most screeners waste time re-fetching fundamentals every day. But quarterly earn
 - Store fundamentals as JSON in Git (survives GitHub Actions cache expiry)
 - Only refresh during earnings season (6-week windows)
 - Normal periods: refresh if >90 days stale
-- **Result**: 74% fewer API calls, 15-20 min faster scans
+- **Result**: Fresh cached fundamentals can be reused across scans
 
 ### 3. **Market Regime Awareness**
 Buying breakouts in a bear market is a losing strategy. This system checks:
@@ -95,7 +95,7 @@ Wake up to fresh signals every morning.
 - **Automation**: GitHub Actions for daily runs, graceful error handling
 
 ### Performance
-- **Scans 3,800+ stocks** in 30-40 minutes (ultra-conservative 1-2 TPS)
+- **Scans 3,800+ stocks** with an ultra-conservative 1–2 TPS configuration
 - **Zero database required** - file-based storage with Git versioning
 - **Fault-tolerant** - resume from crashes, auto-retry on errors
 - **Rate-limit safe** - thread-safe locking ensures 1 request/second max

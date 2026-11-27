@@ -436,7 +436,7 @@ With conservative mode (2 workers, 1s delay = ~2 TPS):
 ✅ **Earnings Aware**: Refreshes weekly during earnings season
 ✅ **No External Storage**: Uses Git repository (free)
 ✅ **Works Across Runs**: Every workflow run has access to cache
-✅ **Rate Limit Safe**: 74% fewer calls than before
+✅ **Fewer repeated requests** when cached fundamentals are still fresh
 ✅ **Version Controlled**: Can track fundamental changes over time
 
 ## Disadvantages (Minor)

@@ -10,7 +10,7 @@ Extended reference documentation for the Intelligent Stock Screener.
 
 ## Architecture & Design
 
-- [Smart Caching Strategy](SMART_CACHING_STRATEGY.md) — How the Git-based cache reduces API calls by 74%
+- [Smart Caching Strategy](SMART_CACHING_STRATEGY.md) — How the Git-based cache reuses fundamentals
 - [Revised Caching Strategy](REVISED_SMART_CACHING_STRATEGY.md) — Earnings-aware refresh logic
 - [Full Market Implementation](FULL_MARKET_IMPLEMENTATION.md) — Scanning 3,800+ stocks at scale
 - [Rate Limit Solution](RATE_LIMIT_SOLUTION.md) — Handling yfinance rate limits

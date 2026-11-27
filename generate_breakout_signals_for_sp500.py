@@ -2,9 +2,8 @@
 """Generate breakout_signals.json for SP500-Quant-Ranker integration.
 
 NEW ARCHITECTURE (v2):
-  Instead of running a full market scan (~20-25 min), this script now reads
-  the structured output from the daily scan (latest_structured_scan.pkl)
-  and simply filters + formats → breakout_signals.json in ~2-3 seconds.
+  The fast path reads the structured output from the daily scan
+  (latest_structured_scan.pkl) and filters and formats it into breakout_signals.json.
 
   The daily_screening workflow must run with --save-structured BEFORE this.
 

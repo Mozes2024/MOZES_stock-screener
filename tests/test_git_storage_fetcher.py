@@ -183,7 +183,6 @@ def main():
     print("  ✓ Price data always fresh (no caching)")
     print("  ✓ Fundamental data stored in Git (90+ day persistence)")
     print("  ✓ Earnings-aware refresh (7-90 day cycles)")
-    print("  ✓ 74% fewer API calls than naive approach")
     print("  ✓ Works in GitHub Actions (no external storage)")
     print()
     print("Next steps:")

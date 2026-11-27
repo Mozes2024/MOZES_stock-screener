@@ -592,7 +592,7 @@ async function runScan(full) {
   btn.disabled = true;
   btn.innerHTML = '<span class="spinner"></span>' + (full ? 'Scanning...' : 'Testing...');
 
-  showToast(full ? 'Full scan started — this takes 15-30 min...' : 'Test scan started (~1 min)...');
+  showToast(full ? 'Full scan started...' : 'Test scan started...');
 
   try {
     const res = await fetch('/api/run-scan', {

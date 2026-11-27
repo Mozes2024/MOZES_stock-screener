@@ -64,11 +64,13 @@ This system was built to eliminate emotional decision-making and provide objecti
 - Must pass **7 of 8 strict technical criteria** (50>150>200 SMA, price near highs, etc.)
 - **Timing matters** - only buy when market (SPY) is also healthy
 - **Relative strength matters** - only buy stocks outperforming the market
-- **Cache-first design** - 74% reduction in API calls through Git-based fundamental storage
+- **Cache-first design** - Reuses fundamentals stored in Git until they need refreshing
 
 ---
 
 ## Methodology & Attribution
+
+This fork builds on [Ryan Hamby's original Stock Screener](https://github.com/RyanJHamby/stock-screener). Its screening methodology draws on Mark Minervini's Trend Template, Stan Weinstein's stage analysis, and William O'Neil's CAN SLIM criteria.
 
 This system implements **Mark Minervini's Trend Template** (also known as SEPA - Specific Entry Point Analysis), a systematic approach to identifying high-probability stock setups in confirmed Stage 2 uptrends.
 
@@ -234,7 +236,7 @@ Every buy signal includes:
 - **Fundamentals**: Git-based storage with earnings-aware refresh
   - Earnings season (6-week windows): Refresh if >7 days old
   - Normal periods: Refresh if >90 days old
-  - Result: **74% reduction in API calls**, zero GitHub Actions cache expiry issues
+  - Reuses cached fundamentals across GitHub Actions runs
 
 ### 🤖 **Full Automation**
 
@@ -249,14 +251,14 @@ Every buy signal includes:
 
 ### 1. **Cache-First, API-Second**
 
-**Rationale:** yfinance has strict rate limits (~2 req/sec). Scanning 3,800 stocks requires 3,800+ API calls. At 1 TPS, that's 63 minutes. But fundamentals change slowly (quarterly earnings), so why re-fetch every day?
+**Rationale:** Reusing fundamentals between earnings updates reduces repeated requests and exposure to rate limits.
 
 **Solution:**
 - Store fundamentals in Git repository as JSON files
 - Add metadata with `fetched_at` timestamp
 - During scan: Check if cache exists and is fresh
 - Only fetch if stale or missing
-- Result: 1,762 cached stocks = **74% fewer API calls** = **15-20 min faster scans**
+- API usage and scan time depend on cache coverage, the scan universe, and provider response times.
 
 ### 2. **Confirmed Uptrends Only (Minervini's Stage 2)**
 
@@ -356,7 +358,7 @@ cp .env.example .env
 # Test mode: Scan 100 stocks to verify setup
 python run_optimized_scan.py --test-mode
 
-# Full scan: All 3,800+ stocks (30-40 minutes)
+# Full scan: All 3,800+ stocks
 python run_optimized_scan.py --conservative
 ```
 
@@ -596,7 +598,7 @@ stock-screener/
 │   ├── data/
 │   │   ├── fetcher.py                  # YahooFinanceFetcher (price data)
 │   │   ├── fundamentals_fetcher.py     # Quarterly financials fetcher
-│   │   ├── git_storage_fetcher.py      # Smart cache (74% API reduction)
+│   │   ├── git_storage_fetcher.py      # Git-backed fundamentals cache
 │   │   ├── enhanced_fundamentals.py    # FMP integration (optional)
 │   │   ├── universe_fetcher.py         # NASDAQ/NYSE stock universe
 │   │   └── robinhood_positions.py      # Robinhood read-only API

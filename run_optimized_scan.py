@@ -8,7 +8,6 @@ avoiding rate limits through:
 - Adaptive backoff on errors
 - Session pooling
 
-Expected runtime: 15-30 minutes for 3,800+ stocks
 
 Usage:
     python run_optimized_scan.py
@@ -410,7 +409,7 @@ def main():
         )
 
         if args.git_storage:
-            logger.info("Git-based fundamental storage enabled - 74% API call reduction!")
+            logger.info("Git-based fundamental storage enabled")
 
         if args.clear_progress:
             processor.clear_progress()
