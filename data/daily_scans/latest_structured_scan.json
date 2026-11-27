@@ -1,9 +1,9 @@
 {
-  "scan_date": "2026-11-26",
-  "generated": "2026-11-26 11:17:32",
+  "scan_date": "2026-11-27",
+  "generated": "2026-11-27 11:17:37",
   "market_regime": "TRANSITIONAL / Uncertain",
   "total_analyzed": 1440,
-  "total_processed": 3737,
+  "total_processed": 3735,
   "phase2_pct": 24.3,
   "buy_signals_count": 301,
   "sell_signals_count": 356,
