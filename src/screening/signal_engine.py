@@ -639,6 +639,7 @@ def score_buy_signal(
             reasons.append(f"🟡 VCP pattern: {vcp_data.get('pattern_details', 'N/A')} (quality: {vcp_quality:.0f}/100)")
 
         details['vcp_data'] = {
+            'confirmed': True,  # Preserve the detector decision across cached scans/JSON.
             'quality': vcp_quality,
             'contractions': vcp_data.get('contraction_count', 0),
             'pattern': vcp_data.get('pattern_details', ''),
@@ -650,6 +651,7 @@ def score_buy_signal(
         # VCP not valid but some contractions detected
         reasons.append(f"🟡 Partial pattern: {vcp_data.get('pattern_details', 'N/A')}")
         details['vcp_data'] = {
+            'confirmed': False,  # Partial evidence is diagnostic, never confirmation.
             'quality': vcp_data.get('vcp_quality', 0),
             'contractions': vcp_data.get('contraction_count', 0),
             'pattern': vcp_data.get('pattern_details', '')

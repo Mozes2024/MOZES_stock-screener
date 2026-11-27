@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPB",
-    "fetch_date": "2026-08-12T11:08:49.377794",
+    "fetch_date": "2026-11-06T11:12:28.216925",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 699600000.0,
@@ -26,7 +26,6 @@
     "margin_change": 11.04,
     "operating_margin": 16.82,
     "quarterly_inventory": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 507500000.0,
       "2025-09-30 00:00:00": 446100000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.663,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-12T11:08:49.379516"
+  "fetched_at": "2026-11-06T11:12:28.218036"
 }

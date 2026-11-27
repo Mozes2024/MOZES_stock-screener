@@ -1,0 +1,11 @@
+{
+  "data": {
+    "ticker": "FRNM",
+    "fetch_date": "2026-11-13T10:57:28.936713",
+    "quarterly_eps": {
+      "2026-09-30 00:00:00": 0.58
+    },
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-11-13T10:57:28.936866"
+}

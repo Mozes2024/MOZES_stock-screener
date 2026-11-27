@@ -80,9 +80,14 @@ def _clean_reasons(reasons: list) -> list:
 
 
 def build_signal_entry(rank: int, signal: dict) -> dict:
-    """Convert a raw MOZES buy-signal dict into SP500-Quant-Ranker JSON schema."""
+    """Export raw 0-125 scores and explicit VCP confirmation.
+
+    Old structured caches lack confirmation: fail closed until a fresh full scan.
+    Quality and pattern descriptions are diagnostic and cannot confirm a VCP.
+    """
     details = signal.get("details", {})
     vcp_data = details.get("vcp_data", {})
+    vcp_confirmed = vcp_data.get("confirmed") is True
 
     current_price = signal.get("current_price", 0)
     stop_loss = signal.get("stop_loss")
@@ -103,7 +108,8 @@ def build_signal_entry(rank: int, signal: dict) -> dict:
         "risk_reward": risk_reward,
         "rs": round(details.get("rs_slope", 0) or 0, 3),
         "breakout_price": signal.get("breakout_price"),
-        "has_vcp": bool(vcp_data),
+        "has_vcp": vcp_confirmed,
+        "vcp_confirmed": vcp_confirmed,
         "vcp_quality": vcp_data.get("quality", 0),
         "vcp_desc": vcp_data.get("pattern", ""),
         "reasons": _clean_reasons(signal.get("reasons", [])[:5]),
@@ -264,6 +270,7 @@ def _write_output(output_path: Path, buy_signals: list, market_regime: str, brea
         "generated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"),
         "converted_at": f"{now_str} UTC",
         "market_regime": market_regime,
+        "breakout_score_max": 125,
         "total_buy_signals": len(buy_signals),
         "phase2_pct": breadth.get("phase_2_pct", 0),
         "top_signals_count": len(buy_signals),
